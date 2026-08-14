@@ -1,0 +1,1444 @@
+{
+  "className": "Fighter",
+  "slug": "Fighter",
+  "type": "ability",
+  "sectionTitle": "Fighter Abilities",
+  "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Fighter",
+  "entryCount": 21,
+  "levels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "entriesByLevel": {
+    "1": [
+      {
+        "name": "Offensive Stance",
+        "slug": "Offensive_Stance",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Offensive_Stance",
+        "description": "Enter Offensive Stance, increasing your damage by 15% and raising your Offense skill by 5.",
+        "category": "Val",
+        "categorySlug": "Skill_Valor",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Valor",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 1,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "stance",
+          "self"
+        ],
+        "primaryTag": "stance",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "damage",
+            "min": 15,
+            "max": 15,
+            "unit": "%",
+            "display": "+15%",
+            "sortKey": 15
+          },
+          {
+            "kind": "buff",
+            "stat": "raising your Offense skill",
+            "amount": 5,
+            "display": "+5 raising your Offense skill",
+            "sortKey": 5
+          },
+          {
+            "kind": "buff",
+            "stat": "Offense skill",
+            "amount": 5,
+            "display": "+5 Offense skill",
+            "sortKey": 5
+          }
+        ],
+        "valuesSummary": "+15% · +5 raising your Offense skill · +5 Offense skill",
+        "statTags": []
+      },
+      {
+        "name": "Rend",
+        "slug": "Rend",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Rend",
+        "description": "Rends your target for 1 (L1) to 60 (L60) Melee Damage, with 150% (L1) to 350% (L60) Damage Variance. Has 10% chance to reset the cooldown of your Frenzy and Shield Bash abilities. Triggers cooldown of Might abilities. At Level 50 and above, this ability has a chance to double attack.",
+        "category": "Mit",
+        "categorySlug": "Skill_Might",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 1,
+        "type": "ability",
+        "tags": [
+          "damage"
+        ],
+        "primaryTag": "damage",
+        "effects": [
+          {
+            "kind": "damage",
+            "min": 1,
+            "max": 60,
+            "minLevel": 1,
+            "maxLevel": 60,
+            "damageType": "Melee",
+            "display": "1–60 Melee dmg (L1–L60)",
+            "sortKey": 60
+          },
+          {
+            "kind": "damage",
+            "min": 150,
+            "max": 350,
+            "minLevel": 1,
+            "maxLevel": 60,
+            "damageType": "dmg",
+            "display": "150–350% dmg (L1–L60)",
+            "sortKey": 350
+          }
+        ],
+        "valuesSummary": "150–350% dmg (L1–L60) · 1–60 Melee dmg (L1–L60)",
+        "statTags": []
+      },
+      {
+        "name": "Taunt",
+        "slug": "Taunt",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Taunt",
+        "description": "Taunt your target, causing them to focus their attacks on you. Triggers cooldown of Martial abilities.",
+        "category": "Mar",
+        "categorySlug": "Skill_Martial",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 1,
+        "type": "ability",
+        "tags": [
+          "taunt"
+        ],
+        "primaryTag": "taunt",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      },
+      {
+        "name": "Shoot",
+        "slug": "Shoot",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Shoot",
+        "description": "Shoots your target with a bow. (requires bow & arrows)",
+        "category": "Mar",
+        "categorySlug": "Skill_Martial",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 1,
+        "type": "ability",
+        "tags": [
+          "damage"
+        ],
+        "primaryTag": "damage",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      },
+      {
+        "name": "Throw",
+        "slug": "Throw",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Throw",
+        "description": "Throw a throwing weapon at your target. This skill requires a throwing weapon.",
+        "category": "Mar",
+        "categorySlug": "Skill_Martial",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 1,
+        "type": "ability",
+        "tags": [
+          "damage"
+        ],
+        "primaryTag": "damage",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      }
+    ],
+    "2": [
+      {
+        "name": "Battle Cry",
+        "slug": "Battle_Cry",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Battle_Cry",
+        "description": "Strength courses through you as you let loose a Battle Cry, increasing your Strength by 1 (L1) to 15 (L60) for 2 minutes. Triggers cooldown of Martial abilities.",
+        "category": "Mar",
+        "categorySlug": "Skill_Martial",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 2,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "self",
+          "STR"
+        ],
+        "primaryTag": "buff",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "Strength",
+            "min": 1,
+            "max": 15,
+            "minLevel": 1,
+            "maxLevel": 60,
+            "display": "+1–15 Strength (L1–L60)",
+            "sortKey": 15,
+            "statTag": "STR"
+          }
+        ],
+        "valuesSummary": "+1–15 Strength (L1–L60)",
+        "statTags": [
+          "STR"
+        ]
+      }
+    ],
+    "3": [
+      {
+        "name": "Kick",
+        "slug": "Kick",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Kick",
+        "description": "Swiftly kick your target, interrupting their casting and preventing them from casting spells from the same school of magic for 4 seconds.",
+        "category": "Acr",
+        "categorySlug": "Skill_Acrobatics",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Acrobatics",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 3,
+        "type": "ability",
+        "tags": [
+          "interrupt"
+        ],
+        "primaryTag": "interrupt",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      },
+      {
+        "name": "Charge",
+        "slug": "Charge",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Charge",
+        "description": "Charge at your enemy, immobilizing them for 1 second.",
+        "category": "Mit",
+        "categorySlug": "Skill_Might",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 3,
+        "type": "ability",
+        "tags": [
+          "crowd-control",
+          "root",
+          "movement"
+        ],
+        "primaryTag": "root",
+        "effects": [
+          {
+            "kind": "crowd-control",
+            "duration": 1,
+            "display": "1s duration",
+            "sortKey": 1
+          }
+        ],
+        "valuesSummary": "1s duration",
+        "statTags": []
+      }
+    ],
+    "4": [
+      {
+        "name": "Defensive Stance",
+        "slug": "Defensive_Stance",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Defensive_Stance",
+        "description": "Enter Defensive Stance, reducing Physical damage against you by 10% and raising your Defense skill by 5.",
+        "category": "Val",
+        "categorySlug": "Skill_Valor",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Valor",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 4,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "debuff",
+          "stance",
+          "self"
+        ],
+        "primaryTag": "stance",
+        "effects": [
+          {
+            "kind": "debuff",
+            "stat": "damage against you",
+            "min": 10,
+            "max": 10,
+            "unit": "%",
+            "display": "−10%",
+            "sortKey": 10
+          },
+          {
+            "kind": "debuff",
+            "stat": "raising your Defense skill",
+            "amount": 5,
+            "display": "−5 raising your Defense skill",
+            "sortKey": 5
+          },
+          {
+            "kind": "buff",
+            "stat": "Defense skill",
+            "amount": 5,
+            "display": "+5 Defense skill",
+            "sortKey": 5
+          }
+        ],
+        "valuesSummary": "+5 Defense skill · −10% · −5 raising your Defense skill",
+        "statTags": []
+      }
+    ],
+    "5": [
+      {
+        "name": "Unnerving Shout",
+        "slug": "Unnerving_Shout",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Unnerving_Shout",
+        "description": "Let out an unnerving shout at nearby enemies, decreasing their Physical Damage by 5% for 30 seconds. Triggers cooldown of Martial abilities.",
+        "category": "Mar",
+        "categorySlug": "Skill_Martial",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 5,
+        "type": "ability",
+        "tags": [
+          "debuff"
+        ],
+        "primaryTag": "debuff",
+        "effects": [
+          {
+            "kind": "debuff",
+            "stat": "Damage",
+            "min": 5,
+            "max": 5,
+            "unit": "%",
+            "display": "−5%",
+            "sortKey": 5
+          }
+        ],
+        "valuesSummary": "−5%",
+        "statTags": []
+      }
+    ],
+    "6": [
+      {
+        "name": "Armor Break",
+        "slug": "Armor_Break",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Armor_Break",
+        "description": "Breaks the armor of your target, reducing their AC by 1 (L1) to 26 (L60) for 30 seconds. Stacks 3 times.",
+        "category": "Mar",
+        "categorySlug": "Skill_Martial",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 6,
+        "type": "ability",
+        "tags": [
+          "debuff",
+          "AC"
+        ],
+        "primaryTag": "debuff",
+        "effects": [
+          {
+            "kind": "debuff",
+            "stat": "AC",
+            "min": 1,
+            "max": 26,
+            "minLevel": 1,
+            "maxLevel": 60,
+            "display": "−1–26 AC (L1–L60)",
+            "sortKey": 26,
+            "statTag": "AC"
+          }
+        ],
+        "valuesSummary": "−1–26 AC (L1–L60)",
+        "statTags": [
+          "AC"
+        ]
+      }
+    ],
+    "7": [
+      {
+        "name": "Distracting Taunt",
+        "slug": "Distracting_Taunt",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Distracting_Taunt",
+        "description": "Taunts point blank targets within 10 meters, causing them to focus their attacks on you. Triggers cooldown of Martial abilities and Melee Global Cooldown.",
+        "category": "Mar",
+        "categorySlug": "Skill_Martial",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 7,
+        "type": "ability",
+        "tags": [
+          "taunt"
+        ],
+        "primaryTag": "taunt",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      }
+    ],
+    "8": [
+      {
+        "name": "Clobber",
+        "slug": "Clobber",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Clobber",
+        "description": "Clobber your target, applying a Stun for 6 seconds.",
+        "category": "Mar",
+        "categorySlug": "Skill_Martial",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 8,
+        "type": "ability",
+        "tags": [
+          "crowd-control",
+          "stun"
+        ],
+        "primaryTag": "stun",
+        "effects": [
+          {
+            "kind": "crowd-control",
+            "duration": 6,
+            "display": "6s duration",
+            "sortKey": 6
+          }
+        ],
+        "valuesSummary": "6s duration",
+        "statTags": []
+      },
+      {
+        "name": "Intimidation",
+        "slug": "Intimidation",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Intimidation",
+        "description": "Intimidates ten of your point blank enemies within 10 meters, causing them to run away in fear for 10 seconds.",
+        "category": "Mar",
+        "categorySlug": "Skill_Martial",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 8,
+        "type": "ability",
+        "tags": [
+          "crowd-control",
+          "fear"
+        ],
+        "primaryTag": "fear",
+        "effects": [
+          {
+            "kind": "crowd-control",
+            "duration": 10,
+            "display": "10s duration",
+            "sortKey": 10
+          }
+        ],
+        "valuesSummary": "10s duration",
+        "statTags": []
+      }
+    ],
+    "9": [
+      {
+        "name": "Defense",
+        "slug": "Defense",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Defense",
+        "description": "Take up a defensive posture, reducing melee damage dealt to you by 40% for 30 seconds.",
+        "category": "Mar",
+        "categorySlug": "Skill_Martial",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 9,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "debuff",
+          "stance",
+          "self"
+        ],
+        "primaryTag": "stance",
+        "effects": [
+          {
+            "kind": "debuff",
+            "stat": "melee damage dealt to you",
+            "min": 40,
+            "max": 40,
+            "unit": "%",
+            "display": "−40%",
+            "sortKey": 40
+          }
+        ],
+        "valuesSummary": "−40%",
+        "statTags": []
+      }
+    ],
+    "10": [
+      {
+        "name": "Frenzy",
+        "slug": "Frenzy",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Frenzy",
+        "description": "Eviscerate your target with a frenzy of attacks, dealing 20% (L1) to 40% (L60) Weapon Damage plus 1 (L1) to 25 (L60) Physical Damage four times and increasing attack speed by 10% for 1 minute. Rend has a 20% chance to reset the cooldown of this ability.",
+        "category": "Mit",
+        "categorySlug": "Skill_Might",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 10,
+        "type": "ability",
+        "tags": [
+          "damage",
+          "buff"
+        ],
+        "primaryTag": "damage",
+        "effects": [
+          {
+            "kind": "damage",
+            "display": "20–40% weapon + 1–25 Physical (L1–L60)",
+            "sortKey": 25
+          },
+          {
+            "kind": "buff",
+            "stat": "attack speed",
+            "min": 10,
+            "max": 10,
+            "unit": "%",
+            "display": "+10%",
+            "sortKey": 10,
+            "statTag": "ATK"
+          }
+        ],
+        "valuesSummary": "20–40% weapon + 1–25 Physical (L1–L60) · +10%",
+        "statTags": []
+      },
+      {
+        "name": "Shield Bash",
+        "slug": "Shield_Bash",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Shield_Bash",
+        "description": "Bashes your target with your Shield for 1 (L1) to 50 (L60) Physical Damage, and also increasing your threat with the target by 50 (L1) to 500 (L60). Rend has a 10% chance to reset the cooldown of this ability.",
+        "category": "Mit",
+        "categorySlug": "Skill_Might",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 10,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "damage"
+        ],
+        "primaryTag": "buff",
+        "effects": [
+          {
+            "kind": "damage",
+            "min": 1,
+            "max": 50,
+            "minLevel": 1,
+            "maxLevel": 60,
+            "damageType": "Physical",
+            "display": "1–50 Physical dmg (L1–L60)",
+            "sortKey": 50
+          },
+          {
+            "kind": "buff",
+            "stat": "threat with the target",
+            "min": 50,
+            "max": 500,
+            "minLevel": 1,
+            "maxLevel": 60,
+            "display": "+50–500 threat with the target (L1–L60)",
+            "sortKey": 500
+          },
+          {
+            "kind": "buff",
+            "stat": "also increasing your threat with the target",
+            "min": 50,
+            "max": 500,
+            "minLevel": 1,
+            "maxLevel": 60,
+            "display": "+50–500 also increasing your threat with the target (L1–L60)",
+            "sortKey": 500
+          }
+        ],
+        "valuesSummary": "+50–500 threat with the target (L1–L60) · +50–500 also increasing your threat with the target (L1–L60) · 1–50 Physical dmg (L1–L60)",
+        "statTags": []
+      }
+    ],
+    "11": [
+      {
+        "name": "Final Stand",
+        "slug": "Final_Stand",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Final_Stand",
+        "description": "Take up a final stand, increasing your max health by 25% for 30 seconds.",
+        "category": "Mar",
+        "categorySlug": "Skill_Martial",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 11,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "self",
+          "MAX HP"
+        ],
+        "primaryTag": "buff",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "health",
+            "min": 25,
+            "max": 25,
+            "unit": "%",
+            "display": "+25%",
+            "sortKey": 25,
+            "statTag": "MAX HP"
+          }
+        ],
+        "valuesSummary": "+25%",
+        "statTags": [
+          "MAX HP"
+        ]
+      }
+    ],
+    "12": [
+      {
+        "name": "Rallying Shout",
+        "slug": "Rallying_Shout",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Rallying_Shout",
+        "description": "Let out a rallying shout, increasing the max health of your group by 10% for 30 seconds. After this effect expires, you are afflicted by Recently Exhausted, preventing the reapplication of it and certain other Buffs for 20 minutes.",
+        "category": "Mar",
+        "categorySlug": "Skill_Martial",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 12,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "MAX HP"
+        ],
+        "primaryTag": "buff",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "health of your group",
+            "min": 10,
+            "max": 10,
+            "unit": "%",
+            "display": "+10%",
+            "sortKey": 10,
+            "statTag": "MAX HP"
+          }
+        ],
+        "valuesSummary": "+10%",
+        "statTags": [
+          "MAX HP"
+        ]
+      }
+    ],
+    "13": [
+      {
+        "name": "Merciless Assault",
+        "slug": "Merciless_Assault",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Merciless_Assault",
+        "description": "Unleash a merciless assault, increasing your Physical Damage dealt by 50% and causing your melee attacks to always land Critical Hits for 12 seconds. If you are Berserk while this ability is active, your melee attacks always land Crippling Blows.",
+        "category": "Mar",
+        "categorySlug": "Skill_Martial",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 13,
+        "type": "ability",
+        "tags": [
+          "damage",
+          "buff",
+          "self"
+        ],
+        "primaryTag": "damage",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "Damage dealt",
+            "min": 50,
+            "max": 50,
+            "unit": "%",
+            "display": "+50%",
+            "sortKey": 50
+          }
+        ],
+        "valuesSummary": "+50%",
+        "statTags": []
+      }
+    ],
+    "14": [
+      {
+        "name": "Disarm",
+        "slug": "Disarm",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Disarm?action=edit&redlink=1",
+        "description": "Disarm your target, temporarily removing their weapon and reducing their Physical Damage dealt by 10% for 8 seconds. This ability has diminishing returns when used in PvE.",
+        "category": "Mar",
+        "categorySlug": "Skill_Martial",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 14,
+        "type": "ability",
+        "tags": [
+          "debuff"
+        ],
+        "primaryTag": "debuff",
+        "effects": [
+          {
+            "kind": "debuff",
+            "stat": "Damage dealt",
+            "min": 10,
+            "max": 10,
+            "unit": "%",
+            "display": "−10%",
+            "sortKey": 10
+          }
+        ],
+        "valuesSummary": "−10%",
+        "statTags": []
+      }
+    ]
+  },
+  "entries": [
+    {
+      "name": "Offensive Stance",
+      "slug": "Offensive_Stance",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Offensive_Stance",
+      "description": "Enter Offensive Stance, increasing your damage by 15% and raising your Offense skill by 5.",
+      "category": "Val",
+      "categorySlug": "Skill_Valor",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Valor",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 1,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "stance",
+        "self"
+      ],
+      "primaryTag": "stance",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "damage",
+          "min": 15,
+          "max": 15,
+          "unit": "%",
+          "display": "+15%",
+          "sortKey": 15
+        },
+        {
+          "kind": "buff",
+          "stat": "raising your Offense skill",
+          "amount": 5,
+          "display": "+5 raising your Offense skill",
+          "sortKey": 5
+        },
+        {
+          "kind": "buff",
+          "stat": "Offense skill",
+          "amount": 5,
+          "display": "+5 Offense skill",
+          "sortKey": 5
+        }
+      ],
+      "valuesSummary": "+15% · +5 raising your Offense skill · +5 Offense skill",
+      "statTags": []
+    },
+    {
+      "name": "Rend",
+      "slug": "Rend",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Rend",
+      "description": "Rends your target for 1 (L1) to 60 (L60) Melee Damage, with 150% (L1) to 350% (L60) Damage Variance. Has 10% chance to reset the cooldown of your Frenzy and Shield Bash abilities. Triggers cooldown of Might abilities. At Level 50 and above, this ability has a chance to double attack.",
+      "category": "Mit",
+      "categorySlug": "Skill_Might",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 1,
+      "type": "ability",
+      "tags": [
+        "damage"
+      ],
+      "primaryTag": "damage",
+      "effects": [
+        {
+          "kind": "damage",
+          "min": 1,
+          "max": 60,
+          "minLevel": 1,
+          "maxLevel": 60,
+          "damageType": "Melee",
+          "display": "1–60 Melee dmg (L1–L60)",
+          "sortKey": 60
+        },
+        {
+          "kind": "damage",
+          "min": 150,
+          "max": 350,
+          "minLevel": 1,
+          "maxLevel": 60,
+          "damageType": "dmg",
+          "display": "150–350% dmg (L1–L60)",
+          "sortKey": 350
+        }
+      ],
+      "valuesSummary": "150–350% dmg (L1–L60) · 1–60 Melee dmg (L1–L60)",
+      "statTags": []
+    },
+    {
+      "name": "Taunt",
+      "slug": "Taunt",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Taunt",
+      "description": "Taunt your target, causing them to focus their attacks on you. Triggers cooldown of Martial abilities.",
+      "category": "Mar",
+      "categorySlug": "Skill_Martial",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 1,
+      "type": "ability",
+      "tags": [
+        "taunt"
+      ],
+      "primaryTag": "taunt",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Shoot",
+      "slug": "Shoot",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Shoot",
+      "description": "Shoots your target with a bow. (requires bow & arrows)",
+      "category": "Mar",
+      "categorySlug": "Skill_Martial",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 1,
+      "type": "ability",
+      "tags": [
+        "damage"
+      ],
+      "primaryTag": "damage",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Throw",
+      "slug": "Throw",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Throw",
+      "description": "Throw a throwing weapon at your target. This skill requires a throwing weapon.",
+      "category": "Mar",
+      "categorySlug": "Skill_Martial",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 1,
+      "type": "ability",
+      "tags": [
+        "damage"
+      ],
+      "primaryTag": "damage",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Battle Cry",
+      "slug": "Battle_Cry",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Battle_Cry",
+      "description": "Strength courses through you as you let loose a Battle Cry, increasing your Strength by 1 (L1) to 15 (L60) for 2 minutes. Triggers cooldown of Martial abilities.",
+      "category": "Mar",
+      "categorySlug": "Skill_Martial",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 2,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "self",
+        "STR"
+      ],
+      "primaryTag": "buff",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "Strength",
+          "min": 1,
+          "max": 15,
+          "minLevel": 1,
+          "maxLevel": 60,
+          "display": "+1–15 Strength (L1–L60)",
+          "sortKey": 15,
+          "statTag": "STR"
+        }
+      ],
+      "valuesSummary": "+1–15 Strength (L1–L60)",
+      "statTags": [
+        "STR"
+      ]
+    },
+    {
+      "name": "Kick",
+      "slug": "Kick",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Kick",
+      "description": "Swiftly kick your target, interrupting their casting and preventing them from casting spells from the same school of magic for 4 seconds.",
+      "category": "Acr",
+      "categorySlug": "Skill_Acrobatics",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Acrobatics",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 3,
+      "type": "ability",
+      "tags": [
+        "interrupt"
+      ],
+      "primaryTag": "interrupt",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Charge",
+      "slug": "Charge",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Charge",
+      "description": "Charge at your enemy, immobilizing them for 1 second.",
+      "category": "Mit",
+      "categorySlug": "Skill_Might",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 3,
+      "type": "ability",
+      "tags": [
+        "crowd-control",
+        "root",
+        "movement"
+      ],
+      "primaryTag": "root",
+      "effects": [
+        {
+          "kind": "crowd-control",
+          "duration": 1,
+          "display": "1s duration",
+          "sortKey": 1
+        }
+      ],
+      "valuesSummary": "1s duration",
+      "statTags": []
+    },
+    {
+      "name": "Defensive Stance",
+      "slug": "Defensive_Stance",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Defensive_Stance",
+      "description": "Enter Defensive Stance, reducing Physical damage against you by 10% and raising your Defense skill by 5.",
+      "category": "Val",
+      "categorySlug": "Skill_Valor",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Valor",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 4,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "debuff",
+        "stance",
+        "self"
+      ],
+      "primaryTag": "stance",
+      "effects": [
+        {
+          "kind": "debuff",
+          "stat": "damage against you",
+          "min": 10,
+          "max": 10,
+          "unit": "%",
+          "display": "−10%",
+          "sortKey": 10
+        },
+        {
+          "kind": "debuff",
+          "stat": "raising your Defense skill",
+          "amount": 5,
+          "display": "−5 raising your Defense skill",
+          "sortKey": 5
+        },
+        {
+          "kind": "buff",
+          "stat": "Defense skill",
+          "amount": 5,
+          "display": "+5 Defense skill",
+          "sortKey": 5
+        }
+      ],
+      "valuesSummary": "+5 Defense skill · −10% · −5 raising your Defense skill",
+      "statTags": []
+    },
+    {
+      "name": "Unnerving Shout",
+      "slug": "Unnerving_Shout",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Unnerving_Shout",
+      "description": "Let out an unnerving shout at nearby enemies, decreasing their Physical Damage by 5% for 30 seconds. Triggers cooldown of Martial abilities.",
+      "category": "Mar",
+      "categorySlug": "Skill_Martial",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 5,
+      "type": "ability",
+      "tags": [
+        "debuff"
+      ],
+      "primaryTag": "debuff",
+      "effects": [
+        {
+          "kind": "debuff",
+          "stat": "Damage",
+          "min": 5,
+          "max": 5,
+          "unit": "%",
+          "display": "−5%",
+          "sortKey": 5
+        }
+      ],
+      "valuesSummary": "−5%",
+      "statTags": []
+    },
+    {
+      "name": "Armor Break",
+      "slug": "Armor_Break",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Armor_Break",
+      "description": "Breaks the armor of your target, reducing their AC by 1 (L1) to 26 (L60) for 30 seconds. Stacks 3 times.",
+      "category": "Mar",
+      "categorySlug": "Skill_Martial",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 6,
+      "type": "ability",
+      "tags": [
+        "debuff",
+        "AC"
+      ],
+      "primaryTag": "debuff",
+      "effects": [
+        {
+          "kind": "debuff",
+          "stat": "AC",
+          "min": 1,
+          "max": 26,
+          "minLevel": 1,
+          "maxLevel": 60,
+          "display": "−1–26 AC (L1–L60)",
+          "sortKey": 26,
+          "statTag": "AC"
+        }
+      ],
+      "valuesSummary": "−1–26 AC (L1–L60)",
+      "statTags": [
+        "AC"
+      ]
+    },
+    {
+      "name": "Distracting Taunt",
+      "slug": "Distracting_Taunt",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Distracting_Taunt",
+      "description": "Taunts point blank targets within 10 meters, causing them to focus their attacks on you. Triggers cooldown of Martial abilities and Melee Global Cooldown.",
+      "category": "Mar",
+      "categorySlug": "Skill_Martial",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 7,
+      "type": "ability",
+      "tags": [
+        "taunt"
+      ],
+      "primaryTag": "taunt",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Clobber",
+      "slug": "Clobber",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Clobber",
+      "description": "Clobber your target, applying a Stun for 6 seconds.",
+      "category": "Mar",
+      "categorySlug": "Skill_Martial",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 8,
+      "type": "ability",
+      "tags": [
+        "crowd-control",
+        "stun"
+      ],
+      "primaryTag": "stun",
+      "effects": [
+        {
+          "kind": "crowd-control",
+          "duration": 6,
+          "display": "6s duration",
+          "sortKey": 6
+        }
+      ],
+      "valuesSummary": "6s duration",
+      "statTags": []
+    },
+    {
+      "name": "Intimidation",
+      "slug": "Intimidation",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Intimidation",
+      "description": "Intimidates ten of your point blank enemies within 10 meters, causing them to run away in fear for 10 seconds.",
+      "category": "Mar",
+      "categorySlug": "Skill_Martial",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 8,
+      "type": "ability",
+      "tags": [
+        "crowd-control",
+        "fear"
+      ],
+      "primaryTag": "fear",
+      "effects": [
+        {
+          "kind": "crowd-control",
+          "duration": 10,
+          "display": "10s duration",
+          "sortKey": 10
+        }
+      ],
+      "valuesSummary": "10s duration",
+      "statTags": []
+    },
+    {
+      "name": "Defense",
+      "slug": "Defense",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Defense",
+      "description": "Take up a defensive posture, reducing melee damage dealt to you by 40% for 30 seconds.",
+      "category": "Mar",
+      "categorySlug": "Skill_Martial",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 9,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "debuff",
+        "stance",
+        "self"
+      ],
+      "primaryTag": "stance",
+      "effects": [
+        {
+          "kind": "debuff",
+          "stat": "melee damage dealt to you",
+          "min": 40,
+          "max": 40,
+          "unit": "%",
+          "display": "−40%",
+          "sortKey": 40
+        }
+      ],
+      "valuesSummary": "−40%",
+      "statTags": []
+    },
+    {
+      "name": "Frenzy",
+      "slug": "Frenzy",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Frenzy",
+      "description": "Eviscerate your target with a frenzy of attacks, dealing 20% (L1) to 40% (L60) Weapon Damage plus 1 (L1) to 25 (L60) Physical Damage four times and increasing attack speed by 10% for 1 minute. Rend has a 20% chance to reset the cooldown of this ability.",
+      "category": "Mit",
+      "categorySlug": "Skill_Might",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 10,
+      "type": "ability",
+      "tags": [
+        "damage",
+        "buff"
+      ],
+      "primaryTag": "damage",
+      "effects": [
+        {
+          "kind": "damage",
+          "display": "20–40% weapon + 1–25 Physical (L1–L60)",
+          "sortKey": 25
+        },
+        {
+          "kind": "buff",
+          "stat": "attack speed",
+          "min": 10,
+          "max": 10,
+          "unit": "%",
+          "display": "+10%",
+          "sortKey": 10,
+          "statTag": "ATK"
+        }
+      ],
+      "valuesSummary": "20–40% weapon + 1–25 Physical (L1–L60) · +10%",
+      "statTags": []
+    },
+    {
+      "name": "Shield Bash",
+      "slug": "Shield_Bash",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Shield_Bash",
+      "description": "Bashes your target with your Shield for 1 (L1) to 50 (L60) Physical Damage, and also increasing your threat with the target by 50 (L1) to 500 (L60). Rend has a 10% chance to reset the cooldown of this ability.",
+      "category": "Mit",
+      "categorySlug": "Skill_Might",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 10,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "damage"
+      ],
+      "primaryTag": "buff",
+      "effects": [
+        {
+          "kind": "damage",
+          "min": 1,
+          "max": 50,
+          "minLevel": 1,
+          "maxLevel": 60,
+          "damageType": "Physical",
+          "display": "1–50 Physical dmg (L1–L60)",
+          "sortKey": 50
+        },
+        {
+          "kind": "buff",
+          "stat": "threat with the target",
+          "min": 50,
+          "max": 500,
+          "minLevel": 1,
+          "maxLevel": 60,
+          "display": "+50–500 threat with the target (L1–L60)",
+          "sortKey": 500
+        },
+        {
+          "kind": "buff",
+          "stat": "also increasing your threat with the target",
+          "min": 50,
+          "max": 500,
+          "minLevel": 1,
+          "maxLevel": 60,
+          "display": "+50–500 also increasing your threat with the target (L1–L60)",
+          "sortKey": 500
+        }
+      ],
+      "valuesSummary": "+50–500 threat with the target (L1–L60) · +50–500 also increasing your threat with the target (L1–L60) · 1–50 Physical dmg (L1–L60)",
+      "statTags": []
+    },
+    {
+      "name": "Final Stand",
+      "slug": "Final_Stand",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Final_Stand",
+      "description": "Take up a final stand, increasing your max health by 25% for 30 seconds.",
+      "category": "Mar",
+      "categorySlug": "Skill_Martial",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 11,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "self",
+        "MAX HP"
+      ],
+      "primaryTag": "buff",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "health",
+          "min": 25,
+          "max": 25,
+          "unit": "%",
+          "display": "+25%",
+          "sortKey": 25,
+          "statTag": "MAX HP"
+        }
+      ],
+      "valuesSummary": "+25%",
+      "statTags": [
+        "MAX HP"
+      ]
+    },
+    {
+      "name": "Rallying Shout",
+      "slug": "Rallying_Shout",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Rallying_Shout",
+      "description": "Let out a rallying shout, increasing the max health of your group by 10% for 30 seconds. After this effect expires, you are afflicted by Recently Exhausted, preventing the reapplication of it and certain other Buffs for 20 minutes.",
+      "category": "Mar",
+      "categorySlug": "Skill_Martial",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 12,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "MAX HP"
+      ],
+      "primaryTag": "buff",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "health of your group",
+          "min": 10,
+          "max": 10,
+          "unit": "%",
+          "display": "+10%",
+          "sortKey": 10,
+          "statTag": "MAX HP"
+        }
+      ],
+      "valuesSummary": "+10%",
+      "statTags": [
+        "MAX HP"
+      ]
+    },
+    {
+      "name": "Merciless Assault",
+      "slug": "Merciless_Assault",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Merciless_Assault",
+      "description": "Unleash a merciless assault, increasing your Physical Damage dealt by 50% and causing your melee attacks to always land Critical Hits for 12 seconds. If you are Berserk while this ability is active, your melee attacks always land Crippling Blows.",
+      "category": "Mar",
+      "categorySlug": "Skill_Martial",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 13,
+      "type": "ability",
+      "tags": [
+        "damage",
+        "buff",
+        "self"
+      ],
+      "primaryTag": "damage",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "Damage dealt",
+          "min": 50,
+          "max": 50,
+          "unit": "%",
+          "display": "+50%",
+          "sortKey": 50
+        }
+      ],
+      "valuesSummary": "+50%",
+      "statTags": []
+    },
+    {
+      "name": "Disarm",
+      "slug": "Disarm",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Disarm?action=edit&redlink=1",
+      "description": "Disarm your target, temporarily removing their weapon and reducing their Physical Damage dealt by 10% for 8 seconds. This ability has diminishing returns when used in PvE.",
+      "category": "Mar",
+      "categorySlug": "Skill_Martial",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 14,
+      "type": "ability",
+      "tags": [
+        "debuff"
+      ],
+      "primaryTag": "debuff",
+      "effects": [
+        {
+          "kind": "debuff",
+          "stat": "Damage dealt",
+          "min": 10,
+          "max": 10,
+          "unit": "%",
+          "display": "−10%",
+          "sortKey": 10
+        }
+      ],
+      "valuesSummary": "−10%",
+      "statTags": []
+    }
+  ]
+}

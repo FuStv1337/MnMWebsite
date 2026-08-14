@@ -1,0 +1,5212 @@
+{
+  "className": "Inquisitor",
+  "slug": "Inquisitor",
+  "type": "ability",
+  "sectionTitle": "Inquisitor Spells & Abilities",
+  "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Inquisitor",
+  "entryCount": 75,
+  "levels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    31,
+    32,
+    36,
+    40,
+    42,
+    44,
+    48,
+    52,
+    53,
+    55,
+    56,
+    60
+  ],
+  "entriesByLevel": {
+    "1": [
+      {
+        "name": "Aura of Resistance",
+        "slug": "Aura_of_Resistance",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Aura_of_Resistance",
+        "description": "An aura which greatly wards your group from the arcane, increasing their Magic, Cold, Fire, Corruption, and Holy Resistance by 2 (L1) to 30 (L60) and increases Spell Damage Reduction by 5%.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 1,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "HR",
+          "damage"
+        ],
+        "primaryTag": "buff",
+        "effects": [
+          {
+            "kind": "damage",
+            "min": 2,
+            "max": 30,
+            "minLevel": 1,
+            "maxLevel": 60,
+            "damageType": "and increases Spell Reduction by 5%",
+            "display": "2–30% and increases Spell Reduction by 5% dmg (L1–L60)",
+            "sortKey": 30
+          },
+          {
+            "kind": "buff",
+            "stat": "Holy Resistance",
+            "min": 2,
+            "max": 30,
+            "minLevel": 1,
+            "maxLevel": 60,
+            "display": "+2–30 Holy Resistance (L1–L60)",
+            "sortKey": 30,
+            "statTag": "HR"
+          }
+        ],
+        "valuesSummary": "+2–30 Holy Resistance (L1–L60) · 2–30% and increases Spell Reduction by 5% dmg (L1–L60)",
+        "statTags": [
+          "HR"
+        ]
+      },
+      {
+        "name": "Magic Protection",
+        "slug": "Magic_Protection",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Magic_Protection",
+        "description": "Wards your target from the arcane, increasing their Magic Resistance by 5 for 1 hour.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": 10,
+        "castTime": null,
+        "level": 1,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "MR"
+        ],
+        "primaryTag": "buff",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "Magic Resistance",
+            "amount": 5,
+            "display": "+5 Magic Resistance",
+            "sortKey": 5,
+            "statTag": "MR"
+          }
+        ],
+        "valuesSummary": "+5 Magic Resistance",
+        "statTags": [
+          "MR"
+        ]
+      },
+      {
+        "name": "Mind Exhaustion",
+        "slug": "Mind_Exhaustion",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mind_Exhaustion",
+        "description": "Exhaust your target, slowing their Casting Speed by 10% for 1 minute.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": 8,
+        "castTime": null,
+        "level": 1,
+        "type": "ability",
+        "tags": [
+          "debuff",
+          "CAST"
+        ],
+        "primaryTag": "debuff",
+        "effects": [
+          {
+            "kind": "debuff",
+            "stat": "Casting Speed",
+            "min": 10,
+            "max": 10,
+            "unit": "%",
+            "display": "−10%",
+            "sortKey": 10,
+            "statTag": "CAST"
+          }
+        ],
+        "valuesSummary": "−10%",
+        "statTags": [
+          "CAST"
+        ]
+      },
+      {
+        "name": "Polar Align: North",
+        "slug": "Polar_Align:_North",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Polar_Align:_North",
+        "description": "Magically align yourself, orienting you toward the North Pole.",
+        "category": "Div",
+        "categorySlug": "Skill_Divination",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
+        "location": "Vendor",
+        "mana": 5,
+        "castTime": null,
+        "level": 1,
+        "type": "ability",
+        "tags": [
+          "utility",
+          "self"
+        ],
+        "primaryTag": "utility",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      },
+      {
+        "name": "Shoot",
+        "slug": "Shoot",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Shoot",
+        "description": "Shoots your target with a bow. (requires bow & arrows)",
+        "category": "Mar",
+        "categorySlug": "Skill_Martial",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 1,
+        "type": "ability",
+        "tags": [
+          "damage"
+        ],
+        "primaryTag": "damage",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      },
+      {
+        "name": "Slam",
+        "slug": "Slam",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Slam",
+        "description": "Forcefully slam your target, dealing 100% Weapon Damage plus 1 (L1) to 20 (L60) Physical Damage, and increasing your Threat by 20 (L1) to 200 (L60). Has a chance to stun from behind the target.",
+        "category": "Mar",
+        "categorySlug": "Skill_Martial",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 1,
+        "type": "ability",
+        "tags": [
+          "damage",
+          "buff",
+          "crowd-control",
+          "stun",
+          "THREAT"
+        ],
+        "primaryTag": "damage",
+        "effects": [
+          {
+            "kind": "damage",
+            "display": "100% weapon dmg",
+            "sortKey": 100
+          },
+          {
+            "kind": "damage",
+            "min": 1,
+            "max": 20,
+            "minLevel": 1,
+            "maxLevel": 60,
+            "damageType": "Physical",
+            "display": "1–20 Physical dmg (L1–L60)",
+            "sortKey": 20
+          },
+          {
+            "kind": "buff",
+            "stat": "Threat",
+            "min": 20,
+            "max": 200,
+            "minLevel": 1,
+            "maxLevel": 60,
+            "display": "+20–200 Threat (L1–L60)",
+            "sortKey": 200,
+            "statTag": "THREAT"
+          },
+          {
+            "kind": "buff",
+            "stat": "increasing your Threat",
+            "min": 20,
+            "max": 200,
+            "minLevel": 1,
+            "maxLevel": 60,
+            "display": "+20–200 increasing your Threat (L1–L60)",
+            "sortKey": 200
+          }
+        ],
+        "valuesSummary": "100% weapon dmg · 1–20 Physical dmg (L1–L60) · +20–200 Threat (L1–L60)",
+        "statTags": [
+          "THREAT"
+        ]
+      },
+      {
+        "name": "Taunt",
+        "slug": "Taunt",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Taunt",
+        "description": "Taunt your target, causing them to focus their attacks on you. Triggers cooldown of Martial abilities.",
+        "category": "Mar",
+        "categorySlug": "Skill_Martial",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 1,
+        "type": "ability",
+        "tags": [
+          "taunt"
+        ],
+        "primaryTag": "taunt",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      },
+      {
+        "name": "Torment",
+        "slug": "Torment",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Torment",
+        "description": "Torments your target's mental state, causing 3 (L1) to 5 (L4) points of Magic Damage and decreasing their Intelligence, Wisdom, Charisma, and Mana Regeneration by 2.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": 7,
+        "castTime": null,
+        "level": 1,
+        "type": "ability",
+        "tags": [
+          "debuff",
+          "CHA",
+          "INT",
+          "MANA",
+          "WIS",
+          "damage"
+        ],
+        "primaryTag": "debuff",
+        "effects": [
+          {
+            "kind": "damage",
+            "min": 3,
+            "max": 5,
+            "minLevel": 1,
+            "maxLevel": 4,
+            "damageType": "Magic",
+            "display": "3–5 Magic dmg (L1–L4)",
+            "sortKey": 5
+          },
+          {
+            "kind": "debuff",
+            "stat": "Intelligence",
+            "amount": 2,
+            "display": "−2 Intelligence",
+            "sortKey": 2,
+            "statTag": "INT"
+          },
+          {
+            "kind": "debuff",
+            "stat": "Wisdom",
+            "amount": 2,
+            "display": "−2 Wisdom",
+            "sortKey": 2,
+            "statTag": "WIS"
+          },
+          {
+            "kind": "debuff",
+            "stat": "Charisma",
+            "amount": 2,
+            "display": "−2 Charisma",
+            "sortKey": 2,
+            "statTag": "CHA"
+          },
+          {
+            "kind": "debuff",
+            "stat": "Mana Regeneration",
+            "amount": 2,
+            "display": "−2 Mana Regeneration",
+            "sortKey": 2,
+            "statTag": "MANA"
+          }
+        ],
+        "valuesSummary": "−2 INT/WIS/CHA/MANA · 3–5 Magic dmg (L1–L4)",
+        "statTags": [
+          "CHA",
+          "INT",
+          "MANA",
+          "WIS"
+        ]
+      }
+    ],
+    "2": [
+      {
+        "name": "Magic Break",
+        "slug": "Magic_Break",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Magic_Break",
+        "description": "Breaks your target's resistance to the arcane, decreasing their Magic Resistance by 1 (L1) to 4 (L8). This spell is unresistable if the target is not immune to magic or it can otherwise by landed normally.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": 10,
+        "castTime": null,
+        "level": 2,
+        "type": "ability",
+        "tags": [
+          "debuff",
+          "MR"
+        ],
+        "primaryTag": "debuff",
+        "effects": [
+          {
+            "kind": "debuff",
+            "stat": "Magic Resistance",
+            "min": 1,
+            "max": 4,
+            "minLevel": 1,
+            "maxLevel": 8,
+            "display": "−1–4 Magic Resistance (L1–L8)",
+            "sortKey": 4,
+            "statTag": "MR"
+          }
+        ],
+        "valuesSummary": "−1–4 Magic Resistance (L1–L8)",
+        "statTags": [
+          "MR"
+        ]
+      }
+    ],
+    "3": [
+      {
+        "name": "Minor Spellshield",
+        "slug": "Minor_Spellshield",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Minor_Spellshield",
+        "description": "A magical shield encircles you, increasing your HP by 10, AC by 5, and Magic Resistance by 5.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": 10,
+        "castTime": null,
+        "level": 3,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "shield",
+          "self",
+          "AC",
+          "MAX HP",
+          "MR"
+        ],
+        "primaryTag": "shield",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "HP",
+            "amount": 10,
+            "display": "+10 HP",
+            "sortKey": 10,
+            "statTag": "MAX HP"
+          },
+          {
+            "kind": "buff",
+            "stat": "AC",
+            "amount": 5,
+            "display": "+5 AC",
+            "sortKey": 5,
+            "statTag": "AC"
+          },
+          {
+            "kind": "buff",
+            "stat": "Magic Resistance",
+            "amount": 5,
+            "display": "+5 Magic Resistance",
+            "sortKey": 5,
+            "statTag": "MR"
+          }
+        ],
+        "valuesSummary": "+10 HP · +5 AC · +5 Magic Resistance",
+        "statTags": [
+          "AC",
+          "MAX HP",
+          "MR"
+        ]
+      },
+      {
+        "name": "Kick",
+        "slug": "Kick",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Kick",
+        "description": "Swiftly kick your target, interrupting their casting and preventing them from casting spells from the same school of magic for 4 seconds.",
+        "category": "Acr",
+        "categorySlug": "Skill_Acrobatics",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Acrobatics",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 3,
+        "type": "ability",
+        "tags": [
+          "interrupt"
+        ],
+        "primaryTag": "interrupt",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      }
+    ],
+    "4": [
+      {
+        "name": "Spell Ward",
+        "slug": "Spell_Ward",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Spell_Ward",
+        "description": "Shield your target with a spell ward, absorbing 25 Spell Damage received for 15 seconds.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": 20,
+        "castTime": null,
+        "level": 4,
+        "type": "ability",
+        "tags": [
+          "shield"
+        ],
+        "primaryTag": "shield",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      },
+      {
+        "name": "Weapon Shield",
+        "slug": "Weapon_Shield",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Weapon_Shield",
+        "description": "Activate to use your weapon to help shield attacks, reducing physical damage against you by 5%.",
+        "category": "Val",
+        "categorySlug": "Skill_Valor",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Valor",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 4,
+        "type": "ability",
+        "tags": [
+          "debuff",
+          "self"
+        ],
+        "primaryTag": "debuff",
+        "effects": [
+          {
+            "kind": "debuff",
+            "stat": "damage against you",
+            "min": 5,
+            "max": 5,
+            "unit": "%",
+            "display": "−5%",
+            "sortKey": 5
+          }
+        ],
+        "valuesSummary": "−5%",
+        "statTags": []
+      },
+      {
+        "name": "Arcane Aegis",
+        "slug": "Arcane_Aegis",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Arcane_Aegis",
+        "description": "Surround yourself with an arcane aegis, granting you immunity to spell damage for 15 seconds. This spell can be used while stunned, incapacitated, or feared. This spell inflicts Exhausted Soul upon expiration, preventing the application of immunity effects for 30 seconds.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": 15,
+        "castTime": null,
+        "level": 4,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "self"
+        ],
+        "primaryTag": "buff",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      }
+    ],
+    "5": [
+      {
+        "name": "Mesmerize",
+        "slug": "Mesmerize",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mesmerize",
+        "description": "Mesmerizes your target, putting them to Sleep for 30 seconds. There is a very small chance that the enemy target will forget about your aggression. This effect is removed by melee or spell damage.",
+        "category": "Con",
+        "categorySlug": "Skill_Conjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
+        "location": "Vendor",
+        "mana": 15,
+        "castTime": null,
+        "level": 5,
+        "type": "ability",
+        "tags": [
+          "crowd-control",
+          "mez"
+        ],
+        "primaryTag": "mez",
+        "effects": [
+          {
+            "kind": "crowd-control",
+            "duration": 30,
+            "display": "30s duration",
+            "sortKey": 30
+          }
+        ],
+        "valuesSummary": "30s duration",
+        "statTags": []
+      }
+    ],
+    "6": [
+      {
+        "name": "Silence",
+        "slug": "Silence",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Silence",
+        "description": "Silences your target, preventing them from spellcasting for 6 seconds.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": 15,
+        "castTime": null,
+        "level": 6,
+        "type": "ability",
+        "tags": [
+          "crowd-control",
+          "silence"
+        ],
+        "primaryTag": "silence",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      }
+    ],
+    "7": [
+      {
+        "name": "Focused Concentration",
+        "slug": "Focused_Concentration",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Focused_Concentration",
+        "description": "Greatly sharpen your concentration, granting you a 100% chance to continue casting through incoming melee attacks for 15 seconds.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 7,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "self"
+        ],
+        "primaryTag": "buff",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      },
+      {
+        "name": "Holy Protection",
+        "slug": "Holy_Protection",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Holy_Protection",
+        "description": "Wards your target against the divine, increasing their Holy Resistance by 5 for 1 hour.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": 10,
+        "castTime": null,
+        "level": 7,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "HR"
+        ],
+        "primaryTag": "buff",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "Holy Resistance",
+            "amount": 5,
+            "display": "+5 Holy Resistance",
+            "sortKey": 5,
+            "statTag": "HR"
+          }
+        ],
+        "valuesSummary": "+5 Holy Resistance",
+        "statTags": [
+          "HR"
+        ]
+      }
+    ],
+    "8": [
+      {
+        "name": "Dominate the Mind",
+        "slug": "Dominate_the_Mind",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Dominate_the_Mind",
+        "description": "Instantly charms your target, forcing them to fight for you for 1 minute.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": 50,
+        "castTime": null,
+        "level": 8,
+        "type": "ability",
+        "tags": [
+          "charm"
+        ],
+        "primaryTag": "charm",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      },
+      {
+        "name": "Incinerate Mana",
+        "slug": "Incinerate_Mana",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Incinerate_Mana",
+        "description": "Burns 20 Mana from your target at the cost of 8.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": 8,
+        "castTime": null,
+        "level": 8,
+        "type": "ability",
+        "tags": [
+          "mana-drain"
+        ],
+        "primaryTag": "mana-drain",
+        "effects": [
+          {
+            "kind": "resource",
+            "amount": 20,
+            "display": "20 mana burn",
+            "sortKey": 20
+          }
+        ],
+        "valuesSummary": "20 mana burn",
+        "statTags": []
+      },
+      {
+        "name": "Mind Enervation",
+        "slug": "Mind_Enervation",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mind_Enervation",
+        "description": "Enervate your target, slowing their Casting Speed by 20% for 1 minute.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": 30,
+        "castTime": null,
+        "level": 8,
+        "type": "ability",
+        "tags": [
+          "debuff",
+          "CAST"
+        ],
+        "primaryTag": "debuff",
+        "effects": [
+          {
+            "kind": "debuff",
+            "stat": "Casting Speed",
+            "min": 20,
+            "max": 20,
+            "unit": "%",
+            "display": "−20%",
+            "sortKey": 20,
+            "statTag": "CAST"
+          }
+        ],
+        "valuesSummary": "−20%",
+        "statTags": [
+          "CAST"
+        ]
+      },
+      {
+        "name": "Sense Magic",
+        "slug": "Sense_Magic",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Sense_Magic",
+        "description": "Glaze the eyes of your target with a magical coating, granting them the ability to see magical effects when considering targets for 1 hour.",
+        "category": "Div",
+        "categorySlug": "Skill_Divination",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
+        "location": "Vendor",
+        "mana": 20,
+        "castTime": null,
+        "level": 8,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "utility"
+        ],
+        "primaryTag": "buff",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      }
+    ],
+    "9": [
+      {
+        "name": "Dispel Magic",
+        "slug": "Dispel_Magic",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Dispel_Magic",
+        "description": "Dispel magic from your target, removing one harmful effect.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": 50,
+        "castTime": null,
+        "level": 9,
+        "type": "ability",
+        "tags": [
+          "dispel"
+        ],
+        "primaryTag": "dispel",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      }
+    ],
+    "10": [
+      {
+        "name": "Aura of the Inquisitive",
+        "slug": "Aura_of_the_Inquisitive",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Aura_of_the_Inquisitive",
+        "description": "Envelop your group in an inquisitive aura, increasing their Mana Regeneration by 1 (L1) to 3 (L60).",
+        "category": "Mit",
+        "categorySlug": "Skill_Might",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 10,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "MANA"
+        ],
+        "primaryTag": "buff",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "Mana Regeneration",
+            "min": 1,
+            "max": 3,
+            "minLevel": 1,
+            "maxLevel": 60,
+            "display": "+1–3 Mana Regeneration (L1–L60)",
+            "sortKey": 3,
+            "statTag": "MANA"
+          }
+        ],
+        "valuesSummary": "+1–3 Mana Regeneration (L1–L60)",
+        "statTags": [
+          "MANA"
+        ]
+      },
+      {
+        "name": "Purifying Blow",
+        "slug": "Purifying_Blow",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Purifying_Blow",
+        "description": "Unleashes a purifying blow on your target, dealing 150% Weapon Damage plus 1 (L1) to 20 (L60) Magic Damage and 1 (L1) to 20 (L60) Physical Damage. Additionally if the target is afflicted by any spell in the Magic Break line, dispels one of your target's beneficial buffs. Chance to trigger again if the target is afflicted with Slam Stun.",
+        "category": "Mit",
+        "categorySlug": "Skill_Might",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 10,
+        "type": "ability",
+        "tags": [
+          "damage",
+          "crowd-control",
+          "stun",
+          "purge"
+        ],
+        "primaryTag": "damage",
+        "effects": [
+          {
+            "kind": "damage",
+            "display": "150% weapon dmg",
+            "sortKey": 150
+          },
+          {
+            "kind": "damage",
+            "min": 1,
+            "max": 20,
+            "minLevel": 1,
+            "maxLevel": 60,
+            "damageType": "Magic",
+            "display": "1–20 Magic dmg (L1–L60)",
+            "sortKey": 20
+          },
+          {
+            "kind": "damage",
+            "min": 1,
+            "max": 20,
+            "minLevel": 1,
+            "maxLevel": 60,
+            "damageType": "Physical",
+            "display": "1–20 Physical dmg (L1–L60)",
+            "sortKey": 20
+          }
+        ],
+        "valuesSummary": "150% weapon dmg · 1–20 Magic dmg (L1–L60) · 1–20 Physical dmg (L1–L60)",
+        "statTags": []
+      },
+      {
+        "name": "Scintillating Shock",
+        "slug": "Scintillating_Shock",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Scintillating_Shock",
+        "description": "Shocks nearby enemies with bright lights, stunning them for 4 seconds. This ability shares a cooldown with other abilities in the same line.",
+        "category": "Div",
+        "categorySlug": "Skill_Divination",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
+        "location": "Vendor",
+        "mana": 15,
+        "castTime": null,
+        "level": 10,
+        "type": "ability",
+        "tags": [
+          "crowd-control",
+          "stun"
+        ],
+        "primaryTag": "stun",
+        "effects": [
+          {
+            "kind": "crowd-control",
+            "duration": 4,
+            "display": "4s duration",
+            "sortKey": 4
+          }
+        ],
+        "valuesSummary": "4s duration",
+        "statTags": []
+      }
+    ],
+    "11": [
+      {
+        "name": "Invisibility",
+        "slug": "Invisibility",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Invisibility",
+        "description": "Shroud a target group member in a cloak of invisibility, rendering them unseen by the living for 10 minutes.",
+        "category": "Div",
+        "categorySlug": "Skill_Divination",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
+        "location": "Vendor",
+        "mana": 20,
+        "castTime": null,
+        "level": 11,
+        "type": "ability",
+        "tags": [
+          "invisibility"
+        ],
+        "primaryTag": "invisibility",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      }
+    ],
+    "12": [
+      {
+        "name": "Haste",
+        "slug": "Haste",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Haste",
+        "description": "Haste your target, increasing their Melee and Ranged Attack Speed by 10% (L4) to 15% (L16) for 1h.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": 10,
+        "castTime": null,
+        "level": 12,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "haste"
+        ],
+        "primaryTag": "buff",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "Melee and Ranged Attack Speed",
+            "min": 10,
+            "max": 15,
+            "unit": "%",
+            "display": "+10–15%",
+            "sortKey": 15,
+            "statTag": "ATK"
+          }
+        ],
+        "valuesSummary": "+10–15%",
+        "statTags": []
+      },
+      {
+        "name": "Mana Ward",
+        "slug": "Mana_Ward",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mana_Ward",
+        "description": "Shield your target with a mana ward, absorbing 60 Spell Damage received for 15 seconds.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": 50,
+        "castTime": null,
+        "level": 12,
+        "type": "ability",
+        "tags": [
+          "shield"
+        ],
+        "primaryTag": "shield",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      },
+      {
+        "name": "Memory Fog",
+        "slug": "Memory_Fog",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Memory_Fog",
+        "description": "Manipulate the mind of your target, giving a chance to forget past wrongdoings.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": 25,
+        "castTime": null,
+        "level": 12,
+        "type": "ability",
+        "tags": [],
+        "primaryTag": null,
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      },
+      {
+        "name": "See Invisibility",
+        "slug": "See_Invisibility",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/See_Invisibility",
+        "description": "Clear the eyes of your target with a magical coating, granting them the ability to see invisible entities for 1 hour.",
+        "category": "Div",
+        "categorySlug": "Skill_Divination",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
+        "location": "Vendor",
+        "mana": 20,
+        "castTime": null,
+        "level": 12,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "invisibility",
+          "utility"
+        ],
+        "primaryTag": "buff",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      }
+    ],
+    "13": [
+      {
+        "name": "Lesser Spellshield",
+        "slug": "Lesser_Spellshield",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Lesser_Spellshield",
+        "description": "A magical shield encircles you, increasing your HP by 25, AC by 10, and Magic Resistance by 10.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": 25,
+        "castTime": null,
+        "level": 13,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "shield",
+          "self",
+          "AC",
+          "MAX HP",
+          "MR"
+        ],
+        "primaryTag": "shield",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "HP",
+            "amount": 25,
+            "display": "+25 HP",
+            "sortKey": 25,
+            "statTag": "MAX HP"
+          },
+          {
+            "kind": "buff",
+            "stat": "AC",
+            "amount": 10,
+            "display": "+10 AC",
+            "sortKey": 10,
+            "statTag": "AC"
+          },
+          {
+            "kind": "buff",
+            "stat": "Magic Resistance",
+            "amount": 10,
+            "display": "+10 Magic Resistance",
+            "sortKey": 10,
+            "statTag": "MR"
+          }
+        ],
+        "valuesSummary": "+25 HP · +10 AC · +10 Magic Resistance",
+        "statTags": [
+          "AC",
+          "MAX HP",
+          "MR"
+        ]
+      }
+    ],
+    "14": [
+      {
+        "name": "Psychic Choke",
+        "slug": "Psychic_Choke",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Psychic_Choke",
+        "description": "Choke your target, stunning them and dealing 1 Corruption Damage every second for 6 seconds.",
+        "category": "Evo",
+        "categorySlug": "Skill_Evocation",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
+        "location": "Vendor",
+        "mana": 40,
+        "castTime": null,
+        "level": 14,
+        "type": "ability",
+        "tags": [
+          "damage",
+          "crowd-control",
+          "stun"
+        ],
+        "primaryTag": "damage",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      }
+    ],
+    "15": [
+      {
+        "name": "Purge",
+        "slug": "Purge",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Purge",
+        "description": "Purge your target, removing one beneficial effect.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": 20,
+        "castTime": null,
+        "level": 15,
+        "type": "ability",
+        "tags": [
+          "purge"
+        ],
+        "primaryTag": "purge",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      }
+    ],
+    "16": [
+      {
+        "name": "Minor Strength",
+        "slug": "Minor_Strength",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Minor_Strength",
+        "description": "Increases the Strength of a friendly target by 2 for 30 minutes.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": 5,
+        "castTime": null,
+        "level": 16,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "STR"
+        ],
+        "primaryTag": "buff",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "Strength",
+            "amount": 2,
+            "display": "+2 Strength",
+            "sortKey": 2,
+            "statTag": "STR"
+          }
+        ],
+        "valuesSummary": "+2 Strength",
+        "statTags": [
+          "STR"
+        ]
+      }
+    ],
+    "17": [
+      {
+        "name": "Deflect",
+        "slug": "Deflect",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Deflect",
+        "description": "Deflect magical attacks, reducing incoming Magic Damage dealt to you by 40% for 30 seconds.",
+        "category": "Mar",
+        "categorySlug": "Skill_Martial",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 17,
+        "type": "ability",
+        "tags": [
+          "self"
+        ],
+        "primaryTag": "self",
+        "effects": [
+          {
+            "kind": "debuff",
+            "stat": "incoming Magic Damage dealt to you",
+            "min": 40,
+            "max": 40,
+            "unit": "%",
+            "display": "−40%",
+            "sortKey": 40
+          }
+        ],
+        "valuesSummary": "−40%",
+        "statTags": []
+      }
+    ],
+    "18": [
+      {
+        "name": "Mana Burn",
+        "slug": "Mana_Burn",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mana_Burn",
+        "description": "Burns up to 90 Mana from your target, dealing damage equal to 75% of the amount of mana drained.",
+        "category": "Evo",
+        "categorySlug": "Skill_Evocation",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
+        "location": "Vendor",
+        "mana": 5,
+        "castTime": null,
+        "level": 18,
+        "type": "ability",
+        "tags": [
+          "damage",
+          "mana-drain"
+        ],
+        "primaryTag": "damage",
+        "effects": [
+          {
+            "kind": "resource",
+            "amount": 90,
+            "display": "90 mana burn",
+            "sortKey": 90
+          }
+        ],
+        "valuesSummary": "90 mana burn",
+        "statTags": []
+      }
+    ],
+    "19": [
+      {
+        "name": "Magic Splinter",
+        "slug": "Magic_Splinter",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Magic_Splinter",
+        "description": "Splinters your target's resistance to the arcane, decreasing their Magic Resistance by 5 (L12) to 8 (L16). This spell is unresistable if the target is not immune to magic or it can otherwise by landed normally.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": 25,
+        "castTime": null,
+        "level": 19,
+        "type": "ability",
+        "tags": [
+          "debuff",
+          "MR"
+        ],
+        "primaryTag": "debuff",
+        "effects": [
+          {
+            "kind": "debuff",
+            "stat": "Magic Resistance",
+            "min": 5,
+            "max": 8,
+            "minLevel": 12,
+            "maxLevel": 16,
+            "display": "−5–8 Magic Resistance (L12–L16)",
+            "sortKey": 8,
+            "statTag": "MR"
+          }
+        ],
+        "valuesSummary": "−5–8 Magic Resistance (L12–L16)",
+        "statTags": [
+          "MR"
+        ]
+      }
+    ],
+    "20": [
+      {
+        "name": "Torture",
+        "slug": "Torture",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Torture",
+        "description": "Tortures your target's mental state, causing 60 points of Magic Damage and decreasing their Intelligence, Wisdom, Charisma, and Mana Regeneration by 5",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": 85,
+        "castTime": null,
+        "level": 20,
+        "type": "ability",
+        "tags": [
+          "debuff",
+          "CHA",
+          "INT",
+          "MANA",
+          "WIS",
+          "damage"
+        ],
+        "primaryTag": "debuff",
+        "effects": [
+          {
+            "kind": "damage",
+            "amount": 60,
+            "damageType": "Magic",
+            "display": "60 Magic dmg",
+            "sortKey": 60
+          },
+          {
+            "kind": "debuff",
+            "stat": "Intelligence",
+            "amount": 5,
+            "display": "−5 Intelligence",
+            "sortKey": 5,
+            "statTag": "INT"
+          },
+          {
+            "kind": "debuff",
+            "stat": "Wisdom",
+            "amount": 5,
+            "display": "−5 Wisdom",
+            "sortKey": 5,
+            "statTag": "WIS"
+          },
+          {
+            "kind": "debuff",
+            "stat": "Charisma",
+            "amount": 5,
+            "display": "−5 Charisma",
+            "sortKey": 5,
+            "statTag": "CHA"
+          },
+          {
+            "kind": "debuff",
+            "stat": "Mana Regeneration",
+            "amount": 5,
+            "display": "−5 Mana Regeneration",
+            "sortKey": 5,
+            "statTag": "MANA"
+          }
+        ],
+        "valuesSummary": "−5 INT/WIS/CHA/MANA · 60 Magic dmg",
+        "statTags": [
+          "CHA",
+          "INT",
+          "MANA",
+          "WIS"
+        ]
+      }
+    ],
+    "21": [
+      {
+        "name": "Mind Fatigue",
+        "slug": "Mind_Fatigue",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mind_Fatigue",
+        "description": "Fatigue your target, slowing their Casting Speed by 30% for 1 minute.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": 90,
+        "castTime": null,
+        "level": 21,
+        "type": "ability",
+        "tags": [
+          "debuff",
+          "CAST"
+        ],
+        "primaryTag": "debuff",
+        "effects": [
+          {
+            "kind": "debuff",
+            "stat": "Casting Speed",
+            "min": 30,
+            "max": 30,
+            "unit": "%",
+            "display": "−30%",
+            "sortKey": 30,
+            "statTag": "CAST"
+          }
+        ],
+        "valuesSummary": "−30%",
+        "statTags": [
+          "CAST"
+        ]
+      }
+    ],
+    "22": [
+      {
+        "name": "Magical Disruption Shell",
+        "slug": "Magical_Disruption_Shell",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Magical_Disruption_Shell",
+        "description": "Bestows your group a magic disrupting shell, reducing spell damage taken by 75% for 15 seconds. This effect cannot be dispelled.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": 0,
+        "castTime": null,
+        "level": 22,
+        "type": "ability",
+        "tags": [
+          "buff"
+        ],
+        "primaryTag": "buff",
+        "effects": [
+          {
+            "kind": "debuff",
+            "stat": "spell damage taken",
+            "min": 75,
+            "max": 75,
+            "unit": "%",
+            "display": "−75%",
+            "sortKey": 75
+          }
+        ],
+        "valuesSummary": "−75%",
+        "statTags": []
+      }
+    ],
+    "23": [
+      {
+        "name": "Arcane Protection",
+        "slug": "Arcane_Protection",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Arcane_Protection",
+        "description": "Surrounds a group member with a magically impenetrable shield, making them invulnerable to magic for 15 seconds. This spell inflicts Exhausted Soul upon expiration, preventing the application of immunity effects for 30 seconds.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": 15,
+        "castTime": null,
+        "level": 23,
+        "type": "ability",
+        "tags": [],
+        "primaryTag": null,
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      },
+      {
+        "name": "Fell Mana",
+        "slug": "Fell_Mana",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Fell_Mana",
+        "description": "Fell the mind of your target, depleting 180 Mana.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 23,
+        "type": "ability",
+        "tags": [
+          "mana-drain"
+        ],
+        "primaryTag": "mana-drain",
+        "effects": [
+          {
+            "kind": "resource",
+            "amount": 180,
+            "display": "180 mana drain",
+            "sortKey": 180
+          }
+        ],
+        "valuesSummary": "180 mana drain",
+        "statTags": []
+      }
+    ],
+    "24": [
+      {
+        "name": "Captivate",
+        "slug": "Captivate",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Captivate",
+        "description": "Captivates your target, putting them to Sleep for 60 seconds. There is a very small chance that the enemy target will forget about your aggression. This effect is removed by melee or spell damage.",
+        "category": "Con",
+        "categorySlug": "Skill_Conjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
+        "location": "Vendor",
+        "mana": 40,
+        "castTime": null,
+        "level": 24,
+        "type": "ability",
+        "tags": [
+          "crowd-control",
+          "mez"
+        ],
+        "primaryTag": "mez",
+        "effects": [
+          {
+            "kind": "crowd-control",
+            "duration": 60,
+            "display": "60s duration",
+            "sortKey": 60
+          }
+        ],
+        "valuesSummary": "60s duration",
+        "statTags": []
+      },
+      {
+        "name": "Magic Ward",
+        "slug": "Magic_Ward",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Magic_Ward",
+        "description": "Shield your target with a mana ward, absorbing 250 Spell Damage received for 15 seconds.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": 165,
+        "castTime": null,
+        "level": 24,
+        "type": "ability",
+        "tags": [
+          "shield"
+        ],
+        "primaryTag": "shield",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      },
+      {
+        "name": "Magic Resistance",
+        "slug": "Magic_Resistance",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Magic_Resistance",
+        "description": "Greatly ward your target against the arcane, increasing their Magic Resistance by 15 for 1 hour.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 24,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "MR"
+        ],
+        "primaryTag": "buff",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "Magic Resistance",
+            "amount": 15,
+            "display": "+15 Magic Resistance",
+            "sortKey": 15,
+            "statTag": "MR"
+          }
+        ],
+        "valuesSummary": "+15 Magic Resistance",
+        "statTags": [
+          "MR"
+        ]
+      }
+    ],
+    "25": [
+      {
+        "name": "Greater Purge",
+        "slug": "Greater_Purge",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Greater_Purge",
+        "description": "Purge an enemy and up to 5 additional nearby targets, dispelling a magical effect, as well as all songs and immunities.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": 150,
+        "castTime": null,
+        "level": 25,
+        "type": "ability",
+        "tags": [
+          "purge",
+          "aoe"
+        ],
+        "primaryTag": "purge",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      }
+    ],
+    "26": [
+      {
+        "name": "Spellshield",
+        "slug": "Spellshield",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Spellshield",
+        "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 50, Armor Class by 15, and Magic Resistance by 15 for 1 hour.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": 50,
+        "castTime": null,
+        "level": 26,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "shield",
+          "self",
+          "AC",
+          "MAX HP",
+          "MR"
+        ],
+        "primaryTag": "shield",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "Health",
+            "amount": 50,
+            "display": "+50 Health",
+            "sortKey": 50,
+            "statTag": "MAX HP"
+          },
+          {
+            "kind": "buff",
+            "stat": "Armor Class",
+            "amount": 15,
+            "display": "+15 Armor Class",
+            "sortKey": 15,
+            "statTag": "AC"
+          },
+          {
+            "kind": "buff",
+            "stat": "Magic Resistance",
+            "amount": 15,
+            "display": "+15 Magic Resistance",
+            "sortKey": 15,
+            "statTag": "MR"
+          }
+        ],
+        "valuesSummary": "+50 Health · +15 Armor Class · +15 Magic Resistance",
+        "statTags": [
+          "AC",
+          "MAX HP",
+          "MR"
+        ]
+      }
+    ],
+    "27": [
+      {
+        "name": "Mana Burn II",
+        "slug": "Mana_Burn_II",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mana_Burn_II",
+        "description": "Burns up to 125 Mana from your target, dealing damage equal to 75% of the amount of mana drained.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": 5,
+        "castTime": null,
+        "level": 27,
+        "type": "ability",
+        "tags": [
+          "damage",
+          "mana-drain"
+        ],
+        "primaryTag": "damage",
+        "effects": [
+          {
+            "kind": "resource",
+            "amount": 125,
+            "display": "125 mana burn",
+            "sortKey": 125
+          }
+        ],
+        "valuesSummary": "125 mana burn",
+        "statTags": []
+      }
+    ],
+    "28": [
+      {
+        "name": "Mandate of Silence",
+        "slug": "Mandate_of_Silence",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mandate_of_Silence",
+        "description": "Silence nearby targets, preventing them from casting spells for 6 seconds.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": 15,
+        "castTime": null,
+        "level": 28,
+        "type": "ability",
+        "tags": [
+          "crowd-control",
+          "silence",
+          "aoe"
+        ],
+        "primaryTag": "silence",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      }
+    ],
+    "31": [
+      {
+        "name": "Scintillating Stupor",
+        "slug": "Scintillating_Stupor",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Scintillating_Stupor",
+        "description": "Shocks nearby enemies with bright lights, stunning them for 5 seconds. This ability shares a cooldown with other abilities in the same line.",
+        "category": "Div",
+        "categorySlug": "Skill_Divination",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 31,
+        "type": "ability",
+        "tags": [
+          "crowd-control",
+          "stun"
+        ],
+        "primaryTag": "stun",
+        "effects": [
+          {
+            "kind": "crowd-control",
+            "duration": 5,
+            "display": "5s duration",
+            "sortKey": 5
+          }
+        ],
+        "valuesSummary": "5s duration",
+        "statTags": []
+      }
+    ],
+    "32": [
+      {
+        "name": "Lesser Strength",
+        "slug": "Lesser_Strength",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Lesser_Strength",
+        "description": "Increases the Strength of a friendly target by 5 for 30 minutes.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 32,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "STR"
+        ],
+        "primaryTag": "buff",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "Strength",
+            "amount": 5,
+            "display": "+5 Strength",
+            "sortKey": 5,
+            "statTag": "STR"
+          }
+        ],
+        "valuesSummary": "+5 Strength",
+        "statTags": [
+          "STR"
+        ]
+      },
+      {
+        "name": "Traumatize",
+        "slug": "Traumatize",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Traumatize",
+        "description": "Traumatizes your target's mental state, causing 150 points of Magic Damage and decreasing their Intelligence, Wisdom, Charisma, and Mana Regeneration by 10.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 32,
+        "type": "ability",
+        "tags": [
+          "debuff",
+          "CHA",
+          "INT",
+          "MANA",
+          "WIS",
+          "damage"
+        ],
+        "primaryTag": "debuff",
+        "effects": [
+          {
+            "kind": "damage",
+            "amount": 150,
+            "damageType": "Magic",
+            "display": "150 Magic dmg",
+            "sortKey": 150
+          },
+          {
+            "kind": "debuff",
+            "stat": "Intelligence",
+            "amount": 10,
+            "display": "−10 Intelligence",
+            "sortKey": 10,
+            "statTag": "INT"
+          },
+          {
+            "kind": "debuff",
+            "stat": "Wisdom",
+            "amount": 10,
+            "display": "−10 Wisdom",
+            "sortKey": 10,
+            "statTag": "WIS"
+          },
+          {
+            "kind": "debuff",
+            "stat": "Charisma",
+            "amount": 10,
+            "display": "−10 Charisma",
+            "sortKey": 10,
+            "statTag": "CHA"
+          },
+          {
+            "kind": "debuff",
+            "stat": "Mana Regeneration",
+            "amount": 10,
+            "display": "−10 Mana Regeneration",
+            "sortKey": 10,
+            "statTag": "MANA"
+          }
+        ],
+        "valuesSummary": "−10 INT/WIS/CHA/MANA · 150 Magic dmg",
+        "statTags": [
+          "CHA",
+          "INT",
+          "MANA",
+          "WIS"
+        ]
+      }
+    ],
+    "36": [
+      {
+        "name": "Arcane Ward",
+        "slug": "Arcane_Ward",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Arcane_Ward",
+        "description": "Shield your target with an arvane ward, absorbing 600 Spell Damage received for 15 seconds.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 36,
+        "type": "ability",
+        "tags": [
+          "shield"
+        ],
+        "primaryTag": "shield",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      },
+      {
+        "name": "Greater Spellshield",
+        "slug": "Greater_Spellshield",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Greater_Spellshield",
+        "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 75, Armor Class by 10, and Magic Resistance by 10 for 1 hour.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 36,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "shield",
+          "self",
+          "AC",
+          "MAX HP",
+          "MR"
+        ],
+        "primaryTag": "shield",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "Health",
+            "amount": 75,
+            "display": "+75 Health",
+            "sortKey": 75,
+            "statTag": "MAX HP"
+          },
+          {
+            "kind": "buff",
+            "stat": "Armor Class",
+            "amount": 10,
+            "display": "+10 Armor Class",
+            "sortKey": 10,
+            "statTag": "AC"
+          },
+          {
+            "kind": "buff",
+            "stat": "Magic Resistance",
+            "amount": 10,
+            "display": "+10 Magic Resistance",
+            "sortKey": 10,
+            "statTag": "MR"
+          }
+        ],
+        "valuesSummary": "+75 Health · +10 Armor Class · +10 Magic Resistance",
+        "statTags": [
+          "AC",
+          "MAX HP",
+          "MR"
+        ]
+      },
+      {
+        "name": "Mana Burn III",
+        "slug": "Mana_Burn_III",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mana_Burn_III",
+        "description": "Burns up to 165 Mana from your target, dealing damage equal to 75% of the amount of mana drained.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 36,
+        "type": "ability",
+        "tags": [
+          "damage",
+          "mana-drain"
+        ],
+        "primaryTag": "damage",
+        "effects": [
+          {
+            "kind": "resource",
+            "amount": 165,
+            "display": "165 mana burn",
+            "sortKey": 165
+          }
+        ],
+        "valuesSummary": "165 mana burn",
+        "statTags": []
+      },
+      {
+        "name": "Mind Lethargy",
+        "slug": "Mind_Lethargy",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mind_Lethargy",
+        "description": "Lethargize your target, slowing their Casting Speed by 40% for 1 minute.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 36,
+        "type": "ability",
+        "tags": [
+          "debuff",
+          "CAST"
+        ],
+        "primaryTag": "debuff",
+        "effects": [
+          {
+            "kind": "debuff",
+            "stat": "Casting Speed",
+            "min": 40,
+            "max": 40,
+            "unit": "%",
+            "display": "−40%",
+            "sortKey": 40,
+            "statTag": "CAST"
+          }
+        ],
+        "valuesSummary": "−40%",
+        "statTags": [
+          "CAST"
+        ]
+      }
+    ],
+    "40": [
+      {
+        "name": "Magic Crack",
+        "slug": "Magic_Crack",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Magic_Crack",
+        "description": "Cracks your target's resistance to the arcane, decreasing their Magic Resistance by 9 (L24) to 12 (L28). This spell is unresistable if the target is not immune to magic or it can otherwise be landed normally.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 40,
+        "type": "ability",
+        "tags": [
+          "debuff",
+          "MR"
+        ],
+        "primaryTag": "debuff",
+        "effects": [
+          {
+            "kind": "debuff",
+            "stat": "Magic Resistance",
+            "min": 9,
+            "max": 12,
+            "minLevel": 24,
+            "maxLevel": 28,
+            "display": "−9–12 Magic Resistance (L24–L28)",
+            "sortKey": 12,
+            "statTag": "MR"
+          }
+        ],
+        "valuesSummary": "−9–12 Magic Resistance (L24–L28)",
+        "statTags": [
+          "MR"
+        ]
+      }
+    ],
+    "42": [
+      {
+        "name": "Hypnotize",
+        "slug": "Hypnotize",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Hypnotize",
+        "description": "Hypnotizes your target, putting them to Sleep for 1 minute and 30 seconds. There is a very small chance that the enemy target will forget about your aggression. This effect is removed by melee or spell damage.",
+        "category": "Con",
+        "categorySlug": "Skill_Conjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
+        "location": "Vendor",
+        "mana": 90,
+        "castTime": null,
+        "level": 42,
+        "type": "ability",
+        "tags": [
+          "crowd-control",
+          "mez"
+        ],
+        "primaryTag": "mez",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      }
+    ],
+    "44": [
+      {
+        "name": "Anxiety",
+        "slug": "Anxiety",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Anxiety",
+        "description": "Causes anxiety to your target's mental state, causing 225 points of Magic Damage and decreasing their Intelligence, Wisdom, Charisma, and Mana Regeneration by 15.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 44,
+        "type": "ability",
+        "tags": [
+          "debuff",
+          "CHA",
+          "INT",
+          "MANA",
+          "WIS",
+          "damage"
+        ],
+        "primaryTag": "debuff",
+        "effects": [
+          {
+            "kind": "damage",
+            "amount": 225,
+            "damageType": "Magic",
+            "display": "225 Magic dmg",
+            "sortKey": 225
+          },
+          {
+            "kind": "debuff",
+            "stat": "Intelligence",
+            "amount": 15,
+            "display": "−15 Intelligence",
+            "sortKey": 15,
+            "statTag": "INT"
+          },
+          {
+            "kind": "debuff",
+            "stat": "Wisdom",
+            "amount": 15,
+            "display": "−15 Wisdom",
+            "sortKey": 15,
+            "statTag": "WIS"
+          },
+          {
+            "kind": "debuff",
+            "stat": "Charisma",
+            "amount": 15,
+            "display": "−15 Charisma",
+            "sortKey": 15,
+            "statTag": "CHA"
+          },
+          {
+            "kind": "debuff",
+            "stat": "Mana Regeneration",
+            "amount": 15,
+            "display": "−15 Mana Regeneration",
+            "sortKey": 15,
+            "statTag": "MANA"
+          }
+        ],
+        "valuesSummary": "−15 INT/WIS/CHA/MANA · 225 Magic dmg",
+        "statTags": [
+          "CHA",
+          "INT",
+          "MANA",
+          "WIS"
+        ]
+      },
+      {
+        "name": "Explode Mana",
+        "slug": "Explode_Mana",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Explode_Mana",
+        "description": "Explode the mind of your target, depleting 360 Mana.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 44,
+        "type": "ability",
+        "tags": [
+          "mana-drain"
+        ],
+        "primaryTag": "mana-drain",
+        "effects": [
+          {
+            "kind": "resource",
+            "amount": 360,
+            "display": "360 mana drain",
+            "sortKey": 360
+          }
+        ],
+        "valuesSummary": "360 mana drain",
+        "statTags": []
+      },
+      {
+        "name": "Holy Resistance",
+        "slug": "Holy_Resistance",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Holy_Resistance",
+        "description": "Greatly wards your target from the arcane, increasing their Holy Resistance by 15",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 44,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "HR"
+        ],
+        "primaryTag": "buff",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "Holy Resistance",
+            "amount": 15,
+            "display": "+15 Holy Resistance",
+            "sortKey": 15,
+            "statTag": "HR"
+          }
+        ],
+        "valuesSummary": "+15 Holy Resistance",
+        "statTags": [
+          "HR"
+        ]
+      },
+      {
+        "name": "Mana Burn IV",
+        "slug": "Mana_Burn_IV",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mana_Burn_IV",
+        "description": "Burns up to 225 Mana from your target, dealing damage equal to 75% of the amount of mana drained.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 44,
+        "type": "ability",
+        "tags": [
+          "damage",
+          "mana-drain"
+        ],
+        "primaryTag": "damage",
+        "effects": [
+          {
+            "kind": "resource",
+            "amount": 225,
+            "display": "225 mana burn",
+            "sortKey": 225
+          }
+        ],
+        "valuesSummary": "225 mana burn",
+        "statTags": []
+      }
+    ],
+    "48": [
+      {
+        "name": "Exceptional Spellshield",
+        "slug": "Exceptional_Spellshield",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Exceptional_Spellshield",
+        "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 100, Armor Class by 25, and Magic Resistance by 25 for 1 hour.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 48,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "shield",
+          "self",
+          "AC",
+          "MAX HP",
+          "MR"
+        ],
+        "primaryTag": "shield",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "Health",
+            "amount": 100,
+            "display": "+100 Health",
+            "sortKey": 100,
+            "statTag": "MAX HP"
+          },
+          {
+            "kind": "buff",
+            "stat": "Armor Class",
+            "amount": 25,
+            "display": "+25 Armor Class",
+            "sortKey": 25,
+            "statTag": "AC"
+          },
+          {
+            "kind": "buff",
+            "stat": "Magic Resistance",
+            "amount": 25,
+            "display": "+25 Magic Resistance",
+            "sortKey": 25,
+            "statTag": "MR"
+          }
+        ],
+        "valuesSummary": "+100 Health · +25 Armor Class · +25 Magic Resistance",
+        "statTags": [
+          "AC",
+          "MAX HP",
+          "MR"
+        ]
+      },
+      {
+        "name": "Mystical Ward",
+        "slug": "Mystical_Ward",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mystical_Ward",
+        "description": "Shield your target with a mystical ward, absorbing 800 Spell Damage received for 15 seconds.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 48,
+        "type": "ability",
+        "tags": [
+          "shield"
+        ],
+        "primaryTag": "shield",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": []
+      },
+      {
+        "name": "Rapidity",
+        "slug": "Rapidity",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Rapidity",
+        "description": "Haste your target, increasing their Melee and Ranged Attack Speed by 30% (L32) to 35% (L48).",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 48,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "haste"
+        ],
+        "primaryTag": "buff",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "Melee and Ranged Attack Speed",
+            "min": 30,
+            "max": 35,
+            "unit": "%",
+            "display": "+30–35%",
+            "sortKey": 35,
+            "statTag": "ATK"
+          }
+        ],
+        "valuesSummary": "+30–35%",
+        "statTags": []
+      },
+      {
+        "name": "Strength",
+        "slug": "Strength",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Strength",
+        "description": "Increases the Strength of a friendly target by 10 for 30 minutes.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 48,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "STR"
+        ],
+        "primaryTag": "buff",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "Strength",
+            "amount": 10,
+            "display": "+10 Strength",
+            "sortKey": 10,
+            "statTag": "STR"
+          }
+        ],
+        "valuesSummary": "+10 Strength",
+        "statTags": [
+          "STR"
+        ]
+      }
+    ],
+    "52": [
+      {
+        "name": "Mana Burn V",
+        "slug": "Mana_Burn_V",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mana_Burn_V",
+        "description": "Burns up to 300 Mana from your target, dealing damage equal to 75% of the amount of mana drained.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 52,
+        "type": "ability",
+        "tags": [
+          "damage",
+          "mana-drain"
+        ],
+        "primaryTag": "damage",
+        "effects": [
+          {
+            "kind": "resource",
+            "amount": 300,
+            "display": "300 mana burn",
+            "sortKey": 300
+          }
+        ],
+        "valuesSummary": "300 mana burn",
+        "statTags": []
+      }
+    ],
+    "53": [
+      {
+        "name": "Scintillation",
+        "slug": "Scintillation",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Scintillation",
+        "description": "Shocks nearby enemies with bright lights, stunning them for 6 seconds. This ability shares a cooldown with other abilities in the same line.",
+        "category": "Div",
+        "categorySlug": "Skill_Divination",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 53,
+        "type": "ability",
+        "tags": [
+          "crowd-control",
+          "stun"
+        ],
+        "primaryTag": "stun",
+        "effects": [
+          {
+            "kind": "crowd-control",
+            "duration": 6,
+            "display": "6s duration",
+            "sortKey": 6
+          }
+        ],
+        "valuesSummary": "6s duration",
+        "statTags": []
+      }
+    ],
+    "55": [
+      {
+        "name": "Mind Debilitation",
+        "slug": "Mind_Debilitation",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mind_Debilitation",
+        "description": "Debilitate your target, slowing their Casting Speed by 50% for 1 minute.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 55,
+        "type": "ability",
+        "tags": [
+          "debuff",
+          "CAST"
+        ],
+        "primaryTag": "debuff",
+        "effects": [
+          {
+            "kind": "debuff",
+            "stat": "Casting Speed",
+            "min": 50,
+            "max": 50,
+            "unit": "%",
+            "display": "−50%",
+            "sortKey": 50,
+            "statTag": "CAST"
+          }
+        ],
+        "valuesSummary": "−50%",
+        "statTags": [
+          "CAST"
+        ]
+      }
+    ],
+    "56": [
+      {
+        "name": "Dread",
+        "slug": "Dread",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Dread",
+        "description": "Causes dread to your target's mental state, causing 420 points of Magic Damage and decreasing their Intelligence, Wisdom, Charisma, and Mana Regeneration by 20.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 56,
+        "type": "ability",
+        "tags": [
+          "debuff",
+          "CHA",
+          "INT",
+          "MANA",
+          "WIS",
+          "damage"
+        ],
+        "primaryTag": "debuff",
+        "effects": [
+          {
+            "kind": "damage",
+            "amount": 420,
+            "damageType": "Magic",
+            "display": "420 Magic dmg",
+            "sortKey": 420
+          },
+          {
+            "kind": "debuff",
+            "stat": "Intelligence",
+            "amount": 20,
+            "display": "−20 Intelligence",
+            "sortKey": 20,
+            "statTag": "INT"
+          },
+          {
+            "kind": "debuff",
+            "stat": "Wisdom",
+            "amount": 20,
+            "display": "−20 Wisdom",
+            "sortKey": 20,
+            "statTag": "WIS"
+          },
+          {
+            "kind": "debuff",
+            "stat": "Charisma",
+            "amount": 20,
+            "display": "−20 Charisma",
+            "sortKey": 20,
+            "statTag": "CHA"
+          },
+          {
+            "kind": "debuff",
+            "stat": "Mana Regeneration",
+            "amount": 20,
+            "display": "−20 Mana Regeneration",
+            "sortKey": 20,
+            "statTag": "MANA"
+          }
+        ],
+        "valuesSummary": "−20 INT/WIS/CHA/MANA · 420 Magic dmg",
+        "statTags": [
+          "CHA",
+          "INT",
+          "MANA",
+          "WIS"
+        ]
+      }
+    ],
+    "60": [
+      {
+        "name": "Arch Spellshield",
+        "slug": "Arch_Spellshield",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Arch_Spellshield",
+        "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 150, Armor Class by 10, and Magic Resistance by 1 for 1 hour.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 60,
+        "type": "ability",
+        "tags": [
+          "buff",
+          "shield",
+          "self",
+          "AC",
+          "MAX HP",
+          "MR"
+        ],
+        "primaryTag": "shield",
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "Health",
+            "amount": 150,
+            "display": "+150 Health",
+            "sortKey": 150,
+            "statTag": "MAX HP"
+          },
+          {
+            "kind": "buff",
+            "stat": "Armor Class",
+            "amount": 10,
+            "display": "+10 Armor Class",
+            "sortKey": 10,
+            "statTag": "AC"
+          },
+          {
+            "kind": "buff",
+            "stat": "Magic Resistance",
+            "amount": 1,
+            "display": "+1 Magic Resistance",
+            "sortKey": 1,
+            "statTag": "MR"
+          }
+        ],
+        "valuesSummary": "+150 Health · +10 Armor Class · +1 Magic Resistance",
+        "statTags": [
+          "AC",
+          "MAX HP",
+          "MR"
+        ]
+      },
+      {
+        "name": "Destroy Mana",
+        "slug": "Destroy_Mana",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Destroy_Mana",
+        "description": "Destroy the mind of your target, depleting 540 Mana.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 60,
+        "type": "ability",
+        "tags": [
+          "mana-drain"
+        ],
+        "primaryTag": "mana-drain",
+        "effects": [
+          {
+            "kind": "resource",
+            "amount": 540,
+            "display": "540 mana drain",
+            "sortKey": 540
+          }
+        ],
+        "valuesSummary": "540 mana drain",
+        "statTags": []
+      },
+      {
+        "name": "Magic Fracture",
+        "slug": "Magic_Fracture",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Magic_Fracture",
+        "description": "Fractures your target's resistance to the arcane, decreasing their Magic Resistance by 13 (L40) to 16 (L44). This spell is unresistable if the target is not immune to magic or it can otherwise be landed normally.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 60,
+        "type": "ability",
+        "tags": [
+          "debuff",
+          "MR"
+        ],
+        "primaryTag": "debuff",
+        "effects": [
+          {
+            "kind": "debuff",
+            "stat": "Magic Resistance",
+            "min": 13,
+            "max": 16,
+            "minLevel": 40,
+            "maxLevel": 44,
+            "display": "−13–16 Magic Resistance (L40–L44)",
+            "sortKey": 16,
+            "statTag": "MR"
+          }
+        ],
+        "valuesSummary": "−13–16 Magic Resistance (L40–L44)",
+        "statTags": [
+          "MR"
+        ]
+      },
+      {
+        "name": "Mana Burn VI",
+        "slug": "Mana_Burn_VI",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mana_Burn_VI",
+        "description": "Burns up to 400 Mana from your target, dealing damage equal to 75% of the amount of mana drained.",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": "",
+        "castTime": null,
+        "level": 60,
+        "type": "ability",
+        "tags": [
+          "damage",
+          "mana-drain"
+        ],
+        "primaryTag": "damage",
+        "effects": [
+          {
+            "kind": "resource",
+            "amount": 400,
+            "display": "400 mana burn",
+            "sortKey": 400
+          }
+        ],
+        "valuesSummary": "400 mana burn",
+        "statTags": []
+      }
+    ]
+  },
+  "entries": [
+    {
+      "name": "Aura of Resistance",
+      "slug": "Aura_of_Resistance",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Aura_of_Resistance",
+      "description": "An aura which greatly wards your group from the arcane, increasing their Magic, Cold, Fire, Corruption, and Holy Resistance by 2 (L1) to 30 (L60) and increases Spell Damage Reduction by 5%.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 1,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "HR",
+        "damage"
+      ],
+      "primaryTag": "buff",
+      "effects": [
+        {
+          "kind": "damage",
+          "min": 2,
+          "max": 30,
+          "minLevel": 1,
+          "maxLevel": 60,
+          "damageType": "and increases Spell Reduction by 5%",
+          "display": "2–30% and increases Spell Reduction by 5% dmg (L1–L60)",
+          "sortKey": 30
+        },
+        {
+          "kind": "buff",
+          "stat": "Holy Resistance",
+          "min": 2,
+          "max": 30,
+          "minLevel": 1,
+          "maxLevel": 60,
+          "display": "+2–30 Holy Resistance (L1–L60)",
+          "sortKey": 30,
+          "statTag": "HR"
+        }
+      ],
+      "valuesSummary": "+2–30 Holy Resistance (L1–L60) · 2–30% and increases Spell Reduction by 5% dmg (L1–L60)",
+      "statTags": [
+        "HR"
+      ]
+    },
+    {
+      "name": "Magic Protection",
+      "slug": "Magic_Protection",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Magic_Protection",
+      "description": "Wards your target from the arcane, increasing their Magic Resistance by 5 for 1 hour.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": 10,
+      "castTime": null,
+      "level": 1,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "MR"
+      ],
+      "primaryTag": "buff",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "Magic Resistance",
+          "amount": 5,
+          "display": "+5 Magic Resistance",
+          "sortKey": 5,
+          "statTag": "MR"
+        }
+      ],
+      "valuesSummary": "+5 Magic Resistance",
+      "statTags": [
+        "MR"
+      ]
+    },
+    {
+      "name": "Mind Exhaustion",
+      "slug": "Mind_Exhaustion",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mind_Exhaustion",
+      "description": "Exhaust your target, slowing their Casting Speed by 10% for 1 minute.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": 8,
+      "castTime": null,
+      "level": 1,
+      "type": "ability",
+      "tags": [
+        "debuff",
+        "CAST"
+      ],
+      "primaryTag": "debuff",
+      "effects": [
+        {
+          "kind": "debuff",
+          "stat": "Casting Speed",
+          "min": 10,
+          "max": 10,
+          "unit": "%",
+          "display": "−10%",
+          "sortKey": 10,
+          "statTag": "CAST"
+        }
+      ],
+      "valuesSummary": "−10%",
+      "statTags": [
+        "CAST"
+      ]
+    },
+    {
+      "name": "Polar Align: North",
+      "slug": "Polar_Align:_North",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Polar_Align:_North",
+      "description": "Magically align yourself, orienting you toward the North Pole.",
+      "category": "Div",
+      "categorySlug": "Skill_Divination",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
+      "location": "Vendor",
+      "mana": 5,
+      "castTime": null,
+      "level": 1,
+      "type": "ability",
+      "tags": [
+        "utility",
+        "self"
+      ],
+      "primaryTag": "utility",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Shoot",
+      "slug": "Shoot",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Shoot",
+      "description": "Shoots your target with a bow. (requires bow & arrows)",
+      "category": "Mar",
+      "categorySlug": "Skill_Martial",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 1,
+      "type": "ability",
+      "tags": [
+        "damage"
+      ],
+      "primaryTag": "damage",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Slam",
+      "slug": "Slam",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Slam",
+      "description": "Forcefully slam your target, dealing 100% Weapon Damage plus 1 (L1) to 20 (L60) Physical Damage, and increasing your Threat by 20 (L1) to 200 (L60). Has a chance to stun from behind the target.",
+      "category": "Mar",
+      "categorySlug": "Skill_Martial",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 1,
+      "type": "ability",
+      "tags": [
+        "damage",
+        "buff",
+        "crowd-control",
+        "stun",
+        "THREAT"
+      ],
+      "primaryTag": "damage",
+      "effects": [
+        {
+          "kind": "damage",
+          "display": "100% weapon dmg",
+          "sortKey": 100
+        },
+        {
+          "kind": "damage",
+          "min": 1,
+          "max": 20,
+          "minLevel": 1,
+          "maxLevel": 60,
+          "damageType": "Physical",
+          "display": "1–20 Physical dmg (L1–L60)",
+          "sortKey": 20
+        },
+        {
+          "kind": "buff",
+          "stat": "Threat",
+          "min": 20,
+          "max": 200,
+          "minLevel": 1,
+          "maxLevel": 60,
+          "display": "+20–200 Threat (L1–L60)",
+          "sortKey": 200,
+          "statTag": "THREAT"
+        },
+        {
+          "kind": "buff",
+          "stat": "increasing your Threat",
+          "min": 20,
+          "max": 200,
+          "minLevel": 1,
+          "maxLevel": 60,
+          "display": "+20–200 increasing your Threat (L1–L60)",
+          "sortKey": 200
+        }
+      ],
+      "valuesSummary": "100% weapon dmg · 1–20 Physical dmg (L1–L60) · +20–200 Threat (L1–L60)",
+      "statTags": [
+        "THREAT"
+      ]
+    },
+    {
+      "name": "Taunt",
+      "slug": "Taunt",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Taunt",
+      "description": "Taunt your target, causing them to focus their attacks on you. Triggers cooldown of Martial abilities.",
+      "category": "Mar",
+      "categorySlug": "Skill_Martial",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 1,
+      "type": "ability",
+      "tags": [
+        "taunt"
+      ],
+      "primaryTag": "taunt",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Torment",
+      "slug": "Torment",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Torment",
+      "description": "Torments your target's mental state, causing 3 (L1) to 5 (L4) points of Magic Damage and decreasing their Intelligence, Wisdom, Charisma, and Mana Regeneration by 2.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": 7,
+      "castTime": null,
+      "level": 1,
+      "type": "ability",
+      "tags": [
+        "debuff",
+        "CHA",
+        "INT",
+        "MANA",
+        "WIS",
+        "damage"
+      ],
+      "primaryTag": "debuff",
+      "effects": [
+        {
+          "kind": "damage",
+          "min": 3,
+          "max": 5,
+          "minLevel": 1,
+          "maxLevel": 4,
+          "damageType": "Magic",
+          "display": "3–5 Magic dmg (L1–L4)",
+          "sortKey": 5
+        },
+        {
+          "kind": "debuff",
+          "stat": "Intelligence",
+          "amount": 2,
+          "display": "−2 Intelligence",
+          "sortKey": 2,
+          "statTag": "INT"
+        },
+        {
+          "kind": "debuff",
+          "stat": "Wisdom",
+          "amount": 2,
+          "display": "−2 Wisdom",
+          "sortKey": 2,
+          "statTag": "WIS"
+        },
+        {
+          "kind": "debuff",
+          "stat": "Charisma",
+          "amount": 2,
+          "display": "−2 Charisma",
+          "sortKey": 2,
+          "statTag": "CHA"
+        },
+        {
+          "kind": "debuff",
+          "stat": "Mana Regeneration",
+          "amount": 2,
+          "display": "−2 Mana Regeneration",
+          "sortKey": 2,
+          "statTag": "MANA"
+        }
+      ],
+      "valuesSummary": "−2 INT/WIS/CHA/MANA · 3–5 Magic dmg (L1–L4)",
+      "statTags": [
+        "CHA",
+        "INT",
+        "MANA",
+        "WIS"
+      ]
+    },
+    {
+      "name": "Magic Break",
+      "slug": "Magic_Break",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Magic_Break",
+      "description": "Breaks your target's resistance to the arcane, decreasing their Magic Resistance by 1 (L1) to 4 (L8). This spell is unresistable if the target is not immune to magic or it can otherwise by landed normally.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": 10,
+      "castTime": null,
+      "level": 2,
+      "type": "ability",
+      "tags": [
+        "debuff",
+        "MR"
+      ],
+      "primaryTag": "debuff",
+      "effects": [
+        {
+          "kind": "debuff",
+          "stat": "Magic Resistance",
+          "min": 1,
+          "max": 4,
+          "minLevel": 1,
+          "maxLevel": 8,
+          "display": "−1–4 Magic Resistance (L1–L8)",
+          "sortKey": 4,
+          "statTag": "MR"
+        }
+      ],
+      "valuesSummary": "−1–4 Magic Resistance (L1–L8)",
+      "statTags": [
+        "MR"
+      ]
+    },
+    {
+      "name": "Minor Spellshield",
+      "slug": "Minor_Spellshield",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Minor_Spellshield",
+      "description": "A magical shield encircles you, increasing your HP by 10, AC by 5, and Magic Resistance by 5.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": 10,
+      "castTime": null,
+      "level": 3,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "shield",
+        "self",
+        "AC",
+        "MAX HP",
+        "MR"
+      ],
+      "primaryTag": "shield",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "HP",
+          "amount": 10,
+          "display": "+10 HP",
+          "sortKey": 10,
+          "statTag": "MAX HP"
+        },
+        {
+          "kind": "buff",
+          "stat": "AC",
+          "amount": 5,
+          "display": "+5 AC",
+          "sortKey": 5,
+          "statTag": "AC"
+        },
+        {
+          "kind": "buff",
+          "stat": "Magic Resistance",
+          "amount": 5,
+          "display": "+5 Magic Resistance",
+          "sortKey": 5,
+          "statTag": "MR"
+        }
+      ],
+      "valuesSummary": "+10 HP · +5 AC · +5 Magic Resistance",
+      "statTags": [
+        "AC",
+        "MAX HP",
+        "MR"
+      ]
+    },
+    {
+      "name": "Kick",
+      "slug": "Kick",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Kick",
+      "description": "Swiftly kick your target, interrupting their casting and preventing them from casting spells from the same school of magic for 4 seconds.",
+      "category": "Acr",
+      "categorySlug": "Skill_Acrobatics",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Acrobatics",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 3,
+      "type": "ability",
+      "tags": [
+        "interrupt"
+      ],
+      "primaryTag": "interrupt",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Spell Ward",
+      "slug": "Spell_Ward",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Spell_Ward",
+      "description": "Shield your target with a spell ward, absorbing 25 Spell Damage received for 15 seconds.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": 20,
+      "castTime": null,
+      "level": 4,
+      "type": "ability",
+      "tags": [
+        "shield"
+      ],
+      "primaryTag": "shield",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Weapon Shield",
+      "slug": "Weapon_Shield",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Weapon_Shield",
+      "description": "Activate to use your weapon to help shield attacks, reducing physical damage against you by 5%.",
+      "category": "Val",
+      "categorySlug": "Skill_Valor",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Valor",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 4,
+      "type": "ability",
+      "tags": [
+        "debuff",
+        "self"
+      ],
+      "primaryTag": "debuff",
+      "effects": [
+        {
+          "kind": "debuff",
+          "stat": "damage against you",
+          "min": 5,
+          "max": 5,
+          "unit": "%",
+          "display": "−5%",
+          "sortKey": 5
+        }
+      ],
+      "valuesSummary": "−5%",
+      "statTags": []
+    },
+    {
+      "name": "Arcane Aegis",
+      "slug": "Arcane_Aegis",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Arcane_Aegis",
+      "description": "Surround yourself with an arcane aegis, granting you immunity to spell damage for 15 seconds. This spell can be used while stunned, incapacitated, or feared. This spell inflicts Exhausted Soul upon expiration, preventing the application of immunity effects for 30 seconds.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": 15,
+      "castTime": null,
+      "level": 4,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "self"
+      ],
+      "primaryTag": "buff",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Mesmerize",
+      "slug": "Mesmerize",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mesmerize",
+      "description": "Mesmerizes your target, putting them to Sleep for 30 seconds. There is a very small chance that the enemy target will forget about your aggression. This effect is removed by melee or spell damage.",
+      "category": "Con",
+      "categorySlug": "Skill_Conjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
+      "location": "Vendor",
+      "mana": 15,
+      "castTime": null,
+      "level": 5,
+      "type": "ability",
+      "tags": [
+        "crowd-control",
+        "mez"
+      ],
+      "primaryTag": "mez",
+      "effects": [
+        {
+          "kind": "crowd-control",
+          "duration": 30,
+          "display": "30s duration",
+          "sortKey": 30
+        }
+      ],
+      "valuesSummary": "30s duration",
+      "statTags": []
+    },
+    {
+      "name": "Silence",
+      "slug": "Silence",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Silence",
+      "description": "Silences your target, preventing them from spellcasting for 6 seconds.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": 15,
+      "castTime": null,
+      "level": 6,
+      "type": "ability",
+      "tags": [
+        "crowd-control",
+        "silence"
+      ],
+      "primaryTag": "silence",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Focused Concentration",
+      "slug": "Focused_Concentration",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Focused_Concentration",
+      "description": "Greatly sharpen your concentration, granting you a 100% chance to continue casting through incoming melee attacks for 15 seconds.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 7,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "self"
+      ],
+      "primaryTag": "buff",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Holy Protection",
+      "slug": "Holy_Protection",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Holy_Protection",
+      "description": "Wards your target against the divine, increasing their Holy Resistance by 5 for 1 hour.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": 10,
+      "castTime": null,
+      "level": 7,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "HR"
+      ],
+      "primaryTag": "buff",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "Holy Resistance",
+          "amount": 5,
+          "display": "+5 Holy Resistance",
+          "sortKey": 5,
+          "statTag": "HR"
+        }
+      ],
+      "valuesSummary": "+5 Holy Resistance",
+      "statTags": [
+        "HR"
+      ]
+    },
+    {
+      "name": "Dominate the Mind",
+      "slug": "Dominate_the_Mind",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Dominate_the_Mind",
+      "description": "Instantly charms your target, forcing them to fight for you for 1 minute.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": 50,
+      "castTime": null,
+      "level": 8,
+      "type": "ability",
+      "tags": [
+        "charm"
+      ],
+      "primaryTag": "charm",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Incinerate Mana",
+      "slug": "Incinerate_Mana",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Incinerate_Mana",
+      "description": "Burns 20 Mana from your target at the cost of 8.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": 8,
+      "castTime": null,
+      "level": 8,
+      "type": "ability",
+      "tags": [
+        "mana-drain"
+      ],
+      "primaryTag": "mana-drain",
+      "effects": [
+        {
+          "kind": "resource",
+          "amount": 20,
+          "display": "20 mana burn",
+          "sortKey": 20
+        }
+      ],
+      "valuesSummary": "20 mana burn",
+      "statTags": []
+    },
+    {
+      "name": "Mind Enervation",
+      "slug": "Mind_Enervation",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mind_Enervation",
+      "description": "Enervate your target, slowing their Casting Speed by 20% for 1 minute.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": 30,
+      "castTime": null,
+      "level": 8,
+      "type": "ability",
+      "tags": [
+        "debuff",
+        "CAST"
+      ],
+      "primaryTag": "debuff",
+      "effects": [
+        {
+          "kind": "debuff",
+          "stat": "Casting Speed",
+          "min": 20,
+          "max": 20,
+          "unit": "%",
+          "display": "−20%",
+          "sortKey": 20,
+          "statTag": "CAST"
+        }
+      ],
+      "valuesSummary": "−20%",
+      "statTags": [
+        "CAST"
+      ]
+    },
+    {
+      "name": "Sense Magic",
+      "slug": "Sense_Magic",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Sense_Magic",
+      "description": "Glaze the eyes of your target with a magical coating, granting them the ability to see magical effects when considering targets for 1 hour.",
+      "category": "Div",
+      "categorySlug": "Skill_Divination",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
+      "location": "Vendor",
+      "mana": 20,
+      "castTime": null,
+      "level": 8,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "utility"
+      ],
+      "primaryTag": "buff",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Dispel Magic",
+      "slug": "Dispel_Magic",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Dispel_Magic",
+      "description": "Dispel magic from your target, removing one harmful effect.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": 50,
+      "castTime": null,
+      "level": 9,
+      "type": "ability",
+      "tags": [
+        "dispel"
+      ],
+      "primaryTag": "dispel",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Aura of the Inquisitive",
+      "slug": "Aura_of_the_Inquisitive",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Aura_of_the_Inquisitive",
+      "description": "Envelop your group in an inquisitive aura, increasing their Mana Regeneration by 1 (L1) to 3 (L60).",
+      "category": "Mit",
+      "categorySlug": "Skill_Might",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 10,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "MANA"
+      ],
+      "primaryTag": "buff",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "Mana Regeneration",
+          "min": 1,
+          "max": 3,
+          "minLevel": 1,
+          "maxLevel": 60,
+          "display": "+1–3 Mana Regeneration (L1–L60)",
+          "sortKey": 3,
+          "statTag": "MANA"
+        }
+      ],
+      "valuesSummary": "+1–3 Mana Regeneration (L1–L60)",
+      "statTags": [
+        "MANA"
+      ]
+    },
+    {
+      "name": "Purifying Blow",
+      "slug": "Purifying_Blow",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Purifying_Blow",
+      "description": "Unleashes a purifying blow on your target, dealing 150% Weapon Damage plus 1 (L1) to 20 (L60) Magic Damage and 1 (L1) to 20 (L60) Physical Damage. Additionally if the target is afflicted by any spell in the Magic Break line, dispels one of your target's beneficial buffs. Chance to trigger again if the target is afflicted with Slam Stun.",
+      "category": "Mit",
+      "categorySlug": "Skill_Might",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 10,
+      "type": "ability",
+      "tags": [
+        "damage",
+        "crowd-control",
+        "stun",
+        "purge"
+      ],
+      "primaryTag": "damage",
+      "effects": [
+        {
+          "kind": "damage",
+          "display": "150% weapon dmg",
+          "sortKey": 150
+        },
+        {
+          "kind": "damage",
+          "min": 1,
+          "max": 20,
+          "minLevel": 1,
+          "maxLevel": 60,
+          "damageType": "Magic",
+          "display": "1–20 Magic dmg (L1–L60)",
+          "sortKey": 20
+        },
+        {
+          "kind": "damage",
+          "min": 1,
+          "max": 20,
+          "minLevel": 1,
+          "maxLevel": 60,
+          "damageType": "Physical",
+          "display": "1–20 Physical dmg (L1–L60)",
+          "sortKey": 20
+        }
+      ],
+      "valuesSummary": "150% weapon dmg · 1–20 Magic dmg (L1–L60) · 1–20 Physical dmg (L1–L60)",
+      "statTags": []
+    },
+    {
+      "name": "Scintillating Shock",
+      "slug": "Scintillating_Shock",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Scintillating_Shock",
+      "description": "Shocks nearby enemies with bright lights, stunning them for 4 seconds. This ability shares a cooldown with other abilities in the same line.",
+      "category": "Div",
+      "categorySlug": "Skill_Divination",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
+      "location": "Vendor",
+      "mana": 15,
+      "castTime": null,
+      "level": 10,
+      "type": "ability",
+      "tags": [
+        "crowd-control",
+        "stun"
+      ],
+      "primaryTag": "stun",
+      "effects": [
+        {
+          "kind": "crowd-control",
+          "duration": 4,
+          "display": "4s duration",
+          "sortKey": 4
+        }
+      ],
+      "valuesSummary": "4s duration",
+      "statTags": []
+    },
+    {
+      "name": "Invisibility",
+      "slug": "Invisibility",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Invisibility",
+      "description": "Shroud a target group member in a cloak of invisibility, rendering them unseen by the living for 10 minutes.",
+      "category": "Div",
+      "categorySlug": "Skill_Divination",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
+      "location": "Vendor",
+      "mana": 20,
+      "castTime": null,
+      "level": 11,
+      "type": "ability",
+      "tags": [
+        "invisibility"
+      ],
+      "primaryTag": "invisibility",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Haste",
+      "slug": "Haste",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Haste",
+      "description": "Haste your target, increasing their Melee and Ranged Attack Speed by 10% (L4) to 15% (L16) for 1h.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": 10,
+      "castTime": null,
+      "level": 12,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "haste"
+      ],
+      "primaryTag": "buff",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "Melee and Ranged Attack Speed",
+          "min": 10,
+          "max": 15,
+          "unit": "%",
+          "display": "+10–15%",
+          "sortKey": 15,
+          "statTag": "ATK"
+        }
+      ],
+      "valuesSummary": "+10–15%",
+      "statTags": []
+    },
+    {
+      "name": "Mana Ward",
+      "slug": "Mana_Ward",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mana_Ward",
+      "description": "Shield your target with a mana ward, absorbing 60 Spell Damage received for 15 seconds.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": 50,
+      "castTime": null,
+      "level": 12,
+      "type": "ability",
+      "tags": [
+        "shield"
+      ],
+      "primaryTag": "shield",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Memory Fog",
+      "slug": "Memory_Fog",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Memory_Fog",
+      "description": "Manipulate the mind of your target, giving a chance to forget past wrongdoings.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": 25,
+      "castTime": null,
+      "level": 12,
+      "type": "ability",
+      "tags": [],
+      "primaryTag": null,
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "See Invisibility",
+      "slug": "See_Invisibility",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/See_Invisibility",
+      "description": "Clear the eyes of your target with a magical coating, granting them the ability to see invisible entities for 1 hour.",
+      "category": "Div",
+      "categorySlug": "Skill_Divination",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
+      "location": "Vendor",
+      "mana": 20,
+      "castTime": null,
+      "level": 12,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "invisibility",
+        "utility"
+      ],
+      "primaryTag": "buff",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Lesser Spellshield",
+      "slug": "Lesser_Spellshield",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Lesser_Spellshield",
+      "description": "A magical shield encircles you, increasing your HP by 25, AC by 10, and Magic Resistance by 10.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": 25,
+      "castTime": null,
+      "level": 13,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "shield",
+        "self",
+        "AC",
+        "MAX HP",
+        "MR"
+      ],
+      "primaryTag": "shield",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "HP",
+          "amount": 25,
+          "display": "+25 HP",
+          "sortKey": 25,
+          "statTag": "MAX HP"
+        },
+        {
+          "kind": "buff",
+          "stat": "AC",
+          "amount": 10,
+          "display": "+10 AC",
+          "sortKey": 10,
+          "statTag": "AC"
+        },
+        {
+          "kind": "buff",
+          "stat": "Magic Resistance",
+          "amount": 10,
+          "display": "+10 Magic Resistance",
+          "sortKey": 10,
+          "statTag": "MR"
+        }
+      ],
+      "valuesSummary": "+25 HP · +10 AC · +10 Magic Resistance",
+      "statTags": [
+        "AC",
+        "MAX HP",
+        "MR"
+      ]
+    },
+    {
+      "name": "Psychic Choke",
+      "slug": "Psychic_Choke",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Psychic_Choke",
+      "description": "Choke your target, stunning them and dealing 1 Corruption Damage every second for 6 seconds.",
+      "category": "Evo",
+      "categorySlug": "Skill_Evocation",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
+      "location": "Vendor",
+      "mana": 40,
+      "castTime": null,
+      "level": 14,
+      "type": "ability",
+      "tags": [
+        "damage",
+        "crowd-control",
+        "stun"
+      ],
+      "primaryTag": "damage",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Purge",
+      "slug": "Purge",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Purge",
+      "description": "Purge your target, removing one beneficial effect.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": 20,
+      "castTime": null,
+      "level": 15,
+      "type": "ability",
+      "tags": [
+        "purge"
+      ],
+      "primaryTag": "purge",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Minor Strength",
+      "slug": "Minor_Strength",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Minor_Strength",
+      "description": "Increases the Strength of a friendly target by 2 for 30 minutes.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": 5,
+      "castTime": null,
+      "level": 16,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "STR"
+      ],
+      "primaryTag": "buff",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "Strength",
+          "amount": 2,
+          "display": "+2 Strength",
+          "sortKey": 2,
+          "statTag": "STR"
+        }
+      ],
+      "valuesSummary": "+2 Strength",
+      "statTags": [
+        "STR"
+      ]
+    },
+    {
+      "name": "Deflect",
+      "slug": "Deflect",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Deflect",
+      "description": "Deflect magical attacks, reducing incoming Magic Damage dealt to you by 40% for 30 seconds.",
+      "category": "Mar",
+      "categorySlug": "Skill_Martial",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 17,
+      "type": "ability",
+      "tags": [
+        "self"
+      ],
+      "primaryTag": "self",
+      "effects": [
+        {
+          "kind": "debuff",
+          "stat": "incoming Magic Damage dealt to you",
+          "min": 40,
+          "max": 40,
+          "unit": "%",
+          "display": "−40%",
+          "sortKey": 40
+        }
+      ],
+      "valuesSummary": "−40%",
+      "statTags": []
+    },
+    {
+      "name": "Mana Burn",
+      "slug": "Mana_Burn",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mana_Burn",
+      "description": "Burns up to 90 Mana from your target, dealing damage equal to 75% of the amount of mana drained.",
+      "category": "Evo",
+      "categorySlug": "Skill_Evocation",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
+      "location": "Vendor",
+      "mana": 5,
+      "castTime": null,
+      "level": 18,
+      "type": "ability",
+      "tags": [
+        "damage",
+        "mana-drain"
+      ],
+      "primaryTag": "damage",
+      "effects": [
+        {
+          "kind": "resource",
+          "amount": 90,
+          "display": "90 mana burn",
+          "sortKey": 90
+        }
+      ],
+      "valuesSummary": "90 mana burn",
+      "statTags": []
+    },
+    {
+      "name": "Magic Splinter",
+      "slug": "Magic_Splinter",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Magic_Splinter",
+      "description": "Splinters your target's resistance to the arcane, decreasing their Magic Resistance by 5 (L12) to 8 (L16). This spell is unresistable if the target is not immune to magic or it can otherwise by landed normally.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": 25,
+      "castTime": null,
+      "level": 19,
+      "type": "ability",
+      "tags": [
+        "debuff",
+        "MR"
+      ],
+      "primaryTag": "debuff",
+      "effects": [
+        {
+          "kind": "debuff",
+          "stat": "Magic Resistance",
+          "min": 5,
+          "max": 8,
+          "minLevel": 12,
+          "maxLevel": 16,
+          "display": "−5–8 Magic Resistance (L12–L16)",
+          "sortKey": 8,
+          "statTag": "MR"
+        }
+      ],
+      "valuesSummary": "−5–8 Magic Resistance (L12–L16)",
+      "statTags": [
+        "MR"
+      ]
+    },
+    {
+      "name": "Torture",
+      "slug": "Torture",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Torture",
+      "description": "Tortures your target's mental state, causing 60 points of Magic Damage and decreasing their Intelligence, Wisdom, Charisma, and Mana Regeneration by 5",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": 85,
+      "castTime": null,
+      "level": 20,
+      "type": "ability",
+      "tags": [
+        "debuff",
+        "CHA",
+        "INT",
+        "MANA",
+        "WIS",
+        "damage"
+      ],
+      "primaryTag": "debuff",
+      "effects": [
+        {
+          "kind": "damage",
+          "amount": 60,
+          "damageType": "Magic",
+          "display": "60 Magic dmg",
+          "sortKey": 60
+        },
+        {
+          "kind": "debuff",
+          "stat": "Intelligence",
+          "amount": 5,
+          "display": "−5 Intelligence",
+          "sortKey": 5,
+          "statTag": "INT"
+        },
+        {
+          "kind": "debuff",
+          "stat": "Wisdom",
+          "amount": 5,
+          "display": "−5 Wisdom",
+          "sortKey": 5,
+          "statTag": "WIS"
+        },
+        {
+          "kind": "debuff",
+          "stat": "Charisma",
+          "amount": 5,
+          "display": "−5 Charisma",
+          "sortKey": 5,
+          "statTag": "CHA"
+        },
+        {
+          "kind": "debuff",
+          "stat": "Mana Regeneration",
+          "amount": 5,
+          "display": "−5 Mana Regeneration",
+          "sortKey": 5,
+          "statTag": "MANA"
+        }
+      ],
+      "valuesSummary": "−5 INT/WIS/CHA/MANA · 60 Magic dmg",
+      "statTags": [
+        "CHA",
+        "INT",
+        "MANA",
+        "WIS"
+      ]
+    },
+    {
+      "name": "Mind Fatigue",
+      "slug": "Mind_Fatigue",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mind_Fatigue",
+      "description": "Fatigue your target, slowing their Casting Speed by 30% for 1 minute.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": 90,
+      "castTime": null,
+      "level": 21,
+      "type": "ability",
+      "tags": [
+        "debuff",
+        "CAST"
+      ],
+      "primaryTag": "debuff",
+      "effects": [
+        {
+          "kind": "debuff",
+          "stat": "Casting Speed",
+          "min": 30,
+          "max": 30,
+          "unit": "%",
+          "display": "−30%",
+          "sortKey": 30,
+          "statTag": "CAST"
+        }
+      ],
+      "valuesSummary": "−30%",
+      "statTags": [
+        "CAST"
+      ]
+    },
+    {
+      "name": "Magical Disruption Shell",
+      "slug": "Magical_Disruption_Shell",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Magical_Disruption_Shell",
+      "description": "Bestows your group a magic disrupting shell, reducing spell damage taken by 75% for 15 seconds. This effect cannot be dispelled.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": 0,
+      "castTime": null,
+      "level": 22,
+      "type": "ability",
+      "tags": [
+        "buff"
+      ],
+      "primaryTag": "buff",
+      "effects": [
+        {
+          "kind": "debuff",
+          "stat": "spell damage taken",
+          "min": 75,
+          "max": 75,
+          "unit": "%",
+          "display": "−75%",
+          "sortKey": 75
+        }
+      ],
+      "valuesSummary": "−75%",
+      "statTags": []
+    },
+    {
+      "name": "Arcane Protection",
+      "slug": "Arcane_Protection",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Arcane_Protection",
+      "description": "Surrounds a group member with a magically impenetrable shield, making them invulnerable to magic for 15 seconds. This spell inflicts Exhausted Soul upon expiration, preventing the application of immunity effects for 30 seconds.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": 15,
+      "castTime": null,
+      "level": 23,
+      "type": "ability",
+      "tags": [],
+      "primaryTag": null,
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Fell Mana",
+      "slug": "Fell_Mana",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Fell_Mana",
+      "description": "Fell the mind of your target, depleting 180 Mana.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 23,
+      "type": "ability",
+      "tags": [
+        "mana-drain"
+      ],
+      "primaryTag": "mana-drain",
+      "effects": [
+        {
+          "kind": "resource",
+          "amount": 180,
+          "display": "180 mana drain",
+          "sortKey": 180
+        }
+      ],
+      "valuesSummary": "180 mana drain",
+      "statTags": []
+    },
+    {
+      "name": "Captivate",
+      "slug": "Captivate",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Captivate",
+      "description": "Captivates your target, putting them to Sleep for 60 seconds. There is a very small chance that the enemy target will forget about your aggression. This effect is removed by melee or spell damage.",
+      "category": "Con",
+      "categorySlug": "Skill_Conjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
+      "location": "Vendor",
+      "mana": 40,
+      "castTime": null,
+      "level": 24,
+      "type": "ability",
+      "tags": [
+        "crowd-control",
+        "mez"
+      ],
+      "primaryTag": "mez",
+      "effects": [
+        {
+          "kind": "crowd-control",
+          "duration": 60,
+          "display": "60s duration",
+          "sortKey": 60
+        }
+      ],
+      "valuesSummary": "60s duration",
+      "statTags": []
+    },
+    {
+      "name": "Magic Ward",
+      "slug": "Magic_Ward",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Magic_Ward",
+      "description": "Shield your target with a mana ward, absorbing 250 Spell Damage received for 15 seconds.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": 165,
+      "castTime": null,
+      "level": 24,
+      "type": "ability",
+      "tags": [
+        "shield"
+      ],
+      "primaryTag": "shield",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Magic Resistance",
+      "slug": "Magic_Resistance",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Magic_Resistance",
+      "description": "Greatly ward your target against the arcane, increasing their Magic Resistance by 15 for 1 hour.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 24,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "MR"
+      ],
+      "primaryTag": "buff",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "Magic Resistance",
+          "amount": 15,
+          "display": "+15 Magic Resistance",
+          "sortKey": 15,
+          "statTag": "MR"
+        }
+      ],
+      "valuesSummary": "+15 Magic Resistance",
+      "statTags": [
+        "MR"
+      ]
+    },
+    {
+      "name": "Greater Purge",
+      "slug": "Greater_Purge",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Greater_Purge",
+      "description": "Purge an enemy and up to 5 additional nearby targets, dispelling a magical effect, as well as all songs and immunities.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": 150,
+      "castTime": null,
+      "level": 25,
+      "type": "ability",
+      "tags": [
+        "purge",
+        "aoe"
+      ],
+      "primaryTag": "purge",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Spellshield",
+      "slug": "Spellshield",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Spellshield",
+      "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 50, Armor Class by 15, and Magic Resistance by 15 for 1 hour.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": 50,
+      "castTime": null,
+      "level": 26,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "shield",
+        "self",
+        "AC",
+        "MAX HP",
+        "MR"
+      ],
+      "primaryTag": "shield",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "Health",
+          "amount": 50,
+          "display": "+50 Health",
+          "sortKey": 50,
+          "statTag": "MAX HP"
+        },
+        {
+          "kind": "buff",
+          "stat": "Armor Class",
+          "amount": 15,
+          "display": "+15 Armor Class",
+          "sortKey": 15,
+          "statTag": "AC"
+        },
+        {
+          "kind": "buff",
+          "stat": "Magic Resistance",
+          "amount": 15,
+          "display": "+15 Magic Resistance",
+          "sortKey": 15,
+          "statTag": "MR"
+        }
+      ],
+      "valuesSummary": "+50 Health · +15 Armor Class · +15 Magic Resistance",
+      "statTags": [
+        "AC",
+        "MAX HP",
+        "MR"
+      ]
+    },
+    {
+      "name": "Mana Burn II",
+      "slug": "Mana_Burn_II",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mana_Burn_II",
+      "description": "Burns up to 125 Mana from your target, dealing damage equal to 75% of the amount of mana drained.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": 5,
+      "castTime": null,
+      "level": 27,
+      "type": "ability",
+      "tags": [
+        "damage",
+        "mana-drain"
+      ],
+      "primaryTag": "damage",
+      "effects": [
+        {
+          "kind": "resource",
+          "amount": 125,
+          "display": "125 mana burn",
+          "sortKey": 125
+        }
+      ],
+      "valuesSummary": "125 mana burn",
+      "statTags": []
+    },
+    {
+      "name": "Mandate of Silence",
+      "slug": "Mandate_of_Silence",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mandate_of_Silence",
+      "description": "Silence nearby targets, preventing them from casting spells for 6 seconds.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": 15,
+      "castTime": null,
+      "level": 28,
+      "type": "ability",
+      "tags": [
+        "crowd-control",
+        "silence",
+        "aoe"
+      ],
+      "primaryTag": "silence",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Scintillating Stupor",
+      "slug": "Scintillating_Stupor",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Scintillating_Stupor",
+      "description": "Shocks nearby enemies with bright lights, stunning them for 5 seconds. This ability shares a cooldown with other abilities in the same line.",
+      "category": "Div",
+      "categorySlug": "Skill_Divination",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 31,
+      "type": "ability",
+      "tags": [
+        "crowd-control",
+        "stun"
+      ],
+      "primaryTag": "stun",
+      "effects": [
+        {
+          "kind": "crowd-control",
+          "duration": 5,
+          "display": "5s duration",
+          "sortKey": 5
+        }
+      ],
+      "valuesSummary": "5s duration",
+      "statTags": []
+    },
+    {
+      "name": "Lesser Strength",
+      "slug": "Lesser_Strength",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Lesser_Strength",
+      "description": "Increases the Strength of a friendly target by 5 for 30 minutes.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 32,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "STR"
+      ],
+      "primaryTag": "buff",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "Strength",
+          "amount": 5,
+          "display": "+5 Strength",
+          "sortKey": 5,
+          "statTag": "STR"
+        }
+      ],
+      "valuesSummary": "+5 Strength",
+      "statTags": [
+        "STR"
+      ]
+    },
+    {
+      "name": "Traumatize",
+      "slug": "Traumatize",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Traumatize",
+      "description": "Traumatizes your target's mental state, causing 150 points of Magic Damage and decreasing their Intelligence, Wisdom, Charisma, and Mana Regeneration by 10.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 32,
+      "type": "ability",
+      "tags": [
+        "debuff",
+        "CHA",
+        "INT",
+        "MANA",
+        "WIS",
+        "damage"
+      ],
+      "primaryTag": "debuff",
+      "effects": [
+        {
+          "kind": "damage",
+          "amount": 150,
+          "damageType": "Magic",
+          "display": "150 Magic dmg",
+          "sortKey": 150
+        },
+        {
+          "kind": "debuff",
+          "stat": "Intelligence",
+          "amount": 10,
+          "display": "−10 Intelligence",
+          "sortKey": 10,
+          "statTag": "INT"
+        },
+        {
+          "kind": "debuff",
+          "stat": "Wisdom",
+          "amount": 10,
+          "display": "−10 Wisdom",
+          "sortKey": 10,
+          "statTag": "WIS"
+        },
+        {
+          "kind": "debuff",
+          "stat": "Charisma",
+          "amount": 10,
+          "display": "−10 Charisma",
+          "sortKey": 10,
+          "statTag": "CHA"
+        },
+        {
+          "kind": "debuff",
+          "stat": "Mana Regeneration",
+          "amount": 10,
+          "display": "−10 Mana Regeneration",
+          "sortKey": 10,
+          "statTag": "MANA"
+        }
+      ],
+      "valuesSummary": "−10 INT/WIS/CHA/MANA · 150 Magic dmg",
+      "statTags": [
+        "CHA",
+        "INT",
+        "MANA",
+        "WIS"
+      ]
+    },
+    {
+      "name": "Arcane Ward",
+      "slug": "Arcane_Ward",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Arcane_Ward",
+      "description": "Shield your target with an arvane ward, absorbing 600 Spell Damage received for 15 seconds.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 36,
+      "type": "ability",
+      "tags": [
+        "shield"
+      ],
+      "primaryTag": "shield",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Greater Spellshield",
+      "slug": "Greater_Spellshield",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Greater_Spellshield",
+      "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 75, Armor Class by 10, and Magic Resistance by 10 for 1 hour.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 36,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "shield",
+        "self",
+        "AC",
+        "MAX HP",
+        "MR"
+      ],
+      "primaryTag": "shield",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "Health",
+          "amount": 75,
+          "display": "+75 Health",
+          "sortKey": 75,
+          "statTag": "MAX HP"
+        },
+        {
+          "kind": "buff",
+          "stat": "Armor Class",
+          "amount": 10,
+          "display": "+10 Armor Class",
+          "sortKey": 10,
+          "statTag": "AC"
+        },
+        {
+          "kind": "buff",
+          "stat": "Magic Resistance",
+          "amount": 10,
+          "display": "+10 Magic Resistance",
+          "sortKey": 10,
+          "statTag": "MR"
+        }
+      ],
+      "valuesSummary": "+75 Health · +10 Armor Class · +10 Magic Resistance",
+      "statTags": [
+        "AC",
+        "MAX HP",
+        "MR"
+      ]
+    },
+    {
+      "name": "Mana Burn III",
+      "slug": "Mana_Burn_III",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mana_Burn_III",
+      "description": "Burns up to 165 Mana from your target, dealing damage equal to 75% of the amount of mana drained.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 36,
+      "type": "ability",
+      "tags": [
+        "damage",
+        "mana-drain"
+      ],
+      "primaryTag": "damage",
+      "effects": [
+        {
+          "kind": "resource",
+          "amount": 165,
+          "display": "165 mana burn",
+          "sortKey": 165
+        }
+      ],
+      "valuesSummary": "165 mana burn",
+      "statTags": []
+    },
+    {
+      "name": "Mind Lethargy",
+      "slug": "Mind_Lethargy",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mind_Lethargy",
+      "description": "Lethargize your target, slowing their Casting Speed by 40% for 1 minute.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 36,
+      "type": "ability",
+      "tags": [
+        "debuff",
+        "CAST"
+      ],
+      "primaryTag": "debuff",
+      "effects": [
+        {
+          "kind": "debuff",
+          "stat": "Casting Speed",
+          "min": 40,
+          "max": 40,
+          "unit": "%",
+          "display": "−40%",
+          "sortKey": 40,
+          "statTag": "CAST"
+        }
+      ],
+      "valuesSummary": "−40%",
+      "statTags": [
+        "CAST"
+      ]
+    },
+    {
+      "name": "Magic Crack",
+      "slug": "Magic_Crack",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Magic_Crack",
+      "description": "Cracks your target's resistance to the arcane, decreasing their Magic Resistance by 9 (L24) to 12 (L28). This spell is unresistable if the target is not immune to magic or it can otherwise be landed normally.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 40,
+      "type": "ability",
+      "tags": [
+        "debuff",
+        "MR"
+      ],
+      "primaryTag": "debuff",
+      "effects": [
+        {
+          "kind": "debuff",
+          "stat": "Magic Resistance",
+          "min": 9,
+          "max": 12,
+          "minLevel": 24,
+          "maxLevel": 28,
+          "display": "−9–12 Magic Resistance (L24–L28)",
+          "sortKey": 12,
+          "statTag": "MR"
+        }
+      ],
+      "valuesSummary": "−9–12 Magic Resistance (L24–L28)",
+      "statTags": [
+        "MR"
+      ]
+    },
+    {
+      "name": "Hypnotize",
+      "slug": "Hypnotize",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Hypnotize",
+      "description": "Hypnotizes your target, putting them to Sleep for 1 minute and 30 seconds. There is a very small chance that the enemy target will forget about your aggression. This effect is removed by melee or spell damage.",
+      "category": "Con",
+      "categorySlug": "Skill_Conjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
+      "location": "Vendor",
+      "mana": 90,
+      "castTime": null,
+      "level": 42,
+      "type": "ability",
+      "tags": [
+        "crowd-control",
+        "mez"
+      ],
+      "primaryTag": "mez",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Anxiety",
+      "slug": "Anxiety",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Anxiety",
+      "description": "Causes anxiety to your target's mental state, causing 225 points of Magic Damage and decreasing their Intelligence, Wisdom, Charisma, and Mana Regeneration by 15.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 44,
+      "type": "ability",
+      "tags": [
+        "debuff",
+        "CHA",
+        "INT",
+        "MANA",
+        "WIS",
+        "damage"
+      ],
+      "primaryTag": "debuff",
+      "effects": [
+        {
+          "kind": "damage",
+          "amount": 225,
+          "damageType": "Magic",
+          "display": "225 Magic dmg",
+          "sortKey": 225
+        },
+        {
+          "kind": "debuff",
+          "stat": "Intelligence",
+          "amount": 15,
+          "display": "−15 Intelligence",
+          "sortKey": 15,
+          "statTag": "INT"
+        },
+        {
+          "kind": "debuff",
+          "stat": "Wisdom",
+          "amount": 15,
+          "display": "−15 Wisdom",
+          "sortKey": 15,
+          "statTag": "WIS"
+        },
+        {
+          "kind": "debuff",
+          "stat": "Charisma",
+          "amount": 15,
+          "display": "−15 Charisma",
+          "sortKey": 15,
+          "statTag": "CHA"
+        },
+        {
+          "kind": "debuff",
+          "stat": "Mana Regeneration",
+          "amount": 15,
+          "display": "−15 Mana Regeneration",
+          "sortKey": 15,
+          "statTag": "MANA"
+        }
+      ],
+      "valuesSummary": "−15 INT/WIS/CHA/MANA · 225 Magic dmg",
+      "statTags": [
+        "CHA",
+        "INT",
+        "MANA",
+        "WIS"
+      ]
+    },
+    {
+      "name": "Explode Mana",
+      "slug": "Explode_Mana",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Explode_Mana",
+      "description": "Explode the mind of your target, depleting 360 Mana.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 44,
+      "type": "ability",
+      "tags": [
+        "mana-drain"
+      ],
+      "primaryTag": "mana-drain",
+      "effects": [
+        {
+          "kind": "resource",
+          "amount": 360,
+          "display": "360 mana drain",
+          "sortKey": 360
+        }
+      ],
+      "valuesSummary": "360 mana drain",
+      "statTags": []
+    },
+    {
+      "name": "Holy Resistance",
+      "slug": "Holy_Resistance",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Holy_Resistance",
+      "description": "Greatly wards your target from the arcane, increasing their Holy Resistance by 15",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 44,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "HR"
+      ],
+      "primaryTag": "buff",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "Holy Resistance",
+          "amount": 15,
+          "display": "+15 Holy Resistance",
+          "sortKey": 15,
+          "statTag": "HR"
+        }
+      ],
+      "valuesSummary": "+15 Holy Resistance",
+      "statTags": [
+        "HR"
+      ]
+    },
+    {
+      "name": "Mana Burn IV",
+      "slug": "Mana_Burn_IV",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mana_Burn_IV",
+      "description": "Burns up to 225 Mana from your target, dealing damage equal to 75% of the amount of mana drained.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 44,
+      "type": "ability",
+      "tags": [
+        "damage",
+        "mana-drain"
+      ],
+      "primaryTag": "damage",
+      "effects": [
+        {
+          "kind": "resource",
+          "amount": 225,
+          "display": "225 mana burn",
+          "sortKey": 225
+        }
+      ],
+      "valuesSummary": "225 mana burn",
+      "statTags": []
+    },
+    {
+      "name": "Exceptional Spellshield",
+      "slug": "Exceptional_Spellshield",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Exceptional_Spellshield",
+      "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 100, Armor Class by 25, and Magic Resistance by 25 for 1 hour.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 48,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "shield",
+        "self",
+        "AC",
+        "MAX HP",
+        "MR"
+      ],
+      "primaryTag": "shield",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "Health",
+          "amount": 100,
+          "display": "+100 Health",
+          "sortKey": 100,
+          "statTag": "MAX HP"
+        },
+        {
+          "kind": "buff",
+          "stat": "Armor Class",
+          "amount": 25,
+          "display": "+25 Armor Class",
+          "sortKey": 25,
+          "statTag": "AC"
+        },
+        {
+          "kind": "buff",
+          "stat": "Magic Resistance",
+          "amount": 25,
+          "display": "+25 Magic Resistance",
+          "sortKey": 25,
+          "statTag": "MR"
+        }
+      ],
+      "valuesSummary": "+100 Health · +25 Armor Class · +25 Magic Resistance",
+      "statTags": [
+        "AC",
+        "MAX HP",
+        "MR"
+      ]
+    },
+    {
+      "name": "Mystical Ward",
+      "slug": "Mystical_Ward",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mystical_Ward",
+      "description": "Shield your target with a mystical ward, absorbing 800 Spell Damage received for 15 seconds.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 48,
+      "type": "ability",
+      "tags": [
+        "shield"
+      ],
+      "primaryTag": "shield",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": []
+    },
+    {
+      "name": "Rapidity",
+      "slug": "Rapidity",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Rapidity",
+      "description": "Haste your target, increasing their Melee and Ranged Attack Speed by 30% (L32) to 35% (L48).",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 48,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "haste"
+      ],
+      "primaryTag": "buff",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "Melee and Ranged Attack Speed",
+          "min": 30,
+          "max": 35,
+          "unit": "%",
+          "display": "+30–35%",
+          "sortKey": 35,
+          "statTag": "ATK"
+        }
+      ],
+      "valuesSummary": "+30–35%",
+      "statTags": []
+    },
+    {
+      "name": "Strength",
+      "slug": "Strength",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Strength",
+      "description": "Increases the Strength of a friendly target by 10 for 30 minutes.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 48,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "STR"
+      ],
+      "primaryTag": "buff",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "Strength",
+          "amount": 10,
+          "display": "+10 Strength",
+          "sortKey": 10,
+          "statTag": "STR"
+        }
+      ],
+      "valuesSummary": "+10 Strength",
+      "statTags": [
+        "STR"
+      ]
+    },
+    {
+      "name": "Mana Burn V",
+      "slug": "Mana_Burn_V",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mana_Burn_V",
+      "description": "Burns up to 300 Mana from your target, dealing damage equal to 75% of the amount of mana drained.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 52,
+      "type": "ability",
+      "tags": [
+        "damage",
+        "mana-drain"
+      ],
+      "primaryTag": "damage",
+      "effects": [
+        {
+          "kind": "resource",
+          "amount": 300,
+          "display": "300 mana burn",
+          "sortKey": 300
+        }
+      ],
+      "valuesSummary": "300 mana burn",
+      "statTags": []
+    },
+    {
+      "name": "Scintillation",
+      "slug": "Scintillation",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Scintillation",
+      "description": "Shocks nearby enemies with bright lights, stunning them for 6 seconds. This ability shares a cooldown with other abilities in the same line.",
+      "category": "Div",
+      "categorySlug": "Skill_Divination",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 53,
+      "type": "ability",
+      "tags": [
+        "crowd-control",
+        "stun"
+      ],
+      "primaryTag": "stun",
+      "effects": [
+        {
+          "kind": "crowd-control",
+          "duration": 6,
+          "display": "6s duration",
+          "sortKey": 6
+        }
+      ],
+      "valuesSummary": "6s duration",
+      "statTags": []
+    },
+    {
+      "name": "Mind Debilitation",
+      "slug": "Mind_Debilitation",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mind_Debilitation",
+      "description": "Debilitate your target, slowing their Casting Speed by 50% for 1 minute.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 55,
+      "type": "ability",
+      "tags": [
+        "debuff",
+        "CAST"
+      ],
+      "primaryTag": "debuff",
+      "effects": [
+        {
+          "kind": "debuff",
+          "stat": "Casting Speed",
+          "min": 50,
+          "max": 50,
+          "unit": "%",
+          "display": "−50%",
+          "sortKey": 50,
+          "statTag": "CAST"
+        }
+      ],
+      "valuesSummary": "−50%",
+      "statTags": [
+        "CAST"
+      ]
+    },
+    {
+      "name": "Dread",
+      "slug": "Dread",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Dread",
+      "description": "Causes dread to your target's mental state, causing 420 points of Magic Damage and decreasing their Intelligence, Wisdom, Charisma, and Mana Regeneration by 20.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 56,
+      "type": "ability",
+      "tags": [
+        "debuff",
+        "CHA",
+        "INT",
+        "MANA",
+        "WIS",
+        "damage"
+      ],
+      "primaryTag": "debuff",
+      "effects": [
+        {
+          "kind": "damage",
+          "amount": 420,
+          "damageType": "Magic",
+          "display": "420 Magic dmg",
+          "sortKey": 420
+        },
+        {
+          "kind": "debuff",
+          "stat": "Intelligence",
+          "amount": 20,
+          "display": "−20 Intelligence",
+          "sortKey": 20,
+          "statTag": "INT"
+        },
+        {
+          "kind": "debuff",
+          "stat": "Wisdom",
+          "amount": 20,
+          "display": "−20 Wisdom",
+          "sortKey": 20,
+          "statTag": "WIS"
+        },
+        {
+          "kind": "debuff",
+          "stat": "Charisma",
+          "amount": 20,
+          "display": "−20 Charisma",
+          "sortKey": 20,
+          "statTag": "CHA"
+        },
+        {
+          "kind": "debuff",
+          "stat": "Mana Regeneration",
+          "amount": 20,
+          "display": "−20 Mana Regeneration",
+          "sortKey": 20,
+          "statTag": "MANA"
+        }
+      ],
+      "valuesSummary": "−20 INT/WIS/CHA/MANA · 420 Magic dmg",
+      "statTags": [
+        "CHA",
+        "INT",
+        "MANA",
+        "WIS"
+      ]
+    },
+    {
+      "name": "Arch Spellshield",
+      "slug": "Arch_Spellshield",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Arch_Spellshield",
+      "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 150, Armor Class by 10, and Magic Resistance by 1 for 1 hour.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 60,
+      "type": "ability",
+      "tags": [
+        "buff",
+        "shield",
+        "self",
+        "AC",
+        "MAX HP",
+        "MR"
+      ],
+      "primaryTag": "shield",
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "Health",
+          "amount": 150,
+          "display": "+150 Health",
+          "sortKey": 150,
+          "statTag": "MAX HP"
+        },
+        {
+          "kind": "buff",
+          "stat": "Armor Class",
+          "amount": 10,
+          "display": "+10 Armor Class",
+          "sortKey": 10,
+          "statTag": "AC"
+        },
+        {
+          "kind": "buff",
+          "stat": "Magic Resistance",
+          "amount": 1,
+          "display": "+1 Magic Resistance",
+          "sortKey": 1,
+          "statTag": "MR"
+        }
+      ],
+      "valuesSummary": "+150 Health · +10 Armor Class · +1 Magic Resistance",
+      "statTags": [
+        "AC",
+        "MAX HP",
+        "MR"
+      ]
+    },
+    {
+      "name": "Destroy Mana",
+      "slug": "Destroy_Mana",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Destroy_Mana",
+      "description": "Destroy the mind of your target, depleting 540 Mana.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 60,
+      "type": "ability",
+      "tags": [
+        "mana-drain"
+      ],
+      "primaryTag": "mana-drain",
+      "effects": [
+        {
+          "kind": "resource",
+          "amount": 540,
+          "display": "540 mana drain",
+          "sortKey": 540
+        }
+      ],
+      "valuesSummary": "540 mana drain",
+      "statTags": []
+    },
+    {
+      "name": "Magic Fracture",
+      "slug": "Magic_Fracture",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Magic_Fracture",
+      "description": "Fractures your target's resistance to the arcane, decreasing their Magic Resistance by 13 (L40) to 16 (L44). This spell is unresistable if the target is not immune to magic or it can otherwise be landed normally.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 60,
+      "type": "ability",
+      "tags": [
+        "debuff",
+        "MR"
+      ],
+      "primaryTag": "debuff",
+      "effects": [
+        {
+          "kind": "debuff",
+          "stat": "Magic Resistance",
+          "min": 13,
+          "max": 16,
+          "minLevel": 40,
+          "maxLevel": 44,
+          "display": "−13–16 Magic Resistance (L40–L44)",
+          "sortKey": 16,
+          "statTag": "MR"
+        }
+      ],
+      "valuesSummary": "−13–16 Magic Resistance (L40–L44)",
+      "statTags": [
+        "MR"
+      ]
+    },
+    {
+      "name": "Mana Burn VI",
+      "slug": "Mana_Burn_VI",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Mana_Burn_VI",
+      "description": "Burns up to 400 Mana from your target, dealing damage equal to 75% of the amount of mana drained.",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": "",
+      "castTime": null,
+      "level": 60,
+      "type": "ability",
+      "tags": [
+        "damage",
+        "mana-drain"
+      ],
+      "primaryTag": "damage",
+      "effects": [
+        {
+          "kind": "resource",
+          "amount": 400,
+          "display": "400 mana burn",
+          "sortKey": 400
+        }
+      ],
+      "valuesSummary": "400 mana burn",
+      "statTags": []
+    }
+  ]
+}
