@@ -10,6 +10,7 @@ import {
   getAvailableTags,
   getLevelRange,
 } from './filters.js';
+import { readUrlBindings, syncUrlBindings, urlParsers, urlSerializers, bindShareControl, renderShareControl } from './url-state.js';
 
 const app = document.querySelector('#app');
 const classIndex = indexData.classes.sort((a, b) => a.name.localeCompare(b.name));
@@ -31,6 +32,95 @@ const state = {
   },
   expandedRows: new Set(),
 };
+
+/** @type {string | null} */
+let urlClassOverride = null;
+
+const urlBindings = [
+  {
+    key: 'class',
+    param: 'class',
+    get: () => state.className,
+    set: (value) => {
+      urlClassOverride = typeof value === 'string' ? value : null;
+    },
+    serialize: urlSerializers.string,
+  },
+  {
+    key: 'search',
+    param: 'q',
+    get: () => state.filters.search,
+    set: (value) => {
+      state.filters.search = typeof value === 'string' ? value : '';
+    },
+    serialize: urlSerializers.string,
+  },
+  {
+    key: 'tags',
+    param: 'tags',
+    get: () => state.filters.tags,
+    set: (value) => {
+      state.filters.tags = value instanceof Set ? value : new Set();
+    },
+    serialize: urlSerializers.tags,
+    deserialize: urlParsers.tags,
+  },
+  {
+    key: 'levelMin',
+    param: 'min',
+    get: () => state.filters.levelMin,
+    set: (value) => {
+      state.filters.levelMin = typeof value === 'number' ? value : null;
+    },
+    serialize: urlSerializers.int,
+    deserialize: urlParsers.int,
+  },
+  {
+    key: 'levelMax',
+    param: 'max',
+    get: () => state.filters.levelMax,
+    set: (value) => {
+      state.filters.levelMax = typeof value === 'number' ? value : null;
+    },
+    serialize: urlSerializers.int,
+    deserialize: urlParsers.int,
+  },
+  {
+    key: 'sort',
+    get: () => state.filters.sort,
+    set: (value) => {
+      if (typeof value === 'string') state.filters.sort = value;
+    },
+    defaultValue: 'level-asc',
+    serialize: (value) => (value === 'level-asc' ? null : urlSerializers.string(value)),
+  },
+  {
+    key: 'primaryTagOnly',
+    param: 'primary',
+    get: () => state.filters.primaryTagOnly,
+    set: (value) => {
+      state.filters.primaryTagOnly = Boolean(value);
+    },
+    defaultValue: false,
+    serialize: (value) => urlSerializers.bool(value, false),
+    deserialize: urlParsers.bool,
+  },
+  {
+    key: 'groupByLevel',
+    param: 'group',
+    get: () => state.filters.groupByLevel,
+    set: (value) => {
+      state.filters.groupByLevel = Boolean(value);
+    },
+    defaultValue: false,
+    serialize: (value) => urlSerializers.bool(value, false),
+    deserialize: urlParsers.bool,
+  },
+];
+
+function syncUrl() {
+  syncUrlBindings(urlBindings);
+}
 
 function entryKey(entry) {
   return `${entry.level}-${entry.slug || entry.name}`;
@@ -303,6 +393,7 @@ function render() {
         </label>
 
         <button type="button" class="secondary-btn" data-action="reset-filters">Reset filters</button>
+        ${renderShareControl({ label: 'Copy link' })}
       </div>
 
       ${renderQuickFilters(availableTags)}
@@ -327,6 +418,8 @@ function render() {
       <a href="https://monstersandmemories.miraheze.org/wiki/Spells_By_Class" target="_blank" rel="noopener noreferrer">Wiki source ↗</a>
     </footer>
   `;
+
+  syncUrl();
 }
 
 function bindEvents() {
@@ -423,6 +516,8 @@ function bindEvents() {
       }
     });
   });
+
+  bindShareControl(app);
 }
 
 function toggleRow(key) {
@@ -432,16 +527,18 @@ function toggleRow(key) {
   bindEvents();
 }
 
-async function selectClass(name) {
+async function selectClass(name, { resetFilters = true } = {}) {
   const classMeta = classIndex.find((c) => c.name === name);
   if (!classMeta) return;
 
   state.className = name;
   state.classMeta = classMeta;
   state.entries = [];
-  state.filters.tags.clear();
-  state.filters.levelMin = null;
-  state.filters.levelMax = null;
+  if (resetFilters) {
+    state.filters.tags.clear();
+    state.filters.levelMin = null;
+    state.filters.levelMax = null;
+  }
   state.expandedRows.clear();
   saveClass(name);
 
@@ -455,8 +552,9 @@ async function selectClass(name) {
 
 async function init() {
   app.innerHTML = '<div class="loading">Loading…</div>';
-  const saved = loadSavedClass();
-  await selectClass(saved);
+  readUrlBindings(urlBindings);
+  const saved = urlClassOverride || loadSavedClass();
+  await selectClass(saved, { resetFilters: false });
 }
 
 init();

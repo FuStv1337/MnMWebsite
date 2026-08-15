@@ -3,6 +3,7 @@ import { sitePath } from './site-paths.js';
 import { renderSiteHeader } from './site-header.js';
 import racesData from '../data/races.json';
 import { renderStatGuide } from './stat-info.js';
+import { bindShareControl, readUrlBindings, renderShareControl, syncUrlBindings, urlSerializers } from './url-state.js';
 
 const app = document.querySelector('#app');
 const { statKeys, races, source, fetchedAt } = racesData;
@@ -13,6 +14,40 @@ const state = {
   search: '',
   classFilter: '',
 };
+
+const urlBindings = [
+  {
+    key: 'selectedId',
+    param: 'race',
+    get: () => state.selectedId,
+    set: (value) => {
+      if (typeof value === 'string') state.selectedId = value;
+    },
+    serialize: urlSerializers.string,
+  },
+  {
+    key: 'search',
+    param: 'q',
+    get: () => state.search,
+    set: (value) => {
+      state.search = typeof value === 'string' ? value : '';
+    },
+    serialize: urlSerializers.string,
+  },
+  {
+    key: 'classFilter',
+    param: 'class',
+    get: () => state.classFilter,
+    set: (value) => {
+      state.classFilter = typeof value === 'string' ? value : '';
+    },
+    serialize: urlSerializers.string,
+  },
+];
+
+function syncUrl() {
+  syncUrlBindings(urlBindings);
+}
 
 function escapeHtml(text) {
   return String(text)
@@ -294,6 +329,7 @@ function render() {
             ${allClasses.map((className) => `<option value="${escapeHtml(className)}"${state.classFilter === className ? ' selected' : ''}>${escapeHtml(className)}</option>`).join('')}
           </select>
         </label>
+        ${renderShareControl({ label: 'Copy link' })}
       </div>
       <details class="stat-guide-details">
         <summary class="stat-guide-summary">What each stat does</summary>
@@ -319,6 +355,7 @@ function render() {
     </div>
   `;
 
+  syncUrl();
   bindEvents();
 }
 
@@ -340,6 +377,9 @@ function bindEvents() {
       app.querySelector('.race-detail-wrap')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });
+
+  bindShareControl(app);
 }
 
+readUrlBindings(urlBindings);
 render();

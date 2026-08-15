@@ -675,6 +675,17 @@ a:hover {
   margin-bottom: 0.85rem;
 }
 
+.share-control {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.share-feedback {
+  font-size: 0.82rem;
+}
+
 .find-table .col-classes {
   min-width: 180px;
 }
@@ -1843,6 +1854,10 @@ a:hover {
 
 .creator-setup {
   margin-bottom: 1rem;
+}
+
+.creator-setup > .share-control {
+  margin-top: 0.25rem;
 }
 
 .creator-setup-pickers {

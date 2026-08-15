@@ -11,17 +11,46 @@ import {
   saveParty,
 } from './party-data.js';
 import { CLASS_ROLES } from './constants.js';
+import { bindShareControl, renderShareControl, syncUrlBindings } from './url-state.js';
+import { decodePartyProfile, encodePartyProfile } from './share-profile.js';
 
-const app = document.querySelector('#app');
+function loadInitialParty() {
+  const share = new URLSearchParams(window.location.search).get('share');
+  const shared = decodePartyProfile(share);
+  if (shared) {
+    saveParty(shared.slots);
+    return { slots: shared.slots, levelCap: shared.levelCap };
+  }
+
+  return { slots: loadSavedParty(), levelCap: 60 };
+}
+
+const initialParty = loadInitialParty();
 
 /** @type {{ slots: (string | null)[], levelCap: number, allClassEntries: Map<string, object> | null, buffRows: object[], expandedBars: Set<string> }} */
 const state = {
-  slots: loadSavedParty(),
-  levelCap: 60,
+  slots: initialParty.slots,
+  levelCap: initialParty.levelCap,
   allClassEntries: null,
   buffRows: [],
   expandedBars: new Set(),
 };
+
+const app = document.querySelector('#app');
+
+function syncShareUrl() {
+  const share = encodePartyProfile({
+    slots: state.slots,
+    levelCap: state.levelCap,
+  });
+
+  syncUrlBindings([], { preserve: [], extra: { share } });
+}
+
+function persistParty() {
+  saveParty(state.slots);
+  syncShareUrl();
+}
 
 function escapeHtml(text) {
   return String(text)
@@ -363,6 +392,7 @@ function render() {
           />
         </label>
         <button type="button" class="secondary-btn" data-action="clear-party">Clear party</button>
+        ${renderShareControl({ label: 'Copy party link' })}
       </div>
 
       <div class="party-slots">
@@ -418,6 +448,8 @@ function render() {
       <span>Compared against max values at level ${state.levelCap} and below</span>
     </footer>
   `;
+
+  syncShareUrl();
 }
 
 function toggleCoverageBar(barKey) {
@@ -445,7 +477,7 @@ function bindEvents() {
     select.addEventListener('change', (event) => {
       const slot = Number(event.target.dataset.slot);
       state.slots[slot] = event.target.value || null;
-      saveParty(state.slots);
+      persistParty();
       render();
       bindEvents();
     });
@@ -461,12 +493,13 @@ function bindEvents() {
   app.querySelector('[data-action="clear-party"]')?.addEventListener('click', () => {
     state.slots = Array(PARTY_SIZE).fill(null);
     state.expandedBars.clear();
-    saveParty(state.slots);
+    persistParty();
     render();
     bindEvents();
   });
 
   bindSpellTooltips();
+  bindShareControl(app);
 }
 
 async function init() {

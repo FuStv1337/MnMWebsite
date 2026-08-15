@@ -30,21 +30,30 @@ import {
 } from './character-creator-data.js';
 import { renderStatLabel, getPrimaryStatInfo, statisticsSource } from './stat-info.js';
 import { renderRacialAbilityTip, renderInfoTip, initInfoTips } from './info-tip.js';
+import { bindShareControl, renderShareControl, syncUrlBindings } from './url-state.js';
+import { decodeCharacterBuild, encodeCharacterBuild } from './share-profile.js';
 
 const app = document.querySelector('#app');
 
 const defaultAllocation = Object.fromEntries(statKeys.map((key) => [key, 0]));
 const defaultTraits = Object.fromEntries(traitSlots.map((slot) => [slot.id, null]));
 
-const saved = loadSavedBuild();
+function loadInitialBuild() {
+  const share = new URLSearchParams(window.location.search).get('share');
+  const shared = decodeCharacterBuild(share);
+  if (shared) return shared;
+  return loadSavedBuild();
+}
+
+const initialBuild = loadInitialBuild();
 
 /** @type {object} */
 const state = {
-  raceName: saved?.raceName ?? 'Human',
-  className: saved?.className ?? 'Cleric',
-  statAllocation: { ...defaultAllocation, ...(saved?.statAllocation ?? {}) },
-  traits: { ...defaultTraits, ...(saved?.traits ?? {}) },
-  compareView: saved?.compareView ?? 'class',
+  raceName: initialBuild?.raceName ?? 'Human',
+  className: initialBuild?.className ?? 'Cleric',
+  statAllocation: { ...defaultAllocation, ...(initialBuild?.statAllocation ?? {}) },
+  traits: { ...defaultTraits, ...(initialBuild?.traits ?? {}) },
+  compareView: initialBuild?.compareView ?? 'class',
   expandedTraitSlot: null,
 };
 
@@ -68,6 +77,19 @@ function persist() {
     traits: state.traits,
     compareView: state.compareView,
   });
+  syncShareUrl();
+}
+
+function syncShareUrl() {
+  const share = encodeCharacterBuild({
+    raceName: state.raceName,
+    className: state.className,
+    statAllocation: state.statAllocation,
+    traits: state.traits,
+    compareView: state.compareView,
+  });
+
+  syncUrlBindings([], { preserve: [], extra: { share } });
 }
 
 function ensureValidCombo() {
@@ -501,6 +523,7 @@ function renderSetupBar(race, cls) {
           </span>
         </div>
       </div>
+      ${renderShareControl({ label: 'Copy build link' })}
     </section>
   `;
 }
@@ -655,6 +678,7 @@ function render() {
   `;
 
   bindEvents();
+  bindShareControl(app);
   initInfoTips(app);
 }
 

@@ -22,6 +22,7 @@ import {
   isBestValue,
   getSectionCounts,
 } from './buff-data.js';
+import { bindShareControl, readUrlBindings, renderShareControl, syncUrlBindings, urlSerializers } from './url-state.js';
 
 const app = document.querySelector('#app');
 
@@ -32,6 +33,31 @@ const state = {
   selectedSection: null,
   expandedRows: new Set(),
 };
+
+const urlBindings = [
+  {
+    key: 'search',
+    param: 'q',
+    get: () => state.search,
+    set: (value) => {
+      state.search = typeof value === 'string' ? value : '';
+    },
+    serialize: urlSerializers.string,
+  },
+  {
+    key: 'selectedSection',
+    param: 'section',
+    get: () => state.selectedSection,
+    set: (value) => {
+      state.selectedSection = typeof value === 'string' && value ? value : null;
+    },
+    serialize: urlSerializers.string,
+  },
+];
+
+function syncUrl() {
+  syncUrlBindings(urlBindings);
+}
 
 function rowKey(row) {
   return `${row.className}-${row.slug || row.name}-${row.sectionTag}-${row.valueDisplay}`;
@@ -276,6 +302,7 @@ function render() {
           value="${escapeHtml(state.search)}"
         />
       </label>
+      ${renderShareControl({ label: 'Copy link' })}
       ${renderSectionNav(sectionCounts, filteredRows)}
     </section>
 
@@ -298,6 +325,8 @@ function render() {
       <span>Excludes self-only and pet buffs</span>
     </footer>
   `;
+
+  syncUrl();
 }
 
 function toggleRow(key) {
@@ -342,10 +371,13 @@ function bindEvents() {
       }
     });
   });
+
+  bindShareControl(app);
 }
 
 async function init() {
   app.innerHTML = '<div class="loading">Loading buff data…</div>';
+  readUrlBindings(urlBindings);
   state.rows = await loadBuffPageRows();
   render();
   bindEvents();

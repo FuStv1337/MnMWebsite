@@ -24,6 +24,7 @@ import {
   getSortedClasses,
   formatClassSummary,
 } from './find-data.js';
+import { bindShareControl, readUrlBindings, renderShareControl, syncUrlBindings, urlParsers, urlSerializers } from './url-state.js';
 
 const app = document.querySelector('#app');
 const classNames = indexData.classes.map((c) => c.name).sort((a, b) => a.localeCompare(b));
@@ -53,6 +54,92 @@ const state = {
   },
   expandedRows: new Set(),
 };
+
+const urlBindings = [
+  {
+    key: 'search',
+    param: 'q',
+    get: () => state.filters.search,
+    set: (value) => {
+      state.filters.search = typeof value === 'string' ? value : '';
+    },
+    serialize: urlSerializers.string,
+  },
+  {
+    key: 'className',
+    param: 'class',
+    get: () => state.filters.className,
+    set: (value) => {
+      state.filters.className = typeof value === 'string' ? value : '';
+    },
+    serialize: urlSerializers.string,
+  },
+  {
+    key: 'tags',
+    param: 'tags',
+    get: () => state.filters.tags,
+    set: (value) => {
+      state.filters.tags = value instanceof Set ? value : new Set();
+    },
+    serialize: urlSerializers.tags,
+    deserialize: urlParsers.tags,
+  },
+  {
+    key: 'levelMin',
+    param: 'min',
+    get: () => state.filters.levelMin,
+    set: (value) => {
+      state.filters.levelMin = typeof value === 'number' ? value : null;
+    },
+    serialize: urlSerializers.int,
+    deserialize: urlParsers.int,
+  },
+  {
+    key: 'levelMax',
+    param: 'max',
+    get: () => state.filters.levelMax,
+    set: (value) => {
+      state.filters.levelMax = typeof value === 'number' ? value : null;
+    },
+    serialize: urlSerializers.int,
+    deserialize: urlParsers.int,
+  },
+  {
+    key: 'sort',
+    get: () => state.filters.sort,
+    set: (value) => {
+      if (typeof value === 'string') state.filters.sort = value;
+    },
+    defaultValue: 'name-asc',
+    serialize: (value) => (value === 'name-asc' ? null : urlSerializers.string(value)),
+  },
+  {
+    key: 'primaryTagOnly',
+    param: 'primary',
+    get: () => state.filters.primaryTagOnly,
+    set: (value) => {
+      state.filters.primaryTagOnly = Boolean(value);
+    },
+    defaultValue: false,
+    serialize: (value) => urlSerializers.bool(value, false),
+    deserialize: urlParsers.bool,
+  },
+  {
+    key: 'inGameOnly',
+    param: 'inGame',
+    get: () => state.filters.inGameOnly,
+    set: (value) => {
+      state.filters.inGameOnly = value !== false;
+    },
+    defaultValue: true,
+    serialize: (value) => urlSerializers.bool(value, true),
+    deserialize: (raw) => raw !== '0',
+  },
+];
+
+function syncUrl() {
+  syncUrlBindings(urlBindings);
+}
 
 function entryKey(entry) {
   return entry.slug || entry.name;
@@ -259,23 +346,6 @@ function getFilteredEntries() {
   return sortFindEntries(filtered, state.filters.sort);
 }
 
-function readQueryFromUrl() {
-  const params = new URLSearchParams(window.location.search);
-  const q = params.get('q');
-  if (q) state.filters.search = q;
-}
-
-function syncQueryToUrl() {
-  const params = new URLSearchParams(window.location.search);
-  const search = state.filters.search.trim();
-
-  if (search) params.set('q', search);
-  else params.delete('q');
-
-  const next = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
-  window.history.replaceState(null, '', next);
-}
-
 function render() {
   const filtered = getFilteredEntries();
   const availableTags = getAvailableTags(state.entries);
@@ -338,6 +408,7 @@ function render() {
         </label>
 
         <button type="button" class="secondary-btn" data-action="reset-filters">Reset filters</button>
+        ${renderShareControl({ label: 'Copy link' })}
       </div>
 
       ${renderQuickFilters(availableTags)}
@@ -359,12 +430,13 @@ function render() {
       <span>${meta.uniqueEntries} unique entries across ${meta.classCount} classes</span>
     </footer>
   `;
+
+  syncUrl();
 }
 
 function bindEvents() {
   app.querySelector('#search-input')?.addEventListener('input', (e) => {
     state.filters.search = e.target.value;
-    syncQueryToUrl();
     render();
     bindEvents();
     const input = app.querySelector('#search-input');
@@ -418,7 +490,6 @@ function bindEvents() {
     state.filters.inGameOnly = true;
     state.filters.className = '';
     state.expandedRows.clear();
-    syncQueryToUrl();
     render();
     bindEvents();
   });
@@ -461,6 +532,7 @@ function bindEvents() {
       }
     });
   });
+  bindShareControl(app);
 }
 
 function toggleRow(key) {
@@ -472,7 +544,7 @@ function toggleRow(key) {
 
 async function init() {
   app.innerHTML = '<div class="loading">Loading spell index…</div>';
-  readQueryFromUrl();
+  readUrlBindings(urlBindings);
   state.entries = await loadFindEntries();
   render();
   bindEvents();
