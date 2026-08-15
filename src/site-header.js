@@ -2,11 +2,11 @@ import { sitePath } from './site-paths.js';
 
 /** @type {{ id: string, label: string, href: string }[]} */
 const NAV_ITEMS = [
-  { id: 'browser', label: 'Class Browser', href: '/' },
+  { id: 'browser', label: 'Spells', href: '/' },
   { id: 'buffs', label: 'Buffs', href: 'buffs.html' },
   { id: 'party', label: 'Party', href: 'party.html' },
   { id: 'races', label: 'Races', href: 'races.html' },
-  { id: 'creator', label: 'Creator', href: 'creator.html' },
+  { id: 'creator', label: 'Create', href: 'creator.html' },
 ];
 
 /**

@@ -273,7 +273,7 @@ function render() {
       <p class="race-intro">
         Base stats, racial abilities, and per-class starting stats for all playable races from the
         <a href="${escapeHtml(source)}" target="_blank" rel="noopener">Character Races</a> wiki.
-        Use the <a href="${sitePath('creator.html')}">Character Creator</a> to compare combinations and plan your build.
+        Use <a href="${sitePath('creator.html')}">Create</a> to compare combinations and plan your build.
         Data fetched ${new Date(fetchedAt).toLocaleDateString()}.
       </p>
       <div class="race-controls-row">
