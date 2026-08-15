@@ -1,5 +1,6 @@
 import './style.css';
 import { sitePath } from './site-paths.js';
+import { renderSiteHeader } from './site-header.js';
 import meta from '../data/meta.json';
 import { loadBuffPageRows } from './buff-data.js';
 import {
@@ -342,19 +343,7 @@ function render() {
   ).join('');
 
   app.innerHTML = `
-    <header class="site-header">
-      <div class="header-top">
-        <div>
-          <h1>Monsters &amp; Memories</h1>
-          <p class="tagline">Party composition analyzer</p>
-        </div>
-        <nav class="site-nav">
-          <a href="${sitePath('/')}">Class Browser</a>
-          <a href="${sitePath('buffs.html')}">Buffs</a>
-          <a href="${sitePath('party.html')}" class="site-nav--active">Party</a>
-        </nav>
-      </div>
-    </header>
+    ${renderSiteHeader({ active: 'party', tagline: 'Party composition analyzer' })}
 
     <section class="controls card">
       <p class="party-intro">

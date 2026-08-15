@@ -1,5 +1,6 @@
 import './style.css';
 import { sitePath } from './site-paths.js';
+import { renderSiteHeader } from './site-header.js';
 import meta from '../data/meta.json';
 import {
   STAT_FILTER_GROUPS,
@@ -259,19 +260,7 @@ function render() {
   const sections = sectionGroups.map((group) => renderSection(group));
 
   app.innerHTML = `
-    <header class="site-header">
-      <div class="header-top">
-        <div>
-          <h1>Monsters &amp; Memories</h1>
-          <p class="tagline">Cross-class buff comparison</p>
-        </div>
-        <nav class="site-nav">
-          <a href="${sitePath('/')}">Class Browser</a>
-          <a href="${sitePath('buffs.html')}" class="site-nav--active">Buffs</a>
-          <a href="${sitePath('party.html')}">Party</a>
-        </nav>
-      </div>
-    </header>
+    ${renderSiteHeader({ active: 'buffs', tagline: 'Cross-class buff comparison' })}
 
     <section class="controls card">
       <p class="buff-intro">

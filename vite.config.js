@@ -12,6 +12,8 @@ export default defineConfig({
         main: './index.html',
         buffs: './buffs.html',
         party: './party.html',
+        races: './races.html',
+        creator: './creator.html',
       },
     },
   },

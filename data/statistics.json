@@ -1,0 +1,77 @@
+{
+  "source": "https://monstersandmemories.miraheze.org/wiki/Statistics",
+  "fetchedAt": "2026-08-15T08:14:54.317Z",
+  "primaryStats": {
+    "STR": {
+      "name": "Strength",
+      "abbrev": "STR",
+      "description": "Allows you to carry more weight. Also increases melee and ranged weapon damage and shield block amounts.",
+      "notes": [
+        "1 STR = 2 Weight"
+      ]
+    },
+    "STA": {
+      "name": "Stamina",
+      "abbrev": "STA",
+      "description": "Increases health and reduces chance to be dazed in combat.",
+      "notes": [
+        "1 STA = 1 HP ( need testing seems to scale better late game )"
+      ]
+    },
+    "AGI": {
+      "name": "Agility",
+      "abbrev": "AGI",
+      "description": "Provides damage mitigation.",
+      "notes": []
+    },
+    "DEX": {
+      "name": "Dexterity",
+      "abbrev": "DEX",
+      "description": "Increases hit rate, on hit weapon effect frequency and provides a bonus to channeling for spellcasters.",
+      "notes": []
+    },
+    "WIS": {
+      "name": "Wisdom",
+      "abbrev": "WIS",
+      "description": "Increases mana pool size (if WIS is higher than INT) and increases healing done on healing spells.",
+      "notes": [
+        "Based on the main stat of a class, Wisdom gives Mana at a rate of 4 Mana per 1 Wisdom."
+      ]
+    },
+    "INT": {
+      "name": "Intelligence",
+      "abbrev": "INT",
+      "description": "Increases mana pool size (if INT is higher than WIS) and increases damage done on offensive damage spells.",
+      "notes": []
+    },
+    "CHA": {
+      "name": "Charisma",
+      "abbrev": "CHA",
+      "description": "Reduces the purchase price of items at merchants, and increases the sale price. Also improves the commerce skill and reduces the break rate of charm. At this time Charisma dont seem to effect Vendor prices. Also commerce skill dont work atm. ( state Beta 05.06.2026 )",
+      "notes": []
+    }
+  },
+  "secondaryStats": {
+    "AC": {
+      "name": "Armor Class",
+      "abbrev": "AC",
+      "description": "Determined by the armors the character is wearing. Mitigate the incoming physical damages.",
+      "notes": []
+    },
+    "HP": {
+      "name": "Hit Points",
+      "abbrev": "HP",
+      "description": "Sometimes known as \"health\", a character's HP determines how much damage you can sustain before dying.",
+      "notes": [
+        "Max (cap): None",
+        "Hit points can be increased directly through +HP gear, or indirectly through +STA gear, or temporarily through HP enhancing spells."
+      ]
+    },
+    "WT": {
+      "name": "Weight",
+      "abbrev": "WT",
+      "description": "A character's weight describes how much mass from items and coins they are carrying or have equipped.",
+      "notes": []
+    }
+  }
+}

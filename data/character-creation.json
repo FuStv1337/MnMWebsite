@@ -1,0 +1,3587 @@
+{
+  "source": "https://monstersandmemories.miraheze.org/wiki/Character_Creation_Guide",
+  "racesSource": "https://monstersandmemories.miraheze.org/wiki/Character_Races",
+  "fetchedAt": "2026-08-15T08:37:31.784Z",
+  "statKeys": [
+    "STR",
+    "STA",
+    "DEX",
+    "AGI",
+    "INT",
+    "WIS",
+    "CHA"
+  ],
+  "statPointBudget": 7,
+  "traitSlots": [
+    {
+      "id": "majorCombat",
+      "label": "Major Combat Trait",
+      "category": "majorCombat"
+    },
+    {
+      "id": "minorCombat",
+      "label": "Minor Combat Trait",
+      "category": "minorCombat"
+    },
+    {
+      "id": "majorNonCombat",
+      "label": "Major Non-Combat Trait",
+      "category": "majorNonCombat"
+    },
+    {
+      "id": "minorNonCombat",
+      "label": "Minor Non-Combat Trait",
+      "category": "minorNonCombat"
+    }
+  ],
+  "raceAbbrevToName": {
+    "DDF": "Deep Dwarf",
+    "DEF": "Deep Elf",
+    "DGN": "Deep Gnome",
+    "DWF": "Dwarf",
+    "GNM": "Gnome",
+    "GOB": "Goblin",
+    "HFL": "Halfling",
+    "HIE": "High Elf",
+    "HUM": "Human",
+    "OGR": "Ogre",
+    "TRL": "Troll",
+    "ELF": "Wood Elf"
+  },
+  "raceNameToAbbrev": {
+    "Deep Dwarf": "DDF",
+    "Deep Elf": "DEF",
+    "Deep Gnome": "DGN",
+    "Dwarf": "DWF",
+    "Gnome": "GNM",
+    "Goblin": "GOB",
+    "Halfling": "HFL",
+    "High Elf": "HIE",
+    "Human": "HUM",
+    "Ogre": "OGR",
+    "Troll": "TRL",
+    "Wood Elf": "ELF"
+  },
+  "classAbbrevToName": {
+    "ARC": "Archer",
+    "BRD": "Bard",
+    "BST": "Beastmaster",
+    "CLR": "Cleric",
+    "DRU": "Druid",
+    "ELE": "Elementalist",
+    "ENC": "Enchanter",
+    "FTR": "Fighter",
+    "INQ": "Inquisitor",
+    "MNK": "Monk",
+    "NEC": "Necromancer",
+    "PAL": "Paladin",
+    "RNG": "Ranger",
+    "ROG": "Rogue",
+    "SHD": "Shadow Knight",
+    "SHM": "Shaman",
+    "SPB": "Spellblade",
+    "WIZ": "Wizard"
+  },
+  "classNameToAbbrev": {
+    "Archer": "ARC",
+    "Bard": "BRD",
+    "Beastmaster": "BST",
+    "Cleric": "CLR",
+    "Druid": "DRU",
+    "Elementalist": "ELE",
+    "Enchanter": "ENC",
+    "Fighter": "FTR",
+    "Inquisitor": "INQ",
+    "Monk": "MNK",
+    "Necromancer": "NEC",
+    "Paladin": "PAL",
+    "Ranger": "RNG",
+    "Rogue": "ROG",
+    "Shadow Knight": "SHD",
+    "Shaman": "SHM",
+    "Spellblade": "SPB",
+    "Wizard": "WIZ"
+  },
+  "races": [
+    {
+      "name": "Deep Dwarf",
+      "abbrev": "DDF",
+      "alignment": "Evil",
+      "startingCity": "Night Harbor (During Development)",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Enchanter",
+        "Elementalist",
+        "Paladin",
+        "Ranger",
+        "Rogue",
+        "Fighter",
+        "Spellblade",
+        "Wizard"
+      ],
+      "wikiPage": "Deep_Dwarf",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Deep_Dwarf",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/b/b3/Deepdwarves375x200.png",
+      "resistances": null,
+      "racialAbility": null,
+      "baseStats": {
+        "STR": null,
+        "STA": null,
+        "DEX": null,
+        "AGI": null,
+        "INT": null,
+        "WIS": null,
+        "CHA": null
+      },
+      "startingStats": [
+        {
+          "class": "Cleric",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Elementalist",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Fighter",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Inquisitor",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Necromancer",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Paladin",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Shadow Knight",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Spellblade",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "name": "Deep Elf",
+      "abbrev": "DEF",
+      "alignment": "Evil",
+      "startingCity": "Night Harbor (During Development)",
+      "classes": [
+        "Archer",
+        "Cleric",
+        "Enchanter",
+        "Elementalist",
+        "Inquisitor",
+        "Monk",
+        "Necromancer",
+        "Paladin",
+        "Rogue",
+        "Shadow Knight",
+        "Fighter",
+        "Spellblade",
+        "Wizard"
+      ],
+      "wikiPage": "Deep_Elf",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Deep_Elf",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/a/a3/Deepelves375x200.png",
+      "resistances": null,
+      "racialAbility": null,
+      "baseStats": {
+        "STR": null,
+        "STA": null,
+        "DEX": null,
+        "AGI": null,
+        "INT": null,
+        "WIS": null,
+        "CHA": null
+      },
+      "startingStats": [
+        {
+          "class": "Archer",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Cleric",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Elementalist",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Enchanter",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Fighter",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Inquisitor",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Monk",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Necromancer",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Paladin",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Rogue",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Shadow Knight",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Spellblade",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Wizard",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "name": "Deep Gnome",
+      "abbrev": "DGN",
+      "alignment": null,
+      "startingCity": "Night Harbor (During Development)",
+      "classes": [
+        "Beastmaster",
+        "Druid",
+        "Enchanter",
+        "Elementalist",
+        "Necromancer",
+        "Rogue",
+        "Shaman",
+        "Wizard"
+      ],
+      "wikiPage": "Deep_Gnome",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Deep_Gnome",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/1/1c/Deepgnomes375x200.png",
+      "resistances": null,
+      "racialAbility": null,
+      "baseStats": {
+        "STR": null,
+        "STA": null,
+        "DEX": null,
+        "AGI": null,
+        "INT": null,
+        "WIS": null,
+        "CHA": null
+      },
+      "startingStats": [
+        {
+          "class": "Beastmaster",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Druid",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Elementalist",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Enchanter",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Necromancer",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Rogue",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Shaman",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Wizard",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "name": "Dwarf",
+      "abbrev": "DWF",
+      "alignment": "Neutral",
+      "startingCity": "Night Harbor (During Development)",
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Enchanter",
+        "Elementalist",
+        "Paladin",
+        "Ranger",
+        "Rogue",
+        "Fighter",
+        "Spellblade",
+        "Wizard"
+      ],
+      "wikiPage": "Dwarf",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Dwarf",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/5/55/Dwarves375x200.png",
+      "resistances": "Cold +5, Magic +5",
+      "racialAbility": {
+        "name": "Stone Form",
+        "slug": "Stone_Form",
+        "url": "https://monstersandmemories.miraheze.org/wiki/Stone_Form",
+        "note": "as of Feb 16, 2026",
+        "description": "Turn to stone, removing all harmful Disease, Electricity, and Poison effects and increasing your resistance to them, reducing your Physical Damage received by 10%, and increasing your Armor Class by 25% for 15 seconds."
+      },
+      "baseStats": {
+        "STR": 17,
+        "STA": 17,
+        "DEX": 18,
+        "AGI": 15,
+        "INT": 16,
+        "WIS": 16,
+        "CHA": 15
+      },
+      "startingStats": [
+        {
+          "class": "Bard",
+          "STR": 18,
+          "STA": 17,
+          "DEX": 21,
+          "AGI": 15,
+          "INT": 16,
+          "WIS": 16,
+          "CHA": 19,
+          "bonus": 10
+        },
+        {
+          "class": "Cleric",
+          "STR": 19,
+          "STA": 19,
+          "DEX": 18,
+          "AGI": 15,
+          "INT": 16,
+          "WIS": 19,
+          "CHA": 16,
+          "bonus": 10
+        },
+        {
+          "class": "Elementalist",
+          "STR": 17,
+          "STA": 21,
+          "DEX": 18,
+          "AGI": 15,
+          "INT": 20,
+          "WIS": 16,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Enchanter",
+          "STR": 17,
+          "STA": 17,
+          "DEX": 18,
+          "AGI": 15,
+          "INT": 20,
+          "WIS": 16,
+          "CHA": 19,
+          "bonus": 10
+        },
+        {
+          "class": "Fighter",
+          "STR": 21,
+          "STA": 20,
+          "DEX": 18,
+          "AGI": 16,
+          "INT": 16,
+          "WIS": 16,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Paladin",
+          "STR": 19,
+          "STA": 21,
+          "DEX": 18,
+          "AGI": 15,
+          "INT": 16,
+          "WIS": 18,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Ranger",
+          "STR": 18,
+          "STA": 17,
+          "DEX": 21,
+          "AGI": 17,
+          "INT": 16,
+          "WIS": 18,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Rogue",
+          "STR": 17,
+          "STA": 17,
+          "DEX": 22,
+          "AGI": 19,
+          "INT": 16,
+          "WIS": 16,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Spellblade",
+          "STR": 19,
+          "STA": 17,
+          "DEX": 21,
+          "AGI": 15,
+          "INT": 19,
+          "WIS": 16,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Wizard",
+          "STR": 20,
+          "STA": 17,
+          "DEX": 19,
+          "AGI": 15,
+          "INT": 20,
+          "WIS": 16,
+          "CHA": 15,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "name": "Gnome",
+      "abbrev": "GNM",
+      "alignment": "Neutral",
+      "startingCity": "Night Harbor (During Development)",
+      "classes": [
+        "Cleric",
+        "Enchanter",
+        "Elementalist",
+        "Necromancer",
+        "Paladin",
+        "Rogue",
+        "Fighter",
+        "Spellblade",
+        "Wizard"
+      ],
+      "wikiPage": "Gnome",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Gnome",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/a/ab/Gnomes375x200.png",
+      "resistances": "Electricity +5, Poison +5",
+      "racialAbility": {
+        "name": "Slippery",
+        "slug": "Slippery",
+        "url": "https://monstersandmemories.miraheze.org/wiki/Slippery",
+        "note": "as of Feb 16, 2026",
+        "description": "Become slippery, removing all Root and Snare effects and granting you immunity to them for 15 seconds."
+      },
+      "baseStats": {
+        "STR": 14,
+        "STA": 15,
+        "DEX": 19,
+        "AGI": 16,
+        "INT": 20,
+        "WIS": 15,
+        "CHA": 15
+      },
+      "startingStats": [
+        {
+          "class": "Cleric",
+          "STR": 16,
+          "STA": 17,
+          "DEX": 19,
+          "AGI": 16,
+          "INT": 20,
+          "WIS": 18,
+          "CHA": 16,
+          "bonus": 10
+        },
+        {
+          "class": "Elementalist",
+          "STR": 14,
+          "STA": 19,
+          "DEX": 19,
+          "AGI": 16,
+          "INT": 24,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Enchanter",
+          "STR": 14,
+          "STA": 15,
+          "DEX": 19,
+          "AGI": 16,
+          "INT": 24,
+          "WIS": 15,
+          "CHA": 19,
+          "bonus": 10
+        },
+        {
+          "class": "Fighter",
+          "STR": 18,
+          "STA": 18,
+          "DEX": 19,
+          "AGI": 17,
+          "INT": 20,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Necromancer",
+          "STR": 14,
+          "STA": 15,
+          "DEX": 23,
+          "AGI": 16,
+          "INT": 24,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Paladin",
+          "STR": 16,
+          "STA": 19,
+          "DEX": 19,
+          "AGI": 16,
+          "INT": 20,
+          "WIS": 17,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Rogue",
+          "STR": 14,
+          "STA": 15,
+          "DEX": 23,
+          "AGI": 20,
+          "INT": 20,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Spellblade",
+          "STR": 16,
+          "STA": 15,
+          "DEX": 22,
+          "AGI": 16,
+          "INT": 23,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Wizard",
+          "STR": 17,
+          "STA": 15,
+          "DEX": 20,
+          "AGI": 16,
+          "INT": 24,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "name": "Goblin",
+      "abbrev": "GOB",
+      "alignment": null,
+      "startingCity": "Night Harbor (During Development)",
+      "classes": [
+        "Archer",
+        "Beastmaster",
+        "Druid",
+        "Enchanter",
+        "Necromancer",
+        "Ranger",
+        "Rogue",
+        "Shadow Knight",
+        "Shaman",
+        "Fighter"
+      ],
+      "wikiPage": "Goblin",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Goblin",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/1/1f/Goblins375x200.png",
+      "resistances": "Disease +5, Poison +5",
+      "racialAbility": {
+        "name": "Bribe",
+        "slug": "Bribe",
+        "url": "https://monstersandmemories.miraheze.org/wiki/Bribe",
+        "note": "as of Feb 16, 2026",
+        "description": "Bribe your target, causing them to forget past wrongdoings."
+      },
+      "baseStats": {
+        "STR": 15,
+        "STA": 15,
+        "DEX": 19,
+        "AGI": 19,
+        "INT": 17,
+        "WIS": 16,
+        "CHA": 13
+      },
+      "startingStats": [
+        {
+          "class": "Archer",
+          "STR": 17,
+          "STA": 15,
+          "DEX": 23,
+          "AGI": 21,
+          "INT": 17,
+          "WIS": 16,
+          "CHA": 13,
+          "bonus": 10
+        },
+        {
+          "class": "Beastmaster",
+          "STR": 19,
+          "STA": 15,
+          "DEX": 19,
+          "AGI": 21,
+          "INT": 17,
+          "WIS": 18,
+          "CHA": 13,
+          "bonus": 10
+        },
+        {
+          "class": "Druid",
+          "STR": 15,
+          "STA": 15,
+          "DEX": 19,
+          "AGI": 21,
+          "INT": 17,
+          "WIS": 20,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Enchanter",
+          "STR": 15,
+          "STA": 15,
+          "DEX": 19,
+          "AGI": 19,
+          "INT": 21,
+          "WIS": 16,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Fighter",
+          "STR": 19,
+          "STA": 18,
+          "DEX": 19,
+          "AGI": 20,
+          "INT": 17,
+          "WIS": 16,
+          "CHA": 13,
+          "bonus": 10
+        },
+        {
+          "class": "Necromancer",
+          "STR": 15,
+          "STA": 15,
+          "DEX": 23,
+          "AGI": 19,
+          "INT": 21,
+          "WIS": 16,
+          "CHA": 13,
+          "bonus": 10
+        },
+        {
+          "class": "Ranger",
+          "STR": 16,
+          "STA": 15,
+          "DEX": 22,
+          "AGI": 21,
+          "INT": 17,
+          "WIS": 18,
+          "CHA": 13,
+          "bonus": 10
+        },
+        {
+          "class": "Rogue",
+          "STR": 15,
+          "STA": 15,
+          "DEX": 23,
+          "AGI": 23,
+          "INT": 17,
+          "WIS": 16,
+          "CHA": 13,
+          "bonus": 10
+        },
+        {
+          "class": "Shadow Knight",
+          "STR": 18,
+          "STA": 17,
+          "DEX": 19,
+          "AGI": 19,
+          "INT": 20,
+          "WIS": 16,
+          "CHA": 13,
+          "bonus": 10
+        },
+        {
+          "class": "Shaman",
+          "STR": 16,
+          "STA": 17,
+          "DEX": 20,
+          "AGI": 19,
+          "INT": 17,
+          "WIS": 20,
+          "CHA": 13,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "name": "Halfling",
+      "abbrev": "HFL",
+      "alignment": "Good",
+      "startingCity": "Night Harbor (During Development)",
+      "classes": [
+        "Archer",
+        "Bard",
+        "Beastmaster",
+        "Cleric",
+        "Druid",
+        "Paladin",
+        "Ranger",
+        "Rogue",
+        "Fighter"
+      ],
+      "wikiPage": "Halfling",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Halfling",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/8/8c/Halflings375x200.png",
+      "resistances": "Corruption +5, Disease +5",
+      "racialAbility": {
+        "name": "Sneak",
+        "slug": "Sneak",
+        "url": "https://monstersandmemories.miraheze.org/wiki/Sneak",
+        "note": "as of Feb 16, 2026",
+        "description": "Walk silently, rendering you undetectable to targets while behind them."
+      },
+      "baseStats": {
+        "STR": 15,
+        "STA": 17,
+        "DEX": 16,
+        "AGI": 17,
+        "INT": 14,
+        "WIS": 20,
+        "CHA": 15
+      },
+      "startingStats": [
+        {
+          "class": "Archer",
+          "STR": 17,
+          "STA": 17,
+          "DEX": 20,
+          "AGI": 19,
+          "INT": 14,
+          "WIS": 20,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Bard",
+          "STR": 16,
+          "STA": 17,
+          "DEX": 19,
+          "AGI": 17,
+          "INT": 14,
+          "WIS": 20,
+          "CHA": 19,
+          "bonus": 10
+        },
+        {
+          "class": "Beastmaster",
+          "STR": 19,
+          "STA": 17,
+          "DEX": 16,
+          "AGI": 19,
+          "INT": 14,
+          "WIS": 22,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Cleric",
+          "STR": 17,
+          "STA": 19,
+          "DEX": 16,
+          "AGI": 17,
+          "INT": 14,
+          "WIS": 23,
+          "CHA": 16,
+          "bonus": 10
+        },
+        {
+          "class": "Druid",
+          "STR": 15,
+          "STA": 17,
+          "DEX": 16,
+          "AGI": 19,
+          "INT": 14,
+          "WIS": 24,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Fighter",
+          "STR": 19,
+          "STA": 20,
+          "DEX": 16,
+          "AGI": 18,
+          "INT": 14,
+          "WIS": 20,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Paladin",
+          "STR": 17,
+          "STA": 21,
+          "DEX": 16,
+          "AGI": 17,
+          "INT": 14,
+          "WIS": 22,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Ranger",
+          "STR": 16,
+          "STA": 17,
+          "DEX": 19,
+          "AGI": 19,
+          "INT": 14,
+          "WIS": 22,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Rogue",
+          "STR": 15,
+          "STA": 17,
+          "DEX": 20,
+          "AGI": 21,
+          "INT": 14,
+          "WIS": 20,
+          "CHA": 15,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "name": "High Elf",
+      "abbrev": "HIE",
+      "alignment": "Good",
+      "startingCity": "Night Harbor (During Development)",
+      "classes": [
+        "Archer",
+        "Cleric",
+        "Enchanter",
+        "Elementalist",
+        "Inquisitor",
+        "Paladin",
+        "Spellblade",
+        "Wizard"
+      ],
+      "wikiPage": "High_Elf",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/High_Elf",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/c/ca/Highelves375x200.png",
+      "resistances": null,
+      "racialAbility": null,
+      "baseStats": {
+        "STR": null,
+        "STA": null,
+        "DEX": null,
+        "AGI": null,
+        "INT": null,
+        "WIS": null,
+        "CHA": null
+      },
+      "startingStats": [
+        {
+          "class": "Archer",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Cleric",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Enchanter",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Elementalist",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Inquisitor",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Paladin",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Spellblade",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Wizard",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "name": "Human",
+      "abbrev": "HUM",
+      "alignment": "Neutral",
+      "startingCity": "Night Harbor (During Development)",
+      "classes": [
+        "Archer",
+        "Bard",
+        "Beastmaster",
+        "Cleric",
+        "Druid",
+        "Enchanter",
+        "Elementalist",
+        "Inquisitor",
+        "Monk",
+        "Necromancer",
+        "Paladin",
+        "Ranger",
+        "Rogue",
+        "Shadow Knight",
+        "Shaman",
+        "Fighter",
+        "Spellblade",
+        "Wizard"
+      ],
+      "wikiPage": "Human",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Human",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/a/a9/Humans375x200.png",
+      "resistances": "Corruption -5, Holy -5",
+      "racialAbility": {
+        "name": "Tenacity",
+        "slug": "Tenacity",
+        "url": "https://monstersandmemories.miraheze.org/wiki/Tenacity",
+        "note": "as of Feb 16, 2026",
+        "description": "Become tenacious, removing all Mesmerize and Incapacitate effects and granting you immunity to them for 15 seconds."
+      },
+      "baseStats": {
+        "STR": 16,
+        "STA": 17,
+        "DEX": 16,
+        "AGI": 16,
+        "INT": 16,
+        "WIS": 16,
+        "CHA": 17
+      },
+      "startingStats": [
+        {
+          "class": "Archer",
+          "STR": 18,
+          "STA": 17,
+          "DEX": 20,
+          "AGI": 18,
+          "INT": 16,
+          "WIS": 16,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Bard",
+          "STR": 17,
+          "STA": 17,
+          "DEX": 19,
+          "AGI": 16,
+          "INT": 16,
+          "WIS": 16,
+          "CHA": 21,
+          "bonus": 10
+        },
+        {
+          "class": "Beastmaster",
+          "STR": 20,
+          "STA": 17,
+          "DEX": 16,
+          "AGI": 18,
+          "INT": 16,
+          "WIS": 18,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Cleric",
+          "STR": 18,
+          "STA": 19,
+          "DEX": 16,
+          "AGI": 16,
+          "INT": 16,
+          "WIS": 19,
+          "CHA": 18,
+          "bonus": 10
+        },
+        {
+          "class": "Druid",
+          "STR": 16,
+          "STA": 17,
+          "DEX": 16,
+          "AGI": 18,
+          "INT": 16,
+          "WIS": 20,
+          "CHA": 19,
+          "bonus": 10
+        },
+        {
+          "class": "Enchanter",
+          "STR": 16,
+          "STA": 17,
+          "DEX": 16,
+          "AGI": 16,
+          "INT": 20,
+          "WIS": 16,
+          "CHA": 21,
+          "bonus": 10
+        },
+        {
+          "class": "Elementalist",
+          "STR": 16,
+          "STA": 21,
+          "DEX": 16,
+          "AGI": 16,
+          "INT": 20,
+          "WIS": 16,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Fighter",
+          "STR": 20,
+          "STA": 20,
+          "DEX": 16,
+          "AGI": 17,
+          "INT": 16,
+          "WIS": 16,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Inquisitor",
+          "STR": 17,
+          "STA": 20,
+          "DEX": 17,
+          "AGI": 16,
+          "INT": 18,
+          "WIS": 16,
+          "CHA": 18,
+          "bonus": 10
+        },
+        {
+          "class": "Monk",
+          "STR": 17,
+          "STA": 17,
+          "DEX": 19,
+          "AGI": 20,
+          "INT": 16,
+          "WIS": 16,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Necromancer",
+          "STR": 16,
+          "STA": 17,
+          "DEX": 20,
+          "AGI": 16,
+          "INT": 20,
+          "WIS": 16,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Paladin",
+          "STR": 18,
+          "STA": 21,
+          "DEX": 16,
+          "AGI": 16,
+          "INT": 16,
+          "WIS": 18,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Ranger",
+          "STR": 17,
+          "STA": 17,
+          "DEX": 19,
+          "AGI": 18,
+          "INT": 16,
+          "WIS": 18,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Rogue",
+          "STR": 16,
+          "STA": 17,
+          "DEX": 20,
+          "AGI": 20,
+          "INT": 16,
+          "WIS": 16,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Shadow Knight",
+          "STR": 19,
+          "STA": 19,
+          "DEX": 16,
+          "AGI": 16,
+          "INT": 19,
+          "WIS": 16,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Shaman",
+          "STR": 17,
+          "STA": 19,
+          "DEX": 17,
+          "AGI": 16,
+          "INT": 16,
+          "WIS": 20,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Spellblade",
+          "STR": 18,
+          "STA": 17,
+          "DEX": 19,
+          "AGI": 16,
+          "INT": 19,
+          "WIS": 16,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Wizard",
+          "STR": 19,
+          "STA": 17,
+          "DEX": 17,
+          "AGI": 16,
+          "INT": 20,
+          "WIS": 16,
+          "CHA": 17,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "name": "Ogre",
+      "abbrev": "OGR",
+      "alignment": "Evil",
+      "startingCity": "Night Harbor (During Development)",
+      "classes": [
+        "Archer",
+        "Beastmaster",
+        "Elementalist",
+        "Monk",
+        "Ranger",
+        "Shadow Knight",
+        "Shaman",
+        "Fighter"
+      ],
+      "wikiPage": "Ogre",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Ogre",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/4/47/Ogres375x200.png",
+      "resistances": "Cold +10, Magic -10",
+      "racialAbility": {
+        "name": "Ogre Smash",
+        "slug": "Ogre_Smash",
+        "url": "https://monstersandmemories.miraheze.org/wiki/Ogre_Smash",
+        "note": "as of Feb 16, 2026",
+        "description": "Forcefully smash nearby targets, stunning them for 2 seconds."
+      },
+      "baseStats": {
+        "STR": 20,
+        "STA": 19,
+        "DEX": 15,
+        "AGI": 14,
+        "INT": 16,
+        "WIS": 15,
+        "CHA": 15
+      },
+      "startingStats": [
+        {
+          "class": "Archer",
+          "STR": 22,
+          "STA": 19,
+          "DEX": 19,
+          "AGI": 16,
+          "INT": 16,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Beastmaster",
+          "STR": 24,
+          "STA": 19,
+          "DEX": 15,
+          "AGI": 16,
+          "INT": 16,
+          "WIS": 17,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Elementalist",
+          "STR": 20,
+          "STA": 23,
+          "DEX": 15,
+          "AGI": 14,
+          "INT": 20,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Fighter",
+          "STR": 24,
+          "STA": 22,
+          "DEX": 15,
+          "AGI": 15,
+          "INT": 16,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Monk",
+          "STR": 21,
+          "STA": 19,
+          "DEX": 18,
+          "AGI": 18,
+          "INT": 16,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Ranger",
+          "STR": 21,
+          "STA": 19,
+          "DEX": 18,
+          "AGI": 16,
+          "INT": 16,
+          "WIS": 17,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Shadow Knight",
+          "STR": 23,
+          "STA": 21,
+          "DEX": 15,
+          "AGI": 14,
+          "INT": 19,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Shaman",
+          "STR": 21,
+          "STA": 21,
+          "DEX": 16,
+          "AGI": 14,
+          "INT": 16,
+          "WIS": 19,
+          "CHA": 15,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "name": "Troll",
+      "abbrev": "TRL",
+      "alignment": "Evil",
+      "startingCity": "Night Harbor (During Development)",
+      "classes": [
+        "Beastmaster",
+        "Druid",
+        "Enchanter",
+        "Necromancer",
+        "Rogue",
+        "Shadow Knight",
+        "Shaman",
+        "Fighter"
+      ],
+      "wikiPage": "Troll",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Troll",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/6/67/Trolls375x200.png",
+      "resistances": null,
+      "racialAbility": null,
+      "baseStats": {
+        "STR": null,
+        "STA": null,
+        "DEX": null,
+        "AGI": null,
+        "INT": null,
+        "WIS": null,
+        "CHA": null
+      },
+      "startingStats": [
+        {
+          "class": "Beastmaster",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Druid",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Enchanter",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Necromancer",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Rogue",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Shadow Knight",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Shaman",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Fighter",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "name": "Wood Elf",
+      "abbrev": "ELF",
+      "alignment": "Good",
+      "startingCity": "Night Harbor (During Development)",
+      "classes": [
+        "Archer",
+        "Bard",
+        "Beastmaster",
+        "Druid",
+        "Ranger",
+        "Rogue",
+        "Shaman",
+        "Fighter"
+      ],
+      "wikiPage": "Wood_Elf",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Wood_Elf",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/3/3a/Woodelves375x200.png",
+      "resistances": "Electricity +5, Fire -5",
+      "racialAbility": {
+        "name": "Hide",
+        "slug": "Hide",
+        "url": "https://monstersandmemories.miraheze.org/wiki/Hide",
+        "note": "as of Feb 16, 2026",
+        "description": "Slip into the shadows, rendering you unseen by the living."
+      },
+      "baseStats": {
+        "STR": 14,
+        "STA": 14,
+        "DEX": 18,
+        "AGI": 20,
+        "INT": 15,
+        "WIS": 17,
+        "CHA": 16
+      },
+      "startingStats": [
+        {
+          "class": "Archer",
+          "STR": 16,
+          "STA": 14,
+          "DEX": 22,
+          "AGI": 22,
+          "INT": 15,
+          "WIS": 17,
+          "CHA": 16,
+          "bonus": 10
+        },
+        {
+          "class": "Bard",
+          "STR": 15,
+          "STA": 14,
+          "DEX": 21,
+          "AGI": 20,
+          "INT": 15,
+          "WIS": 17,
+          "CHA": 20,
+          "bonus": 10
+        },
+        {
+          "class": "Beastmaster",
+          "STR": 18,
+          "STA": 14,
+          "DEX": 18,
+          "AGI": 22,
+          "INT": 15,
+          "WIS": 19,
+          "CHA": 16,
+          "bonus": 10
+        },
+        {
+          "class": "Druid",
+          "STR": 14,
+          "STA": 14,
+          "DEX": 18,
+          "AGI": 22,
+          "INT": 15,
+          "WIS": 21,
+          "CHA": 18,
+          "bonus": 10
+        },
+        {
+          "class": "Fighter",
+          "STR": 18,
+          "STA": 17,
+          "DEX": 18,
+          "AGI": 21,
+          "INT": 15,
+          "WIS": 17,
+          "CHA": 16,
+          "bonus": 10
+        },
+        {
+          "class": "Ranger",
+          "STR": 15,
+          "STA": 14,
+          "DEX": 21,
+          "AGI": 22,
+          "INT": 15,
+          "WIS": 19,
+          "CHA": 16,
+          "bonus": 10
+        },
+        {
+          "class": "Rogue",
+          "STR": 14,
+          "STA": 14,
+          "DEX": 22,
+          "AGI": 24,
+          "INT": 15,
+          "WIS": 17,
+          "CHA": 16,
+          "bonus": 10
+        },
+        {
+          "class": "Shaman",
+          "STR": 15,
+          "STA": 16,
+          "DEX": 19,
+          "AGI": 20,
+          "INT": 15,
+          "WIS": 21,
+          "CHA": 16,
+          "bonus": 10
+        }
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "name": "Archer",
+      "abbrev": "ARC",
+      "role": "Melee/Hybrid",
+      "armor": "Leather",
+      "pet": false,
+      "raceAbbrevs": [
+        "DEF",
+        "GOB",
+        "HFL",
+        "HIE",
+        "HUM",
+        "OGR",
+        "ELF"
+      ],
+      "races": [
+        "Deep Elf",
+        "Goblin",
+        "Halfling",
+        "High Elf",
+        "Human",
+        "Ogre",
+        "Wood Elf"
+      ],
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Archer",
+      "primaryStat": "DEX",
+      "secondaryStat": null,
+      "statModifiers": {
+        "STR": 2,
+        "DEX": 4,
+        "AGI": 2
+      },
+      "modifierText": "+2 STR, +4 DEX, +2 AGI",
+      "bonusPointsAdvice": null
+    },
+    {
+      "name": "Bard",
+      "abbrev": "BRD",
+      "role": "Melee/Hybrid",
+      "armor": "Leather",
+      "pet": false,
+      "raceAbbrevs": [
+        "DWF",
+        "HFL",
+        "HUM",
+        "ELF"
+      ],
+      "races": [
+        "Dwarf",
+        "Halfling",
+        "Human",
+        "Wood Elf"
+      ],
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Bard",
+      "primaryStat": "CHA",
+      "secondaryStat": null,
+      "statModifiers": {
+        "STR": 1,
+        "DEX": 3,
+        "CHA": 4
+      },
+      "modifierText": "+1 STR, +3 DEX, +4 CHA",
+      "bonusPointsAdvice": "Listed below is the recommended allocation of bonus points by race. Since Charisma is a Bard’s main attribute, you should focus on maximizing it whenever possible. Most of your songs' effectiveness are tied to it. The remaining points are flexible as it is currently unknown how or if songs are affected by the other stats. As more information comes to light, this section will be appropriately updated. * Note: Mana total is only affected by the higher stat between intelligence and wisdom. ''' Dwar"
+    },
+    {
+      "name": "Beastmaster",
+      "abbrev": "BST",
+      "role": "Melee/Hybrid",
+      "armor": "Leather",
+      "pet": true,
+      "raceAbbrevs": [
+        "DGN",
+        "GOB",
+        "HFL",
+        "HUM",
+        "OGR",
+        "TRL",
+        "ELF"
+      ],
+      "races": [
+        "Deep Gnome",
+        "Goblin",
+        "Halfling",
+        "Human",
+        "Ogre",
+        "Troll",
+        "Wood Elf"
+      ],
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Beastmaster",
+      "primaryStat": "STR",
+      "secondaryStat": null,
+      "statModifiers": {
+        "STR": 4,
+        "AGI": 2,
+        "WIS": 2
+      },
+      "modifierText": "+4 STR, +2 AGI, +2 WIS",
+      "bonusPointsAdvice": null
+    },
+    {
+      "name": "Cleric",
+      "abbrev": "CLR",
+      "role": "Priest",
+      "armor": "Plate",
+      "pet": false,
+      "raceAbbrevs": [
+        "DDF",
+        "DEF",
+        "DWF",
+        "GNM",
+        "HFL",
+        "HIE",
+        "HUM"
+      ],
+      "races": [
+        "Deep Dwarf",
+        "Deep Elf",
+        "Dwarf",
+        "Gnome",
+        "Halfling",
+        "High Elf",
+        "Human"
+      ],
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Cleric",
+      "primaryStat": "WIS",
+      "secondaryStat": "STA",
+      "statModifiers": {
+        "STR": 2,
+        "STA": 2,
+        "WIS": 3,
+        "CHA": 1
+      },
+      "modifierText": "+2 STR, +2 STA, +3 WIS, +1 CHA",
+      "bonusPointsAdvice": "Listed below is the recommended allocation of bonus points by race. Since Wisdom is a Cleric’s main attribute, you should focus on maximizing it whenever possible. Wisdom is directly tied to your healing spells effectiveness and total mana. After that, prioritize Stamina. It gives you extra HP and a bit of stun resistance. Finally, put a point into Dexterity if you have any left. It affects hit rate across the board and increases your proc chance. ''' Dwarf: +2 Stamina and +8 Wisdom Gnome: +2 St"
+    },
+    {
+      "name": "Druid",
+      "abbrev": "DRU",
+      "role": "Priest",
+      "armor": "Leather",
+      "pet": true,
+      "raceAbbrevs": [
+        "DGN",
+        "GOB",
+        "HFL",
+        "HUM",
+        "TRL",
+        "ELF"
+      ],
+      "races": [
+        "Deep Gnome",
+        "Goblin",
+        "Halfling",
+        "Human",
+        "Troll",
+        "Wood Elf"
+      ],
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Druid",
+      "primaryStat": "WIS",
+      "secondaryStat": "CHA",
+      "statModifiers": {
+        "AGI": 2,
+        "WIS": 4,
+        "CHA": 2
+      },
+      "modifierText": "+2 AGI, +4 WIS, +2 CHA",
+      "bonusPointsAdvice": "Listed below is the recommended allocation of bonus points by race. Since Wisdom is a Druid’s main attribute, you should focus on maximizing it whenever possible. Wisdom is directly tied to your healing spells effectiveness and total mana. After that, prioritize Charisma. It helps with the Druid's charm line of spells, along with a few other spell lines. Finally, put a point into Dexterity if you have any left. It affects hit rate across the board and increases your proc chance. ''' Goblin: +1 D"
+    },
+    {
+      "name": "Elementalist",
+      "abbrev": "ELE",
+      "role": "Caster",
+      "armor": "Cloth",
+      "pet": true,
+      "raceAbbrevs": [
+        "DDF",
+        "DEF",
+        "DGN",
+        "GNM",
+        "HIE",
+        "HUM",
+        "OGR"
+      ],
+      "races": [
+        "Deep Dwarf",
+        "Deep Elf",
+        "Deep Gnome",
+        "Gnome",
+        "High Elf",
+        "Human",
+        "Ogre"
+      ],
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Elementalist",
+      "primaryStat": "INT",
+      "secondaryStat": "STA",
+      "statModifiers": {
+        "STA": 4,
+        "INT": 4
+      },
+      "modifierText": "+4 STA, +4 INT",
+      "bonusPointsAdvice": "Below is the recommended allocation of bonus points by race. Since Intelligence is a Elementalist’s main attribute, you should focus on maximizing it whenever possible. Your spell damage and mana total is directly tied to it. After that, prioritize Stamina. It gives you extra HP and a bit of stun resistance. Finally, put a point or two into Dexterity. It affects hit rate across the board and increases your proc chance. ''' Dwarf: +2 Stamina, +1 Dexterity, and +7 Intelligence Gnome: +3 Stamina, +"
+    },
+    {
+      "name": "Enchanter",
+      "abbrev": "ENC",
+      "role": "Caster",
+      "armor": "Cloth",
+      "pet": true,
+      "raceAbbrevs": [
+        "DEF",
+        "DGN",
+        "DWF",
+        "GNM",
+        "GOB",
+        "HIE",
+        "HUM",
+        "TRL"
+      ],
+      "races": [
+        "Deep Elf",
+        "Deep Gnome",
+        "Dwarf",
+        "Gnome",
+        "Goblin",
+        "High Elf",
+        "Human",
+        "Troll"
+      ],
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Enchanter",
+      "primaryStat": "INT",
+      "secondaryStat": null,
+      "statModifiers": {
+        "INT": 4,
+        "CHA": 4
+      },
+      "modifierText": "+4 INT, + 4 CHA",
+      "bonusPointsAdvice": "Below is the recommended allocation of bonus points by race. Since Intelligence is a Enchanter’s main attribute, you should focus on maximizing it whenever possible. Your spell damage and mana total is directly tied to it. Very close behind it is Charisma. As an Enchanter you are the best crowd controller in the game, and both your Charm and Mesmerize line of skills rely on this stat. ''' Dwarf: +5 Intelligence and +5 Charisma Gnome: +5 Intelligence and +5 Charisma Goblin: +5 Intelligence and +5"
+    },
+    {
+      "name": "Fighter",
+      "abbrev": "FTR",
+      "role": "Tank",
+      "armor": "Plate",
+      "pet": false,
+      "raceAbbrevs": [
+        "DDF",
+        "DEF",
+        "DWF",
+        "GNM",
+        "GOB",
+        "HUM",
+        "OGR",
+        "TRL",
+        "ELF"
+      ],
+      "races": [
+        "Deep Dwarf",
+        "Deep Elf",
+        "Dwarf",
+        "Gnome",
+        "Goblin",
+        "Human",
+        "Ogre",
+        "Troll",
+        "Wood Elf"
+      ],
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Fighter",
+      "primaryStat": "STA",
+      "secondaryStat": null,
+      "statModifiers": {
+        "STR": 4,
+        "STA": 3,
+        "AGI": 1
+      },
+      "modifierText": "+4 STR, +3 STA, +1 AGI",
+      "bonusPointsAdvice": null
+    },
+    {
+      "name": "Inquisitor",
+      "abbrev": "INQ",
+      "role": "Tank",
+      "armor": "Plate",
+      "pet": false,
+      "raceAbbrevs": [
+        "DDF",
+        "DEF",
+        "HIE",
+        "HUM"
+      ],
+      "races": [
+        "Deep Dwarf",
+        "Deep Elf",
+        "High Elf",
+        "Human"
+      ],
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Inquisitor",
+      "primaryStat": "STA",
+      "secondaryStat": null,
+      "statModifiers": {
+        "STR": 1,
+        "STA": 3,
+        "DEX": 1,
+        "INT": 2,
+        "CHA": 1
+      },
+      "modifierText": "+1 STR, +3 STA, +1 DEX, +2 INT, +1 CHA",
+      "bonusPointsAdvice": null
+    },
+    {
+      "name": "Monk",
+      "abbrev": "MNK",
+      "role": "Melee/Hybrid",
+      "armor": "Leather",
+      "pet": false,
+      "raceAbbrevs": [
+        "DEF",
+        "HUM",
+        "OGR"
+      ],
+      "races": [
+        "Deep Elf",
+        "Human",
+        "Ogre"
+      ],
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Monk",
+      "primaryStat": "STR",
+      "secondaryStat": null,
+      "statModifiers": {
+        "STR": 1,
+        "DEX": 3,
+        "AGI": 4
+      },
+      "modifierText": "+1 STR, +3 DEX, +4 AGI ",
+      "bonusPointsAdvice": null
+    },
+    {
+      "name": "Necromancer",
+      "abbrev": "NEC",
+      "role": "Caster",
+      "armor": "Cloth",
+      "pet": true,
+      "raceAbbrevs": [
+        "DDF",
+        "DEF",
+        "DGN",
+        "GNM",
+        "GOB",
+        "HUM",
+        "TRL"
+      ],
+      "races": [
+        "Deep Dwarf",
+        "Deep Elf",
+        "Deep Gnome",
+        "Gnome",
+        "Goblin",
+        "Human",
+        "Troll"
+      ],
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Necromancer",
+      "primaryStat": "INT",
+      "secondaryStat": "STA",
+      "statModifiers": {
+        "DEX": 4,
+        "INT": 4
+      },
+      "modifierText": "+4 DEX, +4 INT",
+      "bonusPointsAdvice": "Below is the recommended allocation of bonus points by race. Since Intelligence is a Necromancer’s main attribute, you should focus on maximizing it whenever possible. Your spell damage and mana total is directly tied to it. After that, prioritize Stamina. It gives you extra HP and a bit of stun resistance. Finally, put a point or two into Dexterity. It affects hit rate across the board and increases your proc chance. ''' Gnome: +4 Stamina, +1 Dexterity, and +5 Intelligence Goblin: +3 Stamina, +"
+    },
+    {
+      "name": "Paladin",
+      "abbrev": "PAL",
+      "role": "Tank",
+      "armor": "Plate",
+      "pet": false,
+      "raceAbbrevs": [
+        "DDF",
+        "DEF",
+        "DWF",
+        "GNM",
+        "HFL",
+        "HIE",
+        "HUM"
+      ],
+      "races": [
+        "Deep Dwarf",
+        "Deep Elf",
+        "Dwarf",
+        "Gnome",
+        "Halfling",
+        "High Elf",
+        "Human"
+      ],
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Paladin",
+      "primaryStat": "STA",
+      "secondaryStat": null,
+      "statModifiers": {
+        "STR": 2,
+        "STA": 4,
+        "WIS": 2
+      },
+      "modifierText": "+2 STR, +4 STA, +2 WIS",
+      "bonusPointsAdvice": null
+    },
+    {
+      "name": "Ranger",
+      "abbrev": "RNG",
+      "role": "Melee/Hybrid",
+      "armor": "Chainmail",
+      "pet": false,
+      "raceAbbrevs": [
+        "DWF",
+        "GOB",
+        "HFL",
+        "HUM",
+        "OGR",
+        "ELF"
+      ],
+      "races": [
+        "Dwarf",
+        "Goblin",
+        "Halfling",
+        "Human",
+        "Ogre",
+        "Wood Elf"
+      ],
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Ranger",
+      "primaryStat": "DEX",
+      "secondaryStat": null,
+      "statModifiers": {
+        "STR": 1,
+        "DEX": 3,
+        "AGI": 2,
+        "WIS": 2
+      },
+      "modifierText": "+1 STR, +3 DEX, +2 AGI, +2 WIS",
+      "bonusPointsAdvice": null
+    },
+    {
+      "name": "Rogue",
+      "abbrev": "ROG",
+      "role": "Melee/Hybrid",
+      "armor": "Chainmail",
+      "pet": false,
+      "raceAbbrevs": [
+        "DEF",
+        "DWF",
+        "GOB",
+        "HFL",
+        "HIE",
+        "HUM",
+        "ELF"
+      ],
+      "races": [
+        "Deep Elf",
+        "Dwarf",
+        "Goblin",
+        "Halfling",
+        "High Elf",
+        "Human",
+        "Wood Elf"
+      ],
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Rogue",
+      "primaryStat": "DEX",
+      "secondaryStat": null,
+      "statModifiers": {
+        "DEX": 4,
+        "AGI": 4
+      },
+      "modifierText": "+4 DEX, +4 AGI",
+      "bonusPointsAdvice": null
+    },
+    {
+      "name": "Shadow Knight",
+      "abbrev": "SHD",
+      "role": "Tank",
+      "armor": "Plate",
+      "pet": true,
+      "raceAbbrevs": [
+        "DDF",
+        "DEF",
+        "HUM",
+        "OGR",
+        "TRL"
+      ],
+      "races": [
+        "Deep Dwarf",
+        "Deep Elf",
+        "Human",
+        "Ogre",
+        "Troll"
+      ],
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Shadow_Knight",
+      "primaryStat": "STA",
+      "secondaryStat": null,
+      "statModifiers": {
+        "STR": 3,
+        "STA": 2,
+        "INT": 3
+      },
+      "modifierText": "+3 STR, +2 STA, +3 INT",
+      "bonusPointsAdvice": null
+    },
+    {
+      "name": "Shaman",
+      "abbrev": "SHM",
+      "role": "Priest",
+      "armor": "Chainmail",
+      "pet": true,
+      "raceAbbrevs": [
+        "DGN",
+        "GOB",
+        "HUM",
+        "OGR",
+        "TRL",
+        "ELF"
+      ],
+      "races": [
+        "Deep Gnome",
+        "Goblin",
+        "Human",
+        "Ogre",
+        "Troll",
+        "Wood Elf"
+      ],
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Shaman",
+      "primaryStat": "WIS",
+      "secondaryStat": "STA",
+      "statModifiers": {
+        "STR": 1,
+        "STA": 2,
+        "DEX": 1,
+        "WIS": 4
+      },
+      "modifierText": "+1 STR, +2 STA, +1 DEX, +4 WIS",
+      "bonusPointsAdvice": "Listed below is the recommended allocation of bonus points by race. Since Wisdom is a Shaman’s main attribute, you should focus on maximizing it whenever possible. Wisdom is directly tied to your healing spells effectiveness and total mana. After that, prioritize Stamina. It gives you extra HP and a bit of stun resistance. Finally, put a point into Dexterity if you have any left. It affects hit rate across the board and increases your proc chance. ''' Goblin: +4 Stamina and +6 Wisdom Human: +2 S"
+    },
+    {
+      "name": "Spellblade",
+      "abbrev": "SPB",
+      "role": "Melee/Hybrid",
+      "armor": "Leather",
+      "pet": false,
+      "raceAbbrevs": [
+        "DDF",
+        "DEF",
+        "DWF",
+        "GNM",
+        "HIE",
+        "HUM"
+      ],
+      "races": [
+        "Deep Dwarf",
+        "Deep Elf",
+        "Dwarf",
+        "Gnome",
+        "High Elf",
+        "Human"
+      ],
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Spellblade",
+      "primaryStat": "INT",
+      "secondaryStat": null,
+      "statModifiers": {
+        "STR": 2,
+        "DEX": 3,
+        "INT": 3
+      },
+      "modifierText": "+2 STR, +3 DEX, +3 INT",
+      "bonusPointsAdvice": null
+    },
+    {
+      "name": "Wizard",
+      "abbrev": "WIZ",
+      "role": "Caster",
+      "armor": "Cloth",
+      "pet": false,
+      "raceAbbrevs": [
+        "DEF",
+        "DGN",
+        "DWF",
+        "GNM",
+        "HIE",
+        "HUM"
+      ],
+      "races": [
+        "Deep Elf",
+        "Deep Gnome",
+        "Dwarf",
+        "Gnome",
+        "High Elf",
+        "Human"
+      ],
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Wizard",
+      "primaryStat": "INT",
+      "secondaryStat": "DEX",
+      "statModifiers": {
+        "STR": 3,
+        "DEX": 1,
+        "INT": 4
+      },
+      "modifierText": "+3 STR, +1 DEX, +4 INT",
+      "bonusPointsAdvice": "Below is the recommended allocation of bonus points by race. Since Intelligence is a Wizard’s main attribute, you should focus on maximizing it whenever possible. Your spell damage and mana total is directly tied to it. After that, prioritize Dexterity. It affects hit rate across the board and increases your proc chance. Finally, put some points into Stamina for extra HP and a bit of stun resistance. ''' Dwarf: +1 Stamina, +2 Dexterity, and +7 Intelligence Gnome: +3 Stamina, +2 Dexterity, and +5"
+    }
+  ],
+  "traits": {
+    "classSpecific": [
+      {
+        "name": "High Ground",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "include",
+          "values": [
+            "ARC"
+          ]
+        },
+        "description": "Passive: Your damage dealt with a bow is increased when above your target."
+      }
+    ],
+    "racialCombat": [
+      {
+        "name": "Tenacity",
+        "slug": "Tenacity",
+        "races": {
+          "type": "include",
+          "values": [
+            "HUM"
+          ]
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Passive: Your resistance to Mesmerize and Incapacitate is increased by 15%. Active: Become tenacious, removing all Mesmerize and Incapacitate effects and granting you immunity to them for 15 seconds."
+      },
+      {
+        "name": "Hide",
+        "slug": "Hide",
+        "races": {
+          "type": "include",
+          "values": [
+            "ELF"
+          ]
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Active: Slip into the shadows, rendering you unseen by the living. This ability is removed by movement and actions."
+      },
+      {
+        "name": "Bribe",
+        "slug": "Bribe",
+        "races": {
+          "type": "include",
+          "values": [
+            "GOB"
+          ]
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Active: Bribe your target, causing them to forget past wrongdoings."
+      },
+      {
+        "name": "Ogre Smash",
+        "slug": "Ogre_Smash",
+        "races": {
+          "type": "include",
+          "values": [
+            "OGR"
+          ]
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Active: Forcefully smash nearby targets, stunning them for 2 seconds."
+      },
+      {
+        "name": "Slippery",
+        "slug": "Slippery",
+        "races": {
+          "type": "include",
+          "values": [
+            "GNM"
+          ]
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Passive: Root resistance increased by 15%. Active: Become slippery, removing all Root and Snare effects and granting you immunity to them for 15 seconds."
+      },
+      {
+        "name": "Stone Form",
+        "slug": "Stone_Form",
+        "races": {
+          "type": "include",
+          "values": [
+            "DDF",
+            "DWF"
+          ]
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Active: Turn to stone, removing all harmful Disease, Electricity, and Poison effects and increasing your resistance to them, reducing your Physical Damage received by 10%, and increasing your Armor Class by 25% for 15 seconds."
+      }
+    ],
+    "majorCombat": [
+      {
+        "name": "Agile",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Passive: Your Agility is increased by 10. Active: Increases your Agility by 200 for 15 seconds."
+      },
+      {
+        "name": "Charismatic",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Passive: Your Charisma is increased by 10. Active: Become charismatic, increasing your Charisma by 100 for 12 seconds."
+      },
+      {
+        "name": "Cold Resistant",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Passive: Your base Cold Resistance is increased by 10. Universal Cold Resistance is increased by 10%. Active: Become immune to cold, removing all stacked Cold effects and greatly increasing your resistance to them for 15 seconds."
+      },
+      {
+        "name": "Corruption Resistant",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Passive: Your base Corruption resistance is increased by 10. Elemental Corruption Resistance is increased by 10%. Active: Become immune to corruption, removing all harmful Corruption effects and greatly increasing your resistance to them for 12 seconds."
+      },
+      {
+        "name": "Dexterous",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Passive: Your Dexterity is increased by 10. Active: Become dexterous, increasing your Dexterity by 10% for 12 seconds."
+      },
+      {
+        "name": "Disease Resistant",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Passive: Your base Disease Resistance is increased by 10. Universal Disease Resistance is increased by 10%. Active: Become resistant to disease, removing all harmful disease effects and greatly increasing your resistance to them for 15 seconds."
+      },
+      {
+        "name": "Electric Resistant",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Passive: Your base Electric Resistance is increased by 10. Elemental Electric Resistance is increased by 15%. Active: Become resistant to electricity, removing all harmful Electric effects and greatly increasing your resistance to them for 10 seconds."
+      },
+      {
+        "name": "Fire Resistant",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Passive: Your base Fire Resistance is increased by 10. Universal Fire Resistance is increased by 10%. Active: Become immune to fire, removing all harmful Fire effects and greatly increasing your resistance to them for 10 seconds."
+      },
+      {
+        "name": "Holy Resistant",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Passive: Your base Holy Resistance is increased by 10. Universal Holy Resistance is increased by 15%. Active: Become resistant to holiness, removing all harmful Holy effects and greatly increasing your resistance to them for 15 seconds."
+      },
+      {
+        "name": "Intelligent",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Passive: Your Intelligence is increased by 10. Active: Become intelligent, increasing your Intelligence by 100 for 12 seconds."
+      },
+      {
+        "name": "Magic Resistant",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Passive: Your base Magic Resistance is increased by 10. Universal Magic Resistance is increased by 15%. Active: Become resistant to magic, removing all harmful Magic effects and greatly increasing your resistance to them for 15 seconds."
+      },
+      {
+        "name": "Poison Resistant",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Passive: Your base Poison Resistance is increased by 10. Your total Poison Resistance is increased by 10%. Active: Become immune to poison, removing all harmful Poison effects and greatly increasing your resistance to them for 15 seconds."
+      },
+      {
+        "name": "Strong",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Passive: Your Strength is increased by 10. Active: Increasing your Strength by 100 for 15 seconds."
+      },
+      {
+        "name": "Tough",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Passive: Your Stamina is increased by 10. Active: Become tough, increasing your Stamina by 10% for 5 seconds."
+      },
+      {
+        "name": "Wise",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Passive: Your base Wisdom is increased by 10. Active: Become wise, increasing your Wisdom by 10% for 12 seconds."
+      }
+    ],
+    "minorCombat": [
+      {
+        "name": "Abjurer",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "include",
+          "values": [
+            "BST",
+            "DRU",
+            "ELE",
+            "ENC",
+            "INQ",
+            "NEC",
+            "RNG",
+            "SHD",
+            "SHM",
+            "SPB",
+            "WIZ"
+          ]
+        },
+        "description": "Makes your character better at Abjuration (10). Your Abjuration skill increases 25% faster."
+      },
+      {
+        "name": "Alterer",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "include",
+          "values": [
+            "BST",
+            "CLR",
+            "DRU",
+            "ELE",
+            "ENC",
+            "INQ",
+            "NEC",
+            "RNG",
+            "SHD",
+            "SHM",
+            "SPB",
+            "WIZ"
+          ]
+        },
+        "description": "Makes your character better at Alteration (10). Your Alterer skill increases 25% faster."
+      },
+      {
+        "name": "Ambidextrous",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "include",
+          "values": [
+            "MNK"
+          ]
+        },
+        "description": "Your Dual Wield skill starts at 20 and increases 25% faster."
+      },
+      {
+        "name": "Bludgeoner",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "include",
+          "values": [
+            "BST",
+            "CLR",
+            "DRU",
+            "ELE",
+            "ENC.FTR",
+            "MNK",
+            "NEC",
+            "PAL",
+            "ROG",
+            "SHM",
+            "SPB",
+            "WIZ"
+          ]
+        },
+        "description": "Makes your character better at Bludgeoning (10). Your Bludgeoning skill increases 25% faster. Your Character now starts with a Trainee's Staff instead of your default starter weapon."
+      },
+      {
+        "name": "Channeler",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "include",
+          "values": [
+            "BST",
+            "DRU",
+            "ELE",
+            "ENC",
+            "INQ",
+            "NEC",
+            "RNG",
+            "SHD",
+            "SHM",
+            "SPB",
+            "WIZ"
+          ]
+        },
+        "description": "Makes your character better at Channeling (10). Your Channeling skill increases 25% faster."
+      },
+      {
+        "name": "Conjurer",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "include",
+          "values": [
+            "BST",
+            "DRU",
+            "ELE",
+            "ENC",
+            "INQ",
+            "NEC",
+            "RNG",
+            "SHD",
+            "SHM",
+            "SPB",
+            "WIZ"
+          ]
+        },
+        "description": "Makes your character better at Conjuration (10). Your Conjuration skill increases 25% faster."
+      },
+      {
+        "name": "Cutthroat",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "include",
+          "values": [
+            "ARC",
+            "BRD",
+            "BST",
+            "FTR",
+            "INQ",
+            "RNG",
+            "ROG",
+            "SHD",
+            "SHM"
+          ]
+        },
+        "description": "Makes your character better at Piercing (10). Your Piercing skill increases 25% faster. Your character now starts with a Trainee's Spear instead of your default starter weapon."
+      },
+      {
+        "name": "Deadeye",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "include",
+          "values": [
+            "ARC",
+            "BST",
+            "FTR",
+            "INQ",
+            "PAL",
+            "RNG",
+            "ROG",
+            "SHD",
+            "SPB"
+          ]
+        },
+        "description": "Makes your character better at Archery (10). Your Archery skill increases 25% faster. Your Character now also starts with a Trainee's Longbow, Trainee's Hip Quiver and Trainee's Arrow x1000."
+      },
+      {
+        "name": "Defender",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Defense (5). Your Defense skill increases 25% faster."
+      },
+      {
+        "name": "Diviner",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "include",
+          "values": [
+            "BST",
+            "DRU",
+            "ELE",
+            "ENC",
+            "INQ",
+            "NEC",
+            "RNG",
+            "SHD",
+            "SHM",
+            "SPB",
+            "WIZ"
+          ]
+        },
+        "description": "Makes your character better at Divination (10). Your Divination skill increases 25% faster."
+      },
+      {
+        "name": "Evoker",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "include",
+          "values": [
+            "BST",
+            "DRU",
+            "ELE",
+            "ENC",
+            "INQ",
+            "NEC",
+            "RNG",
+            "SHD",
+            "SHM",
+            "SPB",
+            "WIZ"
+          ]
+        },
+        "description": "Makes your character better at Evoker (10). Your Evoker skills increase 25% faster."
+      },
+      {
+        "name": "Knife Thrower",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "include",
+          "values": [
+            "ARC",
+            "BST",
+            "FTR",
+            "MNK",
+            "RNG",
+            "ROG",
+            "SPB"
+          ]
+        },
+        "description": "Makes you better at Throwing (10). Your Throwing skill increases 25% faster. Your character now also starts with 1000 Trainee's Throwing Daggers."
+      },
+      {
+        "name": "Shieldman",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "include",
+          "values": [
+            "CLR",
+            "DRU",
+            "FTR",
+            "INQ",
+            "PAL",
+            "RNG",
+            "SHD",
+            "SHM",
+            "SPB"
+          ]
+        },
+        "description": "Makes your character better at Block (10). Your Block skill increases 25% faster. Your character now also starts with a Trainee's Buckler."
+      },
+      {
+        "name": "Swordsman",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "include",
+          "values": [
+            "BRD",
+            "BST",
+            "DRU",
+            "FTR",
+            "INQ",
+            "PAL",
+            "RNG",
+            "SHD",
+            "SPB",
+            "WIZ"
+          ]
+        },
+        "description": "Makes your character better at Slashing (10). Your Slashing skill increases 25% faster. Your character now starts with a Trainee's Scimitar instead of your default starter weapon."
+      },
+      {
+        "name": "Virtuoso",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "include",
+          "values": [
+            "BRD"
+          ]
+        },
+        "description": "Makes your character better at Brass, Percussion, Strings and Woodwind (25). Your Brass, Percussion, Strings, and Woodwind skills increase 25% faster. Your Character now also starts with a Trainee's Recorder."
+      },
+      {
+        "name": "Vocalist",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "include",
+          "values": [
+            "BRD"
+          ]
+        },
+        "description": "Your Singing skill starts at 50. Your Singing skill increases 50% faster."
+      },
+      {
+        "name": "Warrior",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Offense (5). Your Offensive skill increases 25% faster."
+      }
+    ],
+    "majorNonCombat": [
+      {
+        "name": "Master Artisan",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Your Blacksmithing, Jewelcrafting, Leatherworking, Pottery, Tailoring, and Woodworking skills increase 5% faster."
+      },
+      {
+        "name": "Fast Metabolism",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Your Endurance is increased by 25% but you consume food 25% faster."
+      },
+      {
+        "name": "Infravision",
+        "slug": null,
+        "races": {
+          "type": "include",
+          "values": [
+            "DWF",
+            "ELF",
+            "GNM",
+            "GOB",
+            "HFL",
+            "HIE",
+            "OGR",
+            "TRL"
+          ]
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Passive: Grants you Infravision increasing your eyesight in darkness."
+      },
+      {
+        "name": "Iron Lungs",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Your underwater air capacity is increased by 200%, but your Endurance is decreased by 25%."
+      },
+      {
+        "name": "Readiness",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "include",
+          "values": [
+            "CLR",
+            "DRU",
+            "ELE",
+            "ENC",
+            "NEC",
+            "SHM",
+            "WIZ"
+          ]
+        },
+        "description": "You start with an available Cantrip slot, which can be assigned to a memorized spell to retain it after death."
+      },
+      {
+        "name": "Slow Metabolism",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Your Endurance is decreased by 25%, but you consume food 25% slower."
+      },
+      {
+        "name": "Sneak",
+        "slug": null,
+        "races": {
+          "type": "include",
+          "values": [
+            "HFL"
+          ]
+        },
+        "classes": {
+          "type": "include",
+          "values": [
+            "ARC",
+            "BST",
+            "CLR",
+            "DRU",
+            "ELE",
+            "ENC",
+            "FTR",
+            "INQ",
+            "NEC",
+            "PAL",
+            "SHD",
+            "SHM",
+            "SPB",
+            "WIZ"
+          ]
+        },
+        "description": "Grants you Sneak, making you impossible to detect from behind. Not available to classes which get Sneak innately."
+      },
+      {
+        "name": "Ultravison",
+        "slug": null,
+        "races": {
+          "type": "include",
+          "values": [
+            "DDF",
+            "DEF",
+            "DGN"
+          ]
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Passive: Grants you Ultravision, greatly increasing your eyesight in darkness, but you also have difficulty seeing in bright environments."
+      }
+    ],
+    "minorNonCombat": [
+      {
+        "name": "Alchemist",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Alchemy (25). Alchemy skill increases 25% faster. You also start with a Trainee's Alchemist Bag."
+      },
+      {
+        "name": "Beggar",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Begging (50). Your Begging skill increases 25% faster."
+      },
+      {
+        "name": "Blacksmith",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Blacksmithing (25). Your Blacksmithing skill increases 25% faster. You also start with Trainees Hammer and Chisel."
+      },
+      {
+        "name": "Bookworm",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "exclude",
+          "values": [
+            "ARC",
+            "BRD",
+            "FTR",
+            "MNK",
+            "ROG"
+          ]
+        },
+        "description": "You start with an additional Trainee's Spellbook."
+      },
+      {
+        "name": "Brewmaster",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Brewing (25). Your Brewing skill increases 25% faster."
+      },
+      {
+        "name": "Builder",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Construction (50). Your Construction skill increases 25% faster. You also start with a Trainee's Construction Hammer."
+      },
+      {
+        "name": "Carpenter",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Your Carpentry skill starts at 25 and increases 25% faster. You start with a Trainee's Construction Hammer."
+      },
+      {
+        "name": "Chef",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Cooking (25). Your Cooking skill increases 25% faster."
+      },
+      {
+        "name": "Disenchanter",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Your Disenchanting skill starts at 25 and increases 5% faster. You start with a Trainee's Disenchanting Cube."
+      },
+      {
+        "name": "Enchanter",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Enchanting (25). Your Enchanting skill increases 25% faster. You also start with a Trainee's Tome of Enchantment."
+      },
+      {
+        "name": "Fisherman",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Fishing (25). Your Fishing skill increases 25% faster. You now also start with a Trainee's Fishing Pole and 1000 Trainee's Fishing Grubs."
+      },
+      {
+        "name": "Fletcher",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Fletching (25). Your Fletching skill increases 25% faster. You now also start with a Trainee's Fletching Kit."
+      },
+      {
+        "name": "Forager",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes you better at Forage (50). Your Forage skill increases 25% faster."
+      },
+      {
+        "name": "Herbalist",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Your Herbalism skill starts at 25 and increases 5% faster. You start with a Trainee's Sickle and Trainee's Herb Pouch."
+      },
+      {
+        "name": "Jewelcrafter",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Jewelcrafting (25). Your Jewelcrafting skill increases 25% faster. You now also start with a Trainee's Jewelcrafting Kit."
+      },
+      {
+        "name": "Leatherworker",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Leatherworking (25). Your Leatherworking skill increases 25% faster. You now also start with a Trainee's Leatherworking Kit."
+      },
+      {
+        "name": "Lumberjack",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Lumberjacking (25). Your Lumberjacking skill increases 25% faster. You now also start with a Trainee's Lumberjack Axe."
+      },
+      {
+        "name": "Magical",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "You start with a base Magic Rating and your Magical Rating gained from items is increased by 200%"
+      },
+      {
+        "name": "Medicine",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at First Aid (25). and Survivalism (5). Your First Aid skill increases 25% faster. You also start with 20 Trainee's Cloth Bandages and a Trainee's Survival Kit."
+      },
+      {
+        "name": "Merchant",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Commerce (25). Your Commerce skill increases 25% faster."
+      },
+      {
+        "name": "Miner",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Mining (25). Your Mining skill increases 25% faster. You now also start with a Trainee's Mining Pick."
+      },
+      {
+        "name": "Poison Maker",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Poison Making (50). Your Poison Making skills increase 25% faster."
+      },
+      {
+        "name": "Potter",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Pottery (50). Your Pottery Skill increases 25% faster."
+      },
+      {
+        "name": "Researcher",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Spellcrafting (50). Your Spellcrafting skill increases 25% faster. Your character also starts with a Trainee's Research Tome."
+      },
+      {
+        "name": "Smelter",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes you better at Smelting (25). Your smelting skill increases 25% faster."
+      },
+      {
+        "name": "Stonecutter",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Your Stonecutting skill starts at 25 and increases 5% faster. You start with a Trainee's Hammer and Chisel."
+      },
+      {
+        "name": "Stonemason",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Your Masonry skill starts at 25 and increases 5% faster. You start with a Trainee's Hammer and Chisel."
+      },
+      {
+        "name": "Survivalist",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Survivalism (25). Your Survivalism skill increases 25% faster. You also start with a Trainee's Survival Pouch."
+      },
+      {
+        "name": "Swimmer",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Swimming (50). Your Swimming skill increases 25% faster."
+      },
+      {
+        "name": "Tailor",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Tailoring (25). Your Tailoring skill increases 25% faster. You also start with a Trainee's Tailoring Kit."
+      },
+      {
+        "name": "Tavern Regular",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Alcohol Tolerance (25). Your Alcohol Tolerance skill increases 25% faster."
+      },
+      {
+        "name": "Tinkerer",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Tinkering (25). Your Tinkering skill increases 25% faster. You also start with a Trainee's Tinkering Toolkit."
+      },
+      {
+        "name": "Tracker",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "include",
+          "values": [
+            "BRD",
+            "DRU",
+            "RNG"
+          ]
+        },
+        "description": "Your Tracking skill starts at 25 and increases 25% faster."
+      },
+      {
+        "name": "Woodworker",
+        "slug": null,
+        "races": {
+          "type": "any"
+        },
+        "classes": {
+          "type": "any"
+        },
+        "description": "Makes your character better at Woodworking (50). Your Woodworking skill increases 25% faster."
+      }
+    ]
+  },
+  "classDetailsSource": "https://monstersandmemories.miraheze.org/wiki/Category:Classes"
+}

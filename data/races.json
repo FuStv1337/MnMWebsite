@@ -1,0 +1,1867 @@
+{
+  "source": "https://monstersandmemories.miraheze.org/wiki/Character_Races",
+  "fetchedAt": "2026-08-15T08:37:30.109Z",
+  "statKeys": [
+    "STR",
+    "STA",
+    "DEX",
+    "AGI",
+    "INT",
+    "WIS",
+    "CHA"
+  ],
+  "races": [
+    {
+      "id": "deep-dwarf",
+      "name": "Deep Dwarf",
+      "displayName": "DEEP DWARF",
+      "wikiPage": "Deep_Dwarf",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Deep_Dwarf",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/b/b3/Deepdwarves375x200.png",
+      "description": "These enigmatic, dark reflections of their Dwarven “cousins” are believed to originate from the same Titan’s blood. The stories of the Deep Dwarves' origins (often told to frighten Dwarven children before bed) speak of the blood of life flowing into the darkest crevices of the Deep Regions below Aêthoril. It was there, amongst corrupted stone, that the first of the Deep Dwarves took form.\n\nHowever, the Deep Dwarves' relentless drive to collect spirits and trap them in their creations lead many to think that they are but trapped spirits themselves. Perhaps the Titan’s blood encountered something more than corrupted stone in those dark crevasses, where the separation between realities can be so thin.\n\nThe Deep Dwarves are a calculating, methodical race. They tirelessly reshape the Deep with cold precision and incredible skill. They not only carve and shape the stone, but breathe life into strange creations that assist them in their efforts.\n\nThe insidious strategists see Eth-ur and it’s Fonts of Life as something to exploit and conquer. And their steady, plodding determination is matched only by their stony strength.",
+      "faction": "Evil",
+      "languages": null,
+      "resistances": null,
+      "startingCities": [
+        {
+          "name": "Night Harbor",
+          "slug": "Night_Harbor",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Night_Harbor"
+        }
+      ],
+      "racialAbility": null,
+      "classes": [
+        "Cleric",
+        "Elementalist",
+        "Fighter",
+        "Inquisitor",
+        "Necromancer",
+        "Paladin",
+        "Shadow Knight",
+        "Spellblade"
+      ],
+      "baseStats": {
+        "STR": null,
+        "STA": null,
+        "DEX": null,
+        "AGI": null,
+        "INT": null,
+        "WIS": null,
+        "CHA": null
+      },
+      "startingStats": [
+        {
+          "class": "Cleric",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Elementalist",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Fighter",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Inquisitor",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Necromancer",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Paladin",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Shadow Knight",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Spellblade",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "id": "deep-elf",
+      "name": "Deep Elf",
+      "displayName": "DEEP ELF",
+      "wikiPage": "Deep_Elf",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Deep_Elf",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/a/a3/Deepelves375x200.png",
+      "description": "While almost eradicated as a people during the wars following the collapse of the Calafrey Conglomerate, it’s believed that the Ail’trist are now the most prolific Elven race. Once vanquished, banished, and hunted, these Elves fled deep underground. It is here that they first heard the Shadow’s voice.\n\nHaving been warned by the Shadow of the impending calamity that burned bright in the heavens, the Ail’trist descended further into the shelter of the Deep. There they found a thriving ecosystem and adapted to the darkest depths of Eth-ur’s corrupt underbelly. And it’s there that they learned to subjugate even the most demonic of forces. Or, as their appearance and collective ethos began to transform, perhaps they merely learned to coexist with the power they sought to control.\n\nIn the years that followed, the Ail’trist have claimed the title of Masters of the Deep, and proven to be formidable against the armies of the surface world. They’ve reclaimed the ruins of the city from which they were driven by the Cilindrine so long ago. And now, deep below, rests the great capitol city of the underworld, in which the Ail’trist scheme, and the Shadow listens.",
+      "faction": "Evil",
+      "languages": null,
+      "resistances": null,
+      "startingCities": [
+        {
+          "name": "Night Harbor",
+          "slug": "Night_Harbor",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Night_Harbor"
+        }
+      ],
+      "racialAbility": null,
+      "classes": [
+        "Archer",
+        "Cleric",
+        "Elementalist",
+        "Enchanter",
+        "Fighter",
+        "Inquisitor",
+        "Monk",
+        "Necromancer",
+        "Paladin",
+        "Rogue",
+        "Shadow Knight",
+        "Spellblade",
+        "Wizard"
+      ],
+      "baseStats": {
+        "STR": null,
+        "STA": null,
+        "DEX": null,
+        "AGI": null,
+        "INT": null,
+        "WIS": null,
+        "CHA": null
+      },
+      "startingStats": [
+        {
+          "class": "Archer",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Cleric",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Elementalist",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Enchanter",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Fighter",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Inquisitor",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Monk",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Necromancer",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Paladin",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Rogue",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Shadow Knight",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Spellblade",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Wizard",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "id": "deep-gnome",
+      "name": "Deep Gnome",
+      "displayName": "DEEP GNOME",
+      "wikiPage": "Deep_Gnome",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Deep_Gnome",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/1/1c/Deepgnomes375x200.png",
+      "description": "Descended from Gnomes, this curious race emerged after the great cataclysm, having been transformed by something they’d experienced while deep underground.\n\nWhere Gnomes are the world’s greatest engineers and researchers, Deep Gnomes are the preeminent meta-scientists and explorers of the worlds beyond. The curiosity of Deep Gnomes is relentless, and they are fearless in venturing where others wouldn’t dare.\n\nWhile Deep Gnomes make it a point to mingle with other races, they are only interested in doing so if it furthers their research.\n\nUnlike their surface cousins, Deep Gnomes do not seek to understand the truths of the universe, but rather those of the multiverse. They became the deep divers of the dreamscapes, explorers of the Astral Planes, and spelunkers of the Spirals, and the more they learned, the more pressing their desire became to return to the surface.",
+      "faction": "??",
+      "languages": null,
+      "resistances": null,
+      "startingCities": [
+        {
+          "name": "Night Harbor",
+          "slug": "Night_Harbor",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Night_Harbor"
+        }
+      ],
+      "racialAbility": null,
+      "classes": [
+        "Beastmaster",
+        "Druid",
+        "Elementalist",
+        "Enchanter",
+        "Necromancer",
+        "Rogue",
+        "Shaman",
+        "Wizard"
+      ],
+      "baseStats": {
+        "STR": null,
+        "STA": null,
+        "DEX": null,
+        "AGI": null,
+        "INT": null,
+        "WIS": null,
+        "CHA": null
+      },
+      "startingStats": [
+        {
+          "class": "Beastmaster",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Druid",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Elementalist",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Enchanter",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Necromancer",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Rogue",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Shaman",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Wizard",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "id": "dwarf",
+      "name": "Dwarf",
+      "displayName": "DWARVES",
+      "wikiPage": "Dwarf",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Dwarf",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/5/55/Dwarves375x200.png",
+      "description": "The origins of the Dwarves are not entirely clear, but many historians trace their arrival on Eth-ur to coincide with that of the Dragons, after the “Burning Heavens” cataclysm.\n\nDwarven creation myths suggests that the Dwarven people originate from the great mountains of the Galdri Range to the east. These myths state that their people were created from the blood of their ancestor god, a great Titan who formed their homeland upon his death. His blood gave life to the stone and shaped the Dwarven people in his image.\n\nDwarves are fond of strong drink, fine craftsmanship, astronomy, and exploration. They are quick tempered, fierce fighters, whose fortitude resembles the stone from which they are believed to have originated. As both master craftsmen and insatiable explorers, Dwarves can be found throughout Aêthoril. To befriend one of these stout and loyal folk is to make a friend for life.",
+      "faction": "Neutral",
+      "languages": "Common (100), Dwarvish (100)",
+      "resistances": "Cold +5, Magic +5",
+      "startingCities": [
+        {
+          "name": "Night Harbor",
+          "slug": "Night_Harbor",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Night_Harbor"
+        }
+      ],
+      "racialAbility": {
+        "name": "Stone Form",
+        "slug": "Stone_Form",
+        "url": "https://monstersandmemories.miraheze.org/wiki/Stone_Form",
+        "note": "as of Feb 16, 2026",
+        "description": "Turn to stone, removing all harmful Disease, Electricity, and Poison effects and increasing your resistance to them, reducing your Physical Damage received by 10%, and increasing your Armor Class by 25% for 15 seconds."
+      },
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Enchanter",
+        "Elementalist",
+        "Fighter",
+        "Paladin",
+        "Ranger",
+        "Rogue",
+        "Spellblade",
+        "Wizard"
+      ],
+      "baseStats": {
+        "STR": 17,
+        "STA": 17,
+        "DEX": 18,
+        "AGI": 15,
+        "INT": 16,
+        "WIS": 16,
+        "CHA": 15
+      },
+      "startingStats": [
+        {
+          "class": "Bard",
+          "STR": 18,
+          "STA": 17,
+          "DEX": 21,
+          "AGI": 15,
+          "INT": 16,
+          "WIS": 16,
+          "CHA": 19,
+          "bonus": 10
+        },
+        {
+          "class": "Cleric",
+          "STR": 19,
+          "STA": 19,
+          "DEX": 18,
+          "AGI": 15,
+          "INT": 16,
+          "WIS": 19,
+          "CHA": 16,
+          "bonus": 10
+        },
+        {
+          "class": "Elementalist",
+          "STR": 17,
+          "STA": 21,
+          "DEX": 18,
+          "AGI": 15,
+          "INT": 20,
+          "WIS": 16,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Enchanter",
+          "STR": 17,
+          "STA": 17,
+          "DEX": 18,
+          "AGI": 15,
+          "INT": 20,
+          "WIS": 16,
+          "CHA": 19,
+          "bonus": 10
+        },
+        {
+          "class": "Fighter",
+          "STR": 21,
+          "STA": 20,
+          "DEX": 18,
+          "AGI": 16,
+          "INT": 16,
+          "WIS": 16,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Paladin",
+          "STR": 19,
+          "STA": 21,
+          "DEX": 18,
+          "AGI": 15,
+          "INT": 16,
+          "WIS": 18,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Ranger",
+          "STR": 18,
+          "STA": 17,
+          "DEX": 21,
+          "AGI": 17,
+          "INT": 16,
+          "WIS": 18,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Rogue",
+          "STR": 17,
+          "STA": 17,
+          "DEX": 22,
+          "AGI": 19,
+          "INT": 16,
+          "WIS": 16,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Spellblade",
+          "STR": 19,
+          "STA": 17,
+          "DEX": 21,
+          "AGI": 15,
+          "INT": 19,
+          "WIS": 16,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Wizard",
+          "STR": 20,
+          "STA": 17,
+          "DEX": 19,
+          "AGI": 15,
+          "INT": 20,
+          "WIS": 16,
+          "CHA": 15,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "id": "gnome",
+      "name": "Gnome",
+      "displayName": "GNOMES",
+      "wikiPage": "Gnome",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Gnome",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/a/ab/Gnomes375x200.png",
+      "description": "No race on Aêthoril is as inventive or creative as the diminutive Gnomes. Their ceaseless pursuit of truth coupled with their extraordinary epiphanies make them unrivaled in their genius.\n\nBehind the chaos of their workspaces and their curt, distracted demeanors, they are kind, gentle souls and are perhaps the most benign (and also brilliant, and charming) of Eth-ur’s races.\n\nHowever, you should be warned, some Gnomes have fallen to the allure of dark gods and seek to use their brilliance for vile purposes.",
+      "faction": "Neutral",
+      "languages": "Common (100), Gnomish (100)",
+      "resistances": "Electricity +5, Poison +5",
+      "startingCities": [
+        {
+          "name": "Night Harbor",
+          "slug": "Night_Harbor",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Night_Harbor"
+        }
+      ],
+      "racialAbility": {
+        "name": "Slippery",
+        "slug": "Slippery",
+        "url": "https://monstersandmemories.miraheze.org/wiki/Slippery",
+        "note": "as of Feb 16, 2026",
+        "description": "Become slippery, removing all Root and Snare effects and granting you immunity to them for 15 seconds."
+      },
+      "classes": [
+        "Cleric",
+        "Enchanter",
+        "Elementalist",
+        "Fighter",
+        "Necromancer",
+        "Paladin",
+        "Rogue",
+        "Spellblade",
+        "Wizard"
+      ],
+      "baseStats": {
+        "STR": 14,
+        "STA": 15,
+        "DEX": 19,
+        "AGI": 16,
+        "INT": 20,
+        "WIS": 15,
+        "CHA": 15
+      },
+      "startingStats": [
+        {
+          "class": "Cleric",
+          "STR": 16,
+          "STA": 17,
+          "DEX": 19,
+          "AGI": 16,
+          "INT": 20,
+          "WIS": 18,
+          "CHA": 16,
+          "bonus": 10
+        },
+        {
+          "class": "Elementalist",
+          "STR": 14,
+          "STA": 19,
+          "DEX": 19,
+          "AGI": 16,
+          "INT": 24,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Enchanter",
+          "STR": 14,
+          "STA": 15,
+          "DEX": 19,
+          "AGI": 16,
+          "INT": 24,
+          "WIS": 15,
+          "CHA": 19,
+          "bonus": 10
+        },
+        {
+          "class": "Fighter",
+          "STR": 18,
+          "STA": 18,
+          "DEX": 19,
+          "AGI": 17,
+          "INT": 20,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Necromancer",
+          "STR": 14,
+          "STA": 15,
+          "DEX": 23,
+          "AGI": 16,
+          "INT": 24,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Paladin",
+          "STR": 16,
+          "STA": 19,
+          "DEX": 19,
+          "AGI": 16,
+          "INT": 20,
+          "WIS": 17,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Rogue",
+          "STR": 14,
+          "STA": 15,
+          "DEX": 23,
+          "AGI": 20,
+          "INT": 20,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Spellblade",
+          "STR": 16,
+          "STA": 15,
+          "DEX": 22,
+          "AGI": 16,
+          "INT": 23,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Wizard",
+          "STR": 17,
+          "STA": 15,
+          "DEX": 20,
+          "AGI": 16,
+          "INT": 24,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "id": "goblin",
+      "name": "Goblin",
+      "displayName": "GOBLINS",
+      "wikiPage": "Goblin",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Goblin",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/1/1f/Goblins375x200.png",
+      "description": "Greedy, sneaky, nasty, stabby, deceptive, and outright evil; These are the words the races of Eth-ur ascribe to goblins. Only tolerable because their unique intuition for sensing secrets - and maybe their sick sense of humor.\n\nGoblins have an aptitude for identifying hidden entrances, or being able to tell when another is not being truthful. And-so, they find great utility in leveraging their race’s renown for secret finding, espousing themselves as invaluable guides to reluctant adventurers.\n\nFor a non-goblin, it will be nigh impossible to navigate through the labyrinthine forest that shrouds “The Heap” that Goblins call home; an ever growing pile of all the various riches and plunder the Goblins managed to attain from all their nefarious activities.\n\nWhat Goblins lack in brute strength and size, they compensate for, with an uncanny perceptiveness, chaotic presence, and mental alacrity. Goblins are supremely adept at seeing opportunities where others would not. Connecting the dots others miss and capitalizing on them - it’s not just how hard you thrust the knife, it’s where the knife ends up.",
+      "faction": "Neutral",
+      "languages": "Common (100), Goblin (100)",
+      "resistances": "Disease +5, Poison +5",
+      "startingCities": [
+        {
+          "name": "Night Harbor",
+          "slug": "Night_Harbor",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Night_Harbor"
+        }
+      ],
+      "racialAbility": {
+        "name": "Bribe",
+        "slug": "Bribe",
+        "url": "https://monstersandmemories.miraheze.org/wiki/Bribe",
+        "note": "as of Feb 16, 2026",
+        "description": "Bribe your target, causing them to forget past wrongdoings."
+      },
+      "classes": [
+        "Archer",
+        "Beastmaster",
+        "Druid",
+        "Enchanter",
+        "Necromancer",
+        "Ranger",
+        "Rogue",
+        "Shadow Knight",
+        "Shaman",
+        "Fighter"
+      ],
+      "baseStats": {
+        "STR": 15,
+        "STA": 15,
+        "DEX": 19,
+        "AGI": 19,
+        "INT": 17,
+        "WIS": 16,
+        "CHA": 13
+      },
+      "startingStats": [
+        {
+          "class": "Archer",
+          "STR": 17,
+          "STA": 15,
+          "DEX": 23,
+          "AGI": 21,
+          "INT": 17,
+          "WIS": 16,
+          "CHA": 13,
+          "bonus": 10
+        },
+        {
+          "class": "Beastmaster",
+          "STR": 19,
+          "STA": 15,
+          "DEX": 19,
+          "AGI": 21,
+          "INT": 17,
+          "WIS": 18,
+          "CHA": 13,
+          "bonus": 10
+        },
+        {
+          "class": "Druid",
+          "STR": 15,
+          "STA": 15,
+          "DEX": 19,
+          "AGI": 21,
+          "INT": 17,
+          "WIS": 20,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Enchanter",
+          "STR": 15,
+          "STA": 15,
+          "DEX": 19,
+          "AGI": 19,
+          "INT": 21,
+          "WIS": 16,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Fighter",
+          "STR": 19,
+          "STA": 18,
+          "DEX": 19,
+          "AGI": 20,
+          "INT": 17,
+          "WIS": 16,
+          "CHA": 13,
+          "bonus": 10
+        },
+        {
+          "class": "Necromancer",
+          "STR": 15,
+          "STA": 15,
+          "DEX": 23,
+          "AGI": 19,
+          "INT": 21,
+          "WIS": 16,
+          "CHA": 13,
+          "bonus": 10
+        },
+        {
+          "class": "Ranger",
+          "STR": 16,
+          "STA": 15,
+          "DEX": 22,
+          "AGI": 21,
+          "INT": 17,
+          "WIS": 18,
+          "CHA": 13,
+          "bonus": 10
+        },
+        {
+          "class": "Rogue",
+          "STR": 15,
+          "STA": 15,
+          "DEX": 23,
+          "AGI": 23,
+          "INT": 17,
+          "WIS": 16,
+          "CHA": 13,
+          "bonus": 10
+        },
+        {
+          "class": "Shadow Knight",
+          "STR": 18,
+          "STA": 17,
+          "DEX": 19,
+          "AGI": 19,
+          "INT": 20,
+          "WIS": 16,
+          "CHA": 13,
+          "bonus": 10
+        },
+        {
+          "class": "Shaman",
+          "STR": 16,
+          "STA": 17,
+          "DEX": 20,
+          "AGI": 19,
+          "INT": 17,
+          "WIS": 20,
+          "CHA": 13,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "id": "halfling",
+      "name": "Halfling",
+      "displayName": "HALFLINGS",
+      "wikiPage": "Halfling",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Halfling",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/8/8c/Halflings375x200.png",
+      "description": "Halflings are the oldest of Eth-ur’s races by far, thriving as a civilization long before the other races had any significant presence on the planet. Like Fae-beings, Halflings are born of Eth-ur’s Life Fonts and are deeply attuned to the sentient planet. Naturally curious and consummate lore-keepers, Halflings were the first wanderers and storytellers of the world.\n\nThe Halfling race has lived through and witnessed all the events that unfolded on Eth-ur across the eons. When the world was safe, they roamed it, observing its marvels, and spinning what they learned into wonderous stories and tales; when it wasn’t, they often (but not always) hid in their cozy warrens and waited until they could resurface again.\n\nThe world has changed much over the millennia and so too did the Halflings. Today, the majority of Halflings are jovial, peace-loving farmers and settlers, as opposed to the daring wanderers of old. Unbeknownst to most, including many in their own communities, they’ve retained much of the lore of ages lost. And there are still a few quite adventurous Halflings, still looking to add to those tales.",
+      "faction": "Neutral",
+      "languages": "Common (100), Halfling (100)",
+      "resistances": "Corruption +5, Disease +5",
+      "startingCities": [
+        {
+          "name": "Night Harbor",
+          "slug": "Night_Harbor",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Night_Harbor"
+        },
+        {
+          "name": "Faelindral",
+          "slug": "Faelindral",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Faelindral"
+        }
+      ],
+      "racialAbility": {
+        "name": "Sneak",
+        "slug": "Sneak",
+        "url": "https://monstersandmemories.miraheze.org/wiki/Sneak",
+        "note": "as of Feb 16, 2026",
+        "description": "Walk silently, rendering you undetectable to targets while behind them."
+      },
+      "classes": [
+        "Archer",
+        "Bard",
+        "Beastmaster",
+        "Cleric",
+        "Druid",
+        "Fighter",
+        "Paladin",
+        "Ranger",
+        "Rogue"
+      ],
+      "baseStats": {
+        "STR": 15,
+        "STA": 17,
+        "DEX": 16,
+        "AGI": 17,
+        "INT": 14,
+        "WIS": 20,
+        "CHA": 15
+      },
+      "startingStats": [
+        {
+          "class": "Archer",
+          "STR": 17,
+          "STA": 17,
+          "DEX": 20,
+          "AGI": 19,
+          "INT": 14,
+          "WIS": 20,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Bard",
+          "STR": 16,
+          "STA": 17,
+          "DEX": 19,
+          "AGI": 17,
+          "INT": 14,
+          "WIS": 20,
+          "CHA": 19,
+          "bonus": 10
+        },
+        {
+          "class": "Beastmaster",
+          "STR": 19,
+          "STA": 17,
+          "DEX": 16,
+          "AGI": 19,
+          "INT": 14,
+          "WIS": 22,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Cleric",
+          "STR": 17,
+          "STA": 19,
+          "DEX": 16,
+          "AGI": 17,
+          "INT": 14,
+          "WIS": 23,
+          "CHA": 16,
+          "bonus": 10
+        },
+        {
+          "class": "Druid",
+          "STR": 15,
+          "STA": 17,
+          "DEX": 16,
+          "AGI": 19,
+          "INT": 14,
+          "WIS": 24,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Fighter",
+          "STR": 19,
+          "STA": 20,
+          "DEX": 16,
+          "AGI": 18,
+          "INT": 14,
+          "WIS": 20,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Paladin",
+          "STR": 17,
+          "STA": 21,
+          "DEX": 16,
+          "AGI": 17,
+          "INT": 14,
+          "WIS": 22,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Ranger",
+          "STR": 16,
+          "STA": 17,
+          "DEX": 19,
+          "AGI": 19,
+          "INT": 14,
+          "WIS": 22,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Rogue",
+          "STR": 15,
+          "STA": 17,
+          "DEX": 20,
+          "AGI": 21,
+          "INT": 14,
+          "WIS": 20,
+          "CHA": 15,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "id": "high-elf",
+      "name": "High Elf",
+      "displayName": "High Elves",
+      "wikiPage": "High_Elf",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/High_Elf",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/c/ca/Highelves375x200.png",
+      "description": "The Cilindrine, or “High Elves” as they are commonly called, are tall, beautiful, almost otherworldly, beings. Their powerful physiques, innate grasp of magic, and calm, calculated demeanor, further feed into this sense of otherworldliness. They embrace this perception and lean into this sense of superiority.\n\nPurity is another common theme amongst the High Elves, as they consider themselves to be the only “uncorrupted” remnants of the great Calafrey Conglomerate, an Elven empire that once spanned much of Aêthoril’s western seaboard.\n\nAs the last of their kind, who follow strict religious doctrines, the High Elves are notoriously insular and one of the least welcoming of the civilized races on Aêthoril. It doesn’t help that their sense of superiority is often reinforced when the quality of their craftsmanship, magic, and military prowess is tested.\n\nHowever, in recent years a growing faction within their ranks has pushed for greater diplomacy and increased collaboration with potential allies. And now, this infighting has begun to manifest as more than just raucous debate.\n\nAs the longest lived of the “civilized” races of Aêthoril, the infighting may take some time to play out, for the High Elves' plans can take centuries to unfold.",
+      "faction": "Good",
+      "languages": null,
+      "resistances": null,
+      "startingCities": [
+        {
+          "name": "Night Harbor",
+          "slug": "Night_Harbor",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Night_Harbor"
+        }
+      ],
+      "racialAbility": null,
+      "classes": [
+        "Archer",
+        "Cleric",
+        "Enchanter",
+        "Elementalist",
+        "Inquisitor",
+        "Paladin",
+        "Spellblade",
+        "Wizard"
+      ],
+      "baseStats": {
+        "STR": null,
+        "STA": null,
+        "DEX": null,
+        "AGI": null,
+        "INT": null,
+        "WIS": null,
+        "CHA": null
+      },
+      "startingStats": [
+        {
+          "class": "Archer",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Cleric",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Enchanter",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Elementalist",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Inquisitor",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Paladin",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Spellblade",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Wizard",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "id": "human",
+      "name": "Human",
+      "displayName": "Humans",
+      "wikiPage": "Human",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Human",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/a/a9/Humans375x200.png",
+      "description": "Humans are the most common race found on the continent of Aêthoril. They vary in disposition, motivation, and aptitude almost as greatly as they number. Despite this strong sense of individuality, four common human cultures exist on Aêthoril:\n\n- The Ba’Haara, a proud seafaring people, whose history dates back to the fall of Hathalia, and who are rumored to align with powerful supernatural forces.\n\n- The Tarrellians, the other humans to migrate east during the Second Deicidium. They’re a powerful and noble people, whose Queen is rumored to have gone mad.\n\n- The dour and superstitious people of Easthymn, whose love of tradition and bureaucracy is topped only by their affinity for corruption.\n\n- The nomadic Sojourners. Clans of these wildlings, tinkers, entertainers, and travelling merchants can be found throughout Aêthoril.",
+      "faction": "Neutral",
+      "languages": "Common (100)",
+      "resistances": "Corruption -5, Holy -5",
+      "startingCities": [
+        {
+          "name": "Night Harbor",
+          "slug": "Night_Harbor",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Night_Harbor"
+        }
+      ],
+      "racialAbility": {
+        "name": "Tenacity",
+        "slug": "Tenacity",
+        "url": "https://monstersandmemories.miraheze.org/wiki/Tenacity",
+        "note": "as of Feb 16, 2026",
+        "description": "Become tenacious, removing all Mesmerize and Incapacitate effects and granting you immunity to them for 15 seconds."
+      },
+      "classes": [
+        "Archer",
+        "Bard",
+        "Beastmaster",
+        "Cleric",
+        "Druid",
+        "Enchanter",
+        "Elementalist",
+        "Fighter",
+        "Inquisitor",
+        "Monk",
+        "Necromancer",
+        "Paladin",
+        "Ranger",
+        "Rogue",
+        "Shadow Knight",
+        "Shaman",
+        "Spellblade",
+        "Wizard"
+      ],
+      "baseStats": {
+        "STR": 16,
+        "STA": 17,
+        "DEX": 16,
+        "AGI": 16,
+        "INT": 16,
+        "WIS": 16,
+        "CHA": 17
+      },
+      "startingStats": [
+        {
+          "class": "Archer",
+          "STR": 18,
+          "STA": 17,
+          "DEX": 20,
+          "AGI": 18,
+          "INT": 16,
+          "WIS": 16,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Bard",
+          "STR": 17,
+          "STA": 17,
+          "DEX": 19,
+          "AGI": 16,
+          "INT": 16,
+          "WIS": 16,
+          "CHA": 21,
+          "bonus": 10
+        },
+        {
+          "class": "Beastmaster",
+          "STR": 20,
+          "STA": 17,
+          "DEX": 16,
+          "AGI": 18,
+          "INT": 16,
+          "WIS": 18,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Cleric",
+          "STR": 18,
+          "STA": 19,
+          "DEX": 16,
+          "AGI": 16,
+          "INT": 16,
+          "WIS": 19,
+          "CHA": 18,
+          "bonus": 10
+        },
+        {
+          "class": "Druid",
+          "STR": 16,
+          "STA": 17,
+          "DEX": 16,
+          "AGI": 18,
+          "INT": 16,
+          "WIS": 20,
+          "CHA": 19,
+          "bonus": 10
+        },
+        {
+          "class": "Enchanter",
+          "STR": 16,
+          "STA": 17,
+          "DEX": 16,
+          "AGI": 16,
+          "INT": 20,
+          "WIS": 16,
+          "CHA": 21,
+          "bonus": 10
+        },
+        {
+          "class": "Elementalist",
+          "STR": 16,
+          "STA": 21,
+          "DEX": 16,
+          "AGI": 16,
+          "INT": 20,
+          "WIS": 16,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Fighter",
+          "STR": 20,
+          "STA": 20,
+          "DEX": 16,
+          "AGI": 17,
+          "INT": 16,
+          "WIS": 16,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Inquisitor",
+          "STR": 17,
+          "STA": 20,
+          "DEX": 17,
+          "AGI": 16,
+          "INT": 18,
+          "WIS": 16,
+          "CHA": 18,
+          "bonus": 10
+        },
+        {
+          "class": "Monk",
+          "STR": 17,
+          "STA": 17,
+          "DEX": 19,
+          "AGI": 20,
+          "INT": 16,
+          "WIS": 16,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Necromancer",
+          "STR": 16,
+          "STA": 17,
+          "DEX": 20,
+          "AGI": 16,
+          "INT": 20,
+          "WIS": 16,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Paladin",
+          "STR": 18,
+          "STA": 21,
+          "DEX": 16,
+          "AGI": 16,
+          "INT": 16,
+          "WIS": 18,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Ranger",
+          "STR": 17,
+          "STA": 17,
+          "DEX": 19,
+          "AGI": 18,
+          "INT": 16,
+          "WIS": 18,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Rogue",
+          "STR": 16,
+          "STA": 17,
+          "DEX": 20,
+          "AGI": 20,
+          "INT": 16,
+          "WIS": 16,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Shadow Knight",
+          "STR": 19,
+          "STA": 19,
+          "DEX": 16,
+          "AGI": 16,
+          "INT": 19,
+          "WIS": 16,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Shaman",
+          "STR": 17,
+          "STA": 19,
+          "DEX": 17,
+          "AGI": 16,
+          "INT": 16,
+          "WIS": 20,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Spellblade",
+          "STR": 18,
+          "STA": 17,
+          "DEX": 19,
+          "AGI": 16,
+          "INT": 19,
+          "WIS": 16,
+          "CHA": 17,
+          "bonus": 10
+        },
+        {
+          "class": "Wizard",
+          "STR": 19,
+          "STA": 17,
+          "DEX": 17,
+          "AGI": 16,
+          "INT": 20,
+          "WIS": 16,
+          "CHA": 17,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "id": "ogre",
+      "name": "Ogre",
+      "displayName": "Ogres",
+      "wikiPage": "Ogre",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Ogre",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/4/47/Ogres375x200.png",
+      "description": "These furious and fearless warriors are capable of incredible violence. In a heartbeat, their temperaments can swing from the stillness of a placid sky to the unadulterated fury of a raging tempest. They vary greatly in intelligence and disposition, but none of them fear death, for only the bravest of them will feast in the Shattered Halls of the Elders.\n\nOgres were created by the Giants of the Storm Coast to assist in countering the “hordes of filth” that poured into Eth-ur during the first invasions of the Spiral Lords. Long after those wars, an unnatural cataclysmic event shattered the Storm Coast and killed off their Giant elders, leaving the Ogres both homeless and without masters.\n\nOver the centuries that followed, the Ogres resettled in the frigid north of Aêthoril and built a stratified martial civilization ruled by warlords. Today, these massive masters of violence can be found throughout Aêthoril. Their strength and discipline has earned them a reputation as renowned soldiers, loyal mercenaries, and skilled craftsmen.",
+      "faction": "Neutral",
+      "languages": "Common (100), Ogrish (100)",
+      "resistances": "Cold +10, Magic -10",
+      "startingCities": [
+        {
+          "name": "Night Harbor",
+          "slug": "Night_Harbor",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Night_Harbor"
+        }
+      ],
+      "racialAbility": {
+        "name": "Ogre Smash",
+        "slug": "Ogre_Smash",
+        "url": "https://monstersandmemories.miraheze.org/wiki/Ogre_Smash",
+        "note": "as of Feb 16, 2026",
+        "description": "Forcefully smash nearby targets, stunning them for 2 seconds."
+      },
+      "classes": [
+        "Archer",
+        "Beastmaster",
+        "Elementalist",
+        "Fighter",
+        "Monk",
+        "Ranger",
+        "Shadow Knight",
+        "Shaman"
+      ],
+      "baseStats": {
+        "STR": 20,
+        "STA": 19,
+        "DEX": 15,
+        "AGI": 14,
+        "INT": 16,
+        "WIS": 15,
+        "CHA": 15
+      },
+      "startingStats": [
+        {
+          "class": "Archer",
+          "STR": 22,
+          "STA": 19,
+          "DEX": 19,
+          "AGI": 16,
+          "INT": 16,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Beastmaster",
+          "STR": 24,
+          "STA": 19,
+          "DEX": 15,
+          "AGI": 16,
+          "INT": 16,
+          "WIS": 17,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Elementalist",
+          "STR": 20,
+          "STA": 23,
+          "DEX": 15,
+          "AGI": 14,
+          "INT": 20,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Fighter",
+          "STR": 24,
+          "STA": 22,
+          "DEX": 15,
+          "AGI": 15,
+          "INT": 16,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Monk",
+          "STR": 21,
+          "STA": 19,
+          "DEX": 18,
+          "AGI": 18,
+          "INT": 16,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Ranger",
+          "STR": 21,
+          "STA": 19,
+          "DEX": 18,
+          "AGI": 16,
+          "INT": 16,
+          "WIS": 17,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Shadow Knight",
+          "STR": 23,
+          "STA": 21,
+          "DEX": 15,
+          "AGI": 14,
+          "INT": 19,
+          "WIS": 15,
+          "CHA": 15,
+          "bonus": 10
+        },
+        {
+          "class": "Shaman",
+          "STR": 21,
+          "STA": 21,
+          "DEX": 16,
+          "AGI": 14,
+          "INT": 16,
+          "WIS": 19,
+          "CHA": 15,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "id": "troll",
+      "name": "Troll",
+      "displayName": "Trolls",
+      "wikiPage": "Troll",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Troll",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/6/67/Trolls375x200.png",
+      "description": "It’s believed that Trolls appeared on Eth-ur during the first invasions of the Spiral Lords. After cutting a swath across Eth-ur, they emancipated themselves from their masters and melted away into the swamps, crags, and caves that serve them so well as hunting grounds.\n\nMillennia of war and catastrophes have tested and tempered them to become ultimate survivors. No race on Eth-Ur has the physical resilience, natural adaptability, or cunning of Trolls.\n\nThey are self-serving and distrustful of everyone, including other Trolls. They are cruel, calculating, and predatory; motivated only by power, self-interest, and survival. Above all, Trolls value their independence. They bow only to power surpassing their own, but even then… that’s what poisons are for.\n\nTrolls are supremely crafty hunters, trappers, and survivalists. This is not just out of necessity, but out of an innate sense of purpose. As such, the more ambitious and crafty of their lot have made their way out of the swamps and into the employment of those seeking only the most vicious bounty hunter, assassin, or beguiler.\n\nTrolls may be found throughout Aêthoril, but they are not always welcomed. And they’re always watched closely.",
+      "faction": "Neutral",
+      "languages": null,
+      "resistances": null,
+      "startingCities": [
+        {
+          "name": "Night Harbor",
+          "slug": "Night_Harbor",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Night_Harbor"
+        }
+      ],
+      "racialAbility": null,
+      "classes": [
+        "Beastmaster",
+        "Druid",
+        "Enchanter",
+        "Fighter",
+        "Necromancer",
+        "Rogue",
+        "Shadow Knight",
+        "Shaman"
+      ],
+      "baseStats": {
+        "STR": null,
+        "STA": null,
+        "DEX": null,
+        "AGI": null,
+        "INT": null,
+        "WIS": null,
+        "CHA": null
+      },
+      "startingStats": [
+        {
+          "class": "Beastmaster",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Druid",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Enchanter",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Necromancer",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Rogue",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Shadow Knight",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Shaman",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        },
+        {
+          "class": "Fighter",
+          "STR": null,
+          "STA": null,
+          "DEX": null,
+          "AGI": null,
+          "INT": null,
+          "WIS": null,
+          "CHA": null,
+          "bonus": 10
+        }
+      ]
+    },
+    {
+      "id": "wood-elf",
+      "name": "Wood Elf",
+      "displayName": "Wood Elves",
+      "wikiPage": "Wood_Elf",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Wood_Elf",
+      "imageUrl": "https://static.wikitide.net/monstersandmemorieswiki/3/3a/Woodelves375x200.png",
+      "description": "The Faelewyn, or “Wood Elves,” as they are more commonly called, once resembled their High Elf cousins. Today, these keepers of Aêthoril’s great forests, no longer appear as the Elves they once were. Having been denied shelter from the great cataclysm by the Cilindrine, the Faelewyn were spared when the Fae of the Branch interceded.\n\nUnfortunately, all deals with the Fae come at a considerable price. When this new generation of Elves returned from the Umbra, they found that they were born of two worlds, but belonged to neither.\n\nWhile reclusive and cautious, the Wood Elves are fair and hospitable. They are highly attuned to nature and share a special relationship with both the flora and fauna of the great wooded hills.\n\nTheir Preservers and Ardent Keepers maintain watch of the forests they’ve worked for centuries to rebuild. Their druids quickly travel the world via natural “waygates.” And their Lambent Wanderers, a collection of Faelewyn bards and traders, roam the lands of Aêthoril to conduct trade and diplomacy, spread their lore, and gain knowledge of the world beyond their woods.\n\nAt home, the Wood Elves are monitoring the increasing growth of cults dedicated to the Fae of the Branch, who seek to return their people and potentially even their lands, back to the realm of the Fae.",
+      "faction": "Good",
+      "languages": "Common (100), Elvish (100)",
+      "resistances": "Electricity +5, Fire -5",
+      "startingCities": [
+        {
+          "name": "Night Harbor",
+          "slug": "Night_Harbor",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Night_Harbor"
+        },
+        {
+          "name": "Faelindral",
+          "slug": "Faelindral",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Faelindral"
+        }
+      ],
+      "racialAbility": {
+        "name": "Hide",
+        "slug": "Hide",
+        "url": "https://monstersandmemories.miraheze.org/wiki/Hide",
+        "note": "as of Feb 16, 2026",
+        "description": "Slip into the shadows, rendering you unseen by the living."
+      },
+      "classes": [
+        "Archer",
+        "Bard",
+        "Beastmaster",
+        "Druid",
+        "Fighter",
+        "Ranger",
+        "Rogue",
+        "Shaman"
+      ],
+      "baseStats": {
+        "STR": 14,
+        "STA": 14,
+        "DEX": 18,
+        "AGI": 20,
+        "INT": 15,
+        "WIS": 17,
+        "CHA": 16
+      },
+      "startingStats": [
+        {
+          "class": "Archer",
+          "STR": 16,
+          "STA": 14,
+          "DEX": 22,
+          "AGI": 22,
+          "INT": 15,
+          "WIS": 17,
+          "CHA": 16,
+          "bonus": 10
+        },
+        {
+          "class": "Bard",
+          "STR": 15,
+          "STA": 14,
+          "DEX": 21,
+          "AGI": 20,
+          "INT": 15,
+          "WIS": 17,
+          "CHA": 20,
+          "bonus": 10
+        },
+        {
+          "class": "Beastmaster",
+          "STR": 18,
+          "STA": 14,
+          "DEX": 18,
+          "AGI": 22,
+          "INT": 15,
+          "WIS": 19,
+          "CHA": 16,
+          "bonus": 10
+        },
+        {
+          "class": "Druid",
+          "STR": 14,
+          "STA": 14,
+          "DEX": 18,
+          "AGI": 22,
+          "INT": 15,
+          "WIS": 21,
+          "CHA": 18,
+          "bonus": 10
+        },
+        {
+          "class": "Fighter",
+          "STR": 18,
+          "STA": 17,
+          "DEX": 18,
+          "AGI": 21,
+          "INT": 15,
+          "WIS": 17,
+          "CHA": 16,
+          "bonus": 10
+        },
+        {
+          "class": "Ranger",
+          "STR": 15,
+          "STA": 14,
+          "DEX": 21,
+          "AGI": 22,
+          "INT": 15,
+          "WIS": 19,
+          "CHA": 16,
+          "bonus": 10
+        },
+        {
+          "class": "Rogue",
+          "STR": 14,
+          "STA": 14,
+          "DEX": 22,
+          "AGI": 24,
+          "INT": 15,
+          "WIS": 17,
+          "CHA": 16,
+          "bonus": 10
+        },
+        {
+          "class": "Shaman",
+          "STR": 15,
+          "STA": 16,
+          "DEX": 19,
+          "AGI": 20,
+          "INT": 15,
+          "WIS": 21,
+          "CHA": 16,
+          "bonus": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "source": "https://monstersandmemories.miraheze.org/wiki/Category:Classes",
+  "fetchedAt": "2026-08-15T08:37:48.238Z",
+  "classes": {
+    "Archer": {
+      "name": "Archer",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Archer",
+      "primaryStat": "DEX",
+      "secondaryStat": null,
+      "statModifiers": {
+        "STR": 2,
+        "DEX": 4,
+        "AGI": 2
+      },
+      "modifierText": "+2 STR, +4 DEX, +2 AGI",
+      "bonusPointsAdvice": null
+    },
+    "Bard": {
+      "name": "Bard",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Bard",
+      "primaryStat": "CHA",
+      "secondaryStat": null,
+      "statModifiers": {
+        "STR": 1,
+        "DEX": 3,
+        "CHA": 4
+      },
+      "modifierText": "+1 STR, +3 DEX, +4 CHA",
+      "bonusPointsAdvice": "Listed below is the recommended allocation of bonus points by race. Since Charisma is a Bard’s main attribute, you should focus on maximizing it whenever possible. Most of your songs' effectiveness are tied to it. The remaining points are flexible as it is currently unknown how or if songs are affected by the other stats. As more information comes to light, this section will be appropriately updated. * Note: Mana total is only affected by the higher stat between intelligence and wisdom. ''' Dwar"
+    },
+    "Beastmaster": {
+      "name": "Beastmaster",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Beastmaster",
+      "primaryStat": "STR",
+      "secondaryStat": null,
+      "statModifiers": {
+        "STR": 4,
+        "AGI": 2,
+        "WIS": 2
+      },
+      "modifierText": "+4 STR, +2 AGI, +2 WIS",
+      "bonusPointsAdvice": null
+    },
+    "Cleric": {
+      "name": "Cleric",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Cleric",
+      "primaryStat": "WIS",
+      "secondaryStat": "STA",
+      "statModifiers": {
+        "STR": 2,
+        "STA": 2,
+        "WIS": 3,
+        "CHA": 1
+      },
+      "modifierText": "+2 STR, +2 STA, +3 WIS, +1 CHA",
+      "bonusPointsAdvice": "Listed below is the recommended allocation of bonus points by race. Since Wisdom is a Cleric’s main attribute, you should focus on maximizing it whenever possible. Wisdom is directly tied to your healing spells effectiveness and total mana. After that, prioritize Stamina. It gives you extra HP and a bit of stun resistance. Finally, put a point into Dexterity if you have any left. It affects hit rate across the board and increases your proc chance. ''' Dwarf: +2 Stamina and +8 Wisdom Gnome: +2 St"
+    },
+    "Druid": {
+      "name": "Druid",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Druid",
+      "primaryStat": "WIS",
+      "secondaryStat": "CHA",
+      "statModifiers": {
+        "AGI": 2,
+        "WIS": 4,
+        "CHA": 2
+      },
+      "modifierText": "+2 AGI, +4 WIS, +2 CHA",
+      "bonusPointsAdvice": "Listed below is the recommended allocation of bonus points by race. Since Wisdom is a Druid’s main attribute, you should focus on maximizing it whenever possible. Wisdom is directly tied to your healing spells effectiveness and total mana. After that, prioritize Charisma. It helps with the Druid's charm line of spells, along with a few other spell lines. Finally, put a point into Dexterity if you have any left. It affects hit rate across the board and increases your proc chance. ''' Goblin: +1 D"
+    },
+    "Elementalist": {
+      "name": "Elementalist",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Elementalist",
+      "primaryStat": "INT",
+      "secondaryStat": "STA",
+      "statModifiers": {
+        "STA": 4,
+        "INT": 4
+      },
+      "modifierText": "+4 STA, +4 INT",
+      "bonusPointsAdvice": "Below is the recommended allocation of bonus points by race. Since Intelligence is a Elementalist’s main attribute, you should focus on maximizing it whenever possible. Your spell damage and mana total is directly tied to it. After that, prioritize Stamina. It gives you extra HP and a bit of stun resistance. Finally, put a point or two into Dexterity. It affects hit rate across the board and increases your proc chance. ''' Dwarf: +2 Stamina, +1 Dexterity, and +7 Intelligence Gnome: +3 Stamina, +"
+    },
+    "Enchanter": {
+      "name": "Enchanter",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Enchanter",
+      "primaryStat": "INT",
+      "secondaryStat": null,
+      "statModifiers": {
+        "INT": 4,
+        "CHA": 4
+      },
+      "modifierText": "+4 INT, + 4 CHA",
+      "bonusPointsAdvice": "Below is the recommended allocation of bonus points by race. Since Intelligence is a Enchanter’s main attribute, you should focus on maximizing it whenever possible. Your spell damage and mana total is directly tied to it. Very close behind it is Charisma. As an Enchanter you are the best crowd controller in the game, and both your Charm and Mesmerize line of skills rely on this stat. ''' Dwarf: +5 Intelligence and +5 Charisma Gnome: +5 Intelligence and +5 Charisma Goblin: +5 Intelligence and +5"
+    },
+    "Fighter": {
+      "name": "Fighter",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Fighter",
+      "primaryStat": "STA",
+      "secondaryStat": null,
+      "statModifiers": {
+        "STR": 4,
+        "STA": 3,
+        "AGI": 1
+      },
+      "modifierText": "+4 STR, +3 STA, +1 AGI",
+      "bonusPointsAdvice": null
+    },
+    "Inquisitor": {
+      "name": "Inquisitor",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Inquisitor",
+      "primaryStat": "STA",
+      "secondaryStat": null,
+      "statModifiers": {
+        "STR": 1,
+        "STA": 3,
+        "DEX": 1,
+        "INT": 2,
+        "CHA": 1
+      },
+      "modifierText": "+1 STR, +3 STA, +1 DEX, +2 INT, +1 CHA",
+      "bonusPointsAdvice": null
+    },
+    "Monk": {
+      "name": "Monk",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Monk",
+      "primaryStat": "STR",
+      "secondaryStat": null,
+      "statModifiers": {
+        "STR": 1,
+        "DEX": 3,
+        "AGI": 4
+      },
+      "modifierText": "+1 STR, +3 DEX, +4 AGI ",
+      "bonusPointsAdvice": null
+    },
+    "Necromancer": {
+      "name": "Necromancer",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Necromancer",
+      "primaryStat": "INT",
+      "secondaryStat": "STA",
+      "statModifiers": {
+        "DEX": 4,
+        "INT": 4
+      },
+      "modifierText": "+4 DEX, +4 INT",
+      "bonusPointsAdvice": "Below is the recommended allocation of bonus points by race. Since Intelligence is a Necromancer’s main attribute, you should focus on maximizing it whenever possible. Your spell damage and mana total is directly tied to it. After that, prioritize Stamina. It gives you extra HP and a bit of stun resistance. Finally, put a point or two into Dexterity. It affects hit rate across the board and increases your proc chance. ''' Gnome: +4 Stamina, +1 Dexterity, and +5 Intelligence Goblin: +3 Stamina, +"
+    },
+    "Paladin": {
+      "name": "Paladin",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Paladin",
+      "primaryStat": "STA",
+      "secondaryStat": null,
+      "statModifiers": {
+        "STR": 2,
+        "STA": 4,
+        "WIS": 2
+      },
+      "modifierText": "+2 STR, +4 STA, +2 WIS",
+      "bonusPointsAdvice": null
+    },
+    "Ranger": {
+      "name": "Ranger",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Ranger",
+      "primaryStat": "DEX",
+      "secondaryStat": null,
+      "statModifiers": {
+        "STR": 1,
+        "DEX": 3,
+        "AGI": 2,
+        "WIS": 2
+      },
+      "modifierText": "+1 STR, +3 DEX, +2 AGI, +2 WIS",
+      "bonusPointsAdvice": null
+    },
+    "Rogue": {
+      "name": "Rogue",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Rogue",
+      "primaryStat": "DEX",
+      "secondaryStat": null,
+      "statModifiers": {
+        "DEX": 4,
+        "AGI": 4
+      },
+      "modifierText": "+4 DEX, +4 AGI",
+      "bonusPointsAdvice": null
+    },
+    "Shadow Knight": {
+      "name": "Shadow Knight",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Shadow_Knight",
+      "primaryStat": "STA",
+      "secondaryStat": null,
+      "statModifiers": {
+        "STR": 3,
+        "STA": 2,
+        "INT": 3
+      },
+      "modifierText": "+3 STR, +2 STA, +3 INT",
+      "bonusPointsAdvice": null
+    },
+    "Shaman": {
+      "name": "Shaman",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Shaman",
+      "primaryStat": "WIS",
+      "secondaryStat": "STA",
+      "statModifiers": {
+        "STR": 1,
+        "STA": 2,
+        "DEX": 1,
+        "WIS": 4
+      },
+      "modifierText": "+1 STR, +2 STA, +1 DEX, +4 WIS",
+      "bonusPointsAdvice": "Listed below is the recommended allocation of bonus points by race. Since Wisdom is a Shaman’s main attribute, you should focus on maximizing it whenever possible. Wisdom is directly tied to your healing spells effectiveness and total mana. After that, prioritize Stamina. It gives you extra HP and a bit of stun resistance. Finally, put a point into Dexterity if you have any left. It affects hit rate across the board and increases your proc chance. ''' Goblin: +4 Stamina and +6 Wisdom Human: +2 S"
+    },
+    "Spellblade": {
+      "name": "Spellblade",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Spellblade",
+      "primaryStat": "INT",
+      "secondaryStat": null,
+      "statModifiers": {
+        "STR": 2,
+        "DEX": 3,
+        "INT": 3
+      },
+      "modifierText": "+2 STR, +3 DEX, +3 INT",
+      "bonusPointsAdvice": null
+    },
+    "Wizard": {
+      "name": "Wizard",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Wizard",
+      "primaryStat": "INT",
+      "secondaryStat": "DEX",
+      "statModifiers": {
+        "STR": 3,
+        "DEX": 1,
+        "INT": 4
+      },
+      "modifierText": "+3 STR, +1 DEX, +4 INT",
+      "bonusPointsAdvice": "Below is the recommended allocation of bonus points by race. Since Intelligence is a Wizard’s main attribute, you should focus on maximizing it whenever possible. Your spell damage and mana total is directly tied to it. After that, prioritize Dexterity. It affects hit rate across the board and increases your proc chance. Finally, put some points into Stamina for extra HP and a bit of stun resistance. ''' Dwarf: +1 Stamina, +2 Dexterity, and +7 Intelligence Gnome: +3 Stamina, +2 Dexterity, and +5"
+    }
+  }
+}

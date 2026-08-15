@@ -1,5 +1,6 @@
 import './style.css';
 import { sitePath } from './site-paths.js';
+import { renderSiteHeader } from './site-header.js';
 import indexData from '../data/index.json';
 import meta from '../data/meta.json';
 import { SORT_OPTIONS, tagLabel, QUICK_TAG_GROUPS, getQuickGroupMemberTags, isQuickGroupActive, toggleQuickGroup, quickGroupHint, quickGroupTitle, getTagColor, sortDisplayTags, sortAvailableTags } from './constants.js';
@@ -251,19 +252,7 @@ function render() {
   const typeLabel = state.classMeta?.type === 'spell' ? 'spells' : 'abilities';
 
   app.innerHTML = `
-    <header class="site-header">
-      <div class="header-top">
-        <div>
-          <h1>Monsters &amp; Memories</h1>
-          <p class="tagline">Spell &amp; ability reference by class</p>
-        </div>
-        <nav class="site-nav">
-          <a href="${sitePath('/')}" class="site-nav--active">Class Browser</a>
-          <a href="${sitePath('buffs.html')}">Buffs</a>
-          <a href="${sitePath('party.html')}">Party</a>
-        </nav>
-      </div>
-    </header>
+    ${renderSiteHeader({ active: 'browser', tagline: 'Spell &amp; ability reference by class' })}
 
     <section class="controls card">
       <div class="control-row">
