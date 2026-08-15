@@ -10,6 +10,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: './index.html',
+        find: './find.html',
         buffs: './buffs.html',
         party: './party.html',
         races: './races.html',

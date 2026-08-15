@@ -3,6 +3,7 @@ import { sitePath } from './site-paths.js';
 /** @type {{ id: string, label: string, href: string }[]} */
 const NAV_ITEMS = [
   { id: 'browser', label: 'Spells', href: '/' },
+  { id: 'find', label: 'Find', href: 'find.html' },
   { id: 'buffs', label: 'Buffs', href: 'buffs.html' },
   { id: 'party', label: 'Party', href: 'party.html' },
   { id: 'races', label: 'Races', href: 'races.html' },

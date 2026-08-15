@@ -668,6 +668,49 @@ a:hover {
   margin-bottom: 0.85rem;
 }
 
+.find-intro {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  line-height: 1.5;
+  margin-bottom: 0.85rem;
+}
+
+.find-table .col-classes {
+  min-width: 180px;
+}
+
+.find-table .class-summary {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.class-breakdown-table {
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+  width: 100%;
+}
+
+.class-breakdown-table th,
+.class-breakdown-table td {
+  border-bottom: 1px solid var(--border);
+  padding: 0.35rem 0.6rem;
+  text-align: left;
+}
+
+.class-breakdown-table th {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.class-breakdown-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
 .stat-nav {
   padding-top: 0.85rem;
   border-top: 1px solid var(--border);
