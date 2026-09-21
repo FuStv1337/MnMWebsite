@@ -4,7 +4,7 @@
   "type": "ability",
   "sectionTitle": "Paladin Spells & Abilities",
   "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Paladin",
-  "entryCount": 62,
+  "entryCount": 63,
   "levels": [
     1,
     2,
@@ -57,7 +57,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "AC",
           "buff"
@@ -79,7 +78,8 @@
         "valuesSummary": "+1–30 AC (L1–L60)",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Poison Protection",
@@ -93,7 +93,6 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "buff",
           "PR"
@@ -112,7 +111,8 @@
         "valuesSummary": "+5 Poison Resistance",
         "statTags": [
           "PR"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Taunt",
@@ -126,20 +126,20 @@
         "mana": "Innate",
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "taunt"
         ],
         "primaryTag": "taunt",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Shoot",
         "slug": "Shoot",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Shoot",
-        "description": "Shoots your target with a bow. (requires bow & arrows)",
+        "description": "Shoots your target with a bow. (Requires bow & arrows)",
         "category": "Mar",
         "categorySlug": "Skill_Martial",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
@@ -147,14 +147,14 @@
         "mana": "Innate",
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Slam",
@@ -168,7 +168,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "damage",
           "buff",
@@ -218,7 +217,8 @@
         "valuesSummary": "100% weapon dmg · 1–20 Physical dmg (L1–L60) · +20–200 Threat (L1–L60)",
         "statTags": [
           "THREAT"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Weak Heal",
@@ -232,7 +232,6 @@
         "mana": 7,
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "heal"
         ],
@@ -246,10 +245,47 @@
           }
         ],
         "valuesSummary": "6 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "2": [
+      {
+        "name": "Aura of courage",
+        "slug": "Aura_of_courage",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Aura_of_courage",
+        "description": "Surrounds you and your group in an aura of piousness, increasing AC by 1 (L1) to 30 (L60)",
+        "category": "Abj",
+        "categorySlug": "Skill_Abjuration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 2,
+        "tags": [
+          "AC",
+          "buff"
+        ],
+        "primaryTag": null,
+        "effects": [
+          {
+            "kind": "buff",
+            "stat": "AC",
+            "min": 1,
+            "max": 30,
+            "minLevel": 1,
+            "maxLevel": 60,
+            "display": "+1–30 AC (L1–L60)",
+            "sortKey": 30,
+            "statTag": "AC"
+          }
+        ],
+        "valuesSummary": "+1–30 AC (L1–L60)",
+        "statTags": [
+          "AC"
+        ],
+        "type": "ability"
+      },
       {
         "name": "Supplication",
         "slug": "Supplication",
@@ -262,7 +298,6 @@
         "mana": 3,
         "castTime": null,
         "level": 2,
-        "type": "ability",
         "tags": [
           "buff",
           "self",
@@ -305,7 +340,8 @@
         "statTags": [
           "MANA",
           "STR"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "3": [
@@ -321,14 +357,14 @@
         "mana": 10,
         "castTime": null,
         "level": 3,
-        "type": "ability",
         "tags": [
           "dispel"
         ],
         "primaryTag": "dispel",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Kick",
@@ -342,14 +378,14 @@
         "mana": "Innate",
         "castTime": null,
         "level": 3,
-        "type": "ability",
         "tags": [
           "interrupt"
         ],
         "primaryTag": "interrupt",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "4": [
@@ -365,7 +401,6 @@
         "mana": 8,
         "castTime": null,
         "level": 4,
-        "type": "ability",
         "tags": [
           "heal"
         ],
@@ -379,7 +414,8 @@
           }
         ],
         "valuesSummary": "10 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Weapon Shield",
@@ -393,7 +429,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 4,
-        "type": "ability",
         "tags": [
           "debuff",
           "self"
@@ -411,7 +446,8 @@
           }
         ],
         "valuesSummary": "−5%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "5": [
@@ -427,7 +463,6 @@
         "mana": 10,
         "castTime": null,
         "level": 5,
-        "type": "ability",
         "tags": [
           "debuff",
           "crowd-control"
@@ -435,7 +470,8 @@
         "primaryTag": "crowd-control",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "6": [
@@ -443,7 +479,7 @@
         "name": "Invisibility versus Undead",
         "slug": "Invisibility_versus_Undead",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Invisibility_versus_Undead",
-        "description": "Shroud a target group member in darkness, rendering them unseen by the undead for 10 minutes. This spell has a moderate chance to end early.",
+        "description": "Shroud a target group member in a cloak of invisibility, rendering them unseen by the undead for 10 minutes.",
         "category": "Div",
         "categorySlug": "Skill_Divination",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
@@ -451,7 +487,6 @@
         "mana": 10,
         "castTime": null,
         "level": 6,
-        "type": "ability",
         "tags": [
           "buff",
           "invisibility"
@@ -459,7 +494,8 @@
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "7": [
@@ -475,7 +511,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 7,
-        "type": "ability",
         "tags": [
           "buff",
           "self"
@@ -483,7 +518,8 @@
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Shield Toss",
@@ -497,7 +533,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 7,
-        "type": "ability",
         "tags": [
           "interrupt",
           "aoe"
@@ -505,7 +540,8 @@
         "primaryTag": "interrupt",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "8": [
@@ -521,7 +557,6 @@
         "mana": 15,
         "castTime": null,
         "level": 8,
-        "type": "ability",
         "tags": [
           "crowd-control",
           "fear"
@@ -529,7 +564,8 @@
         "primaryTag": "fear",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Holy Fortitude",
@@ -543,7 +579,6 @@
         "mana": 10,
         "castTime": null,
         "level": 8,
-        "type": "ability",
         "tags": [
           "buff"
         ],
@@ -558,7 +593,8 @@
           }
         ],
         "valuesSummary": "+10 Hitpoints",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Lesser Heal",
@@ -572,7 +608,6 @@
         "mana": 20,
         "castTime": null,
         "level": 8,
-        "type": "ability",
         "tags": [
           "heal"
         ],
@@ -586,7 +621,8 @@
           }
         ],
         "valuesSummary": "25 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Lay on Hands",
@@ -600,14 +636,14 @@
         "mana": 0,
         "castTime": null,
         "level": 8,
-        "type": "ability",
         "tags": [
           "heal"
         ],
         "primaryTag": "heal",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "9": [
@@ -623,12 +659,12 @@
         "mana": "",
         "castTime": null,
         "level": 9,
-        "type": "ability",
         "tags": [],
         "primaryTag": null,
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "10": [
@@ -644,14 +680,14 @@
         "mana": 10,
         "castTime": null,
         "level": 10,
-        "type": "ability",
         "tags": [
           "dispel"
         ],
         "primaryTag": "dispel",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Restorative Smite",
@@ -665,7 +701,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 10,
-        "type": "ability",
         "tags": [
           "damage",
           "buff"
@@ -719,7 +754,8 @@
           }
         ],
         "valuesSummary": "150% weapon dmg · 1–20 Holy dmg (L1–L60) · 1–20 Physical dmg (L1–L60)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "11": [
@@ -735,7 +771,6 @@
         "mana": 10,
         "castTime": null,
         "level": 11,
-        "type": "ability",
         "tags": [
           "buff",
           "DR"
@@ -754,7 +789,8 @@
         "valuesSummary": "+5 Disease Resistance",
         "statTags": [
           "DR"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "12": [
@@ -770,7 +806,6 @@
         "mana": "",
         "castTime": null,
         "level": 12,
-        "type": "ability",
         "tags": [
           "summon",
           "pet"
@@ -778,13 +813,14 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
-        "name": "Ward the Dead",
-        "slug": "Ward_the_Dead",
-        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Ward_the_Dead",
-        "description": "Wards an undead target with holy energy for 30 points of Holy Damage.",
+        "name": "Repel The Dead",
+        "slug": "Repel_The_Dead",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Repel_The_Dead?action=edit&redlink=1",
+        "description": "Repel a target undead with a blast of energy, dealing 30 points of Holy Damage.",
         "category": "Evo",
         "categorySlug": "Skill_Evocation",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
@@ -792,22 +828,22 @@
         "mana": 25,
         "castTime": null,
         "level": 12,
-        "type": "ability",
         "tags": [
-          "shield"
+          "damage"
         ],
-        "primaryTag": "shield",
+        "primaryTag": "damage",
         "effects": [
           {
-            "kind": "shield",
+            "kind": "damage",
             "amount": 30,
             "damageType": "Holy",
-            "display": "30 Holy absorb",
+            "display": "30 Holy dmg",
             "sortKey": 30
           }
         ],
-        "valuesSummary": "30 Holy absorb",
-        "statTags": []
+        "valuesSummary": "30 Holy dmg",
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "13": [
@@ -823,7 +859,6 @@
         "mana": 10,
         "castTime": null,
         "level": 13,
-        "type": "ability",
         "tags": [
           "buff",
           "COR"
@@ -842,7 +877,8 @@
         "valuesSummary": "+5 Corruption Resistance",
         "statTags": [
           "COR"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "14": [
@@ -858,7 +894,6 @@
         "mana": 10,
         "castTime": null,
         "level": 14,
-        "type": "ability",
         "tags": [
           "debuff",
           "slow"
@@ -876,7 +911,8 @@
           }
         ],
         "valuesSummary": "−35%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "15": [
@@ -892,7 +928,6 @@
         "mana": "",
         "castTime": null,
         "level": 15,
-        "type": "ability",
         "tags": [
           "crowd-control",
           "mez"
@@ -900,7 +935,8 @@
         "primaryTag": "mez",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "16": [
@@ -916,7 +952,6 @@
         "mana": 40,
         "castTime": null,
         "level": 16,
-        "type": "ability",
         "tags": [
           "heal"
         ],
@@ -930,7 +965,8 @@
           }
         ],
         "valuesSummary": "70 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Mark of the Crusader",
@@ -944,14 +980,14 @@
         "mana": 10,
         "castTime": null,
         "level": 16,
-        "type": "ability",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "17": [
@@ -967,7 +1003,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 17,
-        "type": "ability",
         "tags": [
           "self"
         ],
@@ -984,7 +1019,8 @@
           }
         ],
         "valuesSummary": "−40%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "18": [
@@ -992,7 +1028,7 @@
         "name": "Root",
         "slug": "Root",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Root",
-        "description": "Roots emerge from the ground and cling to your target's feet, applying an immobilize effect for 30 seconds. This effect has a change to be removed by Damage or end early. Limit one.",
+        "description": "Root your target to the ground, immobilizing them for 30 seconds. This spell has a chance to be removed by damage. This spell has a very strong chance to end early.",
         "category": "Alt",
         "categorySlug": "Skill_Alteration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -1000,15 +1036,22 @@
         "mana": 15,
         "castTime": null,
         "level": 18,
-        "type": "ability",
         "tags": [
           "crowd-control",
           "root"
         ],
         "primaryTag": "root",
-        "effects": [],
-        "valuesSummary": "",
-        "statTags": []
+        "effects": [
+          {
+            "kind": "crowd-control",
+            "duration": 30,
+            "display": "30s duration",
+            "sortKey": 30
+          }
+        ],
+        "valuesSummary": "30s duration",
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "19": [
@@ -1024,14 +1067,14 @@
         "mana": 15,
         "castTime": null,
         "level": 19,
-        "type": "ability",
         "tags": [
           "debuff"
         ],
         "primaryTag": "debuff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "20": [
@@ -1039,7 +1082,7 @@
         "name": "Cleanse Diseases",
         "slug": "Cleanse_Diseases",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Cleanse_Diseases",
-        "description": "Cleanse your target, removing two Disease effects.",
+        "description": "Cures target of two disease effects",
         "category": "Alt",
         "categorySlug": "Skill_Alteration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -1047,14 +1090,12 @@
         "mana": 50,
         "castTime": null,
         "level": 20,
-        "type": "ability",
-        "tags": [
-          "dispel"
-        ],
-        "primaryTag": "dispel",
+        "tags": [],
+        "primaryTag": null,
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Cleanse Poisons",
@@ -1068,20 +1109,20 @@
         "mana": 50,
         "castTime": null,
         "level": 20,
-        "type": "ability",
         "tags": [
           "dispel"
         ],
         "primaryTag": "dispel",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Divine Aegis",
         "slug": "Divine_Aegis",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Divine_Aegis",
-        "description": "Surround yourself with a divine aegis, granting you immunity to all incoming damage for 15 seconds. This spell can be used while stunned, incapacitated, or feared. This spell inflicts Exhausted Soul upon expiration, preventing the application of immunity effects for 30 seconds.",
+        "description": "Surrounds the caster with an impenetrable divine aegis, making them invulnerable to all attacks for 15 seconds. Also grants Exhausted Soul, preventing you from receiving another immunity buff for 1 minute. Can by used while Stunned, Mesmerized, and Feared.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -1089,15 +1130,15 @@
         "mana": 60,
         "castTime": null,
         "level": 20,
-        "type": "ability",
         "tags": [
-          "buff",
-          "self"
+          "crowd-control",
+          "mez"
         ],
-        "primaryTag": "buff",
+        "primaryTag": "mez",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Holy Focus",
@@ -1111,7 +1152,6 @@
         "mana": 50,
         "castTime": null,
         "level": 20,
-        "type": "ability",
         "tags": [
           "buff",
           "MAX HP"
@@ -1130,7 +1170,8 @@
         "valuesSummary": "+50 Health",
         "statTags": [
           "MAX HP"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "21": [
@@ -1146,7 +1187,6 @@
         "mana": "",
         "castTime": null,
         "level": 21,
-        "type": "ability",
         "tags": [],
         "primaryTag": null,
         "effects": [
@@ -1161,7 +1201,8 @@
           }
         ],
         "valuesSummary": "−20%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "24": [
@@ -1177,7 +1218,6 @@
         "mana": 50,
         "castTime": null,
         "level": 24,
-        "type": "ability",
         "tags": [
           "shield"
         ],
@@ -1192,7 +1232,8 @@
           }
         ],
         "valuesSummary": "90 Holy absorb",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Stun",
@@ -1206,7 +1247,6 @@
         "mana": 15,
         "castTime": null,
         "level": 24,
-        "type": "ability",
         "tags": [
           "crowd-control",
           "stun"
@@ -1221,7 +1261,8 @@
           }
         ],
         "valuesSummary": "4s duration",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "28": [
@@ -1237,7 +1278,6 @@
         "mana": 75,
         "castTime": null,
         "level": 28,
-        "type": "ability",
         "tags": [
           "buff",
           "MAX HP"
@@ -1256,7 +1296,8 @@
         "valuesSummary": "+125 health",
         "statTags": [
           "MAX HP"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "29": [
@@ -1272,7 +1313,6 @@
         "mana": 150,
         "castTime": null,
         "level": 29,
-        "type": "ability",
         "tags": [
           "heal"
         ],
@@ -1286,7 +1326,8 @@
           }
         ],
         "valuesSummary": "325 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "30": [
@@ -1302,7 +1343,6 @@
         "mana": 6,
         "castTime": null,
         "level": 30,
-        "type": "ability",
         "tags": [
           "buff",
           "self",
@@ -1345,7 +1385,8 @@
         "statTags": [
           "MANA",
           "STR"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "32": [
@@ -1361,14 +1402,14 @@
         "mana": 15,
         "castTime": null,
         "level": 32,
-        "type": "ability",
         "tags": [
           "debuff"
         ],
         "primaryTag": "debuff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "36": [
@@ -1384,20 +1425,20 @@
         "mana": "",
         "castTime": null,
         "level": 36,
-        "type": "ability",
         "tags": [
           "debuff"
         ],
         "primaryTag": "debuff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Rebuff the Dead",
         "slug": "Rebuff_the_Dead",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Rebuff_the_Dead",
-        "description": "Rebuff a target undead with a blast of energy, dealing 150 Holy Damage.",
+        "description": "Wards an Undead target with holy energy for 150 points of Holy Damage.",
         "category": "Evo",
         "categorySlug": "Skill_Evocation",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
@@ -1405,22 +1446,22 @@
         "mana": "",
         "castTime": null,
         "level": 36,
-        "type": "ability",
         "tags": [
-          "damage"
+          "shield"
         ],
-        "primaryTag": "damage",
+        "primaryTag": "shield",
         "effects": [
           {
-            "kind": "damage",
+            "kind": "shield",
             "amount": 150,
             "damageType": "Holy",
-            "display": "150 Holy dmg",
+            "display": "150 Holy absorb",
             "sortKey": 150
           }
         ],
-        "valuesSummary": "150 Holy dmg",
-        "statTags": []
+        "valuesSummary": "150 Holy absorb",
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "40": [
@@ -1428,7 +1469,7 @@
         "name": "Holy Resilience",
         "slug": "Holy_Resilience",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Holy_Resilience",
-        "description": "Bestow holy resilience upon your target, increasing their maximum Health by 175 for 1 hour.",
+        "description": "Increases the maximum Health of a friendly target by 175 for 30 minutes.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -1436,7 +1477,6 @@
         "mana": 100,
         "castTime": null,
         "level": 40,
-        "type": "ability",
         "tags": [
           "buff",
           "MAX HP"
@@ -1455,7 +1495,8 @@
         "valuesSummary": "+175 Health",
         "statTags": [
           "MAX HP"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "44": [
@@ -1471,7 +1512,6 @@
         "mana": "",
         "castTime": null,
         "level": 44,
-        "type": "ability",
         "tags": [
           "resurrection"
         ],
@@ -1485,7 +1525,8 @@
           }
         ],
         "valuesSummary": "35% XP",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Corruption Resistance",
@@ -1499,7 +1540,6 @@
         "mana": 10,
         "castTime": null,
         "level": 44,
-        "type": "ability",
         "tags": [
           "buff",
           "COR"
@@ -1518,7 +1558,8 @@
         "valuesSummary": "+15 Corruption Resistance",
         "statTags": [
           "COR"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Disease Resistance",
@@ -1532,7 +1573,6 @@
         "mana": 10,
         "castTime": null,
         "level": 44,
-        "type": "ability",
         "tags": [
           "buff",
           "DR"
@@ -1551,7 +1591,8 @@
         "valuesSummary": "+15 Disease Resistance",
         "statTags": [
           "DR"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Poison Resistance",
@@ -1565,7 +1606,6 @@
         "mana": 10,
         "castTime": null,
         "level": 44,
-        "type": "ability",
         "tags": [
           "buff",
           "PR"
@@ -1584,7 +1624,8 @@
         "valuesSummary": "+15 Poison Resistance",
         "statTags": [
           "PR"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "48": [
@@ -1592,7 +1633,7 @@
         "name": "Beleaguer the Dead",
         "slug": "Beleaguer_the_Dead",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Beleaguer_the_Dead",
-        "description": "Beleaguer a target undead with a blast of energy, dealing 245 Holy Damage.",
+        "description": "Wards off an undead target with holy energy for 245 points of Holy Damage.",
         "category": "Evo",
         "categorySlug": "Skill_Evocation",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
@@ -1600,22 +1641,22 @@
         "mana": "",
         "castTime": null,
         "level": 48,
-        "type": "ability",
         "tags": [
-          "damage"
+          "shield"
         ],
-        "primaryTag": "damage",
+        "primaryTag": "shield",
         "effects": [
           {
-            "kind": "damage",
+            "kind": "shield",
             "amount": 245,
             "damageType": "Holy",
-            "display": "245 Holy dmg",
+            "display": "245 Holy absorb",
             "sortKey": 245
           }
         ],
-        "valuesSummary": "245 Holy dmg",
-        "statTags": []
+        "valuesSummary": "245 Holy absorb",
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "50": [
@@ -1631,7 +1672,6 @@
         "mana": 230,
         "castTime": null,
         "level": 50,
-        "type": "ability",
         "tags": [
           "heal"
         ],
@@ -1645,7 +1685,8 @@
           }
         ],
         "valuesSummary": "600 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Supplication III",
@@ -1659,7 +1700,6 @@
         "mana": "",
         "castTime": null,
         "level": 50,
-        "type": "ability",
         "tags": [
           "buff",
           "self",
@@ -1702,7 +1742,8 @@
         "statTags": [
           "MANA",
           "STR"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "51": [
@@ -1710,7 +1751,7 @@
         "name": "Propitiate",
         "slug": "Propitiate",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Propitiate",
-        "description": "Propitiate your target, reducing their Aggro Radius for 5 minutes. This spell has a very slight chance to end early.",
+        "description": "Propitiate your target, reducing their Aggro Radius for 2 minutes. This spell has a very slight chance to end early.",
         "category": "Alt",
         "categorySlug": "Skill_Alteration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -1718,14 +1759,14 @@
         "mana": 15,
         "castTime": null,
         "level": 51,
-        "type": "ability",
         "tags": [
           "debuff"
         ],
         "primaryTag": "debuff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "52": [
@@ -1733,7 +1774,7 @@
         "name": "Holy Resolve",
         "slug": "Holy_Resolve",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Holy_Resolve",
-        "description": "Bestow holy resolve upon your target, increasing their maximum Health by 250 for 1 hour.",
+        "description": "Increases the maximum Health of a friendly target by 250 for 1 hour.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -1741,7 +1782,6 @@
         "mana": 150,
         "castTime": null,
         "level": 52,
-        "type": "ability",
         "tags": [
           "buff",
           "MAX HP"
@@ -1760,7 +1800,8 @@
         "valuesSummary": "+250 Health",
         "statTags": [
           "MAX HP"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "55": [
@@ -1776,14 +1817,14 @@
         "mana": 100,
         "castTime": null,
         "level": 55,
-        "type": "ability",
         "tags": [
           "dispel"
         ],
         "primaryTag": "dispel",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "56": [
@@ -1799,14 +1840,14 @@
         "mana": "",
         "castTime": null,
         "level": 56,
-        "type": "ability",
         "tags": [
           "debuff"
         ],
         "primaryTag": "debuff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Reawaken",
@@ -1820,7 +1861,6 @@
         "mana": "",
         "castTime": null,
         "level": 56,
-        "type": "ability",
         "tags": [
           "resurrection"
         ],
@@ -1834,7 +1874,8 @@
           }
         ],
         "valuesSummary": "50% XP",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "60": [
@@ -1842,7 +1883,7 @@
         "name": "Assail the Dead",
         "slug": "Assail_the_Dead",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Assail_the_Dead",
-        "description": "Assail a target undead with a blast of energy, dealing 525 Holy Damage.",
+        "description": "Wards an undead target with holy energy for 525 points of Holy Damage.",
         "category": "Evo",
         "categorySlug": "Skill_Evocation",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
@@ -1850,22 +1891,22 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "ability",
         "tags": [
-          "damage"
+          "shield"
         ],
-        "primaryTag": "damage",
+        "primaryTag": "shield",
         "effects": [
           {
-            "kind": "damage",
+            "kind": "shield",
             "amount": 525,
             "damageType": "Holy",
-            "display": "525 Holy dmg",
+            "display": "525 Holy absorb",
             "sortKey": 525
           }
         ],
-        "valuesSummary": "525 Holy dmg",
-        "statTags": []
+        "valuesSummary": "525 Holy absorb",
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Divine Spark",
@@ -1879,7 +1920,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "ability",
         "tags": [
           "buff",
           "MAX HP"
@@ -1898,7 +1938,8 @@
         "valuesSummary": "+250 Health",
         "statTags": [
           "MAX HP"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Supplication IV",
@@ -1912,7 +1953,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "ability",
         "tags": [
           "buff",
           "self",
@@ -1942,7 +1982,8 @@
         "statTags": [
           "MANA",
           "STR"
-        ]
+        ],
+        "type": "ability"
       }
     ]
   },
@@ -1959,7 +2000,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "AC",
         "buff"
@@ -1981,7 +2021,8 @@
       "valuesSummary": "+1–30 AC (L1–L60)",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Poison Protection",
@@ -1995,7 +2036,6 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "buff",
         "PR"
@@ -2014,7 +2054,8 @@
       "valuesSummary": "+5 Poison Resistance",
       "statTags": [
         "PR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Taunt",
@@ -2028,20 +2069,20 @@
       "mana": "Innate",
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "taunt"
       ],
       "primaryTag": "taunt",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Shoot",
       "slug": "Shoot",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Shoot",
-      "description": "Shoots your target with a bow. (requires bow & arrows)",
+      "description": "Shoots your target with a bow. (Requires bow & arrows)",
       "category": "Mar",
       "categorySlug": "Skill_Martial",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
@@ -2049,14 +2090,14 @@
       "mana": "Innate",
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Slam",
@@ -2070,7 +2111,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "damage",
         "buff",
@@ -2120,7 +2160,8 @@
       "valuesSummary": "100% weapon dmg · 1–20 Physical dmg (L1–L60) · +20–200 Threat (L1–L60)",
       "statTags": [
         "THREAT"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Weak Heal",
@@ -2134,7 +2175,6 @@
       "mana": 7,
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "heal"
       ],
@@ -2148,7 +2188,44 @@
         }
       ],
       "valuesSummary": "6 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
+    },
+    {
+      "name": "Aura of courage",
+      "slug": "Aura_of_courage",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Aura_of_courage",
+      "description": "Surrounds you and your group in an aura of piousness, increasing AC by 1 (L1) to 30 (L60)",
+      "category": "Abj",
+      "categorySlug": "Skill_Abjuration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 2,
+      "tags": [
+        "AC",
+        "buff"
+      ],
+      "primaryTag": null,
+      "effects": [
+        {
+          "kind": "buff",
+          "stat": "AC",
+          "min": 1,
+          "max": 30,
+          "minLevel": 1,
+          "maxLevel": 60,
+          "display": "+1–30 AC (L1–L60)",
+          "sortKey": 30,
+          "statTag": "AC"
+        }
+      ],
+      "valuesSummary": "+1–30 AC (L1–L60)",
+      "statTags": [
+        "AC"
+      ],
+      "type": "ability"
     },
     {
       "name": "Supplication",
@@ -2162,7 +2239,6 @@
       "mana": 3,
       "castTime": null,
       "level": 2,
-      "type": "ability",
       "tags": [
         "buff",
         "self",
@@ -2205,7 +2281,8 @@
       "statTags": [
         "MANA",
         "STR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Cure Disease",
@@ -2219,14 +2296,14 @@
       "mana": 10,
       "castTime": null,
       "level": 3,
-      "type": "ability",
       "tags": [
         "dispel"
       ],
       "primaryTag": "dispel",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Kick",
@@ -2240,14 +2317,14 @@
       "mana": "Innate",
       "castTime": null,
       "level": 3,
-      "type": "ability",
       "tags": [
         "interrupt"
       ],
       "primaryTag": "interrupt",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Minor Heal",
@@ -2261,7 +2338,6 @@
       "mana": 8,
       "castTime": null,
       "level": 4,
-      "type": "ability",
       "tags": [
         "heal"
       ],
@@ -2275,7 +2351,8 @@
         }
       ],
       "valuesSummary": "10 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Weapon Shield",
@@ -2289,7 +2366,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 4,
-      "type": "ability",
       "tags": [
         "debuff",
         "self"
@@ -2307,7 +2383,8 @@
         }
       ],
       "valuesSummary": "−5%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Placate",
@@ -2321,7 +2398,6 @@
       "mana": 10,
       "castTime": null,
       "level": 5,
-      "type": "ability",
       "tags": [
         "debuff",
         "crowd-control"
@@ -2329,13 +2405,14 @@
       "primaryTag": "crowd-control",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Invisibility versus Undead",
       "slug": "Invisibility_versus_Undead",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Invisibility_versus_Undead",
-      "description": "Shroud a target group member in darkness, rendering them unseen by the undead for 10 minutes. This spell has a moderate chance to end early.",
+      "description": "Shroud a target group member in a cloak of invisibility, rendering them unseen by the undead for 10 minutes.",
       "category": "Div",
       "categorySlug": "Skill_Divination",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
@@ -2343,7 +2420,6 @@
       "mana": 10,
       "castTime": null,
       "level": 6,
-      "type": "ability",
       "tags": [
         "buff",
         "invisibility"
@@ -2351,7 +2427,8 @@
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Focused Concentration",
@@ -2365,7 +2442,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 7,
-      "type": "ability",
       "tags": [
         "buff",
         "self"
@@ -2373,7 +2449,8 @@
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Shield Toss",
@@ -2387,7 +2464,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 7,
-      "type": "ability",
       "tags": [
         "interrupt",
         "aoe"
@@ -2395,7 +2471,8 @@
       "primaryTag": "interrupt",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Fear the Dead",
@@ -2409,7 +2486,6 @@
       "mana": 15,
       "castTime": null,
       "level": 8,
-      "type": "ability",
       "tags": [
         "crowd-control",
         "fear"
@@ -2417,7 +2493,8 @@
       "primaryTag": "fear",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Holy Fortitude",
@@ -2431,7 +2508,6 @@
       "mana": 10,
       "castTime": null,
       "level": 8,
-      "type": "ability",
       "tags": [
         "buff"
       ],
@@ -2446,7 +2522,8 @@
         }
       ],
       "valuesSummary": "+10 Hitpoints",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Lesser Heal",
@@ -2460,7 +2537,6 @@
       "mana": 20,
       "castTime": null,
       "level": 8,
-      "type": "ability",
       "tags": [
         "heal"
       ],
@@ -2474,7 +2550,8 @@
         }
       ],
       "valuesSummary": "25 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Lay on Hands",
@@ -2488,14 +2565,14 @@
       "mana": 0,
       "castTime": null,
       "level": 8,
-      "type": "ability",
       "tags": [
         "heal"
       ],
       "primaryTag": "heal",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Blind",
@@ -2509,12 +2586,12 @@
       "mana": "",
       "castTime": null,
       "level": 9,
-      "type": "ability",
       "tags": [],
       "primaryTag": null,
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Cure Poison",
@@ -2528,14 +2605,14 @@
       "mana": 10,
       "castTime": null,
       "level": 10,
-      "type": "ability",
       "tags": [
         "dispel"
       ],
       "primaryTag": "dispel",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Restorative Smite",
@@ -2549,7 +2626,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 10,
-      "type": "ability",
       "tags": [
         "damage",
         "buff"
@@ -2603,7 +2679,8 @@
         }
       ],
       "valuesSummary": "150% weapon dmg · 1–20 Holy dmg (L1–L60) · 1–20 Physical dmg (L1–L60)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Disease Protection",
@@ -2617,7 +2694,6 @@
       "mana": 10,
       "castTime": null,
       "level": 11,
-      "type": "ability",
       "tags": [
         "buff",
         "DR"
@@ -2636,7 +2712,8 @@
       "valuesSummary": "+5 Disease Resistance",
       "statTags": [
         "DR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Ancient Guardian",
@@ -2650,7 +2727,6 @@
       "mana": "",
       "castTime": null,
       "level": 12,
-      "type": "ability",
       "tags": [
         "summon",
         "pet"
@@ -2658,13 +2734,14 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
-      "name": "Ward the Dead",
-      "slug": "Ward_the_Dead",
-      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Ward_the_Dead",
-      "description": "Wards an undead target with holy energy for 30 points of Holy Damage.",
+      "name": "Repel The Dead",
+      "slug": "Repel_The_Dead",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Repel_The_Dead?action=edit&redlink=1",
+      "description": "Repel a target undead with a blast of energy, dealing 30 points of Holy Damage.",
       "category": "Evo",
       "categorySlug": "Skill_Evocation",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
@@ -2672,22 +2749,22 @@
       "mana": 25,
       "castTime": null,
       "level": 12,
-      "type": "ability",
       "tags": [
-        "shield"
+        "damage"
       ],
-      "primaryTag": "shield",
+      "primaryTag": "damage",
       "effects": [
         {
-          "kind": "shield",
+          "kind": "damage",
           "amount": 30,
           "damageType": "Holy",
-          "display": "30 Holy absorb",
+          "display": "30 Holy dmg",
           "sortKey": 30
         }
       ],
-      "valuesSummary": "30 Holy absorb",
-      "statTags": []
+      "valuesSummary": "30 Holy dmg",
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Corruption Protection",
@@ -2701,7 +2778,6 @@
       "mana": 10,
       "castTime": null,
       "level": 13,
-      "type": "ability",
       "tags": [
         "buff",
         "COR"
@@ -2720,7 +2796,8 @@
       "valuesSummary": "+5 Corruption Resistance",
       "statTags": [
         "COR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Snare the Dead",
@@ -2734,7 +2811,6 @@
       "mana": 10,
       "castTime": null,
       "level": 14,
-      "type": "ability",
       "tags": [
         "debuff",
         "slow"
@@ -2752,7 +2828,8 @@
         }
       ],
       "valuesSummary": "−35%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Unleash the Light",
@@ -2766,7 +2843,6 @@
       "mana": "",
       "castTime": null,
       "level": 15,
-      "type": "ability",
       "tags": [
         "crowd-control",
         "mez"
@@ -2774,7 +2850,8 @@
       "primaryTag": "mez",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Heal",
@@ -2788,7 +2865,6 @@
       "mana": 40,
       "castTime": null,
       "level": 16,
-      "type": "ability",
       "tags": [
         "heal"
       ],
@@ -2802,7 +2878,8 @@
         }
       ],
       "valuesSummary": "70 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Mark of the Crusader",
@@ -2816,14 +2893,14 @@
       "mana": 10,
       "castTime": null,
       "level": 16,
-      "type": "ability",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Deflect",
@@ -2837,7 +2914,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 17,
-      "type": "ability",
       "tags": [
         "self"
       ],
@@ -2854,13 +2930,14 @@
         }
       ],
       "valuesSummary": "−40%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Root",
       "slug": "Root",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Root",
-      "description": "Roots emerge from the ground and cling to your target's feet, applying an immobilize effect for 30 seconds. This effect has a change to be removed by Damage or end early. Limit one.",
+      "description": "Root your target to the ground, immobilizing them for 30 seconds. This spell has a chance to be removed by damage. This spell has a very strong chance to end early.",
       "category": "Alt",
       "categorySlug": "Skill_Alteration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -2868,15 +2945,22 @@
       "mana": 15,
       "castTime": null,
       "level": 18,
-      "type": "ability",
       "tags": [
         "crowd-control",
         "root"
       ],
       "primaryTag": "root",
-      "effects": [],
-      "valuesSummary": "",
-      "statTags": []
+      "effects": [
+        {
+          "kind": "crowd-control",
+          "duration": 30,
+          "display": "30s duration",
+          "sortKey": 30
+        }
+      ],
+      "valuesSummary": "30s duration",
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Appease",
@@ -2890,20 +2974,20 @@
       "mana": 15,
       "castTime": null,
       "level": 19,
-      "type": "ability",
       "tags": [
         "debuff"
       ],
       "primaryTag": "debuff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Cleanse Diseases",
       "slug": "Cleanse_Diseases",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Cleanse_Diseases",
-      "description": "Cleanse your target, removing two Disease effects.",
+      "description": "Cures target of two disease effects",
       "category": "Alt",
       "categorySlug": "Skill_Alteration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -2911,14 +2995,12 @@
       "mana": 50,
       "castTime": null,
       "level": 20,
-      "type": "ability",
-      "tags": [
-        "dispel"
-      ],
-      "primaryTag": "dispel",
+      "tags": [],
+      "primaryTag": null,
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Cleanse Poisons",
@@ -2932,20 +3014,20 @@
       "mana": 50,
       "castTime": null,
       "level": 20,
-      "type": "ability",
       "tags": [
         "dispel"
       ],
       "primaryTag": "dispel",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Divine Aegis",
       "slug": "Divine_Aegis",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Divine_Aegis",
-      "description": "Surround yourself with a divine aegis, granting you immunity to all incoming damage for 15 seconds. This spell can be used while stunned, incapacitated, or feared. This spell inflicts Exhausted Soul upon expiration, preventing the application of immunity effects for 30 seconds.",
+      "description": "Surrounds the caster with an impenetrable divine aegis, making them invulnerable to all attacks for 15 seconds. Also grants Exhausted Soul, preventing you from receiving another immunity buff for 1 minute. Can by used while Stunned, Mesmerized, and Feared.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -2953,15 +3035,15 @@
       "mana": 60,
       "castTime": null,
       "level": 20,
-      "type": "ability",
       "tags": [
-        "buff",
-        "self"
+        "crowd-control",
+        "mez"
       ],
-      "primaryTag": "buff",
+      "primaryTag": "mez",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Holy Focus",
@@ -2975,7 +3057,6 @@
       "mana": 50,
       "castTime": null,
       "level": 20,
-      "type": "ability",
       "tags": [
         "buff",
         "MAX HP"
@@ -2994,7 +3075,8 @@
       "valuesSummary": "+50 Health",
       "statTags": [
         "MAX HP"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Blessing of Sanctuary",
@@ -3008,7 +3090,6 @@
       "mana": "",
       "castTime": null,
       "level": 21,
-      "type": "ability",
       "tags": [],
       "primaryTag": null,
       "effects": [
@@ -3023,7 +3104,8 @@
         }
       ],
       "valuesSummary": "−20%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Beset the Dead",
@@ -3037,7 +3119,6 @@
       "mana": 50,
       "castTime": null,
       "level": 24,
-      "type": "ability",
       "tags": [
         "shield"
       ],
@@ -3052,7 +3133,8 @@
         }
       ],
       "valuesSummary": "90 Holy absorb",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Stun",
@@ -3066,7 +3148,6 @@
       "mana": 15,
       "castTime": null,
       "level": 24,
-      "type": "ability",
       "tags": [
         "crowd-control",
         "stun"
@@ -3081,7 +3162,8 @@
         }
       ],
       "valuesSummary": "4s duration",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Holy Valor",
@@ -3095,7 +3177,6 @@
       "mana": 75,
       "castTime": null,
       "level": 28,
-      "type": "ability",
       "tags": [
         "buff",
         "MAX HP"
@@ -3114,7 +3195,8 @@
       "valuesSummary": "+125 health",
       "statTags": [
         "MAX HP"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Greater Heal",
@@ -3128,7 +3210,6 @@
       "mana": 150,
       "castTime": null,
       "level": 29,
-      "type": "ability",
       "tags": [
         "heal"
       ],
@@ -3142,7 +3223,8 @@
         }
       ],
       "valuesSummary": "325 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Supplication II",
@@ -3156,7 +3238,6 @@
       "mana": 6,
       "castTime": null,
       "level": 30,
-      "type": "ability",
       "tags": [
         "buff",
         "self",
@@ -3199,7 +3280,8 @@
       "statTags": [
         "MANA",
         "STR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Conciliate",
@@ -3213,14 +3295,14 @@
       "mana": 15,
       "castTime": null,
       "level": 32,
-      "type": "ability",
       "tags": [
         "debuff"
       ],
       "primaryTag": "debuff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Conciliate the Masses",
@@ -3234,20 +3316,20 @@
       "mana": "",
       "castTime": null,
       "level": 36,
-      "type": "ability",
       "tags": [
         "debuff"
       ],
       "primaryTag": "debuff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Rebuff the Dead",
       "slug": "Rebuff_the_Dead",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Rebuff_the_Dead",
-      "description": "Rebuff a target undead with a blast of energy, dealing 150 Holy Damage.",
+      "description": "Wards an Undead target with holy energy for 150 points of Holy Damage.",
       "category": "Evo",
       "categorySlug": "Skill_Evocation",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
@@ -3255,28 +3337,28 @@
       "mana": "",
       "castTime": null,
       "level": 36,
-      "type": "ability",
       "tags": [
-        "damage"
+        "shield"
       ],
-      "primaryTag": "damage",
+      "primaryTag": "shield",
       "effects": [
         {
-          "kind": "damage",
+          "kind": "shield",
           "amount": 150,
           "damageType": "Holy",
-          "display": "150 Holy dmg",
+          "display": "150 Holy absorb",
           "sortKey": 150
         }
       ],
-      "valuesSummary": "150 Holy dmg",
-      "statTags": []
+      "valuesSummary": "150 Holy absorb",
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Holy Resilience",
       "slug": "Holy_Resilience",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Holy_Resilience",
-      "description": "Bestow holy resilience upon your target, increasing their maximum Health by 175 for 1 hour.",
+      "description": "Increases the maximum Health of a friendly target by 175 for 30 minutes.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -3284,7 +3366,6 @@
       "mana": 100,
       "castTime": null,
       "level": 40,
-      "type": "ability",
       "tags": [
         "buff",
         "MAX HP"
@@ -3303,7 +3384,8 @@
       "valuesSummary": "+175 Health",
       "statTags": [
         "MAX HP"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Resuscitation",
@@ -3317,7 +3399,6 @@
       "mana": "",
       "castTime": null,
       "level": 44,
-      "type": "ability",
       "tags": [
         "resurrection"
       ],
@@ -3331,7 +3412,8 @@
         }
       ],
       "valuesSummary": "35% XP",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Corruption Resistance",
@@ -3345,7 +3427,6 @@
       "mana": 10,
       "castTime": null,
       "level": 44,
-      "type": "ability",
       "tags": [
         "buff",
         "COR"
@@ -3364,7 +3445,8 @@
       "valuesSummary": "+15 Corruption Resistance",
       "statTags": [
         "COR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Disease Resistance",
@@ -3378,7 +3460,6 @@
       "mana": 10,
       "castTime": null,
       "level": 44,
-      "type": "ability",
       "tags": [
         "buff",
         "DR"
@@ -3397,7 +3478,8 @@
       "valuesSummary": "+15 Disease Resistance",
       "statTags": [
         "DR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Poison Resistance",
@@ -3411,7 +3493,6 @@
       "mana": 10,
       "castTime": null,
       "level": 44,
-      "type": "ability",
       "tags": [
         "buff",
         "PR"
@@ -3430,13 +3511,14 @@
       "valuesSummary": "+15 Poison Resistance",
       "statTags": [
         "PR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Beleaguer the Dead",
       "slug": "Beleaguer_the_Dead",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Beleaguer_the_Dead",
-      "description": "Beleaguer a target undead with a blast of energy, dealing 245 Holy Damage.",
+      "description": "Wards off an undead target with holy energy for 245 points of Holy Damage.",
       "category": "Evo",
       "categorySlug": "Skill_Evocation",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
@@ -3444,22 +3526,22 @@
       "mana": "",
       "castTime": null,
       "level": 48,
-      "type": "ability",
       "tags": [
-        "damage"
+        "shield"
       ],
-      "primaryTag": "damage",
+      "primaryTag": "shield",
       "effects": [
         {
-          "kind": "damage",
+          "kind": "shield",
           "amount": 245,
           "damageType": "Holy",
-          "display": "245 Holy dmg",
+          "display": "245 Holy absorb",
           "sortKey": 245
         }
       ],
-      "valuesSummary": "245 Holy dmg",
-      "statTags": []
+      "valuesSummary": "245 Holy absorb",
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Exceptional Heal",
@@ -3473,7 +3555,6 @@
       "mana": 230,
       "castTime": null,
       "level": 50,
-      "type": "ability",
       "tags": [
         "heal"
       ],
@@ -3487,7 +3568,8 @@
         }
       ],
       "valuesSummary": "600 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Supplication III",
@@ -3501,7 +3583,6 @@
       "mana": "",
       "castTime": null,
       "level": 50,
-      "type": "ability",
       "tags": [
         "buff",
         "self",
@@ -3544,13 +3625,14 @@
       "statTags": [
         "MANA",
         "STR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Propitiate",
       "slug": "Propitiate",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Propitiate",
-      "description": "Propitiate your target, reducing their Aggro Radius for 5 minutes. This spell has a very slight chance to end early.",
+      "description": "Propitiate your target, reducing their Aggro Radius for 2 minutes. This spell has a very slight chance to end early.",
       "category": "Alt",
       "categorySlug": "Skill_Alteration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -3558,20 +3640,20 @@
       "mana": 15,
       "castTime": null,
       "level": 51,
-      "type": "ability",
       "tags": [
         "debuff"
       ],
       "primaryTag": "debuff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Holy Resolve",
       "slug": "Holy_Resolve",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Holy_Resolve",
-      "description": "Bestow holy resolve upon your target, increasing their maximum Health by 250 for 1 hour.",
+      "description": "Increases the maximum Health of a friendly target by 250 for 1 hour.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -3579,7 +3661,6 @@
       "mana": 150,
       "castTime": null,
       "level": 52,
-      "type": "ability",
       "tags": [
         "buff",
         "MAX HP"
@@ -3598,7 +3679,8 @@
       "valuesSummary": "+250 Health",
       "statTags": [
         "MAX HP"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Abolish Magic",
@@ -3612,14 +3694,14 @@
       "mana": 100,
       "castTime": null,
       "level": 55,
-      "type": "ability",
       "tags": [
         "dispel"
       ],
       "primaryTag": "dispel",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Propitiate the Masses",
@@ -3633,14 +3715,14 @@
       "mana": "",
       "castTime": null,
       "level": 56,
-      "type": "ability",
       "tags": [
         "debuff"
       ],
       "primaryTag": "debuff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Reawaken",
@@ -3654,7 +3736,6 @@
       "mana": "",
       "castTime": null,
       "level": 56,
-      "type": "ability",
       "tags": [
         "resurrection"
       ],
@@ -3668,13 +3749,14 @@
         }
       ],
       "valuesSummary": "50% XP",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Assail the Dead",
       "slug": "Assail_the_Dead",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Assail_the_Dead",
-      "description": "Assail a target undead with a blast of energy, dealing 525 Holy Damage.",
+      "description": "Wards an undead target with holy energy for 525 points of Holy Damage.",
       "category": "Evo",
       "categorySlug": "Skill_Evocation",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
@@ -3682,22 +3764,22 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "ability",
       "tags": [
-        "damage"
+        "shield"
       ],
-      "primaryTag": "damage",
+      "primaryTag": "shield",
       "effects": [
         {
-          "kind": "damage",
+          "kind": "shield",
           "amount": 525,
           "damageType": "Holy",
-          "display": "525 Holy dmg",
+          "display": "525 Holy absorb",
           "sortKey": 525
         }
       ],
-      "valuesSummary": "525 Holy dmg",
-      "statTags": []
+      "valuesSummary": "525 Holy absorb",
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Divine Spark",
@@ -3711,7 +3793,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "ability",
       "tags": [
         "buff",
         "MAX HP"
@@ -3730,7 +3811,8 @@
       "valuesSummary": "+250 Health",
       "statTags": [
         "MAX HP"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Supplication IV",
@@ -3744,7 +3826,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "ability",
       "tags": [
         "buff",
         "self",
@@ -3774,7 +3855,8 @@
       "statTags": [
         "MANA",
         "STR"
-      ]
+      ],
+      "type": "ability"
     }
   ]
 }

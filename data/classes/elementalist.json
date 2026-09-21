@@ -40,7 +40,6 @@
         "mana": 5,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -59,7 +58,8 @@
           }
         ],
         "valuesSummary": "2–5 Magic dmg (L1–L4)",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Earth",
@@ -73,7 +73,6 @@
         "mana": 5,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -92,7 +91,8 @@
           }
         ],
         "valuesSummary": "2–5 Magic dmg (L1–L4)",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Fire",
@@ -106,7 +106,6 @@
         "mana": 5,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -125,7 +124,8 @@
           }
         ],
         "valuesSummary": "2–5 Fire dmg (L1–L4)",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Water",
@@ -139,7 +139,6 @@
         "mana": 5,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -158,7 +157,8 @@
           }
         ],
         "valuesSummary": "2–5 Cold dmg (L1–L4)",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Cold Protection",
@@ -172,7 +172,6 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "buff",
           "CR"
@@ -191,7 +190,8 @@
         "valuesSummary": "+4 Cold Resistance",
         "statTags": [
           "CR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Fear the Elements",
@@ -205,7 +205,6 @@
         "mana": 20,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "crowd-control",
           "fear"
@@ -213,7 +212,8 @@
         "primaryTag": "fear",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Fire Protection",
@@ -227,7 +227,6 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "buff",
           "FR"
@@ -246,13 +245,14 @@
         "valuesSummary": "+5 Fire Resistance",
         "statTags": [
           "FR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Flameburst",
         "slug": "Flameburst",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Flameburst",
-        "description": "Unleash a burst of flame upon your target, dealing 5 (L1) to 7 (L4) Fire Damage.",
+        "description": "Bursts your target with flame for 4(L1) to 7(L4) points of Fire Damage",
         "category": "Evo",
         "categorySlug": "Skill_Evocation",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
@@ -260,31 +260,31 @@
         "mana": 8,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "damage"
         ],
-        "primaryTag": "damage",
+        "primaryTag": null,
         "effects": [
           {
             "kind": "damage",
-            "min": 5,
+            "min": 4,
             "max": 7,
             "minLevel": 1,
             "maxLevel": 4,
             "damageType": "Fire",
-            "display": "5–7 Fire dmg (L1–L4)",
+            "display": "4–7 Fire dmg (L1–L4)",
             "sortKey": 7
           }
         ],
-        "valuesSummary": "5–7 Fire dmg (L1–L4)",
-        "statTags": []
+        "valuesSummary": "4–7 Fire dmg (L1–L4)",
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Invisibility",
         "slug": "Invisibility",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Invisibility",
-        "description": "Shroud a target group member in a cloak of invisibility, rendering them unseen by the living for 10 minutes.",
+        "description": "Shroud a target party member in a cloak of invisibility, rendering them unseen by the living for 10 minutes.",
         "category": "Div",
         "categorySlug": "Skill_Divination",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
@@ -292,14 +292,14 @@
         "mana": 20,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "invisibility"
         ],
         "primaryTag": "invisibility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Invisibility versus Elements",
@@ -313,7 +313,6 @@
         "mana": 20,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "buff",
           "invisibility"
@@ -321,7 +320,8 @@
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Minor Spellshield",
@@ -335,7 +335,6 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "buff",
           "shield",
@@ -376,13 +375,14 @@
           "AC",
           "MAX HP",
           "MR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Minor Creation: Air",
         "slug": "Minor_Creation:_Air",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Minor_Creation:_Air",
-        "description": "Conjures an Air Elemental composed of pure elemental energy. (Aura) Rush of Air: 10% chance of add. Prime or Offhand Melee swing (Staggering Winds, Strike, Taunt) Requires: Malachite",
+        "description": "Conjures an Air Elemental composed of pure elemental energy. (Aura) Rush of Air: 10% chance of add. Prime or Offhand Melee swing (Staggering Winds, Strike, Taunt) Requires: Crushed Malachite",
         "category": "Con",
         "categorySlug": "Skill_Conjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -390,20 +390,20 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Minor Creation: Earth",
         "slug": "Minor_Creation:_Earth",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Minor_Creation:_Earth",
-        "description": "Conjures an earthy being composed of pure elemental energy. (Aura) Earthen Toughness: grants Stamina 2(L1) to 30(L60). (Earthen Skin, Elemental Root, Provoke) Requires: Malachite",
+        "description": "Conjures an earthy being composed of pure elemental energy. (Aura) Earthen Toughness: grants Stamina 2(L1) to 30(L60). (Earthen Skin, Elemental Root, Provoke) Requires: Crushed Malachite",
         "category": "Con",
         "categorySlug": "Skill_Conjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -411,7 +411,6 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "summon",
           "utility"
@@ -419,13 +418,14 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Minor Creation: Fire",
         "slug": "Minor_Creation:_Fire",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Minor_Creation:_Fire",
-        "description": "Conjures an Fire Elemental composed of pure elemental energy. (Aura) +10% Spell Casting speed, Backlash of Fire: grants Damage Shield 1(L1) to 15(L60) Per Hit. (Elemental Backlash, Elemental Fire, Provoke) Requires: Malachite",
+        "description": "Conjures an Fire Elemental composed of pure elemental energy. (Aura) +10% Spell Casting speed, Backlash of Fire: grants Damage Shield 1(L1) to 15(L60) Per Hit. (Elemental Backlash, Elemental Fire, Provoke) Requires: Crushed Malachite",
         "category": "Con",
         "categorySlug": "Skill_Conjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -433,7 +433,6 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns",
@@ -452,13 +451,14 @@
           }
         ],
         "valuesSummary": "1–15 thorns/hit (L1–L60)",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Minor Creation: Water",
         "slug": "Minor_Creation:_Water",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Minor_Creation:_Water",
-        "description": "Conjures a watery being composed of pure elemental energy. (Aura) Fount of Mana: Mana Regeneration 1(L1) to 6(L60). Requires: Malachite",
+        "description": "Conjures a watery being composed of pure elemental energy. (Aura) Fount of Mana: Mana Regeneration 1(L1) to 6(L60). Requires: Crushed Malachite",
         "category": "Con",
         "categorySlug": "Skill_Conjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -466,14 +466,14 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Minor Earth Mallet",
@@ -487,14 +487,14 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Minor Fire Staff",
@@ -508,14 +508,14 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Polar Align: North",
@@ -529,7 +529,6 @@
         "mana": 5,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "utility",
           "self"
@@ -537,7 +536,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Minor Water Trident",
@@ -551,14 +551,14 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Minor Wind Blade",
@@ -572,14 +572,14 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Reclaim Essence",
@@ -593,7 +593,6 @@
         "mana": 5,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -601,13 +600,14 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Drink",
         "slug": "Summon_Drink",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Summon_Drink",
-        "description": "Summons a flask of water, providing you with sustenance. This item can be traded to other players. This item does not persist after logging out.",
+        "description": "Summon 1 (L15) to 4 (L20) flasks of water, providing you with sustenance.",
         "category": "Con",
         "categorySlug": "Skill_Conjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -615,20 +615,20 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Food",
         "slug": "Summon_Food",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Summon_Food",
-        "description": "Summon a slice of bread, providing you with sustenance. This item can be traded to other players. This item does not persist after logging out.",
+        "description": "Summon 1 (L15) to 4 (L20) slices of bread, providing you with sustenance.",
         "category": "Con",
         "categorySlug": "Skill_Conjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -636,14 +636,14 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "4": [
@@ -659,14 +659,14 @@
         "mana": 50,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "dispel"
         ],
         "primaryTag": "dispel",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Element Break",
@@ -680,7 +680,6 @@
         "mana": 10,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "debuff",
           "MR"
@@ -702,7 +701,8 @@
         "valuesSummary": "+1–2 Magic Resistance (L1–L8)",
         "statTags": [
           "MR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Fireburst",
@@ -716,7 +716,6 @@
         "mana": 15,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "damage"
         ],
@@ -734,7 +733,8 @@
           }
         ],
         "valuesSummary": "12–15 Fire dmg (L4–L7)",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Gate",
@@ -748,7 +748,6 @@
         "mana": 55,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "summon",
           "teleport"
@@ -756,13 +755,14 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Lesser Creation: Air",
         "slug": "Lesser_Creation:_Air",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Lesser_Creation:_Air",
-        "description": "Conjures an Air Elemental composed of pure elemental energy. (Aura) Rush of Air: 10% chance of add. Prime or Offhand Melee swing (Staggering Winds, Strike, Provoke) Requires: Malachite",
+        "description": "Conjures an Air Elemental composed of pure elemental energy. (Aura) Rush of Air: 10% chance of add. Prime or Offhand Melee swing (Staggering Winds, Strike, Provoke) Requires: Crushed Malachite",
         "category": "Con",
         "categorySlug": "Skill_Conjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -770,20 +770,20 @@
         "mana": 30,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Lesser Creation: Earth",
         "slug": "Lesser_Creation:_Earth",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Lesser_Creation:_Earth",
-        "description": "Conjures an earthy being composed of pure elemental energy. (Aura) Earthen Toughness: grants 2(L1) to 30(L60) Stamina. (Earthen Skin, Elemental Root, Provoke) Requires: Malachite",
+        "description": "Conjures an earthy being composed of pure elemental energy. (Aura) Earthen Toughness: grants 2(L1) to 30(L60) Stamina. (Earthen Skin, Elemental Root, Provoke) Requires: Crushed Malachite",
         "category": "Con",
         "categorySlug": "Skill_Conjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -791,7 +791,6 @@
         "mana": 30,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "summon",
           "utility"
@@ -799,13 +798,14 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Lesser Creation: Fire",
         "slug": "Lesser_Creation:_Fire",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Lesser_Creation:_Fire",
-        "description": "Conjures an Fire Elemental composed of pure elemental energy. (Aura) +10% Spell Casting speed, Backlash of Fire: grants Damage Shield Damage Shield 1(L1) to 15(L60). (Elemental Backlash, Elemental Fire, Provoke) Requires: Malachite",
+        "description": "Conjures an Fire Elemental composed of pure elemental energy. (Aura) +10% Spell Casting speed, Backlash of Fire: grants Damage Shield Damage Shield 1(L1) to 15(L60). (Elemental Backlash, Elemental Fire, Provoke) Requires: Crushed Malachite",
         "category": "Con",
         "categorySlug": "Skill_Conjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -813,7 +813,6 @@
         "mana": 30,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns",
@@ -822,13 +821,14 @@
         "primaryTag": "thorns",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Lesser Creation: Water",
         "slug": "Lesser_Creation:_Water",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Lesser_Creation:_Water",
-        "description": "Conjures a watery being composed of pure elemental energy. (Aura) Fount of Mana: Mana Regeneration 1(L1) to 6(L60). Requires: Malachite",
+        "description": "Conjures a watery being composed of pure elemental energy. (Aura) Fount of Mana: Mana Regeneration 1(L1) to 6(L60). Requires: Crushed Malachite",
         "category": "Con",
         "categorySlug": "Skill_Conjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -836,14 +836,14 @@
         "mana": 30,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Lull the Elements",
@@ -857,14 +857,14 @@
         "mana": 10,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "debuff"
         ],
         "primaryTag": "debuff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "See Invisibility",
@@ -878,7 +878,6 @@
         "mana": 20,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "buff",
           "invisibility",
@@ -887,7 +886,8 @@
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Sense Magic",
@@ -901,7 +901,6 @@
         "mana": 20,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "buff",
           "utility"
@@ -909,7 +908,8 @@
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Soulbind",
@@ -923,14 +923,14 @@
         "mana": 75,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "teleport"
         ],
         "primaryTag": "teleport",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Cloth Bandage",
@@ -944,14 +944,14 @@
         "mana": 10,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Ward the Elements",
@@ -965,7 +965,6 @@
         "mana": 25,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "shield"
         ],
@@ -980,7 +979,8 @@
           }
         ],
         "valuesSummary": "30 Magic absorb",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "8": [
@@ -996,14 +996,14 @@
         "mana": 60,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Creation: Earth",
@@ -1017,7 +1017,6 @@
         "mana": 60,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "summon",
           "utility"
@@ -1025,7 +1024,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Creation: Fire",
@@ -1039,7 +1039,6 @@
         "mana": 60,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns",
@@ -1048,7 +1047,8 @@
         "primaryTag": "thorns",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Creation: Water",
@@ -1062,14 +1062,14 @@
         "mana": 60,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Elemental Fury",
@@ -1083,7 +1083,6 @@
         "mana": 30,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "buff",
           "haste",
@@ -1113,7 +1112,8 @@
         "valuesSummary": "+10% · +2 Strength",
         "statTags": [
           "STR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Flame Shield",
@@ -1127,7 +1127,6 @@
         "mana": 25,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns"
@@ -1143,7 +1142,8 @@
           }
         ],
         "valuesSummary": "5 thorns/hit",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Heal the Elements",
@@ -1157,7 +1157,6 @@
         "mana": 25,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "heal"
         ],
@@ -1171,13 +1170,14 @@
           }
         ],
         "valuesSummary": "40 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Lesser Spellshield",
         "slug": "Lesser_Spellshield",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Lesser_Spellshield",
-        "description": "A magical shield encircles you, increasing your HP by 25, AC by 10, and Magic Resistance by 10.",
+        "description": "Encircle yourself with a magical shield, increasing your maximum Health by 25, Armor Class by 10, and Magic Resistance by 10 for 1 hour.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -1185,7 +1185,6 @@
         "mana": 25,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "buff",
           "shield",
@@ -1198,17 +1197,17 @@
         "effects": [
           {
             "kind": "buff",
-            "stat": "HP",
+            "stat": "Health",
             "amount": 25,
-            "display": "+25 HP",
+            "display": "+25 Health",
             "sortKey": 25,
             "statTag": "MAX HP"
           },
           {
             "kind": "buff",
-            "stat": "AC",
+            "stat": "Armor Class",
             "amount": 10,
-            "display": "+10 AC",
+            "display": "+10 Armor Class",
             "sortKey": 10,
             "statTag": "AC"
           },
@@ -1221,12 +1220,13 @@
             "statTag": "MR"
           }
         ],
-        "valuesSummary": "+25 HP · +10 AC · +10 Magic Resistance",
+        "valuesSummary": "+25 Health · +10 Armor Class · +10 Magic Resistance",
         "statTags": [
           "AC",
           "MAX HP",
           "MR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Magmaburst",
@@ -1240,7 +1240,6 @@
         "mana": 30,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "damage"
         ],
@@ -1255,7 +1254,8 @@
           }
         ],
         "valuesSummary": "40 Fire dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Arrows",
@@ -1269,14 +1269,14 @@
         "mana": "",
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Minor Manastone",
@@ -1290,7 +1290,6 @@
         "mana": 40,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "summon",
           "utility"
@@ -1305,7 +1304,8 @@
           }
         ],
         "valuesSummary": "30 mana",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Throwing Daggers",
@@ -1319,14 +1319,14 @@
         "mana": "",
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Water Shield",
@@ -1340,7 +1340,6 @@
         "mana": 10,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "debuff",
           "movement",
@@ -1374,7 +1373,8 @@
         "valuesSummary": "−10 Cold and Fire Resistance/decreasing their Electricity Resistance/ER",
         "statTags": [
           "ER"
-        ]
+        ],
+        "type": "spell"
       }
     ],
     "12": [
@@ -1390,14 +1390,14 @@
         "mana": 60,
         "castTime": null,
         "level": 12,
-        "type": "spell",
         "tags": [
           "charm"
         ],
         "primaryTag": "charm",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Element Splinter",
@@ -1411,7 +1411,6 @@
         "mana": 25,
         "castTime": null,
         "level": 12,
-        "type": "spell",
         "tags": [
           "debuff",
           "FR"
@@ -1443,7 +1442,8 @@
         "valuesSummary": "−3–4 Cold and Fire Resistance (L12–L16) · +3–4 Fire Resistance (L12–L16)",
         "statTags": [
           "FR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Greater Creation: Air",
@@ -1457,14 +1457,14 @@
         "mana": 90,
         "castTime": null,
         "level": 12,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Greater Creation: Earth",
@@ -1478,7 +1478,6 @@
         "mana": 90,
         "castTime": null,
         "level": 12,
-        "type": "spell",
         "tags": [
           "summon",
           "utility"
@@ -1486,7 +1485,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Greater Creation: Fire",
@@ -1500,7 +1500,6 @@
         "mana": 90,
         "castTime": null,
         "level": 12,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns",
@@ -1509,7 +1508,8 @@
         "primaryTag": "thorns",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Greater Creation: Water",
@@ -1523,14 +1523,14 @@
         "mana": 90,
         "castTime": null,
         "level": 12,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Master of Elements",
@@ -1544,7 +1544,6 @@
         "mana": 50,
         "castTime": null,
         "level": 12,
-        "type": "spell",
         "tags": [
           "buff",
           "self"
@@ -1552,7 +1551,8 @@
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Restrain the Elements",
@@ -1566,7 +1566,6 @@
         "mana": "",
         "castTime": null,
         "level": 12,
-        "type": "spell",
         "tags": [
           "crowd-control",
           "mez"
@@ -1581,7 +1580,8 @@
           }
         ],
         "valuesSummary": "30s duration",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Heavy Cloth Bandage",
@@ -1595,14 +1595,14 @@
         "mana": "",
         "castTime": null,
         "level": 12,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "16": [
@@ -1618,7 +1618,6 @@
         "mana": 50,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "shield"
         ],
@@ -1633,7 +1632,8 @@
           }
         ],
         "valuesSummary": "90 Magic absorb",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Air II",
@@ -1647,7 +1647,6 @@
         "mana": 55,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -1663,7 +1662,8 @@
           }
         ],
         "valuesSummary": "75 Magic dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Earth II",
@@ -1677,7 +1677,6 @@
         "mana": 55,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -1693,7 +1692,8 @@
           }
         ],
         "valuesSummary": "75 Magic dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Fire II",
@@ -1707,7 +1707,6 @@
         "mana": 55,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -1723,7 +1722,8 @@
           }
         ],
         "valuesSummary": "75 Fire dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Water II",
@@ -1737,7 +1737,6 @@
         "mana": 55,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -1753,7 +1752,8 @@
           }
         ],
         "valuesSummary": "75 Cold dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Exceptional Creation: Air",
@@ -1767,14 +1767,14 @@
         "mana": 130,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Exceptional Creation: Earth",
@@ -1788,7 +1788,6 @@
         "mana": 130,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "summon",
           "utility"
@@ -1796,7 +1795,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Exceptional Creation: Fire",
@@ -1810,7 +1810,6 @@
         "mana": 130,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns",
@@ -1819,7 +1818,8 @@
         "primaryTag": "thorns",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Exceptional Creation: Water",
@@ -1833,14 +1833,14 @@
         "mana": 130,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Lesser Earth Mallet",
@@ -1854,14 +1854,14 @@
         "mana": "",
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Lesser Fire Staff",
@@ -1875,14 +1875,14 @@
         "mana": "",
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Lesser Water Trident",
@@ -1896,14 +1896,14 @@
         "mana": "",
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Lesser Wind Blade",
@@ -1917,20 +1917,20 @@
         "mana": "",
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Spellshield",
         "slug": "Spellshield",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Spellshield",
-        "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 50, Armor Class by 15, and Magic Resistance by 15 for 1 hour.",
+        "description": "Encircle yourself with a magical shield, increasing your maximum Health by 50, Armor Class by 15, and Magic Resistance by 15 for 1 hour.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -1938,7 +1938,6 @@
         "mana": 50,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "buff",
           "shield",
@@ -1979,7 +1978,8 @@
           "AC",
           "MAX HP",
           "MR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Summon Lesser Manastone",
@@ -1993,7 +1993,6 @@
         "mana": 100,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "summon",
           "utility"
@@ -2008,7 +2007,8 @@
           }
         ],
         "valuesSummary": "75 mana",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "20": [
@@ -2024,12 +2024,12 @@
         "mana": "",
         "castTime": null,
         "level": 20,
-        "type": "spell",
         "tags": [],
         "primaryTag": null,
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Fire Shield",
@@ -2043,7 +2043,6 @@
         "mana": 50,
         "castTime": null,
         "level": 20,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns"
@@ -2059,7 +2058,8 @@
           }
         ],
         "valuesSummary": "10 thorns/hit",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Lavaburst",
@@ -2073,7 +2073,6 @@
         "mana": 75,
         "castTime": null,
         "level": 20,
-        "type": "spell",
         "tags": [
           "damage"
         ],
@@ -2088,7 +2087,8 @@
           }
         ],
         "valuesSummary": "120 Fire dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Conjure Wool Bandage",
@@ -2102,14 +2102,14 @@
         "mana": "",
         "castTime": null,
         "level": 20,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Minor Synthesis: Air",
@@ -2123,14 +2123,14 @@
         "mana": 170,
         "castTime": null,
         "level": 20,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Minor Synthesis: Earth",
@@ -2144,7 +2144,6 @@
         "mana": 170,
         "castTime": null,
         "level": 20,
-        "type": "spell",
         "tags": [
           "summon",
           "utility"
@@ -2152,7 +2151,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Minor Synthesis: Fire",
@@ -2166,7 +2166,6 @@
         "mana": 170,
         "castTime": null,
         "level": 20,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns",
@@ -2175,7 +2174,8 @@
         "primaryTag": "thorns",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Minor Synthesis: Water",
@@ -2189,14 +2189,14 @@
         "mana": 170,
         "castTime": null,
         "level": 20,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "24": [
@@ -2212,7 +2212,6 @@
         "mana": "",
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "summon",
           "pet"
@@ -2220,7 +2219,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Beguile Elemental",
@@ -2234,14 +2234,14 @@
         "mana": "",
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "charm"
         ],
         "primaryTag": "charm",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Air III",
@@ -2255,7 +2255,6 @@
         "mana": "",
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -2271,7 +2270,8 @@
           }
         ],
         "valuesSummary": "100 Magic dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Earth III",
@@ -2285,7 +2285,6 @@
         "mana": "",
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -2301,7 +2300,8 @@
           }
         ],
         "valuesSummary": "100 Magic dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Fire III",
@@ -2315,7 +2315,6 @@
         "mana": "",
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -2331,7 +2330,8 @@
           }
         ],
         "valuesSummary": "100 Fire dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Water III",
@@ -2345,7 +2345,6 @@
         "mana": "",
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -2361,7 +2360,8 @@
           }
         ],
         "valuesSummary": "100 Cold dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Cold Resistance",
@@ -2375,7 +2375,6 @@
         "mana": "",
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "buff",
           "CR"
@@ -2394,7 +2393,8 @@
         "valuesSummary": "+15 Cold Resistance",
         "statTags": [
           "CR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Earth Pet Tier 7",
@@ -2408,7 +2408,6 @@
         "mana": "",
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "summon",
           "utility",
@@ -2417,7 +2416,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Element Crack",
@@ -2431,7 +2431,6 @@
         "mana": "",
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "debuff",
           "FR"
@@ -2463,7 +2462,8 @@
         "valuesSummary": "−5–6 Cold and Fire Resistance (L31–L38) · +5–6 Fire Resistance (L31–L38)",
         "statTags": [
           "FR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Elemental Torrent",
@@ -2477,7 +2477,6 @@
         "mana": "",
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "buff",
           "haste",
@@ -2508,7 +2507,8 @@
         "valuesSummary": "+20% · +5 Strength",
         "statTags": [
           "STR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Fire Pet Tier 7",
@@ -2522,7 +2522,6 @@
         "mana": "",
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns",
@@ -2532,7 +2531,8 @@
         "primaryTag": "thorns",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Fire Resistance",
@@ -2546,7 +2546,6 @@
         "mana": "",
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "buff",
           "FR"
@@ -2565,13 +2564,14 @@
         "valuesSummary": "+15 Fire Resistance",
         "statTags": [
           "FR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Greater Spellshield",
         "slug": "Greater_Spellshield",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Greater_Spellshield",
-        "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 75, Armor Class by 10, and Magic Resistance by 10 for 1 hour.",
+        "description": "Encircle yourself with a magical shield, increasing your maximum Health by 75, Armor Class by 20, and Magic Resistance by 20 for 1 hour.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -2579,7 +2579,6 @@
         "mana": "",
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "buff",
           "shield",
@@ -2601,26 +2600,27 @@
           {
             "kind": "buff",
             "stat": "Armor Class",
-            "amount": 10,
-            "display": "+10 Armor Class",
-            "sortKey": 10,
+            "amount": 20,
+            "display": "+20 Armor Class",
+            "sortKey": 20,
             "statTag": "AC"
           },
           {
             "kind": "buff",
             "stat": "Magic Resistance",
-            "amount": 10,
-            "display": "+10 Magic Resistance",
-            "sortKey": 10,
+            "amount": 20,
+            "display": "+20 Magic Resistance",
+            "sortKey": 20,
             "statTag": "MR"
           }
         ],
-        "valuesSummary": "+75 Health · +10 Armor Class · +10 Magic Resistance",
+        "valuesSummary": "+75 Health · +20 Armor Class · +20 Magic Resistance",
         "statTags": [
           "AC",
           "MAX HP",
           "MR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Revitalize the Elements",
@@ -2634,7 +2634,6 @@
         "mana": "",
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "heal",
           "pet"
@@ -2649,7 +2648,8 @@
           }
         ],
         "valuesSummary": "180 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Water Pet Tier 7",
@@ -2663,7 +2663,6 @@
         "mana": "",
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "summon",
           "pet"
@@ -2671,7 +2670,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "28": [
@@ -2687,7 +2687,6 @@
         "mana": "",
         "castTime": null,
         "level": 28,
-        "type": "spell",
         "tags": [
           "summon",
           "pet"
@@ -2695,13 +2694,14 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Conjure Drink",
         "slug": "Conjure_Drink",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Conjure_Drink",
-        "description": "Conjures a large amount of water, providing you with sustenance.",
+        "description": "Conjure 10 (L35) to 20 (L40) flasks of water, providing you with sustenance.",
         "category": "Con",
         "categorySlug": "Skill_Conjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -2709,20 +2709,20 @@
         "mana": "",
         "castTime": null,
         "level": 28,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Conjure Food",
         "slug": "Conjure_Food",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Conjure_Food",
-        "description": "Conjures a large amount of bread, providing you with sustenance.",
+        "description": "Conjure 10 (L35) to 20 (L40) slices of bread, providing you with sustenance.",
         "category": "Con",
         "categorySlug": "Skill_Conjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -2730,14 +2730,14 @@
         "mana": "",
         "castTime": null,
         "level": 28,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Earth Pet Tier 8",
@@ -2751,7 +2751,6 @@
         "mana": "",
         "castTime": null,
         "level": 28,
-        "type": "spell",
         "tags": [
           "summon",
           "utility",
@@ -2760,7 +2759,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Fire Pet Tier 8",
@@ -2774,7 +2774,6 @@
         "mana": "",
         "castTime": null,
         "level": 28,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns",
@@ -2784,7 +2783,8 @@
         "primaryTag": "thorns",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Magma Shield",
@@ -2798,7 +2798,6 @@
         "mana": "",
         "castTime": null,
         "level": 28,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns"
@@ -2814,7 +2813,8 @@
           }
         ],
         "valuesSummary": "15 thorns/hit",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Rebuff the Elements",
@@ -2828,7 +2828,6 @@
         "mana": "",
         "castTime": null,
         "level": 28,
-        "type": "spell",
         "tags": [
           "shield"
         ],
@@ -2843,7 +2842,8 @@
           }
         ],
         "valuesSummary": "150 Magic absorb",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Heavy Wool Bandage",
@@ -2857,14 +2857,14 @@
         "mana": "",
         "castTime": null,
         "level": 28,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Manastone",
@@ -2878,7 +2878,6 @@
         "mana": "",
         "castTime": null,
         "level": 28,
-        "type": "spell",
         "tags": [
           "summon",
           "utility"
@@ -2893,7 +2892,8 @@
           }
         ],
         "valuesSummary": "105 mana",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Water Pet Tier 8",
@@ -2907,7 +2907,6 @@
         "mana": "",
         "castTime": null,
         "level": 28,
-        "type": "spell",
         "tags": [
           "summon",
           "pet"
@@ -2915,7 +2914,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "32": [
@@ -2931,14 +2931,14 @@
         "mana": "",
         "castTime": null,
         "level": 32,
-        "type": "spell",
         "tags": [
           "dispel"
         ],
         "primaryTag": "dispel",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Air Pet Tier 9",
@@ -2952,7 +2952,6 @@
         "mana": "",
         "castTime": null,
         "level": 32,
-        "type": "spell",
         "tags": [
           "summon",
           "pet"
@@ -2960,7 +2959,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blaze",
@@ -2974,7 +2974,6 @@
         "mana": "",
         "castTime": null,
         "level": 32,
-        "type": "spell",
         "tags": [
           "damage"
         ],
@@ -2989,7 +2988,8 @@
           }
         ],
         "valuesSummary": "200 Fire dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Earth Pet Tier 9",
@@ -3003,7 +3003,6 @@
         "mana": "",
         "castTime": null,
         "level": 32,
-        "type": "spell",
         "tags": [
           "summon",
           "utility",
@@ -3012,13 +3011,14 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Exceptional Spellshield",
         "slug": "Exceptional_Spellshield",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Exceptional_Spellshield",
-        "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 100, Armor Class by 25, and Magic Resistance by 25 for 1 hour.",
+        "description": "Encircle yourself with a magical shield, increasing your maximum Health by 100, Armor Class by 25, and Magic Resistance by 25 for 1 hour.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -3026,7 +3026,6 @@
         "mana": "",
         "castTime": null,
         "level": 32,
-        "type": "spell",
         "tags": [
           "buff",
           "shield",
@@ -3067,7 +3066,8 @@
           "AC",
           "MAX HP",
           "MR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Fire Pet Tier 9",
@@ -3081,7 +3081,6 @@
         "mana": "",
         "castTime": null,
         "level": 32,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns",
@@ -3091,7 +3090,8 @@
         "primaryTag": "thorns",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Earth Mallet",
@@ -3105,14 +3105,14 @@
         "mana": "",
         "castTime": null,
         "level": 32,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Fire Staff",
@@ -3126,14 +3126,14 @@
         "mana": "",
         "castTime": null,
         "level": 32,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Water Trident",
@@ -3147,14 +3147,14 @@
         "mana": "",
         "castTime": null,
         "level": 32,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Wind Blade",
@@ -3168,14 +3168,14 @@
         "mana": "",
         "castTime": null,
         "level": 32,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Water Pet Tier 9",
@@ -3189,7 +3189,6 @@
         "mana": "",
         "castTime": null,
         "level": 32,
-        "type": "spell",
         "tags": [
           "summon",
           "pet"
@@ -3197,7 +3196,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "36": [
@@ -3213,7 +3213,6 @@
         "mana": "",
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "summon",
           "pet"
@@ -3221,7 +3220,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Air IV",
@@ -3235,7 +3235,6 @@
         "mana": "",
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -3251,7 +3250,8 @@
           }
         ],
         "valuesSummary": "150 Magic dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Earth IV",
@@ -3265,7 +3265,6 @@
         "mana": "",
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -3281,7 +3280,8 @@
           }
         ],
         "valuesSummary": "150 Magic dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Fire IV",
@@ -3295,7 +3295,6 @@
         "mana": "",
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -3311,7 +3310,8 @@
           }
         ],
         "valuesSummary": "150 Fire dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Water IV",
@@ -3325,7 +3325,6 @@
         "mana": "",
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -3341,7 +3340,8 @@
           }
         ],
         "valuesSummary": "150 Cold dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Coax Elemental",
@@ -3355,14 +3355,14 @@
         "mana": "",
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "charm"
         ],
         "primaryTag": "charm",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Earth Pet Tier 10",
@@ -3376,7 +3376,6 @@
         "mana": "",
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "summon",
           "utility",
@@ -3385,7 +3384,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Fire Pet Tier 10",
@@ -3399,7 +3399,6 @@
         "mana": "",
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns",
@@ -3409,7 +3408,8 @@
         "primaryTag": "thorns",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Lava Shield",
@@ -3423,7 +3423,6 @@
         "mana": "",
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns"
@@ -3439,7 +3438,8 @@
           }
         ],
         "valuesSummary": "20 thorns/hit",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Rejuvenate the Elements",
@@ -3453,7 +3453,6 @@
         "mana": "",
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "heal",
           "pet"
@@ -3468,7 +3467,8 @@
           }
         ],
         "valuesSummary": "420 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Cotton Bandage",
@@ -3482,14 +3482,14 @@
         "mana": "",
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Water Pet Tier 10",
@@ -3503,7 +3503,6 @@
         "mana": "",
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "summon",
           "pet"
@@ -3511,7 +3510,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "40": [
@@ -3527,7 +3527,6 @@
         "mana": "",
         "castTime": null,
         "level": 40,
-        "type": "spell",
         "tags": [
           "summon",
           "pet"
@@ -3535,13 +3534,14 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Arch Spellshield",
         "slug": "Arch_Spellshield",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Arch_Spellshield",
-        "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 150, Armor Class by 10, and Magic Resistance by 1 for 1 hour.",
+        "description": "Encircle yourself with a magical shield, increasing your maximum Health by 150, Armor Class by 30, and Magic Resistance by 30 for 1 hour.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -3549,7 +3549,6 @@
         "mana": "",
         "castTime": null,
         "level": 40,
-        "type": "spell",
         "tags": [
           "buff",
           "shield",
@@ -3571,26 +3570,27 @@
           {
             "kind": "buff",
             "stat": "Armor Class",
-            "amount": 10,
-            "display": "+10 Armor Class",
-            "sortKey": 10,
+            "amount": 30,
+            "display": "+30 Armor Class",
+            "sortKey": 30,
             "statTag": "AC"
           },
           {
             "kind": "buff",
             "stat": "Magic Resistance",
-            "amount": 1,
-            "display": "+1 Magic Resistance",
-            "sortKey": 1,
+            "amount": 30,
+            "display": "+30 Magic Resistance",
+            "sortKey": 30,
             "statTag": "MR"
           }
         ],
-        "valuesSummary": "+150 Health · +10 Armor Class · +1 Magic Resistance",
+        "valuesSummary": "+150 Health · +30 Armor Class · +30 Magic Resistance",
         "statTags": [
           "AC",
           "MAX HP",
           "MR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Beleaguer the Elements",
@@ -3604,7 +3604,6 @@
         "mana": "",
         "castTime": null,
         "level": 40,
-        "type": "spell",
         "tags": [
           "shield"
         ],
@@ -3619,7 +3618,8 @@
           }
         ],
         "valuesSummary": "245 Magic absorb",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Earth Pet Tier 11",
@@ -3633,7 +3633,6 @@
         "mana": "",
         "castTime": null,
         "level": 40,
-        "type": "spell",
         "tags": [
           "summon",
           "utility",
@@ -3642,7 +3641,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Element Fracture",
@@ -3656,7 +3656,6 @@
         "mana": "",
         "castTime": null,
         "level": 40,
-        "type": "spell",
         "tags": [
           "debuff",
           "FR"
@@ -3688,7 +3687,8 @@
         "valuesSummary": "−7–8 Cold and Fire Resistance (L40–L44) · +7–8 Fire Resistance (L40–L44)",
         "statTags": [
           "FR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Elemental Surge",
@@ -3702,7 +3702,6 @@
         "mana": "",
         "castTime": null,
         "level": 40,
-        "type": "spell",
         "tags": [
           "buff",
           "haste",
@@ -3733,7 +3732,8 @@
         "valuesSummary": "+30% · +10 Strength",
         "statTags": [
           "STR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Fire Pet Tier 11",
@@ -3747,7 +3747,6 @@
         "mana": "",
         "castTime": null,
         "level": 40,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns",
@@ -3757,7 +3756,8 @@
         "primaryTag": "thorns",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Greater Manastone",
@@ -3771,7 +3771,6 @@
         "mana": "",
         "castTime": null,
         "level": 40,
-        "type": "spell",
         "tags": [
           "summon",
           "utility"
@@ -3786,7 +3785,8 @@
           }
         ],
         "valuesSummary": "135 mana",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Water Pet Tier 11",
@@ -3800,7 +3800,6 @@
         "mana": "",
         "castTime": null,
         "level": 40,
-        "type": "spell",
         "tags": [
           "summon",
           "pet"
@@ -3808,7 +3807,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "44": [
@@ -3824,7 +3824,6 @@
         "mana": "",
         "castTime": null,
         "level": 44,
-        "type": "spell",
         "tags": [
           "summon",
           "pet"
@@ -3832,7 +3831,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blazing Shield",
@@ -3846,7 +3846,6 @@
         "mana": "",
         "castTime": null,
         "level": 44,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns"
@@ -3862,7 +3861,8 @@
           }
         ],
         "valuesSummary": "25 thorns/hit",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Earth Pet Tier 12",
@@ -3876,7 +3876,6 @@
         "mana": "",
         "castTime": null,
         "level": 44,
-        "type": "spell",
         "tags": [
           "summon",
           "utility",
@@ -3885,7 +3884,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Fire Pet Tier 12",
@@ -3899,7 +3899,6 @@
         "mana": "",
         "castTime": null,
         "level": 44,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns",
@@ -3909,7 +3908,8 @@
         "primaryTag": "thorns",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Inferno",
@@ -3923,7 +3923,6 @@
         "mana": "",
         "castTime": null,
         "level": 44,
-        "type": "spell",
         "tags": [
           "damage"
         ],
@@ -3938,7 +3937,8 @@
           }
         ],
         "valuesSummary": "325 Fire dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Heavy Cotton Bandage",
@@ -3952,14 +3952,14 @@
         "mana": "",
         "castTime": null,
         "level": 44,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Water Pet Tier 12",
@@ -3973,7 +3973,6 @@
         "mana": "",
         "castTime": null,
         "level": 44,
-        "type": "spell",
         "tags": [
           "summon",
           "pet"
@@ -3981,7 +3980,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "48": [
@@ -3997,7 +3997,6 @@
         "mana": "",
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "summon",
           "pet"
@@ -4005,7 +4004,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Air V",
@@ -4019,7 +4019,6 @@
         "mana": "",
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -4035,7 +4034,8 @@
           }
         ],
         "valuesSummary": "225 Magic dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Earth V",
@@ -4049,7 +4049,6 @@
         "mana": "",
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -4065,7 +4064,8 @@
           }
         ],
         "valuesSummary": "225 Magic dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Fire V",
@@ -4079,7 +4079,6 @@
         "mana": "",
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -4095,7 +4094,8 @@
           }
         ],
         "valuesSummary": "225 Fire dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Water V",
@@ -4109,7 +4109,6 @@
         "mana": "",
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -4125,7 +4124,8 @@
           }
         ],
         "valuesSummary": "225 Cold dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Earth Pet Tier 13",
@@ -4139,7 +4139,6 @@
         "mana": "",
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "summon",
           "utility",
@@ -4148,7 +4147,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Fire Pet Tier 13",
@@ -4162,7 +4162,6 @@
         "mana": "",
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns",
@@ -4172,7 +4171,8 @@
         "primaryTag": "thorns",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Greater Earth Mallet",
@@ -4186,14 +4186,14 @@
         "mana": "",
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Greater Fire Staff",
@@ -4207,14 +4207,14 @@
         "mana": "",
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Greater Water Trident",
@@ -4228,14 +4228,14 @@
         "mana": "",
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Greater Wind Blade",
@@ -4249,14 +4249,14 @@
         "mana": "",
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Persuade Elemental",
@@ -4270,14 +4270,14 @@
         "mana": "",
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "charm"
         ],
         "primaryTag": "charm",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Water Pet Tier 13",
@@ -4291,7 +4291,6 @@
         "mana": "",
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "summon",
           "pet"
@@ -4299,7 +4298,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "50": [
@@ -4307,7 +4307,7 @@
         "name": "Firestorm",
         "slug": "Firestorm",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Firestorm",
-        "description": "Engulfs your targer with a firestorm for 700 points of Fire Damage.",
+        "description": "Call forth a fire storm, dealing 20 (L1) to 200 (L60) Fire Damage to targets within the affected area every 6 seconds.",
         "category": "Evo",
         "categorySlug": "Skill_Evocation",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
@@ -4315,22 +4315,27 @@
         "mana": "",
         "castTime": null,
         "level": 50,
-        "type": "spell",
         "tags": [
-          "damage"
+          "dot",
+          "aoe"
         ],
-        "primaryTag": null,
+        "primaryTag": "dot",
         "effects": [
           {
-            "kind": "damage",
-            "amount": 700,
+            "kind": "dot",
+            "min": 20,
+            "max": 200,
+            "minLevel": 1,
+            "maxLevel": 60,
+            "interval": 6,
             "damageType": "Fire",
-            "display": "700 Fire dmg",
-            "sortKey": 700
+            "display": "20–200 Fire/6s (L1–L60)",
+            "sortKey": 200
           }
         ],
-        "valuesSummary": "700 Fire dmg",
-        "statTags": []
+        "valuesSummary": "20–200 Fire/6s (L1–L60)",
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "52": [
@@ -4346,7 +4351,6 @@
         "mana": "",
         "castTime": null,
         "level": 52,
-        "type": "spell",
         "tags": [
           "shield"
         ],
@@ -4361,7 +4365,8 @@
           }
         ],
         "valuesSummary": "525 Magic absorb",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Air Pet Tier 14",
@@ -4375,7 +4380,6 @@
         "mana": "",
         "castTime": null,
         "level": 52,
-        "type": "spell",
         "tags": [
           "summon",
           "pet"
@@ -4383,7 +4387,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Earth Pet Tier 14",
@@ -4397,7 +4402,6 @@
         "mana": "",
         "castTime": null,
         "level": 52,
-        "type": "spell",
         "tags": [
           "summon",
           "utility",
@@ -4406,7 +4410,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Fire Pet Tier 14",
@@ -4420,7 +4425,6 @@
         "mana": "",
         "castTime": null,
         "level": 52,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns",
@@ -4430,7 +4434,8 @@
         "primaryTag": "thorns",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Linen Bandage",
@@ -4444,14 +4449,14 @@
         "mana": "",
         "castTime": null,
         "level": 52,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Water Pet Tier 14",
@@ -4465,7 +4470,6 @@
         "mana": "",
         "castTime": null,
         "level": 52,
-        "type": "spell",
         "tags": [
           "summon",
           "pet"
@@ -4473,7 +4477,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "54": [
@@ -4489,7 +4494,6 @@
         "mana": "",
         "castTime": null,
         "level": 54,
-        "type": "spell",
         "tags": [
           "damage"
         ],
@@ -4504,7 +4508,8 @@
           }
         ],
         "valuesSummary": "1200 Fire dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "56": [
@@ -4520,7 +4525,6 @@
         "mana": "",
         "castTime": null,
         "level": 56,
-        "type": "spell",
         "tags": [
           "summon",
           "pet"
@@ -4528,7 +4532,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Earth Pet Tier 15",
@@ -4542,7 +4547,6 @@
         "mana": "",
         "castTime": null,
         "level": 56,
-        "type": "spell",
         "tags": [
           "summon",
           "utility",
@@ -4551,7 +4555,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Elemental Onslaught",
@@ -4565,7 +4570,6 @@
         "mana": "",
         "castTime": null,
         "level": 56,
-        "type": "spell",
         "tags": [
           "buff",
           "haste",
@@ -4596,7 +4600,8 @@
         "valuesSummary": "+40% · +15 Strength",
         "statTags": [
           "STR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Fire Pet Tier 15",
@@ -4610,7 +4615,6 @@
         "mana": "",
         "castTime": null,
         "level": 56,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns",
@@ -4620,7 +4624,8 @@
         "primaryTag": "thorns",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Inferno Shield",
@@ -4634,7 +4639,6 @@
         "mana": "",
         "castTime": null,
         "level": 56,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns"
@@ -4650,7 +4654,8 @@
           }
         ],
         "valuesSummary": "30 thorns/hit",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Exceptional Manastone",
@@ -4664,7 +4669,6 @@
         "mana": "",
         "castTime": null,
         "level": 56,
-        "type": "spell",
         "tags": [
           "summon",
           "utility"
@@ -4679,7 +4683,8 @@
           }
         ],
         "valuesSummary": "180 mana",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Water Pet Tier 15",
@@ -4693,7 +4698,6 @@
         "mana": "",
         "castTime": null,
         "level": 56,
-        "type": "spell",
         "tags": [
           "summon",
           "pet"
@@ -4701,7 +4705,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "58": [
@@ -4717,7 +4722,6 @@
         "mana": "",
         "castTime": null,
         "level": 58,
-        "type": "spell",
         "tags": [
           "damage"
         ],
@@ -4732,7 +4736,8 @@
           }
         ],
         "valuesSummary": "1400 Fire dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "60": [
@@ -4748,7 +4753,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "summon",
           "pet"
@@ -4756,7 +4760,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Air VI",
@@ -4770,7 +4775,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -4786,7 +4790,8 @@
           }
         ],
         "valuesSummary": "300 Magic dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Earth VI",
@@ -4800,7 +4805,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -4816,7 +4820,8 @@
           }
         ],
         "valuesSummary": "300 Magic dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Fire VI",
@@ -4830,7 +4835,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -4846,7 +4850,8 @@
           }
         ],
         "valuesSummary": "300 Fire dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blast of Water VI",
@@ -4860,7 +4865,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "damage",
           "pet"
@@ -4876,7 +4880,8 @@
           }
         ],
         "valuesSummary": "300 Cold dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Devastate the Elements",
@@ -4890,7 +4895,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "shield"
         ],
@@ -4905,7 +4909,8 @@
           }
         ],
         "valuesSummary": "900 Magic absorb",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Earth Pet Tier 16",
@@ -4919,7 +4924,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "summon",
           "utility",
@@ -4928,7 +4932,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Element Shatter",
@@ -4942,7 +4947,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "debuff",
           "MR"
@@ -4989,7 +4993,8 @@
         "valuesSummary": "−10 Cold/Electricity/Fire/MR/Fire and Magic Resistance",
         "statTags": [
           "MR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Summon Exceptional Earth Mallet",
@@ -5003,14 +5008,14 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Exceptional Fire Staff",
@@ -5024,14 +5029,14 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Exceptional Water Trident",
@@ -5045,14 +5050,14 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Exceptional Wind Blade",
@@ -5066,14 +5071,14 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Fire Pet Tier 16",
@@ -5087,7 +5092,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns",
@@ -5097,7 +5101,8 @@
         "primaryTag": "thorns",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Firestorm Shield",
@@ -5111,7 +5116,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "buff",
           "thorns"
@@ -5127,7 +5131,8 @@
           }
         ],
         "valuesSummary": "35 thorns/hit",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Heavy Linen Bandage",
@@ -5141,14 +5146,14 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "summon"
         ],
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Fires of Eth",
@@ -5162,7 +5167,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "damage"
         ],
@@ -5177,7 +5181,8 @@
           }
         ],
         "valuesSummary": "1600 Fire dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Water Pet Tier 16",
@@ -5191,7 +5196,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "summon",
           "pet"
@@ -5199,7 +5203,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ]
   },
@@ -5216,7 +5221,6 @@
       "mana": 5,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -5235,7 +5239,8 @@
         }
       ],
       "valuesSummary": "2–5 Magic dmg (L1–L4)",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Earth",
@@ -5249,7 +5254,6 @@
       "mana": 5,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -5268,7 +5272,8 @@
         }
       ],
       "valuesSummary": "2–5 Magic dmg (L1–L4)",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Fire",
@@ -5282,7 +5287,6 @@
       "mana": 5,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -5301,7 +5305,8 @@
         }
       ],
       "valuesSummary": "2–5 Fire dmg (L1–L4)",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Water",
@@ -5315,7 +5320,6 @@
       "mana": 5,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -5334,7 +5338,8 @@
         }
       ],
       "valuesSummary": "2–5 Cold dmg (L1–L4)",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Cold Protection",
@@ -5348,7 +5353,6 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "buff",
         "CR"
@@ -5367,7 +5371,8 @@
       "valuesSummary": "+4 Cold Resistance",
       "statTags": [
         "CR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Fear the Elements",
@@ -5381,7 +5386,6 @@
       "mana": 20,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "crowd-control",
         "fear"
@@ -5389,7 +5393,8 @@
       "primaryTag": "fear",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Fire Protection",
@@ -5403,7 +5408,6 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "buff",
         "FR"
@@ -5422,13 +5426,14 @@
       "valuesSummary": "+5 Fire Resistance",
       "statTags": [
         "FR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Flameburst",
       "slug": "Flameburst",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Flameburst",
-      "description": "Unleash a burst of flame upon your target, dealing 5 (L1) to 7 (L4) Fire Damage.",
+      "description": "Bursts your target with flame for 4(L1) to 7(L4) points of Fire Damage",
       "category": "Evo",
       "categorySlug": "Skill_Evocation",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
@@ -5436,31 +5441,31 @@
       "mana": 8,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "damage"
       ],
-      "primaryTag": "damage",
+      "primaryTag": null,
       "effects": [
         {
           "kind": "damage",
-          "min": 5,
+          "min": 4,
           "max": 7,
           "minLevel": 1,
           "maxLevel": 4,
           "damageType": "Fire",
-          "display": "5–7 Fire dmg (L1–L4)",
+          "display": "4–7 Fire dmg (L1–L4)",
           "sortKey": 7
         }
       ],
-      "valuesSummary": "5–7 Fire dmg (L1–L4)",
-      "statTags": []
+      "valuesSummary": "4–7 Fire dmg (L1–L4)",
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Invisibility",
       "slug": "Invisibility",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Invisibility",
-      "description": "Shroud a target group member in a cloak of invisibility, rendering them unseen by the living for 10 minutes.",
+      "description": "Shroud a target party member in a cloak of invisibility, rendering them unseen by the living for 10 minutes.",
       "category": "Div",
       "categorySlug": "Skill_Divination",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
@@ -5468,14 +5473,14 @@
       "mana": 20,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "invisibility"
       ],
       "primaryTag": "invisibility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Invisibility versus Elements",
@@ -5489,7 +5494,6 @@
       "mana": 20,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "buff",
         "invisibility"
@@ -5497,7 +5501,8 @@
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Minor Spellshield",
@@ -5511,7 +5516,6 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "buff",
         "shield",
@@ -5552,13 +5556,14 @@
         "AC",
         "MAX HP",
         "MR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Minor Creation: Air",
       "slug": "Minor_Creation:_Air",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Minor_Creation:_Air",
-      "description": "Conjures an Air Elemental composed of pure elemental energy. (Aura) Rush of Air: 10% chance of add. Prime or Offhand Melee swing (Staggering Winds, Strike, Taunt) Requires: Malachite",
+      "description": "Conjures an Air Elemental composed of pure elemental energy. (Aura) Rush of Air: 10% chance of add. Prime or Offhand Melee swing (Staggering Winds, Strike, Taunt) Requires: Crushed Malachite",
       "category": "Con",
       "categorySlug": "Skill_Conjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -5566,20 +5571,20 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Minor Creation: Earth",
       "slug": "Minor_Creation:_Earth",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Minor_Creation:_Earth",
-      "description": "Conjures an earthy being composed of pure elemental energy. (Aura) Earthen Toughness: grants Stamina 2(L1) to 30(L60). (Earthen Skin, Elemental Root, Provoke) Requires: Malachite",
+      "description": "Conjures an earthy being composed of pure elemental energy. (Aura) Earthen Toughness: grants Stamina 2(L1) to 30(L60). (Earthen Skin, Elemental Root, Provoke) Requires: Crushed Malachite",
       "category": "Con",
       "categorySlug": "Skill_Conjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -5587,7 +5592,6 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "summon",
         "utility"
@@ -5595,13 +5599,14 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Minor Creation: Fire",
       "slug": "Minor_Creation:_Fire",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Minor_Creation:_Fire",
-      "description": "Conjures an Fire Elemental composed of pure elemental energy. (Aura) +10% Spell Casting speed, Backlash of Fire: grants Damage Shield 1(L1) to 15(L60) Per Hit. (Elemental Backlash, Elemental Fire, Provoke) Requires: Malachite",
+      "description": "Conjures an Fire Elemental composed of pure elemental energy. (Aura) +10% Spell Casting speed, Backlash of Fire: grants Damage Shield 1(L1) to 15(L60) Per Hit. (Elemental Backlash, Elemental Fire, Provoke) Requires: Crushed Malachite",
       "category": "Con",
       "categorySlug": "Skill_Conjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -5609,7 +5614,6 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns",
@@ -5628,13 +5632,14 @@
         }
       ],
       "valuesSummary": "1–15 thorns/hit (L1–L60)",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Minor Creation: Water",
       "slug": "Minor_Creation:_Water",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Minor_Creation:_Water",
-      "description": "Conjures a watery being composed of pure elemental energy. (Aura) Fount of Mana: Mana Regeneration 1(L1) to 6(L60). Requires: Malachite",
+      "description": "Conjures a watery being composed of pure elemental energy. (Aura) Fount of Mana: Mana Regeneration 1(L1) to 6(L60). Requires: Crushed Malachite",
       "category": "Con",
       "categorySlug": "Skill_Conjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -5642,14 +5647,14 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Minor Earth Mallet",
@@ -5663,14 +5668,14 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Minor Fire Staff",
@@ -5684,14 +5689,14 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Polar Align: North",
@@ -5705,7 +5710,6 @@
       "mana": 5,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "utility",
         "self"
@@ -5713,7 +5717,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Minor Water Trident",
@@ -5727,14 +5732,14 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Minor Wind Blade",
@@ -5748,14 +5753,14 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Reclaim Essence",
@@ -5769,7 +5774,6 @@
       "mana": 5,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -5777,13 +5781,14 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Drink",
       "slug": "Summon_Drink",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Summon_Drink",
-      "description": "Summons a flask of water, providing you with sustenance. This item can be traded to other players. This item does not persist after logging out.",
+      "description": "Summon 1 (L15) to 4 (L20) flasks of water, providing you with sustenance.",
       "category": "Con",
       "categorySlug": "Skill_Conjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -5791,20 +5796,20 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Food",
       "slug": "Summon_Food",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Summon_Food",
-      "description": "Summon a slice of bread, providing you with sustenance. This item can be traded to other players. This item does not persist after logging out.",
+      "description": "Summon 1 (L15) to 4 (L20) slices of bread, providing you with sustenance.",
       "category": "Con",
       "categorySlug": "Skill_Conjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -5812,14 +5817,14 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Dispel Magic",
@@ -5833,14 +5838,14 @@
       "mana": 50,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "dispel"
       ],
       "primaryTag": "dispel",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Element Break",
@@ -5854,7 +5859,6 @@
       "mana": 10,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "debuff",
         "MR"
@@ -5876,7 +5880,8 @@
       "valuesSummary": "+1–2 Magic Resistance (L1–L8)",
       "statTags": [
         "MR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Fireburst",
@@ -5890,7 +5895,6 @@
       "mana": 15,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "damage"
       ],
@@ -5908,7 +5912,8 @@
         }
       ],
       "valuesSummary": "12–15 Fire dmg (L4–L7)",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Gate",
@@ -5922,7 +5927,6 @@
       "mana": 55,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "summon",
         "teleport"
@@ -5930,13 +5934,14 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Lesser Creation: Air",
       "slug": "Lesser_Creation:_Air",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Lesser_Creation:_Air",
-      "description": "Conjures an Air Elemental composed of pure elemental energy. (Aura) Rush of Air: 10% chance of add. Prime or Offhand Melee swing (Staggering Winds, Strike, Provoke) Requires: Malachite",
+      "description": "Conjures an Air Elemental composed of pure elemental energy. (Aura) Rush of Air: 10% chance of add. Prime or Offhand Melee swing (Staggering Winds, Strike, Provoke) Requires: Crushed Malachite",
       "category": "Con",
       "categorySlug": "Skill_Conjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -5944,20 +5949,20 @@
       "mana": 30,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Lesser Creation: Earth",
       "slug": "Lesser_Creation:_Earth",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Lesser_Creation:_Earth",
-      "description": "Conjures an earthy being composed of pure elemental energy. (Aura) Earthen Toughness: grants 2(L1) to 30(L60) Stamina. (Earthen Skin, Elemental Root, Provoke) Requires: Malachite",
+      "description": "Conjures an earthy being composed of pure elemental energy. (Aura) Earthen Toughness: grants 2(L1) to 30(L60) Stamina. (Earthen Skin, Elemental Root, Provoke) Requires: Crushed Malachite",
       "category": "Con",
       "categorySlug": "Skill_Conjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -5965,7 +5970,6 @@
       "mana": 30,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "summon",
         "utility"
@@ -5973,13 +5977,14 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Lesser Creation: Fire",
       "slug": "Lesser_Creation:_Fire",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Lesser_Creation:_Fire",
-      "description": "Conjures an Fire Elemental composed of pure elemental energy. (Aura) +10% Spell Casting speed, Backlash of Fire: grants Damage Shield Damage Shield 1(L1) to 15(L60). (Elemental Backlash, Elemental Fire, Provoke) Requires: Malachite",
+      "description": "Conjures an Fire Elemental composed of pure elemental energy. (Aura) +10% Spell Casting speed, Backlash of Fire: grants Damage Shield Damage Shield 1(L1) to 15(L60). (Elemental Backlash, Elemental Fire, Provoke) Requires: Crushed Malachite",
       "category": "Con",
       "categorySlug": "Skill_Conjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -5987,7 +5992,6 @@
       "mana": 30,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns",
@@ -5996,13 +6000,14 @@
       "primaryTag": "thorns",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Lesser Creation: Water",
       "slug": "Lesser_Creation:_Water",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Lesser_Creation:_Water",
-      "description": "Conjures a watery being composed of pure elemental energy. (Aura) Fount of Mana: Mana Regeneration 1(L1) to 6(L60). Requires: Malachite",
+      "description": "Conjures a watery being composed of pure elemental energy. (Aura) Fount of Mana: Mana Regeneration 1(L1) to 6(L60). Requires: Crushed Malachite",
       "category": "Con",
       "categorySlug": "Skill_Conjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -6010,14 +6015,14 @@
       "mana": 30,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Lull the Elements",
@@ -6031,14 +6036,14 @@
       "mana": 10,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "debuff"
       ],
       "primaryTag": "debuff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "See Invisibility",
@@ -6052,7 +6057,6 @@
       "mana": 20,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "buff",
         "invisibility",
@@ -6061,7 +6065,8 @@
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Sense Magic",
@@ -6075,7 +6080,6 @@
       "mana": 20,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "buff",
         "utility"
@@ -6083,7 +6087,8 @@
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Soulbind",
@@ -6097,14 +6102,14 @@
       "mana": 75,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "teleport"
       ],
       "primaryTag": "teleport",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Cloth Bandage",
@@ -6118,14 +6123,14 @@
       "mana": 10,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Ward the Elements",
@@ -6139,7 +6144,6 @@
       "mana": 25,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "shield"
       ],
@@ -6154,7 +6158,8 @@
         }
       ],
       "valuesSummary": "30 Magic absorb",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Creation: Air",
@@ -6168,14 +6173,14 @@
       "mana": 60,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Creation: Earth",
@@ -6189,7 +6194,6 @@
       "mana": 60,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "summon",
         "utility"
@@ -6197,7 +6201,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Creation: Fire",
@@ -6211,7 +6216,6 @@
       "mana": 60,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns",
@@ -6220,7 +6224,8 @@
       "primaryTag": "thorns",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Creation: Water",
@@ -6234,14 +6239,14 @@
       "mana": 60,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Elemental Fury",
@@ -6255,7 +6260,6 @@
       "mana": 30,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "buff",
         "haste",
@@ -6285,7 +6289,8 @@
       "valuesSummary": "+10% · +2 Strength",
       "statTags": [
         "STR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Flame Shield",
@@ -6299,7 +6304,6 @@
       "mana": 25,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns"
@@ -6315,7 +6319,8 @@
         }
       ],
       "valuesSummary": "5 thorns/hit",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Heal the Elements",
@@ -6329,7 +6334,6 @@
       "mana": 25,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "heal"
       ],
@@ -6343,13 +6347,14 @@
         }
       ],
       "valuesSummary": "40 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Lesser Spellshield",
       "slug": "Lesser_Spellshield",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Lesser_Spellshield",
-      "description": "A magical shield encircles you, increasing your HP by 25, AC by 10, and Magic Resistance by 10.",
+      "description": "Encircle yourself with a magical shield, increasing your maximum Health by 25, Armor Class by 10, and Magic Resistance by 10 for 1 hour.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -6357,7 +6362,6 @@
       "mana": 25,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "buff",
         "shield",
@@ -6370,17 +6374,17 @@
       "effects": [
         {
           "kind": "buff",
-          "stat": "HP",
+          "stat": "Health",
           "amount": 25,
-          "display": "+25 HP",
+          "display": "+25 Health",
           "sortKey": 25,
           "statTag": "MAX HP"
         },
         {
           "kind": "buff",
-          "stat": "AC",
+          "stat": "Armor Class",
           "amount": 10,
-          "display": "+10 AC",
+          "display": "+10 Armor Class",
           "sortKey": 10,
           "statTag": "AC"
         },
@@ -6393,12 +6397,13 @@
           "statTag": "MR"
         }
       ],
-      "valuesSummary": "+25 HP · +10 AC · +10 Magic Resistance",
+      "valuesSummary": "+25 Health · +10 Armor Class · +10 Magic Resistance",
       "statTags": [
         "AC",
         "MAX HP",
         "MR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Magmaburst",
@@ -6412,7 +6417,6 @@
       "mana": 30,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "damage"
       ],
@@ -6427,7 +6431,8 @@
         }
       ],
       "valuesSummary": "40 Fire dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Arrows",
@@ -6441,14 +6446,14 @@
       "mana": "",
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Minor Manastone",
@@ -6462,7 +6467,6 @@
       "mana": 40,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "summon",
         "utility"
@@ -6477,7 +6481,8 @@
         }
       ],
       "valuesSummary": "30 mana",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Throwing Daggers",
@@ -6491,14 +6496,14 @@
       "mana": "",
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Water Shield",
@@ -6512,7 +6517,6 @@
       "mana": 10,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "debuff",
         "movement",
@@ -6546,7 +6550,8 @@
       "valuesSummary": "−10 Cold and Fire Resistance/decreasing their Electricity Resistance/ER",
       "statTags": [
         "ER"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Charm Elemental",
@@ -6560,14 +6565,14 @@
       "mana": 60,
       "castTime": null,
       "level": 12,
-      "type": "spell",
       "tags": [
         "charm"
       ],
       "primaryTag": "charm",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Element Splinter",
@@ -6581,7 +6586,6 @@
       "mana": 25,
       "castTime": null,
       "level": 12,
-      "type": "spell",
       "tags": [
         "debuff",
         "FR"
@@ -6613,7 +6617,8 @@
       "valuesSummary": "−3–4 Cold and Fire Resistance (L12–L16) · +3–4 Fire Resistance (L12–L16)",
       "statTags": [
         "FR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Greater Creation: Air",
@@ -6627,14 +6632,14 @@
       "mana": 90,
       "castTime": null,
       "level": 12,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Greater Creation: Earth",
@@ -6648,7 +6653,6 @@
       "mana": 90,
       "castTime": null,
       "level": 12,
-      "type": "spell",
       "tags": [
         "summon",
         "utility"
@@ -6656,7 +6660,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Greater Creation: Fire",
@@ -6670,7 +6675,6 @@
       "mana": 90,
       "castTime": null,
       "level": 12,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns",
@@ -6679,7 +6683,8 @@
       "primaryTag": "thorns",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Greater Creation: Water",
@@ -6693,14 +6698,14 @@
       "mana": 90,
       "castTime": null,
       "level": 12,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Master of Elements",
@@ -6714,7 +6719,6 @@
       "mana": 50,
       "castTime": null,
       "level": 12,
-      "type": "spell",
       "tags": [
         "buff",
         "self"
@@ -6722,7 +6726,8 @@
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Restrain the Elements",
@@ -6736,7 +6741,6 @@
       "mana": "",
       "castTime": null,
       "level": 12,
-      "type": "spell",
       "tags": [
         "crowd-control",
         "mez"
@@ -6751,7 +6755,8 @@
         }
       ],
       "valuesSummary": "30s duration",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Heavy Cloth Bandage",
@@ -6765,14 +6770,14 @@
       "mana": "",
       "castTime": null,
       "level": 12,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Beset the Elements",
@@ -6786,7 +6791,6 @@
       "mana": 50,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "shield"
       ],
@@ -6801,7 +6805,8 @@
         }
       ],
       "valuesSummary": "90 Magic absorb",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Air II",
@@ -6815,7 +6820,6 @@
       "mana": 55,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -6831,7 +6835,8 @@
         }
       ],
       "valuesSummary": "75 Magic dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Earth II",
@@ -6845,7 +6850,6 @@
       "mana": 55,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -6861,7 +6865,8 @@
         }
       ],
       "valuesSummary": "75 Magic dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Fire II",
@@ -6875,7 +6880,6 @@
       "mana": 55,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -6891,7 +6895,8 @@
         }
       ],
       "valuesSummary": "75 Fire dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Water II",
@@ -6905,7 +6910,6 @@
       "mana": 55,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -6921,7 +6925,8 @@
         }
       ],
       "valuesSummary": "75 Cold dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Exceptional Creation: Air",
@@ -6935,14 +6940,14 @@
       "mana": 130,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Exceptional Creation: Earth",
@@ -6956,7 +6961,6 @@
       "mana": 130,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "summon",
         "utility"
@@ -6964,7 +6968,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Exceptional Creation: Fire",
@@ -6978,7 +6983,6 @@
       "mana": 130,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns",
@@ -6987,7 +6991,8 @@
       "primaryTag": "thorns",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Exceptional Creation: Water",
@@ -7001,14 +7006,14 @@
       "mana": 130,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Lesser Earth Mallet",
@@ -7022,14 +7027,14 @@
       "mana": "",
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Lesser Fire Staff",
@@ -7043,14 +7048,14 @@
       "mana": "",
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Lesser Water Trident",
@@ -7064,14 +7069,14 @@
       "mana": "",
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Lesser Wind Blade",
@@ -7085,20 +7090,20 @@
       "mana": "",
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Spellshield",
       "slug": "Spellshield",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Spellshield",
-      "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 50, Armor Class by 15, and Magic Resistance by 15 for 1 hour.",
+      "description": "Encircle yourself with a magical shield, increasing your maximum Health by 50, Armor Class by 15, and Magic Resistance by 15 for 1 hour.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -7106,7 +7111,6 @@
       "mana": 50,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "buff",
         "shield",
@@ -7147,7 +7151,8 @@
         "AC",
         "MAX HP",
         "MR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Summon Lesser Manastone",
@@ -7161,7 +7166,6 @@
       "mana": 100,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "summon",
         "utility"
@@ -7176,7 +7180,8 @@
         }
       ],
       "valuesSummary": "75 mana",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Elemental Coregate (this spell is NOT currently in game)",
@@ -7190,12 +7195,12 @@
       "mana": "",
       "castTime": null,
       "level": 20,
-      "type": "spell",
       "tags": [],
       "primaryTag": null,
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Fire Shield",
@@ -7209,7 +7214,6 @@
       "mana": 50,
       "castTime": null,
       "level": 20,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns"
@@ -7225,7 +7229,8 @@
         }
       ],
       "valuesSummary": "10 thorns/hit",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Lavaburst",
@@ -7239,7 +7244,6 @@
       "mana": 75,
       "castTime": null,
       "level": 20,
-      "type": "spell",
       "tags": [
         "damage"
       ],
@@ -7254,7 +7258,8 @@
         }
       ],
       "valuesSummary": "120 Fire dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Conjure Wool Bandage",
@@ -7268,14 +7273,14 @@
       "mana": "",
       "castTime": null,
       "level": 20,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Minor Synthesis: Air",
@@ -7289,14 +7294,14 @@
       "mana": 170,
       "castTime": null,
       "level": 20,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Minor Synthesis: Earth",
@@ -7310,7 +7315,6 @@
       "mana": 170,
       "castTime": null,
       "level": 20,
-      "type": "spell",
       "tags": [
         "summon",
         "utility"
@@ -7318,7 +7322,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Minor Synthesis: Fire",
@@ -7332,7 +7337,6 @@
       "mana": 170,
       "castTime": null,
       "level": 20,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns",
@@ -7341,7 +7345,8 @@
       "primaryTag": "thorns",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Minor Synthesis: Water",
@@ -7355,14 +7360,14 @@
       "mana": 170,
       "castTime": null,
       "level": 20,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Air Pet Tier 7",
@@ -7376,7 +7381,6 @@
       "mana": "",
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "summon",
         "pet"
@@ -7384,7 +7388,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Beguile Elemental",
@@ -7398,14 +7403,14 @@
       "mana": "",
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "charm"
       ],
       "primaryTag": "charm",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Air III",
@@ -7419,7 +7424,6 @@
       "mana": "",
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -7435,7 +7439,8 @@
         }
       ],
       "valuesSummary": "100 Magic dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Earth III",
@@ -7449,7 +7454,6 @@
       "mana": "",
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -7465,7 +7469,8 @@
         }
       ],
       "valuesSummary": "100 Magic dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Fire III",
@@ -7479,7 +7484,6 @@
       "mana": "",
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -7495,7 +7499,8 @@
         }
       ],
       "valuesSummary": "100 Fire dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Water III",
@@ -7509,7 +7514,6 @@
       "mana": "",
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -7525,7 +7529,8 @@
         }
       ],
       "valuesSummary": "100 Cold dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Cold Resistance",
@@ -7539,7 +7544,6 @@
       "mana": "",
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "buff",
         "CR"
@@ -7558,7 +7562,8 @@
       "valuesSummary": "+15 Cold Resistance",
       "statTags": [
         "CR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Earth Pet Tier 7",
@@ -7572,7 +7577,6 @@
       "mana": "",
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "summon",
         "utility",
@@ -7581,7 +7585,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Element Crack",
@@ -7595,7 +7600,6 @@
       "mana": "",
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "debuff",
         "FR"
@@ -7627,7 +7631,8 @@
       "valuesSummary": "−5–6 Cold and Fire Resistance (L31–L38) · +5–6 Fire Resistance (L31–L38)",
       "statTags": [
         "FR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Elemental Torrent",
@@ -7641,7 +7646,6 @@
       "mana": "",
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "buff",
         "haste",
@@ -7672,7 +7676,8 @@
       "valuesSummary": "+20% · +5 Strength",
       "statTags": [
         "STR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Fire Pet Tier 7",
@@ -7686,7 +7691,6 @@
       "mana": "",
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns",
@@ -7696,7 +7700,8 @@
       "primaryTag": "thorns",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Fire Resistance",
@@ -7710,7 +7715,6 @@
       "mana": "",
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "buff",
         "FR"
@@ -7729,13 +7733,14 @@
       "valuesSummary": "+15 Fire Resistance",
       "statTags": [
         "FR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Greater Spellshield",
       "slug": "Greater_Spellshield",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Greater_Spellshield",
-      "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 75, Armor Class by 10, and Magic Resistance by 10 for 1 hour.",
+      "description": "Encircle yourself with a magical shield, increasing your maximum Health by 75, Armor Class by 20, and Magic Resistance by 20 for 1 hour.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -7743,7 +7748,6 @@
       "mana": "",
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "buff",
         "shield",
@@ -7765,26 +7769,27 @@
         {
           "kind": "buff",
           "stat": "Armor Class",
-          "amount": 10,
-          "display": "+10 Armor Class",
-          "sortKey": 10,
+          "amount": 20,
+          "display": "+20 Armor Class",
+          "sortKey": 20,
           "statTag": "AC"
         },
         {
           "kind": "buff",
           "stat": "Magic Resistance",
-          "amount": 10,
-          "display": "+10 Magic Resistance",
-          "sortKey": 10,
+          "amount": 20,
+          "display": "+20 Magic Resistance",
+          "sortKey": 20,
           "statTag": "MR"
         }
       ],
-      "valuesSummary": "+75 Health · +10 Armor Class · +10 Magic Resistance",
+      "valuesSummary": "+75 Health · +20 Armor Class · +20 Magic Resistance",
       "statTags": [
         "AC",
         "MAX HP",
         "MR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Revitalize the Elements",
@@ -7798,7 +7803,6 @@
       "mana": "",
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "heal",
         "pet"
@@ -7813,7 +7817,8 @@
         }
       ],
       "valuesSummary": "180 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Water Pet Tier 7",
@@ -7827,7 +7832,6 @@
       "mana": "",
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "summon",
         "pet"
@@ -7835,7 +7839,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Air Pet Tier 8",
@@ -7849,7 +7854,6 @@
       "mana": "",
       "castTime": null,
       "level": 28,
-      "type": "spell",
       "tags": [
         "summon",
         "pet"
@@ -7857,13 +7861,14 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Conjure Drink",
       "slug": "Conjure_Drink",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Conjure_Drink",
-      "description": "Conjures a large amount of water, providing you with sustenance.",
+      "description": "Conjure 10 (L35) to 20 (L40) flasks of water, providing you with sustenance.",
       "category": "Con",
       "categorySlug": "Skill_Conjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -7871,20 +7876,20 @@
       "mana": "",
       "castTime": null,
       "level": 28,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Conjure Food",
       "slug": "Conjure_Food",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Conjure_Food",
-      "description": "Conjures a large amount of bread, providing you with sustenance.",
+      "description": "Conjure 10 (L35) to 20 (L40) slices of bread, providing you with sustenance.",
       "category": "Con",
       "categorySlug": "Skill_Conjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -7892,14 +7897,14 @@
       "mana": "",
       "castTime": null,
       "level": 28,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Earth Pet Tier 8",
@@ -7913,7 +7918,6 @@
       "mana": "",
       "castTime": null,
       "level": 28,
-      "type": "spell",
       "tags": [
         "summon",
         "utility",
@@ -7922,7 +7926,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Fire Pet Tier 8",
@@ -7936,7 +7941,6 @@
       "mana": "",
       "castTime": null,
       "level": 28,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns",
@@ -7946,7 +7950,8 @@
       "primaryTag": "thorns",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Magma Shield",
@@ -7960,7 +7965,6 @@
       "mana": "",
       "castTime": null,
       "level": 28,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns"
@@ -7976,7 +7980,8 @@
         }
       ],
       "valuesSummary": "15 thorns/hit",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Rebuff the Elements",
@@ -7990,7 +7995,6 @@
       "mana": "",
       "castTime": null,
       "level": 28,
-      "type": "spell",
       "tags": [
         "shield"
       ],
@@ -8005,7 +8009,8 @@
         }
       ],
       "valuesSummary": "150 Magic absorb",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Heavy Wool Bandage",
@@ -8019,14 +8024,14 @@
       "mana": "",
       "castTime": null,
       "level": 28,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Manastone",
@@ -8040,7 +8045,6 @@
       "mana": "",
       "castTime": null,
       "level": 28,
-      "type": "spell",
       "tags": [
         "summon",
         "utility"
@@ -8055,7 +8059,8 @@
         }
       ],
       "valuesSummary": "105 mana",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Water Pet Tier 8",
@@ -8069,7 +8074,6 @@
       "mana": "",
       "castTime": null,
       "level": 28,
-      "type": "spell",
       "tags": [
         "summon",
         "pet"
@@ -8077,7 +8081,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Abolish Magic",
@@ -8091,14 +8096,14 @@
       "mana": "",
       "castTime": null,
       "level": 32,
-      "type": "spell",
       "tags": [
         "dispel"
       ],
       "primaryTag": "dispel",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Air Pet Tier 9",
@@ -8112,7 +8117,6 @@
       "mana": "",
       "castTime": null,
       "level": 32,
-      "type": "spell",
       "tags": [
         "summon",
         "pet"
@@ -8120,7 +8124,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blaze",
@@ -8134,7 +8139,6 @@
       "mana": "",
       "castTime": null,
       "level": 32,
-      "type": "spell",
       "tags": [
         "damage"
       ],
@@ -8149,7 +8153,8 @@
         }
       ],
       "valuesSummary": "200 Fire dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Earth Pet Tier 9",
@@ -8163,7 +8168,6 @@
       "mana": "",
       "castTime": null,
       "level": 32,
-      "type": "spell",
       "tags": [
         "summon",
         "utility",
@@ -8172,13 +8176,14 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Exceptional Spellshield",
       "slug": "Exceptional_Spellshield",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Exceptional_Spellshield",
-      "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 100, Armor Class by 25, and Magic Resistance by 25 for 1 hour.",
+      "description": "Encircle yourself with a magical shield, increasing your maximum Health by 100, Armor Class by 25, and Magic Resistance by 25 for 1 hour.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -8186,7 +8191,6 @@
       "mana": "",
       "castTime": null,
       "level": 32,
-      "type": "spell",
       "tags": [
         "buff",
         "shield",
@@ -8227,7 +8231,8 @@
         "AC",
         "MAX HP",
         "MR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Fire Pet Tier 9",
@@ -8241,7 +8246,6 @@
       "mana": "",
       "castTime": null,
       "level": 32,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns",
@@ -8251,7 +8255,8 @@
       "primaryTag": "thorns",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Earth Mallet",
@@ -8265,14 +8270,14 @@
       "mana": "",
       "castTime": null,
       "level": 32,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Fire Staff",
@@ -8286,14 +8291,14 @@
       "mana": "",
       "castTime": null,
       "level": 32,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Water Trident",
@@ -8307,14 +8312,14 @@
       "mana": "",
       "castTime": null,
       "level": 32,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Wind Blade",
@@ -8328,14 +8333,14 @@
       "mana": "",
       "castTime": null,
       "level": 32,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Water Pet Tier 9",
@@ -8349,7 +8354,6 @@
       "mana": "",
       "castTime": null,
       "level": 32,
-      "type": "spell",
       "tags": [
         "summon",
         "pet"
@@ -8357,7 +8361,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Air Pet Tier 10",
@@ -8371,7 +8376,6 @@
       "mana": "",
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "summon",
         "pet"
@@ -8379,7 +8383,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Air IV",
@@ -8393,7 +8398,6 @@
       "mana": "",
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -8409,7 +8413,8 @@
         }
       ],
       "valuesSummary": "150 Magic dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Earth IV",
@@ -8423,7 +8428,6 @@
       "mana": "",
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -8439,7 +8443,8 @@
         }
       ],
       "valuesSummary": "150 Magic dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Fire IV",
@@ -8453,7 +8458,6 @@
       "mana": "",
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -8469,7 +8473,8 @@
         }
       ],
       "valuesSummary": "150 Fire dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Water IV",
@@ -8483,7 +8488,6 @@
       "mana": "",
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -8499,7 +8503,8 @@
         }
       ],
       "valuesSummary": "150 Cold dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Coax Elemental",
@@ -8513,14 +8518,14 @@
       "mana": "",
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "charm"
       ],
       "primaryTag": "charm",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Earth Pet Tier 10",
@@ -8534,7 +8539,6 @@
       "mana": "",
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "summon",
         "utility",
@@ -8543,7 +8547,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Fire Pet Tier 10",
@@ -8557,7 +8562,6 @@
       "mana": "",
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns",
@@ -8567,7 +8571,8 @@
       "primaryTag": "thorns",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Lava Shield",
@@ -8581,7 +8586,6 @@
       "mana": "",
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns"
@@ -8597,7 +8601,8 @@
         }
       ],
       "valuesSummary": "20 thorns/hit",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Rejuvenate the Elements",
@@ -8611,7 +8616,6 @@
       "mana": "",
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "heal",
         "pet"
@@ -8626,7 +8630,8 @@
         }
       ],
       "valuesSummary": "420 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Cotton Bandage",
@@ -8640,14 +8645,14 @@
       "mana": "",
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Water Pet Tier 10",
@@ -8661,7 +8666,6 @@
       "mana": "",
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "summon",
         "pet"
@@ -8669,7 +8673,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Air Pet Tier 11",
@@ -8683,7 +8688,6 @@
       "mana": "",
       "castTime": null,
       "level": 40,
-      "type": "spell",
       "tags": [
         "summon",
         "pet"
@@ -8691,13 +8695,14 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Arch Spellshield",
       "slug": "Arch_Spellshield",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Arch_Spellshield",
-      "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 150, Armor Class by 10, and Magic Resistance by 1 for 1 hour.",
+      "description": "Encircle yourself with a magical shield, increasing your maximum Health by 150, Armor Class by 30, and Magic Resistance by 30 for 1 hour.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -8705,7 +8710,6 @@
       "mana": "",
       "castTime": null,
       "level": 40,
-      "type": "spell",
       "tags": [
         "buff",
         "shield",
@@ -8727,26 +8731,27 @@
         {
           "kind": "buff",
           "stat": "Armor Class",
-          "amount": 10,
-          "display": "+10 Armor Class",
-          "sortKey": 10,
+          "amount": 30,
+          "display": "+30 Armor Class",
+          "sortKey": 30,
           "statTag": "AC"
         },
         {
           "kind": "buff",
           "stat": "Magic Resistance",
-          "amount": 1,
-          "display": "+1 Magic Resistance",
-          "sortKey": 1,
+          "amount": 30,
+          "display": "+30 Magic Resistance",
+          "sortKey": 30,
           "statTag": "MR"
         }
       ],
-      "valuesSummary": "+150 Health · +10 Armor Class · +1 Magic Resistance",
+      "valuesSummary": "+150 Health · +30 Armor Class · +30 Magic Resistance",
       "statTags": [
         "AC",
         "MAX HP",
         "MR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Beleaguer the Elements",
@@ -8760,7 +8765,6 @@
       "mana": "",
       "castTime": null,
       "level": 40,
-      "type": "spell",
       "tags": [
         "shield"
       ],
@@ -8775,7 +8779,8 @@
         }
       ],
       "valuesSummary": "245 Magic absorb",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Earth Pet Tier 11",
@@ -8789,7 +8794,6 @@
       "mana": "",
       "castTime": null,
       "level": 40,
-      "type": "spell",
       "tags": [
         "summon",
         "utility",
@@ -8798,7 +8802,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Element Fracture",
@@ -8812,7 +8817,6 @@
       "mana": "",
       "castTime": null,
       "level": 40,
-      "type": "spell",
       "tags": [
         "debuff",
         "FR"
@@ -8844,7 +8848,8 @@
       "valuesSummary": "−7–8 Cold and Fire Resistance (L40–L44) · +7–8 Fire Resistance (L40–L44)",
       "statTags": [
         "FR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Elemental Surge",
@@ -8858,7 +8863,6 @@
       "mana": "",
       "castTime": null,
       "level": 40,
-      "type": "spell",
       "tags": [
         "buff",
         "haste",
@@ -8889,7 +8893,8 @@
       "valuesSummary": "+30% · +10 Strength",
       "statTags": [
         "STR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Fire Pet Tier 11",
@@ -8903,7 +8908,6 @@
       "mana": "",
       "castTime": null,
       "level": 40,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns",
@@ -8913,7 +8917,8 @@
       "primaryTag": "thorns",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Greater Manastone",
@@ -8927,7 +8932,6 @@
       "mana": "",
       "castTime": null,
       "level": 40,
-      "type": "spell",
       "tags": [
         "summon",
         "utility"
@@ -8942,7 +8946,8 @@
         }
       ],
       "valuesSummary": "135 mana",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Water Pet Tier 11",
@@ -8956,7 +8961,6 @@
       "mana": "",
       "castTime": null,
       "level": 40,
-      "type": "spell",
       "tags": [
         "summon",
         "pet"
@@ -8964,7 +8968,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Air Pet Tier 12",
@@ -8978,7 +8983,6 @@
       "mana": "",
       "castTime": null,
       "level": 44,
-      "type": "spell",
       "tags": [
         "summon",
         "pet"
@@ -8986,7 +8990,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blazing Shield",
@@ -9000,7 +9005,6 @@
       "mana": "",
       "castTime": null,
       "level": 44,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns"
@@ -9016,7 +9020,8 @@
         }
       ],
       "valuesSummary": "25 thorns/hit",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Earth Pet Tier 12",
@@ -9030,7 +9035,6 @@
       "mana": "",
       "castTime": null,
       "level": 44,
-      "type": "spell",
       "tags": [
         "summon",
         "utility",
@@ -9039,7 +9043,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Fire Pet Tier 12",
@@ -9053,7 +9058,6 @@
       "mana": "",
       "castTime": null,
       "level": 44,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns",
@@ -9063,7 +9067,8 @@
       "primaryTag": "thorns",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Inferno",
@@ -9077,7 +9082,6 @@
       "mana": "",
       "castTime": null,
       "level": 44,
-      "type": "spell",
       "tags": [
         "damage"
       ],
@@ -9092,7 +9096,8 @@
         }
       ],
       "valuesSummary": "325 Fire dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Heavy Cotton Bandage",
@@ -9106,14 +9111,14 @@
       "mana": "",
       "castTime": null,
       "level": 44,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Water Pet Tier 12",
@@ -9127,7 +9132,6 @@
       "mana": "",
       "castTime": null,
       "level": 44,
-      "type": "spell",
       "tags": [
         "summon",
         "pet"
@@ -9135,7 +9139,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Air Pet Tier 13",
@@ -9149,7 +9154,6 @@
       "mana": "",
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "summon",
         "pet"
@@ -9157,7 +9161,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Air V",
@@ -9171,7 +9176,6 @@
       "mana": "",
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -9187,7 +9191,8 @@
         }
       ],
       "valuesSummary": "225 Magic dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Earth V",
@@ -9201,7 +9206,6 @@
       "mana": "",
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -9217,7 +9221,8 @@
         }
       ],
       "valuesSummary": "225 Magic dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Fire V",
@@ -9231,7 +9236,6 @@
       "mana": "",
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -9247,7 +9251,8 @@
         }
       ],
       "valuesSummary": "225 Fire dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Water V",
@@ -9261,7 +9266,6 @@
       "mana": "",
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -9277,7 +9281,8 @@
         }
       ],
       "valuesSummary": "225 Cold dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Earth Pet Tier 13",
@@ -9291,7 +9296,6 @@
       "mana": "",
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "summon",
         "utility",
@@ -9300,7 +9304,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Fire Pet Tier 13",
@@ -9314,7 +9319,6 @@
       "mana": "",
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns",
@@ -9324,7 +9328,8 @@
       "primaryTag": "thorns",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Greater Earth Mallet",
@@ -9338,14 +9343,14 @@
       "mana": "",
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Greater Fire Staff",
@@ -9359,14 +9364,14 @@
       "mana": "",
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Greater Water Trident",
@@ -9380,14 +9385,14 @@
       "mana": "",
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Greater Wind Blade",
@@ -9401,14 +9406,14 @@
       "mana": "",
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Persuade Elemental",
@@ -9422,14 +9427,14 @@
       "mana": "",
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "charm"
       ],
       "primaryTag": "charm",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Water Pet Tier 13",
@@ -9443,7 +9448,6 @@
       "mana": "",
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "summon",
         "pet"
@@ -9451,13 +9455,14 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Firestorm",
       "slug": "Firestorm",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Firestorm",
-      "description": "Engulfs your targer with a firestorm for 700 points of Fire Damage.",
+      "description": "Call forth a fire storm, dealing 20 (L1) to 200 (L60) Fire Damage to targets within the affected area every 6 seconds.",
       "category": "Evo",
       "categorySlug": "Skill_Evocation",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
@@ -9465,22 +9470,27 @@
       "mana": "",
       "castTime": null,
       "level": 50,
-      "type": "spell",
       "tags": [
-        "damage"
+        "dot",
+        "aoe"
       ],
-      "primaryTag": null,
+      "primaryTag": "dot",
       "effects": [
         {
-          "kind": "damage",
-          "amount": 700,
+          "kind": "dot",
+          "min": 20,
+          "max": 200,
+          "minLevel": 1,
+          "maxLevel": 60,
+          "interval": 6,
           "damageType": "Fire",
-          "display": "700 Fire dmg",
-          "sortKey": 700
+          "display": "20–200 Fire/6s (L1–L60)",
+          "sortKey": 200
         }
       ],
-      "valuesSummary": "700 Fire dmg",
-      "statTags": []
+      "valuesSummary": "20–200 Fire/6s (L1–L60)",
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Assail the Elements",
@@ -9494,7 +9504,6 @@
       "mana": "",
       "castTime": null,
       "level": 52,
-      "type": "spell",
       "tags": [
         "shield"
       ],
@@ -9509,7 +9518,8 @@
         }
       ],
       "valuesSummary": "525 Magic absorb",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Air Pet Tier 14",
@@ -9523,7 +9533,6 @@
       "mana": "",
       "castTime": null,
       "level": 52,
-      "type": "spell",
       "tags": [
         "summon",
         "pet"
@@ -9531,7 +9540,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Earth Pet Tier 14",
@@ -9545,7 +9555,6 @@
       "mana": "",
       "castTime": null,
       "level": 52,
-      "type": "spell",
       "tags": [
         "summon",
         "utility",
@@ -9554,7 +9563,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Fire Pet Tier 14",
@@ -9568,7 +9578,6 @@
       "mana": "",
       "castTime": null,
       "level": 52,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns",
@@ -9578,7 +9587,8 @@
       "primaryTag": "thorns",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Linen Bandage",
@@ -9592,14 +9602,14 @@
       "mana": "",
       "castTime": null,
       "level": 52,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Water Pet Tier 14",
@@ -9613,7 +9623,6 @@
       "mana": "",
       "castTime": null,
       "level": 52,
-      "type": "spell",
       "tags": [
         "summon",
         "pet"
@@ -9621,7 +9630,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Conflagrate",
@@ -9635,7 +9645,6 @@
       "mana": "",
       "castTime": null,
       "level": 54,
-      "type": "spell",
       "tags": [
         "damage"
       ],
@@ -9650,7 +9659,8 @@
         }
       ],
       "valuesSummary": "1200 Fire dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Air Pet Tier 15",
@@ -9664,7 +9674,6 @@
       "mana": "",
       "castTime": null,
       "level": 56,
-      "type": "spell",
       "tags": [
         "summon",
         "pet"
@@ -9672,7 +9681,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Earth Pet Tier 15",
@@ -9686,7 +9696,6 @@
       "mana": "",
       "castTime": null,
       "level": 56,
-      "type": "spell",
       "tags": [
         "summon",
         "utility",
@@ -9695,7 +9704,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Elemental Onslaught",
@@ -9709,7 +9719,6 @@
       "mana": "",
       "castTime": null,
       "level": 56,
-      "type": "spell",
       "tags": [
         "buff",
         "haste",
@@ -9740,7 +9749,8 @@
       "valuesSummary": "+40% · +15 Strength",
       "statTags": [
         "STR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Fire Pet Tier 15",
@@ -9754,7 +9764,6 @@
       "mana": "",
       "castTime": null,
       "level": 56,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns",
@@ -9764,7 +9773,8 @@
       "primaryTag": "thorns",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Inferno Shield",
@@ -9778,7 +9788,6 @@
       "mana": "",
       "castTime": null,
       "level": 56,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns"
@@ -9794,7 +9803,8 @@
         }
       ],
       "valuesSummary": "30 thorns/hit",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Exceptional Manastone",
@@ -9808,7 +9818,6 @@
       "mana": "",
       "castTime": null,
       "level": 56,
-      "type": "spell",
       "tags": [
         "summon",
         "utility"
@@ -9823,7 +9832,8 @@
         }
       ],
       "valuesSummary": "180 mana",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Water Pet Tier 15",
@@ -9837,7 +9847,6 @@
       "mana": "",
       "castTime": null,
       "level": 56,
-      "type": "spell",
       "tags": [
         "summon",
         "pet"
@@ -9845,7 +9854,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Flames of Eth",
@@ -9859,7 +9869,6 @@
       "mana": "",
       "castTime": null,
       "level": 58,
-      "type": "spell",
       "tags": [
         "damage"
       ],
@@ -9874,7 +9883,8 @@
         }
       ],
       "valuesSummary": "1400 Fire dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Air Pet Tier 16",
@@ -9888,7 +9898,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "summon",
         "pet"
@@ -9896,7 +9905,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Air VI",
@@ -9910,7 +9920,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -9926,7 +9935,8 @@
         }
       ],
       "valuesSummary": "300 Magic dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Earth VI",
@@ -9940,7 +9950,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -9956,7 +9965,8 @@
         }
       ],
       "valuesSummary": "300 Magic dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Fire VI",
@@ -9970,7 +9980,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -9986,7 +9995,8 @@
         }
       ],
       "valuesSummary": "300 Fire dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blast of Water VI",
@@ -10000,7 +10010,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "damage",
         "pet"
@@ -10016,7 +10025,8 @@
         }
       ],
       "valuesSummary": "300 Cold dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Devastate the Elements",
@@ -10030,7 +10040,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "shield"
       ],
@@ -10045,7 +10054,8 @@
         }
       ],
       "valuesSummary": "900 Magic absorb",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Earth Pet Tier 16",
@@ -10059,7 +10069,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "summon",
         "utility",
@@ -10068,7 +10077,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Element Shatter",
@@ -10082,7 +10092,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "debuff",
         "MR"
@@ -10129,7 +10138,8 @@
       "valuesSummary": "−10 Cold/Electricity/Fire/MR/Fire and Magic Resistance",
       "statTags": [
         "MR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Summon Exceptional Earth Mallet",
@@ -10143,14 +10153,14 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Exceptional Fire Staff",
@@ -10164,14 +10174,14 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Exceptional Water Trident",
@@ -10185,14 +10195,14 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Exceptional Wind Blade",
@@ -10206,14 +10216,14 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Fire Pet Tier 16",
@@ -10227,7 +10237,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns",
@@ -10237,7 +10246,8 @@
       "primaryTag": "thorns",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Firestorm Shield",
@@ -10251,7 +10261,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "buff",
         "thorns"
@@ -10267,7 +10276,8 @@
         }
       ],
       "valuesSummary": "35 thorns/hit",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Heavy Linen Bandage",
@@ -10281,14 +10291,14 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "summon"
       ],
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Fires of Eth",
@@ -10302,7 +10312,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "damage"
       ],
@@ -10317,7 +10326,8 @@
         }
       ],
       "valuesSummary": "1600 Fire dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Water Pet Tier 16",
@@ -10331,7 +10341,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "summon",
         "pet"
@@ -10339,7 +10348,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     }
   ]
 }

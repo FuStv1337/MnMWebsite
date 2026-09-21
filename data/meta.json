@@ -1,9 +1,9 @@
 {
   "source": "https://monstersandmemories.miraheze.org/wiki/Spells_By_Class",
-  "fetchedAt": "2026-08-14T12:06:44.871Z",
+  "fetchedAt": "2026-09-21T13:34:30.375Z",
   "classCount": 18,
-  "totalEntries": 1602,
-  "uniqueEntries": 1156,
+  "totalEntries": 1711,
+  "uniqueEntries": 1344,
   "tags": [
     "damage",
     "dot",
@@ -43,5 +43,5 @@
     "aoe",
     "mana-drain"
   ],
-  "taggedAt": "2026-08-14T16:31:34.999Z"
+  "taggedAt": "2026-09-21T13:35:04.809Z"
 }

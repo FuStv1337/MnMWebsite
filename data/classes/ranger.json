@@ -66,7 +66,6 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "buff",
           "COR"
@@ -85,13 +84,14 @@
         "valuesSummary": "+5 Corruption Resistance",
         "statTags": [
           "COR"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Invisibility versus Animals",
         "slug": "Invisibility_versus_Animals",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Invisibility_versus_Animals",
-        "description": "Shroud a target group member in a cloak of invisibility, rendering them unseen by beasts for 10 minutes.",
+        "description": "Shrouds your target with invisibility versus beasts.",
         "category": "Div",
         "categorySlug": "Skill_Divination",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
@@ -99,7 +99,6 @@
         "mana": 20,
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "buff",
           "invisibility"
@@ -107,7 +106,8 @@
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Polar Align: North",
@@ -121,7 +121,6 @@
         "mana": 5,
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "utility",
           "self"
@@ -129,7 +128,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Taunt",
@@ -143,14 +143,14 @@
         "mana": "Innate",
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "taunt"
         ],
         "primaryTag": "taunt",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Strike",
@@ -164,7 +164,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -192,7 +191,8 @@
           }
         ],
         "valuesSummary": "150–350% dmg (L1–L60) · 1–50 Melee dmg (L1–L60)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Throw",
@@ -206,14 +206,14 @@
         "mana": "Innate",
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Weak Heal",
@@ -227,7 +227,6 @@
         "mana": 6,
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "heal"
         ],
@@ -241,7 +240,8 @@
           }
         ],
         "valuesSummary": "6 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "2": [
@@ -257,7 +257,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 2,
-        "type": "ability",
         "tags": [
           "buff"
         ],
@@ -310,7 +309,8 @@
           }
         ],
         "valuesSummary": "+5 Archery/Bludgeoning/Piercing/Throwing/Slashing · +1–15 Slashing by 5 and Dexterity (L1–L60)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "3": [
@@ -326,14 +326,14 @@
         "mana": "Innate",
         "castTime": null,
         "level": 3,
-        "type": "ability",
         "tags": [
           "interrupt"
         ],
         "primaryTag": "interrupt",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "4": [
@@ -349,7 +349,6 @@
         "mana": 5,
         "castTime": null,
         "level": 4,
-        "type": "ability",
         "tags": [
           "dot",
           "AC"
@@ -378,7 +377,8 @@
         "valuesSummary": "1 Fire/6s (60s) · −1 AC",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "5": [
@@ -394,7 +394,6 @@
         "mana": 10,
         "castTime": null,
         "level": 5,
-        "type": "ability",
         "tags": [
           "debuff",
           "slow"
@@ -412,7 +411,8 @@
           }
         ],
         "valuesSummary": "−35%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "6": [
@@ -428,7 +428,6 @@
         "mana": 10,
         "castTime": null,
         "level": 6,
-        "type": "ability",
         "tags": [
           "buff",
           "utility",
@@ -448,7 +447,8 @@
         "valuesSummary": "+5 Armor Class",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "7": [
@@ -464,7 +464,6 @@
         "mana": 10,
         "castTime": null,
         "level": 7,
-        "type": "ability",
         "tags": [
           "buff",
           "FR"
@@ -483,7 +482,8 @@
         "valuesSummary": "+5 Fire Resistance",
         "statTags": [
           "FR"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "8": [
@@ -499,14 +499,14 @@
         "mana": 10,
         "castTime": null,
         "level": 8,
-        "type": "ability",
         "tags": [
           "dispel"
         ],
         "primaryTag": "dispel",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Minor Heal",
@@ -520,7 +520,6 @@
         "mana": 8,
         "castTime": null,
         "level": 8,
-        "type": "ability",
         "tags": [
           "heal"
         ],
@@ -534,7 +533,8 @@
           }
         ],
         "valuesSummary": "10 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Shroud",
@@ -548,7 +548,6 @@
         "mana": 0,
         "castTime": null,
         "level": 8,
-        "type": "ability",
         "tags": [
           "invisibility",
           "self"
@@ -556,7 +555,8 @@
         "primaryTag": "invisibility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "9": [
@@ -572,7 +572,6 @@
         "mana": 15,
         "castTime": null,
         "level": 9,
-        "type": "ability",
         "tags": [
           "crowd-control",
           "root"
@@ -587,7 +586,8 @@
           }
         ],
         "valuesSummary": "30s duration",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "10": [
@@ -603,7 +603,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 10,
-        "type": "ability",
         "tags": [
           "damage",
           "THREAT",
@@ -651,7 +650,8 @@
         "valuesSummary": "90% weapon dmg · 1–20 Physical dmg (L1–L60) · +25–250 Threat (L1–L60)",
         "statTags": [
           "THREAT"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "11": [
@@ -667,7 +667,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 11,
-        "type": "ability",
         "tags": [
           "buff",
           "self",
@@ -706,7 +705,8 @@
           }
         ],
         "valuesSummary": "+1–7 Ranged Damage dealt (L1–L60) · 1–7 Fire dmg (L1–L60) · −100%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Imbue Weapon: Fire",
@@ -720,7 +720,6 @@
         "mana": 25,
         "castTime": null,
         "level": 11,
-        "type": "ability",
         "tags": [
           "damage",
           "buff",
@@ -740,7 +739,8 @@
           }
         ],
         "valuesSummary": "7–75 Fire dmg (L1–L60)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Poison Protection",
@@ -754,7 +754,6 @@
         "mana": 10,
         "castTime": null,
         "level": 11,
-        "type": "ability",
         "tags": [
           "buff",
           "PR"
@@ -773,7 +772,8 @@
         "valuesSummary": "+5 Poison Resistance",
         "statTags": [
           "PR"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "12": [
@@ -789,7 +789,6 @@
         "mana": 10,
         "castTime": null,
         "level": 12,
-        "type": "ability",
         "tags": [
           "buff",
           "CR"
@@ -808,7 +807,8 @@
         "valuesSummary": "+4 Cold Resistance",
         "statTags": [
           "CR"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Lesser Heal",
@@ -822,7 +822,6 @@
         "mana": 20,
         "castTime": null,
         "level": 12,
-        "type": "ability",
         "tags": [
           "heal"
         ],
@@ -836,7 +835,8 @@
           }
         ],
         "valuesSummary": "25 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Lull Exceptional Beasts",
@@ -850,7 +850,6 @@
         "mana": 10,
         "castTime": null,
         "level": 12,
-        "type": "ability",
         "tags": [
           "debuff",
           "crowd-control"
@@ -858,7 +857,8 @@
         "primaryTag": "crowd-control",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "13": [
@@ -874,14 +874,14 @@
         "mana": "Innate",
         "castTime": null,
         "level": 13,
-        "type": "ability",
         "tags": [
           "invisibility"
         ],
         "primaryTag": "invisibility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "14": [
@@ -897,7 +897,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 14,
-        "type": "ability",
         "tags": [
           "buff",
           "self"
@@ -922,7 +921,8 @@
           }
         ],
         "valuesSummary": "+100% · +10 Archery and Offense",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "15": [
@@ -938,14 +938,14 @@
         "mana": 20,
         "castTime": null,
         "level": 15,
-        "type": "ability",
         "tags": [
           "invisibility"
         ],
         "primaryTag": "invisibility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Salvage Arrows",
@@ -959,14 +959,14 @@
         "mana": 0,
         "castTime": null,
         "level": 15,
-        "type": "ability",
         "tags": [
           "utility"
         ],
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "16": [
@@ -982,7 +982,6 @@
         "mana": 15,
         "castTime": null,
         "level": 16,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -1000,7 +999,8 @@
           }
         ],
         "valuesSummary": "12–15 Fire dmg (L4–L7)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Sense Magic",
@@ -1014,7 +1014,6 @@
         "mana": 20,
         "castTime": null,
         "level": 16,
-        "type": "ability",
         "tags": [
           "buff",
           "utility"
@@ -1022,7 +1021,8 @@
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "17": [
@@ -1038,7 +1038,6 @@
         "mana": 20,
         "castTime": null,
         "level": 17,
-        "type": "ability",
         "tags": [
           "crowd-control",
           "fear"
@@ -1046,7 +1045,8 @@
         "primaryTag": "fear",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "18": [
@@ -1062,7 +1062,6 @@
         "mana": 20,
         "castTime": null,
         "level": 18,
-        "type": "ability",
         "tags": [
           "buff",
           "utility"
@@ -1070,7 +1069,8 @@
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "19": [
@@ -1086,7 +1086,6 @@
         "mana": 25,
         "castTime": null,
         "level": 19,
-        "type": "ability",
         "tags": [
           "buff",
           "thorns"
@@ -1102,7 +1101,8 @@
           }
         ],
         "valuesSummary": "5 thorns/hit",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Prickly Tunic",
@@ -1116,7 +1116,6 @@
         "mana": 25,
         "castTime": null,
         "level": 19,
-        "type": "ability",
         "tags": [
           "buff",
           "thorns",
@@ -1144,7 +1143,8 @@
         "valuesSummary": "1 thorns/hit · +10 Armor Class",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "20": [
@@ -1160,7 +1160,6 @@
         "mana": 20,
         "castTime": null,
         "level": 20,
-        "type": "ability",
         "tags": [
           "buff",
           "HP REGEN"
@@ -1179,7 +1178,8 @@
         "valuesSummary": "+2 Health Regeneration",
         "statTags": [
           "HP REGEN"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "See Invisibility",
@@ -1193,7 +1193,6 @@
         "mana": 20,
         "castTime": null,
         "level": 20,
-        "type": "ability",
         "tags": [
           "buff",
           "invisibility",
@@ -1202,7 +1201,8 @@
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Stoneskin",
@@ -1216,7 +1216,6 @@
         "mana": 30,
         "castTime": null,
         "level": 20,
-        "type": "ability",
         "tags": [
           "buff",
           "utility",
@@ -1236,7 +1235,8 @@
         "valuesSummary": "+10 Armor Class",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Speed of the Wild",
@@ -1250,7 +1250,6 @@
         "mana": 20,
         "castTime": null,
         "level": 20,
-        "type": "ability",
         "tags": [
           "buff",
           "movement"
@@ -1269,7 +1268,8 @@
           }
         ],
         "valuesSummary": "+40–58%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Unity",
@@ -1283,14 +1283,14 @@
         "mana": 30,
         "castTime": null,
         "level": 20,
-        "type": "ability",
         "tags": [
           "debuff"
         ],
         "primaryTag": "debuff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "21": [
@@ -1306,14 +1306,14 @@
         "mana": 10,
         "castTime": null,
         "level": 21,
-        "type": "ability",
         "tags": [
           "buff"
         ],
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Ice Arrows",
@@ -1327,7 +1327,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 21,
-        "type": "ability",
         "tags": [
           "buff",
           "debuff",
@@ -1358,7 +1357,8 @@
           }
         ],
         "valuesSummary": "1–7 Cold dmg (L1–L60) · +1–7 Ranged Damage dealt (L1–L60)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Imbue Weapon: Ice",
@@ -1372,7 +1372,6 @@
         "mana": 25,
         "castTime": null,
         "level": 21,
-        "type": "ability",
         "tags": [
           "buff",
           "self"
@@ -1380,7 +1379,8 @@
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "22": [
@@ -1396,7 +1396,6 @@
         "mana": 50,
         "castTime": null,
         "level": 22,
-        "type": "ability",
         "tags": [
           "dot"
         ],
@@ -1414,7 +1413,8 @@
           }
         ],
         "valuesSummary": "10 Poison/6s (60s)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "23": [
@@ -1430,7 +1430,6 @@
         "mana": 10,
         "castTime": null,
         "level": 23,
-        "type": "ability",
         "tags": [
           "dot",
           "AC"
@@ -1459,7 +1458,8 @@
         "valuesSummary": "3 Fire/6s (60s) · −6 AC",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "24": [
@@ -1475,7 +1475,6 @@
         "mana": 40,
         "castTime": null,
         "level": 24,
-        "type": "ability",
         "tags": [
           "buff",
           "COR"
@@ -1494,7 +1493,8 @@
         "valuesSummary": "+15 Corruption Resistance",
         "statTags": [
           "COR"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Jackal Form",
@@ -1508,7 +1508,6 @@
         "mana": 50,
         "castTime": null,
         "level": 24,
-        "type": "ability",
         "tags": [
           "buff",
           "movement",
@@ -1528,7 +1527,8 @@
           }
         ],
         "valuesSummary": "+40–60%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Magmaburst",
@@ -1542,7 +1542,6 @@
         "mana": 30,
         "castTime": null,
         "level": 24,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -1557,7 +1556,8 @@
           }
         ],
         "valuesSummary": "40 Fire dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Wolf Form",
@@ -1571,7 +1571,6 @@
         "mana": 50,
         "castTime": null,
         "level": 24,
-        "type": "ability",
         "tags": [
           "buff",
           "movement",
@@ -1591,7 +1590,8 @@
           }
         ],
         "valuesSummary": "+40–60%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "26": [
@@ -1607,12 +1607,12 @@
         "mana": "",
         "castTime": null,
         "level": 26,
-        "type": "ability",
         "tags": [],
         "primaryTag": null,
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "28": [
@@ -1628,14 +1628,14 @@
         "mana": 15,
         "castTime": null,
         "level": 28,
-        "type": "ability",
         "tags": [
           "debuff"
         ],
         "primaryTag": "debuff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "30": [
@@ -1651,7 +1651,6 @@
         "mana": 90,
         "castTime": null,
         "level": 30,
-        "type": "ability",
         "tags": [
           "dot"
         ],
@@ -1669,7 +1668,8 @@
           }
         ],
         "valuesSummary": "20 Poison/6s (60s)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "31": [
@@ -1685,7 +1685,6 @@
         "mana": 25,
         "castTime": null,
         "level": 31,
-        "type": "ability",
         "tags": [
           "damage",
           "buff",
@@ -1705,7 +1704,8 @@
           }
         ],
         "valuesSummary": "7–75 Magic dmg (L1–L60)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Nature Arrows",
@@ -1719,7 +1719,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 31,
-        "type": "ability",
         "tags": [
           "buff",
           "self",
@@ -1758,7 +1757,8 @@
           }
         ],
         "valuesSummary": "+1–7 Ranged Damage dealt (L1–L60) · 1–7 Magic dmg (L1–L60) · −100%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "32": [
@@ -1774,7 +1774,6 @@
         "mana": "",
         "castTime": null,
         "level": 32,
-        "type": "ability",
         "tags": [
           "buff",
           "thorns"
@@ -1790,7 +1789,8 @@
           }
         ],
         "valuesSummary": "10 thorns/hit",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Bristly Tunic",
@@ -1804,7 +1804,6 @@
         "mana": 30,
         "castTime": null,
         "level": 32,
-        "type": "ability",
         "tags": [
           "buff",
           "thorns",
@@ -1832,7 +1831,8 @@
         "valuesSummary": "3 thorns/hit · +15 Armor Class",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Heal",
@@ -1846,7 +1846,6 @@
         "mana": 40,
         "castTime": null,
         "level": 32,
-        "type": "ability",
         "tags": [
           "heal"
         ],
@@ -1860,7 +1859,8 @@
           }
         ],
         "valuesSummary": "70 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Lesser Regeneration",
@@ -1874,7 +1874,6 @@
         "mana": 50,
         "castTime": null,
         "level": 32,
-        "type": "ability",
         "tags": [
           "buff",
           "HP REGEN"
@@ -1893,7 +1892,8 @@
         "valuesSummary": "+5 Health Regeneration",
         "statTags": [
           "HP REGEN"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "35": [
@@ -1909,7 +1909,6 @@
         "mana": 45,
         "castTime": null,
         "level": 35,
-        "type": "ability",
         "tags": [
           "dot",
           "AC"
@@ -1938,7 +1937,8 @@
         "valuesSummary": "15 Fire/6s (60s) · −13 AC",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "36": [
@@ -1954,7 +1954,6 @@
         "mana": 10,
         "castTime": null,
         "level": 36,
-        "type": "ability",
         "tags": [
           "dispel",
           "summon"
@@ -1962,7 +1961,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "38": [
@@ -1978,7 +1978,6 @@
         "mana": 125,
         "castTime": null,
         "level": 38,
-        "type": "ability",
         "tags": [
           "dot"
         ],
@@ -1996,7 +1995,8 @@
           }
         ],
         "valuesSummary": "30 Poison/6s (60s)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "40": [
@@ -2012,7 +2012,6 @@
         "mana": 75,
         "castTime": null,
         "level": 40,
-        "type": "ability",
         "tags": [
           "buff",
           "thorns"
@@ -2028,7 +2027,8 @@
           }
         ],
         "valuesSummary": "15 thorns/hit",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Brambly Tunic",
@@ -2042,7 +2042,6 @@
         "mana": 45,
         "castTime": null,
         "level": 40,
-        "type": "ability",
         "tags": [
           "buff",
           "thorns",
@@ -2070,7 +2069,8 @@
         "valuesSummary": "4 thorns/hit · +20 Armor Class",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Death's Demise",
@@ -2084,12 +2084,12 @@
         "mana": "Innate",
         "castTime": null,
         "level": 40,
-        "type": "ability",
         "tags": [],
         "primaryTag": null,
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Greater Shroud",
@@ -2103,7 +2103,6 @@
         "mana": 0,
         "castTime": null,
         "level": 40,
-        "type": "ability",
         "tags": [
           "invisibility",
           "self"
@@ -2111,7 +2110,8 @@
         "primaryTag": "invisibility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Lavaburst",
@@ -2125,7 +2125,6 @@
         "mana": 75,
         "castTime": null,
         "level": 40,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -2140,7 +2139,8 @@
           }
         ],
         "valuesSummary": "120 Fire dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Steelskin",
@@ -2154,7 +2154,6 @@
         "mana": 60,
         "castTime": null,
         "level": 40,
-        "type": "ability",
         "tags": [
           "buff",
           "utility",
@@ -2174,7 +2173,8 @@
         "valuesSummary": "+15 Armor Class",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "41": [
@@ -2190,7 +2190,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 41,
-        "type": "ability",
         "tags": [
           "buff",
           "crowd-control",
@@ -2221,7 +2220,8 @@
           }
         ],
         "valuesSummary": "1–7 Electricity dmg (L1–L60) · +1–7 Ranged Damage dealt (L1–L60)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "44": [
@@ -2237,7 +2237,6 @@
         "mana": 40,
         "castTime": null,
         "level": 44,
-        "type": "ability",
         "tags": [
           "buff",
           "CR"
@@ -2256,7 +2255,8 @@
         "valuesSummary": "+15 Cold Resistance",
         "statTags": [
           "CR"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Fire Resistance",
@@ -2270,7 +2270,6 @@
         "mana": 40,
         "castTime": null,
         "level": 44,
-        "type": "ability",
         "tags": [
           "buff",
           "FR"
@@ -2289,7 +2288,8 @@
         "valuesSummary": "+15 Fire Resistance",
         "statTags": [
           "FR"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Poison Resistance",
@@ -2303,7 +2303,6 @@
         "mana": 40,
         "castTime": null,
         "level": 44,
-        "type": "ability",
         "tags": [
           "buff",
           "PR"
@@ -2322,13 +2321,14 @@
         "valuesSummary": "+15 Poison Resistance",
         "statTags": [
           "PR"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Regeneration",
         "slug": "Regeneration",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Regeneration",
-        "description": "Moderately regenerate your target, increasing their Health Regeneration by 7 for 40 minutes.",
+        "description": "Moderately regenerate your target, increasing their Health Regeneration by 7 for 48 minutes.",
         "category": "Alt",
         "categorySlug": "Skill_Alteration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -2336,7 +2336,6 @@
         "mana": 125,
         "castTime": null,
         "level": 44,
-        "type": "ability",
         "tags": [
           "buff",
           "HP REGEN"
@@ -2355,7 +2354,8 @@
         "valuesSummary": "+7 Health Regeneration",
         "statTags": [
           "HP REGEN"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "46": [
@@ -2371,7 +2371,6 @@
         "mana": "",
         "castTime": null,
         "level": 46,
-        "type": "ability",
         "tags": [
           "dot"
         ],
@@ -2389,7 +2388,8 @@
           }
         ],
         "valuesSummary": "45 Poison/6s (60s)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "47": [
@@ -2405,7 +2405,6 @@
         "mana": "",
         "castTime": null,
         "level": 47,
-        "type": "ability",
         "tags": [
           "dot",
           "AC"
@@ -2434,7 +2433,8 @@
         "valuesSummary": "20 Fire/6s (60s) · −19 AC",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "48": [
@@ -2442,7 +2442,7 @@
         "name": "Speed of Predator",
         "slug": "Speed_of_Predator",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Speed_of_Predator",
-        "description": "Infuse yourself with bestial speed, increasing your Movement Speed by 100% for 1 minute. Can only be used outdoors.",
+        "description": "Infuse yourself with bestial speed, increasing your Movement Speed by 100% for 1 minute. Only useable outdoors.",
         "category": "Alt",
         "categorySlug": "Skill_Alteration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -2450,7 +2450,6 @@
         "mana": "",
         "castTime": null,
         "level": 48,
-        "type": "ability",
         "tags": [
           "buff",
           "movement",
@@ -2470,7 +2469,8 @@
           }
         ],
         "valuesSummary": "+100%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Spiky Barrier",
@@ -2484,7 +2484,6 @@
         "mana": "",
         "castTime": null,
         "level": 48,
-        "type": "ability",
         "tags": [
           "buff",
           "thorns"
@@ -2500,7 +2499,8 @@
           }
         ],
         "valuesSummary": "20 thorns/hit",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Spiky Tunic",
@@ -2514,7 +2514,6 @@
         "mana": 65,
         "castTime": null,
         "level": 48,
-        "type": "ability",
         "tags": [
           "buff",
           "thorns",
@@ -2542,7 +2541,8 @@
         "valuesSummary": "5 thorns/hit · +25 Armor Class",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "49": [
@@ -2558,7 +2558,6 @@
         "mana": 105,
         "castTime": null,
         "level": 49,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -2573,7 +2572,8 @@
           }
         ],
         "valuesSummary": "200 Fire dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "50": [
@@ -2589,7 +2589,6 @@
         "mana": "",
         "castTime": null,
         "level": 50,
-        "type": "ability",
         "tags": [
           "debuff",
           "slow"
@@ -2607,7 +2606,8 @@
           }
         ],
         "valuesSummary": "−50%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Greater Camouflage",
@@ -2621,14 +2621,14 @@
         "mana": "",
         "castTime": null,
         "level": 50,
-        "type": "ability",
         "tags": [
           "invisibility"
         ],
         "primaryTag": "invisibility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "52": [
@@ -2644,7 +2644,6 @@
         "mana": 90,
         "castTime": null,
         "level": 52,
-        "type": "ability",
         "tags": [
           "buff",
           "utility",
@@ -2664,7 +2663,8 @@
         "valuesSummary": "+20 Armor Class",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "54": [
@@ -2680,7 +2680,6 @@
         "mana": 210,
         "castTime": null,
         "level": 54,
-        "type": "ability",
         "tags": [
           "dot"
         ],
@@ -2698,7 +2697,8 @@
           }
         ],
         "valuesSummary": "70 Poison/6s (60s)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "55": [
@@ -2714,7 +2714,6 @@
         "mana": 140,
         "castTime": null,
         "level": 55,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -2729,7 +2728,8 @@
           }
         ],
         "valuesSummary": "325 Fire dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "56": [
@@ -2745,7 +2745,6 @@
         "mana": 170,
         "castTime": null,
         "level": 56,
-        "type": "ability",
         "tags": [
           "heal"
         ],
@@ -2759,7 +2758,8 @@
           }
         ],
         "valuesSummary": "325 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Greater Regeneration",
@@ -2773,7 +2773,6 @@
         "mana": 150,
         "castTime": null,
         "level": 56,
-        "type": "ability",
         "tags": [
           "buff",
           "HP REGEN"
@@ -2792,7 +2791,8 @@
         "valuesSummary": "+11 Health Regeneration",
         "statTags": [
           "HP REGEN"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Thorny Barrier",
@@ -2806,7 +2806,6 @@
         "mana": 125,
         "castTime": null,
         "level": 56,
-        "type": "ability",
         "tags": [
           "buff",
           "thorns"
@@ -2822,7 +2821,8 @@
           }
         ],
         "valuesSummary": "25 thorns/hit",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Thorny Tunic",
@@ -2836,7 +2836,6 @@
         "mana": 80,
         "castTime": null,
         "level": 56,
-        "type": "ability",
         "tags": [
           "buff",
           "thorns",
@@ -2864,7 +2863,8 @@
         "valuesSummary": "6 thorns/hit · +30 Armor Class",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "59": [
@@ -2880,7 +2880,6 @@
         "mana": "",
         "castTime": null,
         "level": 59,
-        "type": "ability",
         "tags": [
           "dot",
           "AC"
@@ -2909,7 +2908,8 @@
         "valuesSummary": "30 Fire/6s (60s) · −25 AC",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       }
     ]
   },
@@ -2926,7 +2926,6 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "buff",
         "COR"
@@ -2945,13 +2944,14 @@
       "valuesSummary": "+5 Corruption Resistance",
       "statTags": [
         "COR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Invisibility versus Animals",
       "slug": "Invisibility_versus_Animals",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Invisibility_versus_Animals",
-      "description": "Shroud a target group member in a cloak of invisibility, rendering them unseen by beasts for 10 minutes.",
+      "description": "Shrouds your target with invisibility versus beasts.",
       "category": "Div",
       "categorySlug": "Skill_Divination",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
@@ -2959,7 +2959,6 @@
       "mana": 20,
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "buff",
         "invisibility"
@@ -2967,7 +2966,8 @@
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Polar Align: North",
@@ -2981,7 +2981,6 @@
       "mana": 5,
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "utility",
         "self"
@@ -2989,7 +2988,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Taunt",
@@ -3003,14 +3003,14 @@
       "mana": "Innate",
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "taunt"
       ],
       "primaryTag": "taunt",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Strike",
@@ -3024,7 +3024,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -3052,7 +3051,8 @@
         }
       ],
       "valuesSummary": "150–350% dmg (L1–L60) · 1–50 Melee dmg (L1–L60)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Throw",
@@ -3066,14 +3066,14 @@
       "mana": "Innate",
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Weak Heal",
@@ -3087,7 +3087,6 @@
       "mana": 6,
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "heal"
       ],
@@ -3101,7 +3100,8 @@
         }
       ],
       "valuesSummary": "6 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Truestrike Aura",
@@ -3115,7 +3115,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 2,
-      "type": "ability",
       "tags": [
         "buff"
       ],
@@ -3168,7 +3167,8 @@
         }
       ],
       "valuesSummary": "+5 Archery/Bludgeoning/Piercing/Throwing/Slashing · +1–15 Slashing by 5 and Dexterity (L1–L60)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Kick",
@@ -3182,14 +3182,14 @@
       "mana": "Innate",
       "castTime": null,
       "level": 3,
-      "type": "ability",
       "tags": [
         "interrupt"
       ],
       "primaryTag": "interrupt",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Burning Embers",
@@ -3203,7 +3203,6 @@
       "mana": 5,
       "castTime": null,
       "level": 4,
-      "type": "ability",
       "tags": [
         "dot",
         "AC"
@@ -3232,7 +3231,8 @@
       "valuesSummary": "1 Fire/6s (60s) · −1 AC",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Snare",
@@ -3246,7 +3246,6 @@
       "mana": 10,
       "castTime": null,
       "level": 5,
-      "type": "ability",
       "tags": [
         "debuff",
         "slow"
@@ -3264,7 +3263,8 @@
         }
       ],
       "valuesSummary": "−35%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Woodskin",
@@ -3278,7 +3278,6 @@
       "mana": 10,
       "castTime": null,
       "level": 6,
-      "type": "ability",
       "tags": [
         "buff",
         "utility",
@@ -3298,7 +3297,8 @@
       "valuesSummary": "+5 Armor Class",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Fire Protection",
@@ -3312,7 +3312,6 @@
       "mana": 10,
       "castTime": null,
       "level": 7,
-      "type": "ability",
       "tags": [
         "buff",
         "FR"
@@ -3331,7 +3330,8 @@
       "valuesSummary": "+5 Fire Resistance",
       "statTags": [
         "FR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Cure Disease",
@@ -3345,14 +3345,14 @@
       "mana": 10,
       "castTime": null,
       "level": 8,
-      "type": "ability",
       "tags": [
         "dispel"
       ],
       "primaryTag": "dispel",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Minor Heal",
@@ -3366,7 +3366,6 @@
       "mana": 8,
       "castTime": null,
       "level": 8,
-      "type": "ability",
       "tags": [
         "heal"
       ],
@@ -3380,7 +3379,8 @@
         }
       ],
       "valuesSummary": "10 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Shroud",
@@ -3394,7 +3394,6 @@
       "mana": 0,
       "castTime": null,
       "level": 8,
-      "type": "ability",
       "tags": [
         "invisibility",
         "self"
@@ -3402,7 +3401,8 @@
       "primaryTag": "invisibility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Twisting Roots",
@@ -3416,7 +3416,6 @@
       "mana": 15,
       "castTime": null,
       "level": 9,
-      "type": "ability",
       "tags": [
         "crowd-control",
         "root"
@@ -3431,7 +3430,8 @@
         }
       ],
       "valuesSummary": "30s duration",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Whistling Shot",
@@ -3445,7 +3445,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 10,
-      "type": "ability",
       "tags": [
         "damage",
         "THREAT",
@@ -3493,7 +3492,8 @@
       "valuesSummary": "90% weapon dmg · 1–20 Physical dmg (L1–L60) · +25–250 Threat (L1–L60)",
       "statTags": [
         "THREAT"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Fire Arrows",
@@ -3507,7 +3507,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 11,
-      "type": "ability",
       "tags": [
         "buff",
         "self",
@@ -3546,7 +3545,8 @@
         }
       ],
       "valuesSummary": "+1–7 Ranged Damage dealt (L1–L60) · 1–7 Fire dmg (L1–L60) · −100%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Imbue Weapon: Fire",
@@ -3560,7 +3560,6 @@
       "mana": 25,
       "castTime": null,
       "level": 11,
-      "type": "ability",
       "tags": [
         "damage",
         "buff",
@@ -3580,7 +3579,8 @@
         }
       ],
       "valuesSummary": "7–75 Fire dmg (L1–L60)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Poison Protection",
@@ -3594,7 +3594,6 @@
       "mana": 10,
       "castTime": null,
       "level": 11,
-      "type": "ability",
       "tags": [
         "buff",
         "PR"
@@ -3613,7 +3612,8 @@
       "valuesSummary": "+5 Poison Resistance",
       "statTags": [
         "PR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Cold Protection",
@@ -3627,7 +3627,6 @@
       "mana": 10,
       "castTime": null,
       "level": 12,
-      "type": "ability",
       "tags": [
         "buff",
         "CR"
@@ -3646,7 +3645,8 @@
       "valuesSummary": "+4 Cold Resistance",
       "statTags": [
         "CR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Lesser Heal",
@@ -3660,7 +3660,6 @@
       "mana": 20,
       "castTime": null,
       "level": 12,
-      "type": "ability",
       "tags": [
         "heal"
       ],
@@ -3674,7 +3673,8 @@
         }
       ],
       "valuesSummary": "25 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Lull Exceptional Beasts",
@@ -3688,7 +3688,6 @@
       "mana": 10,
       "castTime": null,
       "level": 12,
-      "type": "ability",
       "tags": [
         "debuff",
         "crowd-control"
@@ -3696,7 +3695,8 @@
       "primaryTag": "crowd-control",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Sneak",
@@ -3710,14 +3710,14 @@
       "mana": "Innate",
       "castTime": null,
       "level": 13,
-      "type": "ability",
       "tags": [
         "invisibility"
       ],
       "primaryTag": "invisibility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Truestrike",
@@ -3731,7 +3731,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 14,
-      "type": "ability",
       "tags": [
         "buff",
         "self"
@@ -3756,7 +3755,8 @@
         }
       ],
       "valuesSummary": "+100% · +10 Archery and Offense",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Camouflage",
@@ -3770,14 +3770,14 @@
       "mana": 20,
       "castTime": null,
       "level": 15,
-      "type": "ability",
       "tags": [
         "invisibility"
       ],
       "primaryTag": "invisibility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Salvage Arrows",
@@ -3791,14 +3791,14 @@
       "mana": 0,
       "castTime": null,
       "level": 15,
-      "type": "ability",
       "tags": [
         "utility"
       ],
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Fireburst",
@@ -3812,7 +3812,6 @@
       "mana": 15,
       "castTime": null,
       "level": 16,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -3830,7 +3829,8 @@
         }
       ],
       "valuesSummary": "12–15 Fire dmg (L4–L7)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Sense Magic",
@@ -3844,7 +3844,6 @@
       "mana": 20,
       "castTime": null,
       "level": 16,
-      "type": "ability",
       "tags": [
         "buff",
         "utility"
@@ -3852,7 +3851,8 @@
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Fear Beast",
@@ -3866,7 +3866,6 @@
       "mana": 20,
       "castTime": null,
       "level": 17,
-      "type": "ability",
       "tags": [
         "crowd-control",
         "fear"
@@ -3874,7 +3873,8 @@
       "primaryTag": "fear",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Enduring Breath",
@@ -3888,7 +3888,6 @@
       "mana": 20,
       "castTime": null,
       "level": 18,
-      "type": "ability",
       "tags": [
         "buff",
         "utility"
@@ -3896,7 +3895,8 @@
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Prickly Barrier",
@@ -3910,7 +3910,6 @@
       "mana": 25,
       "castTime": null,
       "level": 19,
-      "type": "ability",
       "tags": [
         "buff",
         "thorns"
@@ -3926,7 +3925,8 @@
         }
       ],
       "valuesSummary": "5 thorns/hit",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Prickly Tunic",
@@ -3940,7 +3940,6 @@
       "mana": 25,
       "castTime": null,
       "level": 19,
-      "type": "ability",
       "tags": [
         "buff",
         "thorns",
@@ -3968,7 +3967,8 @@
       "valuesSummary": "1 thorns/hit · +10 Armor Class",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Minor Regeneration",
@@ -3982,7 +3982,6 @@
       "mana": 20,
       "castTime": null,
       "level": 20,
-      "type": "ability",
       "tags": [
         "buff",
         "HP REGEN"
@@ -4001,7 +4000,8 @@
       "valuesSummary": "+2 Health Regeneration",
       "statTags": [
         "HP REGEN"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "See Invisibility",
@@ -4015,7 +4015,6 @@
       "mana": 20,
       "castTime": null,
       "level": 20,
-      "type": "ability",
       "tags": [
         "buff",
         "invisibility",
@@ -4024,7 +4023,8 @@
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Stoneskin",
@@ -4038,7 +4038,6 @@
       "mana": 30,
       "castTime": null,
       "level": 20,
-      "type": "ability",
       "tags": [
         "buff",
         "utility",
@@ -4058,7 +4057,8 @@
       "valuesSummary": "+10 Armor Class",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Speed of the Wild",
@@ -4072,7 +4072,6 @@
       "mana": 20,
       "castTime": null,
       "level": 20,
-      "type": "ability",
       "tags": [
         "buff",
         "movement"
@@ -4091,7 +4090,8 @@
         }
       ],
       "valuesSummary": "+40–58%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Unity",
@@ -4105,14 +4105,14 @@
       "mana": 30,
       "castTime": null,
       "level": 20,
-      "type": "ability",
       "tags": [
         "debuff"
       ],
       "primaryTag": "debuff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Bind Vision",
@@ -4126,14 +4126,14 @@
       "mana": 10,
       "castTime": null,
       "level": 21,
-      "type": "ability",
       "tags": [
         "buff"
       ],
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Ice Arrows",
@@ -4147,7 +4147,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 21,
-      "type": "ability",
       "tags": [
         "buff",
         "debuff",
@@ -4178,7 +4177,8 @@
         }
       ],
       "valuesSummary": "1–7 Cold dmg (L1–L60) · +1–7 Ranged Damage dealt (L1–L60)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Imbue Weapon: Ice",
@@ -4192,7 +4192,6 @@
       "mana": 25,
       "castTime": null,
       "level": 21,
-      "type": "ability",
       "tags": [
         "buff",
         "self"
@@ -4200,7 +4199,8 @@
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Insect Swarm",
@@ -4214,7 +4214,6 @@
       "mana": 50,
       "castTime": null,
       "level": 22,
-      "type": "ability",
       "tags": [
         "dot"
       ],
@@ -4232,7 +4231,8 @@
         }
       ],
       "valuesSummary": "10 Poison/6s (60s)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Scorching Embers",
@@ -4246,7 +4246,6 @@
       "mana": 10,
       "castTime": null,
       "level": 23,
-      "type": "ability",
       "tags": [
         "dot",
         "AC"
@@ -4275,7 +4274,8 @@
       "valuesSummary": "3 Fire/6s (60s) · −6 AC",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Corruption Resistance",
@@ -4289,7 +4289,6 @@
       "mana": 40,
       "castTime": null,
       "level": 24,
-      "type": "ability",
       "tags": [
         "buff",
         "COR"
@@ -4308,7 +4307,8 @@
       "valuesSummary": "+15 Corruption Resistance",
       "statTags": [
         "COR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Jackal Form",
@@ -4322,7 +4322,6 @@
       "mana": 50,
       "castTime": null,
       "level": 24,
-      "type": "ability",
       "tags": [
         "buff",
         "movement",
@@ -4342,7 +4341,8 @@
         }
       ],
       "valuesSummary": "+40–60%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Magmaburst",
@@ -4356,7 +4356,6 @@
       "mana": 30,
       "castTime": null,
       "level": 24,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -4371,7 +4370,8 @@
         }
       ],
       "valuesSummary": "40 Fire dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Wolf Form",
@@ -4385,7 +4385,6 @@
       "mana": 50,
       "castTime": null,
       "level": 24,
-      "type": "ability",
       "tags": [
         "buff",
         "movement",
@@ -4405,7 +4404,8 @@
         }
       ],
       "valuesSummary": "+40–60%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Hearth of the Ranger",
@@ -4419,12 +4419,12 @@
       "mana": "",
       "castTime": null,
       "level": 26,
-      "type": "ability",
       "tags": [],
       "primaryTag": null,
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Unification",
@@ -4438,14 +4438,14 @@
       "mana": 15,
       "castTime": null,
       "level": 28,
-      "type": "ability",
       "tags": [
         "debuff"
       ],
       "primaryTag": "debuff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Stinging Swarm",
@@ -4459,7 +4459,6 @@
       "mana": 90,
       "castTime": null,
       "level": 30,
-      "type": "ability",
       "tags": [
         "dot"
       ],
@@ -4477,7 +4476,8 @@
         }
       ],
       "valuesSummary": "20 Poison/6s (60s)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Imbue Weapon: Nature",
@@ -4491,7 +4491,6 @@
       "mana": 25,
       "castTime": null,
       "level": 31,
-      "type": "ability",
       "tags": [
         "damage",
         "buff",
@@ -4511,7 +4510,8 @@
         }
       ],
       "valuesSummary": "7–75 Magic dmg (L1–L60)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Nature Arrows",
@@ -4525,7 +4525,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 31,
-      "type": "ability",
       "tags": [
         "buff",
         "self",
@@ -4564,7 +4563,8 @@
         }
       ],
       "valuesSummary": "+1–7 Ranged Damage dealt (L1–L60) · 1–7 Magic dmg (L1–L60) · −100%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Bristly Barrier",
@@ -4578,7 +4578,6 @@
       "mana": "",
       "castTime": null,
       "level": 32,
-      "type": "ability",
       "tags": [
         "buff",
         "thorns"
@@ -4594,7 +4593,8 @@
         }
       ],
       "valuesSummary": "10 thorns/hit",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Bristly Tunic",
@@ -4608,7 +4608,6 @@
       "mana": 30,
       "castTime": null,
       "level": 32,
-      "type": "ability",
       "tags": [
         "buff",
         "thorns",
@@ -4636,7 +4635,8 @@
       "valuesSummary": "3 thorns/hit · +15 Armor Class",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Heal",
@@ -4650,7 +4650,6 @@
       "mana": 40,
       "castTime": null,
       "level": 32,
-      "type": "ability",
       "tags": [
         "heal"
       ],
@@ -4664,7 +4663,8 @@
         }
       ],
       "valuesSummary": "70 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Lesser Regeneration",
@@ -4678,7 +4678,6 @@
       "mana": 50,
       "castTime": null,
       "level": 32,
-      "type": "ability",
       "tags": [
         "buff",
         "HP REGEN"
@@ -4697,7 +4696,8 @@
       "valuesSummary": "+5 Health Regeneration",
       "statTags": [
         "HP REGEN"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Flaming Embers",
@@ -4711,7 +4711,6 @@
       "mana": 45,
       "castTime": null,
       "level": 35,
-      "type": "ability",
       "tags": [
         "dot",
         "AC"
@@ -4740,7 +4739,8 @@
       "valuesSummary": "15 Fire/6s (60s) · −13 AC",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Summon: Cureberries",
@@ -4754,7 +4754,6 @@
       "mana": 10,
       "castTime": null,
       "level": 36,
-      "type": "ability",
       "tags": [
         "dispel",
         "summon"
@@ -4762,7 +4761,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Winged Swarm",
@@ -4776,7 +4776,6 @@
       "mana": 125,
       "castTime": null,
       "level": 38,
-      "type": "ability",
       "tags": [
         "dot"
       ],
@@ -4794,7 +4793,8 @@
         }
       ],
       "valuesSummary": "30 Poison/6s (60s)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Brambly Barrier",
@@ -4808,7 +4808,6 @@
       "mana": 75,
       "castTime": null,
       "level": 40,
-      "type": "ability",
       "tags": [
         "buff",
         "thorns"
@@ -4824,7 +4823,8 @@
         }
       ],
       "valuesSummary": "15 thorns/hit",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Brambly Tunic",
@@ -4838,7 +4838,6 @@
       "mana": 45,
       "castTime": null,
       "level": 40,
-      "type": "ability",
       "tags": [
         "buff",
         "thorns",
@@ -4866,7 +4865,8 @@
       "valuesSummary": "4 thorns/hit · +20 Armor Class",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Death's Demise",
@@ -4880,12 +4880,12 @@
       "mana": "Innate",
       "castTime": null,
       "level": 40,
-      "type": "ability",
       "tags": [],
       "primaryTag": null,
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Greater Shroud",
@@ -4899,7 +4899,6 @@
       "mana": 0,
       "castTime": null,
       "level": 40,
-      "type": "ability",
       "tags": [
         "invisibility",
         "self"
@@ -4907,7 +4906,8 @@
       "primaryTag": "invisibility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Lavaburst",
@@ -4921,7 +4921,6 @@
       "mana": 75,
       "castTime": null,
       "level": 40,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -4936,7 +4935,8 @@
         }
       ],
       "valuesSummary": "120 Fire dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Steelskin",
@@ -4950,7 +4950,6 @@
       "mana": 60,
       "castTime": null,
       "level": 40,
-      "type": "ability",
       "tags": [
         "buff",
         "utility",
@@ -4970,7 +4969,8 @@
       "valuesSummary": "+15 Armor Class",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Lightning Arrows",
@@ -4984,7 +4984,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 41,
-      "type": "ability",
       "tags": [
         "buff",
         "crowd-control",
@@ -5015,7 +5014,8 @@
         }
       ],
       "valuesSummary": "1–7 Electricity dmg (L1–L60) · +1–7 Ranged Damage dealt (L1–L60)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Cold Resistance",
@@ -5029,7 +5029,6 @@
       "mana": 40,
       "castTime": null,
       "level": 44,
-      "type": "ability",
       "tags": [
         "buff",
         "CR"
@@ -5048,7 +5047,8 @@
       "valuesSummary": "+15 Cold Resistance",
       "statTags": [
         "CR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Fire Resistance",
@@ -5062,7 +5062,6 @@
       "mana": 40,
       "castTime": null,
       "level": 44,
-      "type": "ability",
       "tags": [
         "buff",
         "FR"
@@ -5081,7 +5080,8 @@
       "valuesSummary": "+15 Fire Resistance",
       "statTags": [
         "FR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Poison Resistance",
@@ -5095,7 +5095,6 @@
       "mana": 40,
       "castTime": null,
       "level": 44,
-      "type": "ability",
       "tags": [
         "buff",
         "PR"
@@ -5114,13 +5113,14 @@
       "valuesSummary": "+15 Poison Resistance",
       "statTags": [
         "PR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Regeneration",
       "slug": "Regeneration",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Regeneration",
-      "description": "Moderately regenerate your target, increasing their Health Regeneration by 7 for 40 minutes.",
+      "description": "Moderately regenerate your target, increasing their Health Regeneration by 7 for 48 minutes.",
       "category": "Alt",
       "categorySlug": "Skill_Alteration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -5128,7 +5128,6 @@
       "mana": 125,
       "castTime": null,
       "level": 44,
-      "type": "ability",
       "tags": [
         "buff",
         "HP REGEN"
@@ -5147,7 +5146,8 @@
       "valuesSummary": "+7 Health Regeneration",
       "statTags": [
         "HP REGEN"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Locust Swarm",
@@ -5161,7 +5161,6 @@
       "mana": "",
       "castTime": null,
       "level": 46,
-      "type": "ability",
       "tags": [
         "dot"
       ],
@@ -5179,7 +5178,8 @@
         }
       ],
       "valuesSummary": "45 Poison/6s (60s)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Blazing Embers",
@@ -5193,7 +5193,6 @@
       "mana": "",
       "castTime": null,
       "level": 47,
-      "type": "ability",
       "tags": [
         "dot",
         "AC"
@@ -5222,13 +5221,14 @@
       "valuesSummary": "20 Fire/6s (60s) · −19 AC",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Speed of Predator",
       "slug": "Speed_of_Predator",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Speed_of_Predator",
-      "description": "Infuse yourself with bestial speed, increasing your Movement Speed by 100% for 1 minute. Can only be used outdoors.",
+      "description": "Infuse yourself with bestial speed, increasing your Movement Speed by 100% for 1 minute. Only useable outdoors.",
       "category": "Alt",
       "categorySlug": "Skill_Alteration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -5236,7 +5236,6 @@
       "mana": "",
       "castTime": null,
       "level": 48,
-      "type": "ability",
       "tags": [
         "buff",
         "movement",
@@ -5256,7 +5255,8 @@
         }
       ],
       "valuesSummary": "+100%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Spiky Barrier",
@@ -5270,7 +5270,6 @@
       "mana": "",
       "castTime": null,
       "level": 48,
-      "type": "ability",
       "tags": [
         "buff",
         "thorns"
@@ -5286,7 +5285,8 @@
         }
       ],
       "valuesSummary": "20 thorns/hit",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Spiky Tunic",
@@ -5300,7 +5300,6 @@
       "mana": 65,
       "castTime": null,
       "level": 48,
-      "type": "ability",
       "tags": [
         "buff",
         "thorns",
@@ -5328,7 +5327,8 @@
       "valuesSummary": "5 thorns/hit · +25 Armor Class",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Blaze",
@@ -5342,7 +5342,6 @@
       "mana": 105,
       "castTime": null,
       "level": 49,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -5357,7 +5356,8 @@
         }
       ],
       "valuesSummary": "200 Fire dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Ensnare",
@@ -5371,7 +5371,6 @@
       "mana": "",
       "castTime": null,
       "level": 50,
-      "type": "ability",
       "tags": [
         "debuff",
         "slow"
@@ -5389,7 +5388,8 @@
         }
       ],
       "valuesSummary": "−50%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Greater Camouflage",
@@ -5403,14 +5403,14 @@
       "mana": "",
       "castTime": null,
       "level": 50,
-      "type": "ability",
       "tags": [
         "invisibility"
       ],
       "primaryTag": "invisibility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Diamondskin",
@@ -5424,7 +5424,6 @@
       "mana": 90,
       "castTime": null,
       "level": 52,
-      "type": "ability",
       "tags": [
         "buff",
         "utility",
@@ -5444,7 +5443,8 @@
       "valuesSummary": "+20 Armor Class",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Infesting Swarm",
@@ -5458,7 +5458,6 @@
       "mana": 210,
       "castTime": null,
       "level": 54,
-      "type": "ability",
       "tags": [
         "dot"
       ],
@@ -5476,7 +5475,8 @@
         }
       ],
       "valuesSummary": "70 Poison/6s (60s)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Inferno",
@@ -5490,7 +5490,6 @@
       "mana": 140,
       "castTime": null,
       "level": 55,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -5505,7 +5504,8 @@
         }
       ],
       "valuesSummary": "325 Fire dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Greater Heal",
@@ -5519,7 +5519,6 @@
       "mana": 170,
       "castTime": null,
       "level": 56,
-      "type": "ability",
       "tags": [
         "heal"
       ],
@@ -5533,7 +5532,8 @@
         }
       ],
       "valuesSummary": "325 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Greater Regeneration",
@@ -5547,7 +5547,6 @@
       "mana": 150,
       "castTime": null,
       "level": 56,
-      "type": "ability",
       "tags": [
         "buff",
         "HP REGEN"
@@ -5566,7 +5565,8 @@
       "valuesSummary": "+11 Health Regeneration",
       "statTags": [
         "HP REGEN"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Thorny Barrier",
@@ -5580,7 +5580,6 @@
       "mana": 125,
       "castTime": null,
       "level": 56,
-      "type": "ability",
       "tags": [
         "buff",
         "thorns"
@@ -5596,7 +5595,8 @@
         }
       ],
       "valuesSummary": "25 thorns/hit",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Thorny Tunic",
@@ -5610,7 +5610,6 @@
       "mana": 80,
       "castTime": null,
       "level": 56,
-      "type": "ability",
       "tags": [
         "buff",
         "thorns",
@@ -5638,7 +5637,8 @@
       "valuesSummary": "6 thorns/hit · +30 Armor Class",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Smoldering Embers",
@@ -5652,7 +5652,6 @@
       "mana": "",
       "castTime": null,
       "level": 59,
-      "type": "ability",
       "tags": [
         "dot",
         "AC"
@@ -5681,7 +5680,8 @@
       "valuesSummary": "30 Fire/6s (60s) · −25 AC",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     }
   ]
 }

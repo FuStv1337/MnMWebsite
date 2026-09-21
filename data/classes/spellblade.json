@@ -64,7 +64,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "damage",
           "buff",
@@ -85,7 +84,8 @@
           }
         ],
         "valuesSummary": "5–30 Magic on melee attacks dmg (L1–L60)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Arcane Spear I",
@@ -99,7 +99,6 @@
         "mana": 5,
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -117,7 +116,8 @@
           }
         ],
         "valuesSummary": "3–10 Magic dmg (L1–L11)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Infused Slash I",
@@ -131,7 +131,6 @@
         "mana": 0,
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -154,7 +153,8 @@
           }
         ],
         "valuesSummary": "100% weapon dmg · 2–5 additional based on your current infusion dmg (L1–L10)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Polar Align: North",
@@ -168,7 +168,6 @@
         "mana": 5,
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "utility",
           "self"
@@ -176,13 +175,14 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Shoot",
         "slug": "Shoot",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Shoot",
-        "description": "Shoots your target with a bow. (requires bow & arrows)",
+        "description": "Shoots your target with a bow. (Requires bow & arrows)",
         "category": "Mar",
         "categorySlug": "Skill_Martial",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
@@ -190,14 +190,14 @@
         "mana": "",
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Throw",
@@ -211,14 +211,14 @@
         "mana": 0,
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "2": [
@@ -234,7 +234,6 @@
         "mana": 10,
         "castTime": null,
         "level": 2,
-        "type": "ability",
         "tags": [
           "buff",
           "shield",
@@ -275,7 +274,8 @@
           "AC",
           "MAX HP",
           "MR"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "3": [
@@ -291,7 +291,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 3,
-        "type": "ability",
         "tags": [
           "buff",
           "INT",
@@ -324,7 +323,8 @@
         "valuesSummary": "+1–15 Intelligence (L1–L60) · 1–15% and Spell dealt by 10% dmg (L1–L60)",
         "statTags": [
           "INT"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "4": [
@@ -340,7 +340,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 4,
-        "type": "ability",
         "tags": [
           "damage",
           "buff",
@@ -375,7 +374,8 @@
         "valuesSummary": "5–30 Physical on melee attacks dmg (L1–L60) · +5–15 Agility (L8–L60)",
         "statTags": [
           "AGI"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "5": [
@@ -391,7 +391,6 @@
         "mana": 5,
         "castTime": null,
         "level": 5,
-        "type": "ability",
         "tags": [
           "buff",
           "shield",
@@ -418,7 +417,8 @@
         "valuesSummary": "25 absorb · +10 Armor Class",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "6": [
@@ -426,7 +426,7 @@
         "name": "Magic Protection",
         "slug": "Magic_Protection",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Magic_Protection",
-        "description": "Wards your target from the arcane, increasing their Magic Resistance by 5 for 1 hour.",
+        "description": "Ward your target against the arcane, increasing their Magic Resistance by 5 for 1 hour.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -434,7 +434,6 @@
         "mana": 10,
         "castTime": null,
         "level": 6,
-        "type": "ability",
         "tags": [
           "buff",
           "MR"
@@ -453,7 +452,8 @@
         "valuesSummary": "+5 Magic Resistance",
         "statTags": [
           "MR"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "7": [
@@ -469,7 +469,6 @@
         "mana": 0,
         "castTime": null,
         "level": 7,
-        "type": "ability",
         "tags": [
           "damage",
           "crowd-control",
@@ -484,7 +483,8 @@
           }
         ],
         "valuesSummary": "80% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "8": [
@@ -500,7 +500,6 @@
         "mana": 20,
         "castTime": null,
         "level": 8,
-        "type": "ability",
         "tags": [
           "damage",
           "crowd-control",
@@ -537,7 +536,8 @@
           }
         ],
         "valuesSummary": "10–300 Magic dmg (L8–L60) · 5–150 Electric dmg (L1–L60) · 5s duration",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Dispel Magic",
@@ -551,14 +551,14 @@
         "mana": 15,
         "castTime": null,
         "level": 8,
-        "type": "ability",
         "tags": [
           "dispel"
         ],
         "primaryTag": "dispel",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "9": [
@@ -566,7 +566,7 @@
         "name": "Electricity Protection",
         "slug": "Electricity_Protection",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Electricity_Protection",
-        "description": "Ward your target against shock, increasing their Electricity Resistance by 5 for 1 hour.",
+        "description": "Wards your target from shock, increasing their Electricity Resistance by 5.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -574,7 +574,6 @@
         "mana": 10,
         "castTime": null,
         "level": 9,
-        "type": "ability",
         "tags": [
           "buff",
           "ER"
@@ -593,7 +592,8 @@
         "valuesSummary": "+5 Electricity Resistance",
         "statTags": [
           "ER"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "10": [
@@ -609,7 +609,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 10,
-        "type": "ability",
         "tags": [
           "damage",
           "buff",
@@ -631,7 +630,8 @@
           }
         ],
         "valuesSummary": "5–30 Electric on melee attacks dmg (L1–L60)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Discharge",
@@ -645,7 +645,6 @@
         "mana": 12,
         "castTime": null,
         "level": 10,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -663,7 +662,8 @@
           }
         ],
         "valuesSummary": "8–24 Electric dmg (L10–L21)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Infused Slash II",
@@ -677,7 +677,6 @@
         "mana": 0,
         "castTime": null,
         "level": 10,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -700,7 +699,8 @@
           }
         ],
         "valuesSummary": "100% weapon dmg · 5–10 additional based on your current infusion dmg (L10–L20)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "11": [
@@ -708,7 +708,7 @@
         "name": "Lesser Spellshield",
         "slug": "Lesser_Spellshield",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Lesser_Spellshield",
-        "description": "A magical shield encircles you, increasing your HP by 25, AC by 10, and Magic Resistance by 10.",
+        "description": "Encircle yourself with a magical shield, increasing your maximum Health by 25, Armor Class by 10, and Magic Resistance by 10 for 1 hour.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -716,7 +716,6 @@
         "mana": 25,
         "castTime": null,
         "level": 11,
-        "type": "ability",
         "tags": [
           "buff",
           "shield",
@@ -729,17 +728,17 @@
         "effects": [
           {
             "kind": "buff",
-            "stat": "HP",
+            "stat": "Health",
             "amount": 25,
-            "display": "+25 HP",
+            "display": "+25 Health",
             "sortKey": 25,
             "statTag": "MAX HP"
           },
           {
             "kind": "buff",
-            "stat": "AC",
+            "stat": "Armor Class",
             "amount": 10,
-            "display": "+10 AC",
+            "display": "+10 Armor Class",
             "sortKey": 10,
             "statTag": "AC"
           },
@@ -752,12 +751,13 @@
             "statTag": "MR"
           }
         ],
-        "valuesSummary": "+25 HP · +10 AC · +10 Magic Resistance",
+        "valuesSummary": "+25 Health · +10 Armor Class · +10 Magic Resistance",
         "statTags": [
           "AC",
           "MAX HP",
           "MR"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "12": [
@@ -773,14 +773,14 @@
         "mana": 40,
         "castTime": null,
         "level": 12,
-        "type": "ability",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Kinetic Ward II",
@@ -794,7 +794,6 @@
         "mana": 50,
         "castTime": null,
         "level": 12,
-        "type": "ability",
         "tags": [
           "buff",
           "shield",
@@ -823,7 +822,8 @@
         "valuesSummary": "75 melee dmg · +10 Armor Class",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "14": [
@@ -839,7 +839,6 @@
         "mana": 10,
         "castTime": null,
         "level": 14,
-        "type": "ability",
         "tags": [
           "crowd-control",
           "root",
@@ -859,7 +858,8 @@
           }
         ],
         "valuesSummary": "−100 Threat against them (L1–L40)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "16": [
@@ -875,7 +875,6 @@
         "mana": 5,
         "castTime": null,
         "level": 16,
-        "type": "ability",
         "tags": [
           "buff",
           "utility"
@@ -883,13 +882,14 @@
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Spellshield",
         "slug": "Spellshield",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Spellshield",
-        "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 50, Armor Class by 15, and Magic Resistance by 15 for 1 hour.",
+        "description": "Encircle yourself with a magical shield, increasing your maximum Health by 50, Armor Class by 15, and Magic Resistance by 15 for 1 hour.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -897,7 +897,6 @@
         "mana": 20,
         "castTime": null,
         "level": 16,
-        "type": "ability",
         "tags": [
           "buff",
           "shield",
@@ -938,7 +937,8 @@
           "AC",
           "MAX HP",
           "MR"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "18": [
@@ -954,7 +954,6 @@
         "mana": 10,
         "castTime": null,
         "level": 18,
-        "type": "ability",
         "tags": [
           "buff",
           "FR"
@@ -973,7 +972,8 @@
         "valuesSummary": "+5 Fire Resistance",
         "statTags": [
           "FR"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Implosion I",
@@ -987,7 +987,6 @@
         "mana": 20,
         "castTime": null,
         "level": 18,
-        "type": "ability",
         "tags": [
           "damage",
           "debuff",
@@ -1029,7 +1028,8 @@
         "valuesSummary": "−5 BLOCK/Dodge/Parry · 50 Physical dmg",
         "statTags": [
           "BLOCK"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "20": [
@@ -1045,7 +1045,6 @@
         "mana": 0,
         "castTime": null,
         "level": 20,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -1058,7 +1057,8 @@
           }
         ],
         "valuesSummary": "100% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "22": [
@@ -1071,17 +1071,17 @@
         "categorySlug": "Skill_Evocation",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
         "location": "Vendor",
-        "mana": 20,
+        "mana": 120,
         "castTime": null,
         "level": 22,
-        "type": "ability",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "24": [
@@ -1097,20 +1097,20 @@
         "mana": 15,
         "castTime": null,
         "level": 24,
-        "type": "ability",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Greater Spellshield",
         "slug": "Greater_Spellshield",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Greater_Spellshield",
-        "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 75, Armor Class by 10, and Magic Resistance by 10 for 1 hour.",
+        "description": "Encircle yourself with a magical shield, increasing your maximum Health by 75, Armor Class by 20, and Magic Resistance by 20 for 1 hour.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -1118,7 +1118,6 @@
         "mana": 25,
         "castTime": null,
         "level": 24,
-        "type": "ability",
         "tags": [
           "buff",
           "shield",
@@ -1140,26 +1139,27 @@
           {
             "kind": "buff",
             "stat": "Armor Class",
-            "amount": 10,
-            "display": "+10 Armor Class",
-            "sortKey": 10,
+            "amount": 20,
+            "display": "+20 Armor Class",
+            "sortKey": 20,
             "statTag": "AC"
           },
           {
             "kind": "buff",
             "stat": "Magic Resistance",
-            "amount": 10,
-            "display": "+10 Magic Resistance",
-            "sortKey": 10,
+            "amount": 20,
+            "display": "+20 Magic Resistance",
+            "sortKey": 20,
             "statTag": "MR"
           }
         ],
-        "valuesSummary": "+75 Health · +10 Armor Class · +10 Magic Resistance",
+        "valuesSummary": "+75 Health · +20 Armor Class · +20 Magic Resistance",
         "statTags": [
           "AC",
           "MAX HP",
           "MR"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Kinetic Ward III",
@@ -1173,7 +1173,6 @@
         "mana": 15,
         "castTime": null,
         "level": 24,
-        "type": "ability",
         "tags": [
           "buff",
           "shield",
@@ -1200,7 +1199,8 @@
         "valuesSummary": "136 absorb · +10 Armor Class",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "25": [
@@ -1216,7 +1216,6 @@
         "mana": 0,
         "castTime": null,
         "level": 25,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -1229,7 +1228,8 @@
           }
         ],
         "valuesSummary": "100% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "26": [
@@ -1245,7 +1245,6 @@
         "mana": 15,
         "castTime": null,
         "level": 26,
-        "type": "ability",
         "tags": [
           "dot",
           "aoe"
@@ -1264,7 +1263,8 @@
           }
         ],
         "valuesSummary": "3 Electric/3s (9s)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "28": [
@@ -1280,7 +1280,6 @@
         "mana": 25,
         "castTime": null,
         "level": 28,
-        "type": "ability",
         "tags": [
           "damage",
           "debuff",
@@ -1322,7 +1321,8 @@
         "valuesSummary": "−5 BLOCK/Dodge/Parry · 100 Physical dmg",
         "statTags": [
           "BLOCK"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "30": [
@@ -1338,7 +1338,6 @@
         "mana": 0,
         "castTime": null,
         "level": 30,
-        "type": "ability",
         "tags": [
           "buff",
           "stance",
@@ -1357,7 +1356,8 @@
           }
         ],
         "valuesSummary": "+30%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Infused Slash IV",
@@ -1371,7 +1371,6 @@
         "mana": 0,
         "castTime": null,
         "level": 30,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -1384,7 +1383,8 @@
           }
         ],
         "valuesSummary": "50% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "32": [
@@ -1392,7 +1392,7 @@
         "name": "Exceptional Spellshield",
         "slug": "Exceptional_Spellshield",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Exceptional_Spellshield",
-        "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 100, Armor Class by 25, and Magic Resistance by 25 for 1 hour.",
+        "description": "Encircle yourself with a magical shield, increasing your maximum Health by 100, Armor Class by 25, and Magic Resistance by 25 for 1 hour.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -1400,7 +1400,6 @@
         "mana": 30,
         "castTime": null,
         "level": 32,
-        "type": "ability",
         "tags": [
           "buff",
           "shield",
@@ -1441,7 +1440,8 @@
           "AC",
           "MAX HP",
           "MR"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "34": [
@@ -1457,14 +1457,14 @@
         "mana": 25,
         "castTime": null,
         "level": 34,
-        "type": "ability",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "35": [
@@ -1480,14 +1480,14 @@
         "mana": 5,
         "castTime": null,
         "level": 35,
-        "type": "ability",
         "tags": [
           "self"
         ],
         "primaryTag": "self",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "36": [
@@ -1503,14 +1503,14 @@
         "mana": 20,
         "castTime": null,
         "level": 36,
-        "type": "ability",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "38": [
@@ -1526,7 +1526,6 @@
         "mana": 20,
         "castTime": null,
         "level": 38,
-        "type": "ability",
         "tags": [
           "dot",
           "aoe"
@@ -1545,7 +1544,8 @@
           }
         ],
         "valuesSummary": "10 Electric/3s (9s)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "40": [
@@ -1553,7 +1553,7 @@
         "name": "Arch Spellshield",
         "slug": "Arch_Spellshield",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Arch_Spellshield",
-        "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 150, Armor Class by 10, and Magic Resistance by 1 for 1 hour.",
+        "description": "Encircle yourself with a magical shield, increasing your maximum Health by 150, Armor Class by 30, and Magic Resistance by 30 for 1 hour.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -1561,7 +1561,6 @@
         "mana": 35,
         "castTime": null,
         "level": 40,
-        "type": "ability",
         "tags": [
           "buff",
           "shield",
@@ -1583,26 +1582,27 @@
           {
             "kind": "buff",
             "stat": "Armor Class",
-            "amount": 10,
-            "display": "+10 Armor Class",
-            "sortKey": 10,
+            "amount": 30,
+            "display": "+30 Armor Class",
+            "sortKey": 30,
             "statTag": "AC"
           },
           {
             "kind": "buff",
             "stat": "Magic Resistance",
-            "amount": 1,
-            "display": "+1 Magic Resistance",
-            "sortKey": 1,
+            "amount": 30,
+            "display": "+30 Magic Resistance",
+            "sortKey": 30,
             "statTag": "MR"
           }
         ],
-        "valuesSummary": "+150 Health · +10 Armor Class · +1 Magic Resistance",
+        "valuesSummary": "+150 Health · +30 Armor Class · +30 Magic Resistance",
         "statTags": [
           "AC",
           "MAX HP",
           "MR"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Infused Slash V",
@@ -1616,7 +1616,6 @@
         "mana": 0,
         "castTime": null,
         "level": 40,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -1629,7 +1628,8 @@
           }
         ],
         "valuesSummary": "300% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Kinetic Ward IV",
@@ -1643,7 +1643,6 @@
         "mana": 20,
         "castTime": null,
         "level": 40,
-        "type": "ability",
         "tags": [
           "buff",
           "shield",
@@ -1664,7 +1663,8 @@
         "valuesSummary": "+10 Armor Class",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "42": [
@@ -1680,7 +1680,6 @@
         "mana": 30,
         "castTime": null,
         "level": 42,
-        "type": "ability",
         "tags": [
           "damage",
           "debuff",
@@ -1697,7 +1696,8 @@
           }
         ],
         "valuesSummary": "150 Physical dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "44": [
@@ -1713,7 +1713,6 @@
         "mana": 15,
         "castTime": null,
         "level": 44,
-        "type": "ability",
         "tags": [
           "buff",
           "MR"
@@ -1732,7 +1731,8 @@
         "valuesSummary": "+15 Magic Resistance",
         "statTags": [
           "MR"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "45": [
@@ -1748,7 +1748,6 @@
         "mana": 0,
         "castTime": null,
         "level": 45,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -1761,7 +1760,8 @@
           }
         ],
         "valuesSummary": "100% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "46": [
@@ -1777,14 +1777,14 @@
         "mana": 30,
         "castTime": null,
         "level": 46,
-        "type": "ability",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "48": [
@@ -1800,7 +1800,6 @@
         "mana": 0,
         "castTime": null,
         "level": 48,
-        "type": "ability",
         "tags": [
           "buff"
         ],
@@ -1815,7 +1814,8 @@
           }
         ],
         "valuesSummary": "+15 Electric Resistance",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "50": [
@@ -1831,7 +1831,6 @@
         "mana": 0,
         "castTime": null,
         "level": 50,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -1844,7 +1843,8 @@
           }
         ],
         "valuesSummary": "300% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "51": [
@@ -1860,7 +1860,6 @@
         "mana": 0,
         "castTime": null,
         "level": 51,
-        "type": "ability",
         "tags": [
           "summon",
           "teleport"
@@ -1868,7 +1867,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "52": [
@@ -1884,14 +1884,14 @@
         "mana": 0,
         "castTime": null,
         "level": 52,
-        "type": "ability",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Static Field III",
@@ -1905,7 +1905,6 @@
         "mana": 0,
         "castTime": null,
         "level": 52,
-        "type": "ability",
         "tags": [
           "dot",
           "aoe"
@@ -1924,7 +1923,8 @@
           }
         ],
         "valuesSummary": "10 Electric/2s (6s)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "53": [
@@ -1940,7 +1940,6 @@
         "mana": 0,
         "castTime": null,
         "level": 53,
-        "type": "ability",
         "tags": [
           "buff",
           "FR"
@@ -1959,7 +1958,8 @@
         "valuesSummary": "+15 Fire Resistance",
         "statTags": [
           "FR"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "54": [
@@ -1975,14 +1975,14 @@
         "mana": 0,
         "castTime": null,
         "level": 54,
-        "type": "ability",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Implosion IV",
@@ -1996,7 +1996,6 @@
         "mana": 0,
         "castTime": null,
         "level": 54,
-        "type": "ability",
         "tags": [
           "damage",
           "debuff",
@@ -2038,7 +2037,8 @@
         "valuesSummary": "−5 BLOCK/Dodge/Parry · 250 Physical dmg",
         "statTags": [
           "BLOCK"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "56": [
@@ -2054,14 +2054,14 @@
         "mana": 0,
         "castTime": null,
         "level": 56,
-        "type": "ability",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "57": [
@@ -2077,7 +2077,6 @@
         "mana": 0,
         "castTime": null,
         "level": 57,
-        "type": "ability",
         "tags": [
           "buff",
           "haste",
@@ -2097,7 +2096,8 @@
           }
         ],
         "valuesSummary": "+15%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "58": [
@@ -2113,14 +2113,14 @@
         "mana": 0,
         "castTime": null,
         "level": 58,
-        "type": "ability",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "59": [
@@ -2136,7 +2136,6 @@
         "mana": 40,
         "castTime": null,
         "level": 59,
-        "type": "ability",
         "tags": [
           "dot",
           "aoe"
@@ -2155,7 +2154,8 @@
           }
         ],
         "valuesSummary": "30 Electric/2s (6s)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "60": [
@@ -2171,7 +2171,6 @@
         "mana": 25,
         "castTime": null,
         "level": 60,
-        "type": "ability",
         "tags": [
           "buff",
           "shield",
@@ -2198,7 +2197,8 @@
         "valuesSummary": "400 absorb · +10 Armor Class",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       }
     ]
   },
@@ -2215,7 +2215,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "damage",
         "buff",
@@ -2236,7 +2235,8 @@
         }
       ],
       "valuesSummary": "5–30 Magic on melee attacks dmg (L1–L60)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Arcane Spear I",
@@ -2250,7 +2250,6 @@
       "mana": 5,
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -2268,7 +2267,8 @@
         }
       ],
       "valuesSummary": "3–10 Magic dmg (L1–L11)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Infused Slash I",
@@ -2282,7 +2282,6 @@
       "mana": 0,
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -2305,7 +2304,8 @@
         }
       ],
       "valuesSummary": "100% weapon dmg · 2–5 additional based on your current infusion dmg (L1–L10)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Polar Align: North",
@@ -2319,7 +2319,6 @@
       "mana": 5,
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "utility",
         "self"
@@ -2327,13 +2326,14 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Shoot",
       "slug": "Shoot",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Shoot",
-      "description": "Shoots your target with a bow. (requires bow & arrows)",
+      "description": "Shoots your target with a bow. (Requires bow & arrows)",
       "category": "Mar",
       "categorySlug": "Skill_Martial",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
@@ -2341,14 +2341,14 @@
       "mana": "",
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Throw",
@@ -2362,14 +2362,14 @@
       "mana": 0,
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Minor Spellshield",
@@ -2383,7 +2383,6 @@
       "mana": 10,
       "castTime": null,
       "level": 2,
-      "type": "ability",
       "tags": [
         "buff",
         "shield",
@@ -2424,7 +2423,8 @@
         "AC",
         "MAX HP",
         "MR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Aura of the Arcane",
@@ -2438,7 +2438,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 3,
-      "type": "ability",
       "tags": [
         "buff",
         "INT",
@@ -2471,7 +2470,8 @@
       "valuesSummary": "+1–15 Intelligence (L1–L60) · 1–15% and Spell dealt by 10% dmg (L1–L60)",
       "statTags": [
         "INT"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Telekinetic Infusion",
@@ -2485,7 +2485,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 4,
-      "type": "ability",
       "tags": [
         "damage",
         "buff",
@@ -2520,7 +2519,8 @@
       "valuesSummary": "5–30 Physical on melee attacks dmg (L1–L60) · +5–15 Agility (L8–L60)",
       "statTags": [
         "AGI"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Kinetic Ward I",
@@ -2534,7 +2534,6 @@
       "mana": 5,
       "castTime": null,
       "level": 5,
-      "type": "ability",
       "tags": [
         "buff",
         "shield",
@@ -2561,13 +2560,14 @@
       "valuesSummary": "25 absorb · +10 Armor Class",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Magic Protection",
       "slug": "Magic_Protection",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Magic_Protection",
-      "description": "Wards your target from the arcane, increasing their Magic Resistance by 5 for 1 hour.",
+      "description": "Ward your target against the arcane, increasing their Magic Resistance by 5 for 1 hour.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -2575,7 +2575,6 @@
       "mana": 10,
       "castTime": null,
       "level": 6,
-      "type": "ability",
       "tags": [
         "buff",
         "MR"
@@ -2594,7 +2593,8 @@
       "valuesSummary": "+5 Magic Resistance",
       "statTags": [
         "MR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Phase Strike",
@@ -2608,7 +2608,6 @@
       "mana": 0,
       "castTime": null,
       "level": 7,
-      "type": "ability",
       "tags": [
         "damage",
         "crowd-control",
@@ -2623,7 +2622,8 @@
         }
       ],
       "valuesSummary": "80% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Conduit",
@@ -2637,7 +2637,6 @@
       "mana": 20,
       "castTime": null,
       "level": 8,
-      "type": "ability",
       "tags": [
         "damage",
         "crowd-control",
@@ -2674,7 +2673,8 @@
         }
       ],
       "valuesSummary": "10–300 Magic dmg (L8–L60) · 5–150 Electric dmg (L1–L60) · 5s duration",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Dispel Magic",
@@ -2688,20 +2688,20 @@
       "mana": 15,
       "castTime": null,
       "level": 8,
-      "type": "ability",
       "tags": [
         "dispel"
       ],
       "primaryTag": "dispel",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Electricity Protection",
       "slug": "Electricity_Protection",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Electricity_Protection",
-      "description": "Ward your target against shock, increasing their Electricity Resistance by 5 for 1 hour.",
+      "description": "Wards your target from shock, increasing their Electricity Resistance by 5.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -2709,7 +2709,6 @@
       "mana": 10,
       "castTime": null,
       "level": 9,
-      "type": "ability",
       "tags": [
         "buff",
         "ER"
@@ -2728,7 +2727,8 @@
       "valuesSummary": "+5 Electricity Resistance",
       "statTags": [
         "ER"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Electric Infusion",
@@ -2742,7 +2742,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 10,
-      "type": "ability",
       "tags": [
         "damage",
         "buff",
@@ -2764,7 +2763,8 @@
         }
       ],
       "valuesSummary": "5–30 Electric on melee attacks dmg (L1–L60)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Discharge",
@@ -2778,7 +2778,6 @@
       "mana": 12,
       "castTime": null,
       "level": 10,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -2796,7 +2795,8 @@
         }
       ],
       "valuesSummary": "8–24 Electric dmg (L10–L21)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Infused Slash II",
@@ -2810,7 +2810,6 @@
       "mana": 0,
       "castTime": null,
       "level": 10,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -2833,13 +2832,14 @@
         }
       ],
       "valuesSummary": "100% weapon dmg · 5–10 additional based on your current infusion dmg (L10–L20)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Lesser Spellshield",
       "slug": "Lesser_Spellshield",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Lesser_Spellshield",
-      "description": "A magical shield encircles you, increasing your HP by 25, AC by 10, and Magic Resistance by 10.",
+      "description": "Encircle yourself with a magical shield, increasing your maximum Health by 25, Armor Class by 10, and Magic Resistance by 10 for 1 hour.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -2847,7 +2847,6 @@
       "mana": 25,
       "castTime": null,
       "level": 11,
-      "type": "ability",
       "tags": [
         "buff",
         "shield",
@@ -2860,17 +2859,17 @@
       "effects": [
         {
           "kind": "buff",
-          "stat": "HP",
+          "stat": "Health",
           "amount": 25,
-          "display": "+25 HP",
+          "display": "+25 Health",
           "sortKey": 25,
           "statTag": "MAX HP"
         },
         {
           "kind": "buff",
-          "stat": "AC",
+          "stat": "Armor Class",
           "amount": 10,
-          "display": "+10 AC",
+          "display": "+10 Armor Class",
           "sortKey": 10,
           "statTag": "AC"
         },
@@ -2883,12 +2882,13 @@
           "statTag": "MR"
         }
       ],
-      "valuesSummary": "+25 HP · +10 AC · +10 Magic Resistance",
+      "valuesSummary": "+25 Health · +10 Armor Class · +10 Magic Resistance",
       "statTags": [
         "AC",
         "MAX HP",
         "MR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Arcane Spear II",
@@ -2902,14 +2902,14 @@
       "mana": 40,
       "castTime": null,
       "level": 12,
-      "type": "ability",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Kinetic Ward II",
@@ -2923,7 +2923,6 @@
       "mana": 50,
       "castTime": null,
       "level": 12,
-      "type": "ability",
       "tags": [
         "buff",
         "shield",
@@ -2952,7 +2951,8 @@
       "valuesSummary": "75 melee dmg · +10 Armor Class",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Seclusion",
@@ -2966,7 +2966,6 @@
       "mana": 10,
       "castTime": null,
       "level": 14,
-      "type": "ability",
       "tags": [
         "crowd-control",
         "root",
@@ -2986,7 +2985,8 @@
         }
       ],
       "valuesSummary": "−100 Threat against them (L1–L40)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Sense Magic",
@@ -3000,7 +3000,6 @@
       "mana": 5,
       "castTime": null,
       "level": 16,
-      "type": "ability",
       "tags": [
         "buff",
         "utility"
@@ -3008,13 +3007,14 @@
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Spellshield",
       "slug": "Spellshield",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Spellshield",
-      "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 50, Armor Class by 15, and Magic Resistance by 15 for 1 hour.",
+      "description": "Encircle yourself with a magical shield, increasing your maximum Health by 50, Armor Class by 15, and Magic Resistance by 15 for 1 hour.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -3022,7 +3022,6 @@
       "mana": 20,
       "castTime": null,
       "level": 16,
-      "type": "ability",
       "tags": [
         "buff",
         "shield",
@@ -3063,7 +3062,8 @@
         "AC",
         "MAX HP",
         "MR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Fire Protection",
@@ -3077,7 +3077,6 @@
       "mana": 10,
       "castTime": null,
       "level": 18,
-      "type": "ability",
       "tags": [
         "buff",
         "FR"
@@ -3096,7 +3095,8 @@
       "valuesSummary": "+5 Fire Resistance",
       "statTags": [
         "FR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Implosion I",
@@ -3110,7 +3110,6 @@
       "mana": 20,
       "castTime": null,
       "level": 18,
-      "type": "ability",
       "tags": [
         "damage",
         "debuff",
@@ -3152,7 +3151,8 @@
       "valuesSummary": "−5 BLOCK/Dodge/Parry · 50 Physical dmg",
       "statTags": [
         "BLOCK"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Infused Slash III",
@@ -3166,7 +3166,6 @@
       "mana": 0,
       "castTime": null,
       "level": 20,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -3179,7 +3178,8 @@
         }
       ],
       "valuesSummary": "100% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Discharge II",
@@ -3190,17 +3190,17 @@
       "categorySlug": "Skill_Evocation",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
       "location": "Vendor",
-      "mana": 20,
+      "mana": 120,
       "castTime": null,
       "level": 22,
-      "type": "ability",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Arcane Spear III",
@@ -3214,20 +3214,20 @@
       "mana": 15,
       "castTime": null,
       "level": 24,
-      "type": "ability",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Greater Spellshield",
       "slug": "Greater_Spellshield",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Greater_Spellshield",
-      "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 75, Armor Class by 10, and Magic Resistance by 10 for 1 hour.",
+      "description": "Encircle yourself with a magical shield, increasing your maximum Health by 75, Armor Class by 20, and Magic Resistance by 20 for 1 hour.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -3235,7 +3235,6 @@
       "mana": 25,
       "castTime": null,
       "level": 24,
-      "type": "ability",
       "tags": [
         "buff",
         "shield",
@@ -3257,26 +3256,27 @@
         {
           "kind": "buff",
           "stat": "Armor Class",
-          "amount": 10,
-          "display": "+10 Armor Class",
-          "sortKey": 10,
+          "amount": 20,
+          "display": "+20 Armor Class",
+          "sortKey": 20,
           "statTag": "AC"
         },
         {
           "kind": "buff",
           "stat": "Magic Resistance",
-          "amount": 10,
-          "display": "+10 Magic Resistance",
-          "sortKey": 10,
+          "amount": 20,
+          "display": "+20 Magic Resistance",
+          "sortKey": 20,
           "statTag": "MR"
         }
       ],
-      "valuesSummary": "+75 Health · +10 Armor Class · +10 Magic Resistance",
+      "valuesSummary": "+75 Health · +20 Armor Class · +20 Magic Resistance",
       "statTags": [
         "AC",
         "MAX HP",
         "MR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Kinetic Ward III",
@@ -3290,7 +3290,6 @@
       "mana": 15,
       "castTime": null,
       "level": 24,
-      "type": "ability",
       "tags": [
         "buff",
         "shield",
@@ -3317,7 +3316,8 @@
       "valuesSummary": "136 absorb · +10 Armor Class",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Flurry I",
@@ -3331,7 +3331,6 @@
       "mana": 0,
       "castTime": null,
       "level": 25,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -3344,7 +3343,8 @@
         }
       ],
       "valuesSummary": "100% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Static Field I",
@@ -3358,7 +3358,6 @@
       "mana": 15,
       "castTime": null,
       "level": 26,
-      "type": "ability",
       "tags": [
         "dot",
         "aoe"
@@ -3377,7 +3376,8 @@
         }
       ],
       "valuesSummary": "3 Electric/3s (9s)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Implosion II",
@@ -3391,7 +3391,6 @@
       "mana": 25,
       "castTime": null,
       "level": 28,
-      "type": "ability",
       "tags": [
         "damage",
         "debuff",
@@ -3433,7 +3432,8 @@
       "valuesSummary": "−5 BLOCK/Dodge/Parry · 100 Physical dmg",
       "statTags": [
         "BLOCK"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Deflection",
@@ -3447,7 +3447,6 @@
       "mana": 0,
       "castTime": null,
       "level": 30,
-      "type": "ability",
       "tags": [
         "buff",
         "stance",
@@ -3466,7 +3465,8 @@
         }
       ],
       "valuesSummary": "+30%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Infused Slash IV",
@@ -3480,7 +3480,6 @@
       "mana": 0,
       "castTime": null,
       "level": 30,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -3493,13 +3492,14 @@
         }
       ],
       "valuesSummary": "50% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Exceptional Spellshield",
       "slug": "Exceptional_Spellshield",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Exceptional_Spellshield",
-      "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 100, Armor Class by 25, and Magic Resistance by 25 for 1 hour.",
+      "description": "Encircle yourself with a magical shield, increasing your maximum Health by 100, Armor Class by 25, and Magic Resistance by 25 for 1 hour.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -3507,7 +3507,6 @@
       "mana": 30,
       "castTime": null,
       "level": 32,
-      "type": "ability",
       "tags": [
         "buff",
         "shield",
@@ -3548,7 +3547,8 @@
         "AC",
         "MAX HP",
         "MR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Discharge III",
@@ -3562,14 +3562,14 @@
       "mana": 25,
       "castTime": null,
       "level": 34,
-      "type": "ability",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Bend Gravity",
@@ -3583,14 +3583,14 @@
       "mana": 5,
       "castTime": null,
       "level": 35,
-      "type": "ability",
       "tags": [
         "self"
       ],
       "primaryTag": "self",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Arcane Spear IV",
@@ -3604,14 +3604,14 @@
       "mana": 20,
       "castTime": null,
       "level": 36,
-      "type": "ability",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Static Field II",
@@ -3625,7 +3625,6 @@
       "mana": 20,
       "castTime": null,
       "level": 38,
-      "type": "ability",
       "tags": [
         "dot",
         "aoe"
@@ -3644,13 +3643,14 @@
         }
       ],
       "valuesSummary": "10 Electric/3s (9s)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Arch Spellshield",
       "slug": "Arch_Spellshield",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Arch_Spellshield",
-      "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 150, Armor Class by 10, and Magic Resistance by 1 for 1 hour.",
+      "description": "Encircle yourself with a magical shield, increasing your maximum Health by 150, Armor Class by 30, and Magic Resistance by 30 for 1 hour.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -3658,7 +3658,6 @@
       "mana": 35,
       "castTime": null,
       "level": 40,
-      "type": "ability",
       "tags": [
         "buff",
         "shield",
@@ -3680,26 +3679,27 @@
         {
           "kind": "buff",
           "stat": "Armor Class",
-          "amount": 10,
-          "display": "+10 Armor Class",
-          "sortKey": 10,
+          "amount": 30,
+          "display": "+30 Armor Class",
+          "sortKey": 30,
           "statTag": "AC"
         },
         {
           "kind": "buff",
           "stat": "Magic Resistance",
-          "amount": 1,
-          "display": "+1 Magic Resistance",
-          "sortKey": 1,
+          "amount": 30,
+          "display": "+30 Magic Resistance",
+          "sortKey": 30,
           "statTag": "MR"
         }
       ],
-      "valuesSummary": "+150 Health · +10 Armor Class · +1 Magic Resistance",
+      "valuesSummary": "+150 Health · +30 Armor Class · +30 Magic Resistance",
       "statTags": [
         "AC",
         "MAX HP",
         "MR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Infused Slash V",
@@ -3713,7 +3713,6 @@
       "mana": 0,
       "castTime": null,
       "level": 40,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -3726,7 +3725,8 @@
         }
       ],
       "valuesSummary": "300% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Kinetic Ward IV",
@@ -3740,7 +3740,6 @@
       "mana": 20,
       "castTime": null,
       "level": 40,
-      "type": "ability",
       "tags": [
         "buff",
         "shield",
@@ -3761,7 +3760,8 @@
       "valuesSummary": "+10 Armor Class",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Implosion III",
@@ -3775,7 +3775,6 @@
       "mana": 30,
       "castTime": null,
       "level": 42,
-      "type": "ability",
       "tags": [
         "damage",
         "debuff",
@@ -3792,7 +3791,8 @@
         }
       ],
       "valuesSummary": "150 Physical dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Magic Resistance",
@@ -3806,7 +3806,6 @@
       "mana": 15,
       "castTime": null,
       "level": 44,
-      "type": "ability",
       "tags": [
         "buff",
         "MR"
@@ -3825,7 +3824,8 @@
       "valuesSummary": "+15 Magic Resistance",
       "statTags": [
         "MR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Flurry II",
@@ -3839,7 +3839,6 @@
       "mana": 0,
       "castTime": null,
       "level": 45,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -3852,7 +3851,8 @@
         }
       ],
       "valuesSummary": "100% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Discharge IV",
@@ -3866,14 +3866,14 @@
       "mana": 30,
       "castTime": null,
       "level": 46,
-      "type": "ability",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Electric Resistance",
@@ -3887,7 +3887,6 @@
       "mana": 0,
       "castTime": null,
       "level": 48,
-      "type": "ability",
       "tags": [
         "buff"
       ],
@@ -3902,7 +3901,8 @@
         }
       ],
       "valuesSummary": "+15 Electric Resistance",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Infused Slash VI",
@@ -3916,7 +3916,6 @@
       "mana": 0,
       "castTime": null,
       "level": 50,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -3929,7 +3928,8 @@
         }
       ],
       "valuesSummary": "300% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Gate",
@@ -3943,7 +3943,6 @@
       "mana": 0,
       "castTime": null,
       "level": 51,
-      "type": "ability",
       "tags": [
         "summon",
         "teleport"
@@ -3951,7 +3950,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Arcane Spear V",
@@ -3965,14 +3965,14 @@
       "mana": 0,
       "castTime": null,
       "level": 52,
-      "type": "ability",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Static Field III",
@@ -3986,7 +3986,6 @@
       "mana": 0,
       "castTime": null,
       "level": 52,
-      "type": "ability",
       "tags": [
         "dot",
         "aoe"
@@ -4005,7 +4004,8 @@
         }
       ],
       "valuesSummary": "10 Electric/2s (6s)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Fire Resistance",
@@ -4019,7 +4019,6 @@
       "mana": 0,
       "castTime": null,
       "level": 53,
-      "type": "ability",
       "tags": [
         "buff",
         "FR"
@@ -4038,7 +4037,8 @@
       "valuesSummary": "+15 Fire Resistance",
       "statTags": [
         "FR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Discharge V",
@@ -4052,14 +4052,14 @@
       "mana": 0,
       "castTime": null,
       "level": 54,
-      "type": "ability",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Implosion IV",
@@ -4073,7 +4073,6 @@
       "mana": 0,
       "castTime": null,
       "level": 54,
-      "type": "ability",
       "tags": [
         "damage",
         "debuff",
@@ -4115,7 +4114,8 @@
       "valuesSummary": "−5 BLOCK/Dodge/Parry · 250 Physical dmg",
       "statTags": [
         "BLOCK"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Arcane Spear VI",
@@ -4129,14 +4129,14 @@
       "mana": 0,
       "castTime": null,
       "level": 56,
-      "type": "ability",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Maelstrom",
@@ -4150,7 +4150,6 @@
       "mana": 0,
       "castTime": null,
       "level": 57,
-      "type": "ability",
       "tags": [
         "buff",
         "haste",
@@ -4170,7 +4169,8 @@
         }
       ],
       "valuesSummary": "+15%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Discharge VI",
@@ -4184,14 +4184,14 @@
       "mana": 0,
       "castTime": null,
       "level": 58,
-      "type": "ability",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Static Field IV",
@@ -4205,7 +4205,6 @@
       "mana": 40,
       "castTime": null,
       "level": 59,
-      "type": "ability",
       "tags": [
         "dot",
         "aoe"
@@ -4224,7 +4223,8 @@
         }
       ],
       "valuesSummary": "30 Electric/2s (6s)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Kinetic Ward V",
@@ -4238,7 +4238,6 @@
       "mana": 25,
       "castTime": null,
       "level": 60,
-      "type": "ability",
       "tags": [
         "buff",
         "shield",
@@ -4265,7 +4264,8 @@
       "valuesSummary": "400 absorb · +10 Armor Class",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     }
   ]
 }

@@ -48,7 +48,7 @@
         "name": "Shoot",
         "slug": "Shoot",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Shoot",
-        "description": "Shoots your target with a bow. (requires bow & arrows)",
+        "description": "Shoots your target with a bow. (Requires bow & arrows)",
         "category": "Mar",
         "categorySlug": "Skill_Martial",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
@@ -56,14 +56,14 @@
         "mana": "Innate",
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Sneak",
@@ -77,14 +77,14 @@
         "mana": "Innate",
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "invisibility"
         ],
         "primaryTag": "invisibility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Stab I",
@@ -98,7 +98,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "damage",
           "invisibility"
@@ -127,7 +126,8 @@
           }
         ],
         "valuesSummary": "125% weapon dmg · 100% weapon dmg · 1–5 Physical dmg (L1–L10)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Stealth",
@@ -141,14 +141,14 @@
         "mana": "Innate",
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "invisibility"
         ],
         "primaryTag": "invisibility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Throw",
@@ -162,14 +162,14 @@
         "mana": "Innate",
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "2": [
@@ -185,7 +185,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 2,
-        "type": "ability",
         "tags": [
           "buff",
           "haste"
@@ -193,7 +192,8 @@
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "3": [
@@ -209,14 +209,14 @@
         "mana": "Innate",
         "castTime": null,
         "level": 3,
-        "type": "ability",
         "tags": [
           "interrupt"
         ],
         "primaryTag": "interrupt",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "5": [
@@ -232,7 +232,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 5,
-        "type": "ability",
         "tags": [
           "buff",
           "invisibility",
@@ -253,7 +252,8 @@
           }
         ],
         "valuesSummary": "+75%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "6": [
@@ -269,7 +269,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 6,
-        "type": "ability",
         "tags": [
           "dot",
           "damage"
@@ -283,7 +282,8 @@
           }
         ],
         "valuesSummary": "100% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "7": [
@@ -299,7 +299,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 7,
-        "type": "ability",
         "tags": [
           "crowd-control",
           "stun"
@@ -314,7 +313,8 @@
           }
         ],
         "valuesSummary": "3s duration",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "8": [
@@ -330,7 +330,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 8,
-        "type": "ability",
         "tags": [
           "crowd-control",
           "mez",
@@ -346,14 +345,15 @@
           }
         ],
         "valuesSummary": "30s duration",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "9": [
       {
-        "name": "Poison Tolerence",
-        "slug": "Poison_Tolerence",
-        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Poison_Tolerence?action=edit&redlink=1",
+        "name": "Poison Tolerance",
+        "slug": "Poison_Tolerance",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Poison_Tolerance?action=edit&redlink=1",
         "description": "Develop a tolerance to poison, increasing your Poison Resistance by 5 for 1 hour.",
         "category": "Acr",
         "categorySlug": "Skill_Acrobatics",
@@ -362,7 +362,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 9,
-        "type": "ability",
         "tags": [
           "buff",
           "self",
@@ -382,7 +381,8 @@
         "valuesSummary": "+5 Poison Resistance",
         "statTags": [
           "PR"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "10": [
@@ -398,7 +398,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 10,
-        "type": "ability",
         "tags": [
           "damage",
           "invisibility"
@@ -427,7 +426,8 @@
           }
         ],
         "valuesSummary": "175% weapon dmg · 110% weapon dmg · 5–10 Physical dmg (L10–L20)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "12": [
@@ -443,7 +443,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 12,
-        "type": "ability",
         "tags": [
           "buff",
           "escape",
@@ -453,7 +452,8 @@
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "13": [
@@ -469,14 +469,14 @@
         "mana": "Innate",
         "castTime": null,
         "level": 13,
-        "type": "ability",
         "tags": [
           "buff"
         ],
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "14": [
@@ -492,7 +492,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 14,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -505,7 +504,8 @@
           }
         ],
         "valuesSummary": "100% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "15": [
@@ -521,7 +521,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 15,
-        "type": "ability",
         "tags": [
           "crowd-control",
           "mez"
@@ -536,7 +535,8 @@
           }
         ],
         "valuesSummary": "10s duration",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "16": [
@@ -552,14 +552,14 @@
         "mana": "Innate",
         "castTime": null,
         "level": 16,
-        "type": "ability",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Slice II",
@@ -573,7 +573,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 16,
-        "type": "ability",
         "tags": [
           "dot",
           "damage"
@@ -587,7 +586,8 @@
           }
         ],
         "valuesSummary": "100% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "18": [
@@ -603,7 +603,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 18,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -616,7 +615,8 @@
           }
         ],
         "valuesSummary": "60% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "20": [
@@ -632,7 +632,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 20,
-        "type": "ability",
         "tags": [
           "buff",
           "self"
@@ -640,7 +639,8 @@
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Stab III",
@@ -654,7 +654,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 20,
-        "type": "ability",
         "tags": [
           "damage",
           "invisibility"
@@ -683,7 +682,8 @@
           }
         ],
         "valuesSummary": "225% weapon dmg · 120% weapon dmg · 10–15 Physical dmg (L20–L30)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "22": [
@@ -699,7 +699,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 22,
-        "type": "ability",
         "tags": [
           "buff",
           "self"
@@ -707,7 +706,8 @@
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "24": [
@@ -723,7 +723,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 24,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -736,7 +735,8 @@
           }
         ],
         "valuesSummary": "110% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "25": [
@@ -752,7 +752,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 25,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -765,7 +764,8 @@
           }
         ],
         "valuesSummary": "200% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "26": [
@@ -781,7 +781,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 26,
-        "type": "ability",
         "tags": [
           "dot",
           "damage"
@@ -795,7 +794,8 @@
           }
         ],
         "valuesSummary": "100% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "28": [
@@ -811,7 +811,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 28,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -824,7 +823,8 @@
           }
         ],
         "valuesSummary": "65% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "30": [
@@ -840,7 +840,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 30,
-        "type": "ability",
         "tags": [
           "damage",
           "invisibility"
@@ -869,7 +868,8 @@
           }
         ],
         "valuesSummary": "275% weapon dmg · 130% weapon dmg · 15–20 Physical dmg (L30–L40)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "32": [
@@ -885,12 +885,12 @@
         "mana": "Innate",
         "castTime": null,
         "level": 32,
-        "type": "ability",
         "tags": [],
         "primaryTag": null,
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "34": [
@@ -906,7 +906,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 34,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -919,7 +918,8 @@
           }
         ],
         "valuesSummary": "120% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "36": [
@@ -935,7 +935,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 36,
-        "type": "ability",
         "tags": [
           "dot",
           "damage"
@@ -949,7 +948,8 @@
           }
         ],
         "valuesSummary": "100% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "38": [
@@ -965,7 +965,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 38,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -978,7 +977,8 @@
           }
         ],
         "valuesSummary": "70% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "40": [
@@ -994,7 +994,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 40,
-        "type": "ability",
         "tags": [
           "buff",
           "self"
@@ -1012,7 +1011,8 @@
           }
         ],
         "valuesSummary": "+100%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Stab V",
@@ -1026,7 +1026,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 40,
-        "type": "ability",
         "tags": [
           "damage",
           "invisibility"
@@ -1055,7 +1054,8 @@
           }
         ],
         "valuesSummary": "325% weapon dmg · 140% weapon dmg · 20–25 Physical dmg (L40–L50)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "44": [
@@ -1071,7 +1071,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 44,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -1084,7 +1083,8 @@
           }
         ],
         "valuesSummary": "130% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "45": [
@@ -1100,7 +1100,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 45,
-        "type": "ability",
         "tags": [
           "buff",
           "self",
@@ -1120,7 +1119,8 @@
         "valuesSummary": "+15 Poison Resistance",
         "statTags": [
           "PR"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "46": [
@@ -1136,7 +1136,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 46,
-        "type": "ability",
         "tags": [
           "dot",
           "damage"
@@ -1150,7 +1149,8 @@
           }
         ],
         "valuesSummary": "100% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "48": [
@@ -1166,7 +1166,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 48,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -1179,7 +1178,8 @@
           }
         ],
         "valuesSummary": "75% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "50": [
@@ -1195,7 +1195,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 50,
-        "type": "ability",
         "tags": [
           "damage",
           "invisibility"
@@ -1224,7 +1223,8 @@
           }
         ],
         "valuesSummary": "450% weapon dmg · 150% weapon dmg · 25–30 Physical dmg (L50–L60)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "54": [
@@ -1240,7 +1240,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 54,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -1253,7 +1252,8 @@
           }
         ],
         "valuesSummary": "140% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "56": [
@@ -1269,7 +1269,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 56,
-        "type": "ability",
         "tags": [
           "dot",
           "damage"
@@ -1283,7 +1282,8 @@
           }
         ],
         "valuesSummary": "100% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "58": [
@@ -1299,7 +1299,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 58,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -1312,7 +1311,8 @@
           }
         ],
         "valuesSummary": "80% weapon dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ]
   },
@@ -1321,7 +1321,7 @@
       "name": "Shoot",
       "slug": "Shoot",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Shoot",
-      "description": "Shoots your target with a bow. (requires bow & arrows)",
+      "description": "Shoots your target with a bow. (Requires bow & arrows)",
       "category": "Mar",
       "categorySlug": "Skill_Martial",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Martial",
@@ -1329,14 +1329,14 @@
       "mana": "Innate",
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Sneak",
@@ -1350,14 +1350,14 @@
       "mana": "Innate",
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "invisibility"
       ],
       "primaryTag": "invisibility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Stab I",
@@ -1371,7 +1371,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "damage",
         "invisibility"
@@ -1400,7 +1399,8 @@
         }
       ],
       "valuesSummary": "125% weapon dmg · 100% weapon dmg · 1–5 Physical dmg (L1–L10)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Stealth",
@@ -1414,14 +1414,14 @@
       "mana": "Innate",
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "invisibility"
       ],
       "primaryTag": "invisibility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Throw",
@@ -1435,14 +1435,14 @@
       "mana": "Innate",
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Swift Strikes",
@@ -1456,7 +1456,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 2,
-      "type": "ability",
       "tags": [
         "buff",
         "haste"
@@ -1464,7 +1463,8 @@
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Jab",
@@ -1478,14 +1478,14 @@
       "mana": "Innate",
       "castTime": null,
       "level": 3,
-      "type": "ability",
       "tags": [
         "interrupt"
       ],
       "primaryTag": "interrupt",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Sprint",
@@ -1499,7 +1499,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 5,
-      "type": "ability",
       "tags": [
         "buff",
         "invisibility",
@@ -1520,7 +1519,8 @@
         }
       ],
       "valuesSummary": "+75%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Slice I",
@@ -1534,7 +1534,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 6,
-      "type": "ability",
       "tags": [
         "dot",
         "damage"
@@ -1548,7 +1547,8 @@
         }
       ],
       "valuesSummary": "100% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Uppercut",
@@ -1562,7 +1562,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 7,
-      "type": "ability",
       "tags": [
         "crowd-control",
         "stun"
@@ -1577,7 +1576,8 @@
         }
       ],
       "valuesSummary": "3s duration",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Sap",
@@ -1591,7 +1591,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 8,
-      "type": "ability",
       "tags": [
         "crowd-control",
         "mez",
@@ -1607,12 +1606,13 @@
         }
       ],
       "valuesSummary": "30s duration",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
-      "name": "Poison Tolerence",
-      "slug": "Poison_Tolerence",
-      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Poison_Tolerence?action=edit&redlink=1",
+      "name": "Poison Tolerance",
+      "slug": "Poison_Tolerance",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Poison_Tolerance?action=edit&redlink=1",
       "description": "Develop a tolerance to poison, increasing your Poison Resistance by 5 for 1 hour.",
       "category": "Acr",
       "categorySlug": "Skill_Acrobatics",
@@ -1621,7 +1621,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 9,
-      "type": "ability",
       "tags": [
         "buff",
         "self",
@@ -1641,7 +1640,8 @@
       "valuesSummary": "+5 Poison Resistance",
       "statTags": [
         "PR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Stab II",
@@ -1655,7 +1655,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 10,
-      "type": "ability",
       "tags": [
         "damage",
         "invisibility"
@@ -1684,7 +1683,8 @@
         }
       ],
       "valuesSummary": "175% weapon dmg · 110% weapon dmg · 5–10 Physical dmg (L10–L20)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Vial of Smoke",
@@ -1698,7 +1698,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 12,
-      "type": "ability",
       "tags": [
         "buff",
         "escape",
@@ -1708,7 +1707,8 @@
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Pick Pocket",
@@ -1722,14 +1722,14 @@
       "mana": "Innate",
       "castTime": null,
       "level": 13,
-      "type": "ability",
       "tags": [
         "buff"
       ],
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Rain of Steel I",
@@ -1743,7 +1743,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 14,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -1756,7 +1755,8 @@
         }
       ],
       "valuesSummary": "100% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Blinding Powder",
@@ -1770,7 +1770,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 15,
-      "type": "ability",
       "tags": [
         "crowd-control",
         "mez"
@@ -1785,7 +1784,8 @@
         }
       ],
       "valuesSummary": "10s duration",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Distract",
@@ -1799,14 +1799,14 @@
       "mana": "Innate",
       "castTime": null,
       "level": 16,
-      "type": "ability",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Slice II",
@@ -1820,7 +1820,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 16,
-      "type": "ability",
       "tags": [
         "dot",
         "damage"
@@ -1834,7 +1833,8 @@
         }
       ],
       "valuesSummary": "100% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Twin Blades I",
@@ -1848,7 +1848,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 18,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -1861,7 +1860,8 @@
         }
       ],
       "valuesSummary": "60% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Nimble Evasion",
@@ -1875,7 +1875,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 20,
-      "type": "ability",
       "tags": [
         "buff",
         "self"
@@ -1883,7 +1882,8 @@
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Stab III",
@@ -1897,7 +1897,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 20,
-      "type": "ability",
       "tags": [
         "damage",
         "invisibility"
@@ -1926,7 +1925,8 @@
         }
       ],
       "valuesSummary": "225% weapon dmg · 120% weapon dmg · 10–15 Physical dmg (L20–L30)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Escape Artist",
@@ -1940,7 +1940,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 22,
-      "type": "ability",
       "tags": [
         "buff",
         "self"
@@ -1948,7 +1947,8 @@
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Rain of Steel II",
@@ -1962,7 +1962,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 24,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -1975,7 +1974,8 @@
         }
       ],
       "valuesSummary": "110% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Deadly Throw",
@@ -1989,7 +1989,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 25,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -2002,7 +2001,8 @@
         }
       ],
       "valuesSummary": "200% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Slice III",
@@ -2016,7 +2016,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 26,
-      "type": "ability",
       "tags": [
         "dot",
         "damage"
@@ -2030,7 +2029,8 @@
         }
       ],
       "valuesSummary": "100% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Twin Blades II",
@@ -2044,7 +2044,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 28,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -2057,7 +2056,8 @@
         }
       ],
       "valuesSummary": "65% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Stab IV",
@@ -2071,7 +2071,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 30,
-      "type": "ability",
       "tags": [
         "damage",
         "invisibility"
@@ -2100,7 +2099,8 @@
         }
       ],
       "valuesSummary": "275% weapon dmg · 130% weapon dmg · 15–20 Physical dmg (L30–L40)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Gambit",
@@ -2114,12 +2114,12 @@
       "mana": "Innate",
       "castTime": null,
       "level": 32,
-      "type": "ability",
       "tags": [],
       "primaryTag": null,
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Rain of Steel III",
@@ -2133,7 +2133,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 34,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -2146,7 +2145,8 @@
         }
       ],
       "valuesSummary": "120% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Slice IV",
@@ -2160,7 +2160,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 36,
-      "type": "ability",
       "tags": [
         "dot",
         "damage"
@@ -2174,7 +2173,8 @@
         }
       ],
       "valuesSummary": "100% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Twin Blades III",
@@ -2188,7 +2188,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 38,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -2201,7 +2200,8 @@
         }
       ],
       "valuesSummary": "70% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Fury of the Assassin",
@@ -2215,7 +2215,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 40,
-      "type": "ability",
       "tags": [
         "buff",
         "self"
@@ -2233,7 +2232,8 @@
         }
       ],
       "valuesSummary": "+100%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Stab V",
@@ -2247,7 +2247,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 40,
-      "type": "ability",
       "tags": [
         "damage",
         "invisibility"
@@ -2276,7 +2275,8 @@
         }
       ],
       "valuesSummary": "325% weapon dmg · 140% weapon dmg · 20–25 Physical dmg (L40–L50)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Rain of Steel IV",
@@ -2290,7 +2290,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 44,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -2303,7 +2302,8 @@
         }
       ],
       "valuesSummary": "130% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Poison Desensitization",
@@ -2317,7 +2317,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 45,
-      "type": "ability",
       "tags": [
         "buff",
         "self",
@@ -2337,7 +2336,8 @@
       "valuesSummary": "+15 Poison Resistance",
       "statTags": [
         "PR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Slice V",
@@ -2351,7 +2351,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 46,
-      "type": "ability",
       "tags": [
         "dot",
         "damage"
@@ -2365,7 +2364,8 @@
         }
       ],
       "valuesSummary": "100% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Twin Blades IV",
@@ -2379,7 +2379,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 48,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -2392,7 +2391,8 @@
         }
       ],
       "valuesSummary": "75% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Stab VI",
@@ -2406,7 +2406,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 50,
-      "type": "ability",
       "tags": [
         "damage",
         "invisibility"
@@ -2435,7 +2434,8 @@
         }
       ],
       "valuesSummary": "450% weapon dmg · 150% weapon dmg · 25–30 Physical dmg (L50–L60)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Rain of Steel V",
@@ -2449,7 +2449,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 54,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -2462,7 +2461,8 @@
         }
       ],
       "valuesSummary": "140% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Slice VI",
@@ -2476,7 +2476,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 56,
-      "type": "ability",
       "tags": [
         "dot",
         "damage"
@@ -2490,7 +2489,8 @@
         }
       ],
       "valuesSummary": "100% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Twin Blades V",
@@ -2504,7 +2504,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 58,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -2517,7 +2516,8 @@
         }
       ],
       "valuesSummary": "80% weapon dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     }
   ]
 }

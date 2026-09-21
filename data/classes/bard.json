@@ -52,7 +52,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "song",
           "buff",
@@ -75,7 +74,8 @@
         "valuesSummary": "+2–4 Dexterity of you and your group (L1–L16)",
         "statTags": [
           "DEX"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Hymn of the Dead",
@@ -89,12 +89,12 @@
         "mana": 0,
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [],
         "primaryTag": null,
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Throw",
@@ -108,14 +108,14 @@
         "mana": "Innate",
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Screaming Vocalization",
@@ -129,7 +129,6 @@
         "mana": 3,
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -157,7 +156,8 @@
           }
         ],
         "valuesSummary": "150–350% dmg (L1–L60) · 2–5 Magic dmg (L1–L4)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "2": [
@@ -173,7 +173,6 @@
         "mana": 0,
         "castTime": null,
         "level": 2,
-        "type": "ability",
         "tags": [
           "dot"
         ],
@@ -193,7 +192,8 @@
           }
         ],
         "valuesSummary": "2–20 Magic/6s (18s) (L2–L60)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "3": [
@@ -209,7 +209,6 @@
         "mana": 0,
         "castTime": null,
         "level": 3,
-        "type": "ability",
         "tags": [
           "crowd-control",
           "mez"
@@ -224,7 +223,8 @@
           }
         ],
         "valuesSummary": "18s duration",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "4": [
@@ -240,7 +240,6 @@
         "mana": 0,
         "castTime": null,
         "level": 4,
-        "type": "ability",
         "tags": [
           "song",
           "buff",
@@ -263,7 +262,8 @@
         "valuesSummary": "+2–20 Health Regeneration (L1–L60)",
         "statTags": [
           "HP REGEN"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Siren's Call",
@@ -277,14 +277,14 @@
         "mana": 5,
         "castTime": null,
         "level": 4,
-        "type": "ability",
         "tags": [
           "charm"
         ],
         "primaryTag": "charm",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "5": [
@@ -300,7 +300,6 @@
         "mana": 0,
         "castTime": null,
         "level": 5,
-        "type": "ability",
         "tags": [
           "song",
           "buff",
@@ -320,15 +319,16 @@
           }
         ],
         "valuesSummary": "+25–75%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "6": [
       {
-        "name": "Chant of Magic Protection",
-        "slug": "Chant_of_Magic_Protection",
-        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Chant_of_Magic_Protection",
-        "description": "Immerse your gorup in a rhythmic chant, increasing their Magic Resistance by 5 for 18 seconds.",
+        "name": "Chant of Purity",
+        "slug": "Chant_of_Purity",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Chant_of_Purity?action=edit&redlink=1",
+        "description": "Immerse your gorup in a rhythmic chant, increasing their Poison and Disease Resistance by 5 (L6) to 10 (L26) for 18 seconds.",
         "category": "String",
         "categorySlug": "Skill_Stringed_Instruments",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Stringed_Instruments",
@@ -336,27 +336,40 @@
         "mana": 0,
         "castTime": null,
         "level": 6,
-        "type": "ability",
         "tags": [
           "song",
           "buff",
-          "MR"
+          "DR"
         ],
         "primaryTag": "song",
         "effects": [
           {
             "kind": "buff",
-            "stat": "Magic Resistance",
-            "amount": 5,
-            "display": "+5 Magic Resistance",
-            "sortKey": 5,
-            "statTag": "MR"
+            "stat": "Poison and Disease Resistance",
+            "min": 5,
+            "max": 10,
+            "minLevel": 6,
+            "maxLevel": 26,
+            "display": "+5–10 Poison and Disease Resistance (L6–L26)",
+            "sortKey": 10
+          },
+          {
+            "kind": "buff",
+            "stat": "Disease Resistance",
+            "min": 5,
+            "max": 10,
+            "minLevel": 6,
+            "maxLevel": 26,
+            "display": "+5–10 Disease Resistance (L6–L26)",
+            "sortKey": 10,
+            "statTag": "DR"
           }
         ],
-        "valuesSummary": "+5 Magic Resistance",
+        "valuesSummary": "+5–10 Poison and Disease Resistance (L6–L26) · +5–10 Disease Resistance (L6–L26)",
         "statTags": [
-          "MR"
-        ]
+          "DR"
+        ],
+        "type": "ability"
       }
     ],
     "7": [
@@ -372,7 +385,6 @@
         "mana": 3,
         "castTime": null,
         "level": 7,
-        "type": "ability",
         "tags": [
           "aoe"
         ],
@@ -390,7 +402,8 @@
           }
         ],
         "valuesSummary": "−75–750 Threat against them (L1–L60)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "8": [
@@ -406,7 +419,6 @@
         "mana": 0,
         "castTime": null,
         "level": 8,
-        "type": "ability",
         "tags": [
           "debuff",
           "slow",
@@ -426,7 +438,8 @@
           }
         ],
         "valuesSummary": "−20%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Disruptive Riffs",
@@ -440,7 +453,6 @@
         "mana": 0,
         "castTime": null,
         "level": 8,
-        "type": "ability",
         "tags": [
           "dot"
         ],
@@ -460,7 +472,8 @@
           }
         ],
         "valuesSummary": "4–20 Magic/6s (18s) (L8–L60)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "9": [
@@ -476,14 +489,14 @@
         "mana": 0,
         "castTime": null,
         "level": 9,
-        "type": "ability",
         "tags": [
           "debuff"
         ],
         "primaryTag": "debuff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "10": [
@@ -499,7 +512,6 @@
         "mana": 10,
         "castTime": null,
         "level": 10,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -524,7 +536,8 @@
           }
         ],
         "valuesSummary": "150–350% dmg (L1–L60) · 15 Magic dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "11": [
@@ -540,7 +553,6 @@
         "mana": 9999,
         "castTime": null,
         "level": 11,
-        "type": "ability",
         "tags": [
           "buff"
         ],
@@ -558,7 +570,8 @@
           }
         ],
         "valuesSummary": "+10000–20000 faction standing with them (L1–L60)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "12": [
@@ -574,7 +587,6 @@
         "mana": 0,
         "castTime": null,
         "level": 12,
-        "type": "ability",
         "tags": [
           "song",
           "buff",
@@ -596,7 +608,8 @@
         "valuesSummary": "+10%",
         "statTags": [
           "CAST"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Allegro con Fuoco",
@@ -610,7 +623,6 @@
         "mana": 0,
         "castTime": null,
         "level": 12,
-        "type": "ability",
         "tags": [
           "song",
           "buff",
@@ -630,7 +642,8 @@
           }
         ],
         "valuesSummary": "+10%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Allegro Lento",
@@ -644,7 +657,6 @@
         "mana": 0,
         "castTime": null,
         "level": 12,
-        "type": "ability",
         "tags": [
           "song",
           "buff",
@@ -664,7 +676,8 @@
           }
         ],
         "valuesSummary": "+10–15%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Siren's Allure",
@@ -678,14 +691,14 @@
         "mana": 12,
         "castTime": null,
         "level": 12,
-        "type": "ability",
         "tags": [
           "charm"
         ],
         "primaryTag": "charm",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "13": [
@@ -701,7 +714,6 @@
         "mana": 20,
         "castTime": null,
         "level": 13,
-        "type": "ability",
         "tags": [
           "crowd-control",
           "fear"
@@ -709,7 +721,8 @@
         "primaryTag": "fear",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "14": [
@@ -725,7 +738,6 @@
         "mana": 0,
         "castTime": null,
         "level": 14,
-        "type": "ability",
         "tags": [
           "song",
           "buff",
@@ -734,7 +746,8 @@
         "primaryTag": "song",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "15": [
@@ -750,14 +763,14 @@
         "mana": 0,
         "castTime": null,
         "level": 15,
-        "type": "ability",
         "tags": [
           "debuff"
         ],
         "primaryTag": "debuff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "16": [
@@ -773,7 +786,6 @@
         "mana": "",
         "castTime": null,
         "level": 16,
-        "type": "ability",
         "tags": [
           "crowd-control",
           "mez"
@@ -788,7 +800,8 @@
           }
         ],
         "valuesSummary": "2s duration",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Chant of Magic Resistance",
@@ -802,7 +815,6 @@
         "mana": 0,
         "castTime": null,
         "level": 16,
-        "type": "ability",
         "tags": [
           "song",
           "buff",
@@ -822,7 +834,8 @@
         "valuesSummary": "+15 Magic Resistance",
         "statTags": [
           "MR"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Discordant Riffs",
@@ -836,7 +849,6 @@
         "mana": 0,
         "castTime": null,
         "level": 16,
-        "type": "ability",
         "tags": [
           "dot"
         ],
@@ -856,7 +868,8 @@
           }
         ],
         "valuesSummary": "8–20 Magic/6s (18s) (L16–L60)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Hymn of Inspiration",
@@ -870,7 +883,6 @@
         "mana": 0,
         "castTime": null,
         "level": 16,
-        "type": "ability",
         "tags": [
           "song",
           "buff",
@@ -893,7 +905,8 @@
         "valuesSummary": "+1–15 Mana Regeneration (L8–L60)",
         "statTags": [
           "MANA"
-        ]
+        ],
+        "type": "ability"
       }
     ],
     "20": [
@@ -909,14 +922,14 @@
         "mana": "Innate",
         "castTime": null,
         "level": 20,
-        "type": "ability",
         "tags": [
           "invisibility"
         ],
         "primaryTag": "invisibility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Cacophonic Vocalization",
@@ -930,7 +943,6 @@
         "mana": 50,
         "castTime": null,
         "level": 20,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -955,7 +967,8 @@
           }
         ],
         "valuesSummary": "150–350% dmg (L1–L60) · 25 Magic dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Sonnet of the Unseen",
@@ -969,7 +982,6 @@
         "mana": 0,
         "castTime": null,
         "level": 20,
-        "type": "ability",
         "tags": [
           "song",
           "buff",
@@ -979,7 +991,8 @@
         "primaryTag": "song",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "24": [
@@ -995,14 +1008,14 @@
         "mana": "",
         "castTime": null,
         "level": 24,
-        "type": "ability",
         "tags": [
           "charm"
         ],
         "primaryTag": "charm",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "26": [
@@ -1018,7 +1031,6 @@
         "mana": "",
         "castTime": null,
         "level": 26,
-        "type": "ability",
         "tags": [
           "crowd-control",
           "mez"
@@ -1033,7 +1045,8 @@
           }
         ],
         "valuesSummary": "3s duration",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "28": [
@@ -1049,7 +1062,6 @@
         "mana": 0,
         "castTime": null,
         "level": 28,
-        "type": "ability",
         "tags": [
           "debuff",
           "slow",
@@ -1069,7 +1081,8 @@
           }
         ],
         "valuesSummary": "−30%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Allegro Moderato",
@@ -1083,7 +1096,6 @@
         "mana": 0,
         "castTime": null,
         "level": 28,
-        "type": "ability",
         "tags": [
           "song",
           "buff",
@@ -1103,7 +1115,8 @@
           }
         ],
         "valuesSummary": "+25–35%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "30": [
@@ -1119,7 +1132,6 @@
         "mana": 70,
         "castTime": null,
         "level": 30,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -1144,7 +1156,8 @@
           }
         ],
         "valuesSummary": "150–290% dmg (L1–L60) · 29 Magic dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "32": [
@@ -1160,7 +1173,6 @@
         "mana": 0,
         "castTime": null,
         "level": 32,
-        "type": "ability",
         "tags": [
           "dot"
         ],
@@ -1180,7 +1192,8 @@
           }
         ],
         "valuesSummary": "12–20 Magic/6s (18s) (L32–L60)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "33": [
@@ -1196,14 +1209,14 @@
         "mana": 0,
         "castTime": null,
         "level": 33,
-        "type": "ability",
         "tags": [
           "buff"
         ],
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "36": [
@@ -1219,7 +1232,6 @@
         "mana": "",
         "castTime": null,
         "level": 36,
-        "type": "ability",
         "tags": [
           "crowd-control",
           "mez"
@@ -1234,7 +1246,8 @@
           }
         ],
         "valuesSummary": "4s duration",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Siren's Compulsion",
@@ -1248,14 +1261,14 @@
         "mana": "",
         "castTime": null,
         "level": 36,
-        "type": "ability",
         "tags": [
           "charm"
         ],
         "primaryTag": "charm",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "40": [
@@ -1271,7 +1284,6 @@
         "mana": 0,
         "castTime": null,
         "level": 40,
-        "type": "ability",
         "tags": [
           "dot"
         ],
@@ -1291,7 +1303,8 @@
           }
         ],
         "valuesSummary": "20–30 Magic/6s (18s) (L40–L60)",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Discordant Vocalization",
@@ -1305,7 +1318,6 @@
         "mana": "",
         "castTime": null,
         "level": 40,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -1330,7 +1342,8 @@
           }
         ],
         "valuesSummary": "150–350% dmg (L1–L60) · 45 Magic dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "44": [
@@ -1346,7 +1359,6 @@
         "mana": 0,
         "castTime": null,
         "level": 44,
-        "type": "ability",
         "tags": [
           "song",
           "buff",
@@ -1366,7 +1378,8 @@
           }
         ],
         "valuesSummary": "+40–50%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Aria De Grave",
@@ -1380,7 +1393,6 @@
         "mana": 0,
         "castTime": null,
         "level": 44,
-        "type": "ability",
         "tags": [
           "debuff",
           "slow",
@@ -1400,7 +1412,8 @@
           }
         ],
         "valuesSummary": "−40%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "46": [
@@ -1416,7 +1429,6 @@
         "mana": "",
         "castTime": null,
         "level": 46,
-        "type": "ability",
         "tags": [
           "crowd-control",
           "mez"
@@ -1431,7 +1443,8 @@
           }
         ],
         "valuesSummary": "5s duration",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "48": [
@@ -1447,14 +1460,14 @@
         "mana": "",
         "castTime": null,
         "level": 48,
-        "type": "ability",
         "tags": [
           "charm"
         ],
         "primaryTag": "charm",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "50": [
@@ -1470,7 +1483,6 @@
         "mana": "",
         "castTime": null,
         "level": 50,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -1495,7 +1507,8 @@
           }
         ],
         "valuesSummary": "150–350% dmg (L1–L60) · 55 Magic dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "56": [
@@ -1511,7 +1524,6 @@
         "mana": "",
         "castTime": null,
         "level": 56,
-        "type": "ability",
         "tags": [
           "crowd-control",
           "mez"
@@ -1526,7 +1538,8 @@
           }
         ],
         "valuesSummary": "6s duration",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Aria de Larghissimo",
@@ -1540,7 +1553,6 @@
         "mana": 0,
         "castTime": null,
         "level": 56,
-        "type": "ability",
         "tags": [
           "debuff",
           "slow",
@@ -1560,7 +1572,8 @@
           }
         ],
         "valuesSummary": "−50%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "60": [
@@ -1576,7 +1589,6 @@
         "mana": 0,
         "castTime": null,
         "level": 60,
-        "type": "ability",
         "tags": [
           "song",
           "buff",
@@ -1596,7 +1608,8 @@
           }
         ],
         "valuesSummary": "+55%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Thunderous Vocalization",
@@ -1610,7 +1623,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "ability",
         "tags": [
           "damage"
         ],
@@ -1635,7 +1647,8 @@
           }
         ],
         "valuesSummary": "150–350% dmg (L1–L60) · 60 Magic dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ]
   },
@@ -1652,7 +1665,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "song",
         "buff",
@@ -1675,7 +1687,8 @@
       "valuesSummary": "+2–4 Dexterity of you and your group (L1–L16)",
       "statTags": [
         "DEX"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Hymn of the Dead",
@@ -1689,12 +1702,12 @@
       "mana": 0,
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [],
       "primaryTag": null,
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Throw",
@@ -1708,14 +1721,14 @@
       "mana": "Innate",
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Screaming Vocalization",
@@ -1729,7 +1742,6 @@
       "mana": 3,
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -1757,7 +1769,8 @@
         }
       ],
       "valuesSummary": "150–350% dmg (L1–L60) · 2–5 Magic dmg (L1–L4)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Dissonant Riffs",
@@ -1771,7 +1784,6 @@
       "mana": 0,
       "castTime": null,
       "level": 2,
-      "type": "ability",
       "tags": [
         "dot"
       ],
@@ -1791,7 +1803,8 @@
         }
       ],
       "valuesSummary": "2–20 Magic/6s (18s) (L2–L60)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Somniferous Serenade",
@@ -1805,7 +1818,6 @@
       "mana": 0,
       "castTime": null,
       "level": 3,
-      "type": "ability",
       "tags": [
         "crowd-control",
         "mez"
@@ -1820,7 +1832,8 @@
         }
       ],
       "valuesSummary": "18s duration",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Healing Hymn",
@@ -1834,7 +1847,6 @@
       "mana": 0,
       "castTime": null,
       "level": 4,
-      "type": "ability",
       "tags": [
         "song",
         "buff",
@@ -1857,7 +1869,8 @@
       "valuesSummary": "+2–20 Health Regeneration (L1–L60)",
       "statTags": [
         "HP REGEN"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Siren's Call",
@@ -1871,14 +1884,14 @@
       "mana": 5,
       "castTime": null,
       "level": 4,
-      "type": "ability",
       "tags": [
         "charm"
       ],
       "primaryTag": "charm",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Traveler's March",
@@ -1892,7 +1905,6 @@
       "mana": 0,
       "castTime": null,
       "level": 5,
-      "type": "ability",
       "tags": [
         "song",
         "buff",
@@ -1912,13 +1924,14 @@
         }
       ],
       "valuesSummary": "+25–75%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
-      "name": "Chant of Magic Protection",
-      "slug": "Chant_of_Magic_Protection",
-      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Chant_of_Magic_Protection",
-      "description": "Immerse your gorup in a rhythmic chant, increasing their Magic Resistance by 5 for 18 seconds.",
+      "name": "Chant of Purity",
+      "slug": "Chant_of_Purity",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Chant_of_Purity?action=edit&redlink=1",
+      "description": "Immerse your gorup in a rhythmic chant, increasing their Poison and Disease Resistance by 5 (L6) to 10 (L26) for 18 seconds.",
       "category": "String",
       "categorySlug": "Skill_Stringed_Instruments",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Stringed_Instruments",
@@ -1926,27 +1939,40 @@
       "mana": 0,
       "castTime": null,
       "level": 6,
-      "type": "ability",
       "tags": [
         "song",
         "buff",
-        "MR"
+        "DR"
       ],
       "primaryTag": "song",
       "effects": [
         {
           "kind": "buff",
-          "stat": "Magic Resistance",
-          "amount": 5,
-          "display": "+5 Magic Resistance",
-          "sortKey": 5,
-          "statTag": "MR"
+          "stat": "Poison and Disease Resistance",
+          "min": 5,
+          "max": 10,
+          "minLevel": 6,
+          "maxLevel": 26,
+          "display": "+5–10 Poison and Disease Resistance (L6–L26)",
+          "sortKey": 10
+        },
+        {
+          "kind": "buff",
+          "stat": "Disease Resistance",
+          "min": 5,
+          "max": 10,
+          "minLevel": 6,
+          "maxLevel": 26,
+          "display": "+5–10 Disease Resistance (L6–L26)",
+          "sortKey": 10,
+          "statTag": "DR"
         }
       ],
-      "valuesSummary": "+5 Magic Resistance",
+      "valuesSummary": "+5–10 Poison and Disease Resistance (L6–L26) · +5–10 Disease Resistance (L6–L26)",
       "statTags": [
-        "MR"
-      ]
+        "DR"
+      ],
+      "type": "ability"
     },
     {
       "name": "Repel",
@@ -1960,7 +1986,6 @@
       "mana": 3,
       "castTime": null,
       "level": 7,
-      "type": "ability",
       "tags": [
         "aoe"
       ],
@@ -1978,7 +2003,8 @@
         }
       ],
       "valuesSummary": "−75–750 Threat against them (L1–L60)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Aria de Lento",
@@ -1992,7 +2018,6 @@
       "mana": 0,
       "castTime": null,
       "level": 8,
-      "type": "ability",
       "tags": [
         "debuff",
         "slow",
@@ -2012,7 +2037,8 @@
         }
       ],
       "valuesSummary": "−20%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Disruptive Riffs",
@@ -2026,7 +2052,6 @@
       "mana": 0,
       "castTime": null,
       "level": 8,
-      "type": "ability",
       "tags": [
         "dot"
       ],
@@ -2046,7 +2071,8 @@
         }
       ],
       "valuesSummary": "4–20 Magic/6s (18s) (L8–L60)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Languid Lullaby",
@@ -2060,14 +2086,14 @@
       "mana": 0,
       "castTime": null,
       "level": 9,
-      "type": "ability",
       "tags": [
         "debuff"
       ],
       "primaryTag": "debuff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Dissonant Vocalization",
@@ -2081,7 +2107,6 @@
       "mana": 10,
       "castTime": null,
       "level": 10,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -2106,7 +2131,8 @@
         }
       ],
       "valuesSummary": "150–350% dmg (L1–L60) · 15 Magic dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Unifying Anthem",
@@ -2120,7 +2146,6 @@
       "mana": 9999,
       "castTime": null,
       "level": 11,
-      "type": "ability",
       "tags": [
         "buff"
       ],
@@ -2138,7 +2163,8 @@
         }
       ],
       "valuesSummary": "+10000–20000 faction standing with them (L1–L60)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Allegro con Brio",
@@ -2152,7 +2178,6 @@
       "mana": 0,
       "castTime": null,
       "level": 12,
-      "type": "ability",
       "tags": [
         "song",
         "buff",
@@ -2174,7 +2199,8 @@
       "valuesSummary": "+10%",
       "statTags": [
         "CAST"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Allegro con Fuoco",
@@ -2188,7 +2214,6 @@
       "mana": 0,
       "castTime": null,
       "level": 12,
-      "type": "ability",
       "tags": [
         "song",
         "buff",
@@ -2208,7 +2233,8 @@
         }
       ],
       "valuesSummary": "+10%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Allegro Lento",
@@ -2222,7 +2248,6 @@
       "mana": 0,
       "castTime": null,
       "level": 12,
-      "type": "ability",
       "tags": [
         "song",
         "buff",
@@ -2242,7 +2267,8 @@
         }
       ],
       "valuesSummary": "+10–15%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Siren's Allure",
@@ -2256,14 +2282,14 @@
       "mana": 12,
       "castTime": null,
       "level": 12,
-      "type": "ability",
       "tags": [
         "charm"
       ],
       "primaryTag": "charm",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Frightful Screech",
@@ -2277,7 +2303,6 @@
       "mana": 20,
       "castTime": null,
       "level": 13,
-      "type": "ability",
       "tags": [
         "crowd-control",
         "fear"
@@ -2285,7 +2310,8 @@
       "primaryTag": "fear",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Selstie's Aeolian Aria",
@@ -2299,7 +2325,6 @@
       "mana": 0,
       "castTime": null,
       "level": 14,
-      "type": "ability",
       "tags": [
         "song",
         "buff",
@@ -2308,7 +2333,8 @@
       "primaryTag": "song",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Languid Lament",
@@ -2322,14 +2348,14 @@
       "mana": 0,
       "castTime": null,
       "level": 15,
-      "type": "ability",
       "tags": [
         "debuff"
       ],
       "primaryTag": "debuff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Mesmerizing Whisper",
@@ -2343,7 +2369,6 @@
       "mana": "",
       "castTime": null,
       "level": 16,
-      "type": "ability",
       "tags": [
         "crowd-control",
         "mez"
@@ -2358,7 +2383,8 @@
         }
       ],
       "valuesSummary": "2s duration",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Chant of Magic Resistance",
@@ -2372,7 +2398,6 @@
       "mana": 0,
       "castTime": null,
       "level": 16,
-      "type": "ability",
       "tags": [
         "song",
         "buff",
@@ -2392,7 +2417,8 @@
       "valuesSummary": "+15 Magic Resistance",
       "statTags": [
         "MR"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Discordant Riffs",
@@ -2406,7 +2432,6 @@
       "mana": 0,
       "castTime": null,
       "level": 16,
-      "type": "ability",
       "tags": [
         "dot"
       ],
@@ -2426,7 +2451,8 @@
         }
       ],
       "valuesSummary": "8–20 Magic/6s (18s) (L16–L60)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Hymn of Inspiration",
@@ -2440,7 +2466,6 @@
       "mana": 0,
       "castTime": null,
       "level": 16,
-      "type": "ability",
       "tags": [
         "song",
         "buff",
@@ -2463,7 +2488,8 @@
       "valuesSummary": "+1–15 Mana Regeneration (L8–L60)",
       "statTags": [
         "MANA"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Sneak",
@@ -2477,14 +2503,14 @@
       "mana": "Innate",
       "castTime": null,
       "level": 20,
-      "type": "ability",
       "tags": [
         "invisibility"
       ],
       "primaryTag": "invisibility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Cacophonic Vocalization",
@@ -2498,7 +2524,6 @@
       "mana": 50,
       "castTime": null,
       "level": 20,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -2523,7 +2548,8 @@
         }
       ],
       "valuesSummary": "150–350% dmg (L1–L60) · 25 Magic dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Sonnet of the Unseen",
@@ -2537,7 +2563,6 @@
       "mana": 0,
       "castTime": null,
       "level": 20,
-      "type": "ability",
       "tags": [
         "song",
         "buff",
@@ -2547,7 +2572,8 @@
       "primaryTag": "song",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Siren's Enchantment",
@@ -2561,14 +2587,14 @@
       "mana": "",
       "castTime": null,
       "level": 24,
-      "type": "ability",
       "tags": [
         "charm"
       ],
       "primaryTag": "charm",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Subduing Whisper",
@@ -2582,7 +2608,6 @@
       "mana": "",
       "castTime": null,
       "level": 26,
-      "type": "ability",
       "tags": [
         "crowd-control",
         "mez"
@@ -2597,7 +2622,8 @@
         }
       ],
       "valuesSummary": "3s duration",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Aria De Largo",
@@ -2611,7 +2637,6 @@
       "mana": 0,
       "castTime": null,
       "level": 28,
-      "type": "ability",
       "tags": [
         "debuff",
         "slow",
@@ -2631,7 +2656,8 @@
         }
       ],
       "valuesSummary": "−30%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Allegro Moderato",
@@ -2645,7 +2671,6 @@
       "mana": 0,
       "castTime": null,
       "level": 28,
-      "type": "ability",
       "tags": [
         "song",
         "buff",
@@ -2665,7 +2690,8 @@
         }
       ],
       "valuesSummary": "+25–35%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Wailing Vocalization",
@@ -2679,7 +2705,6 @@
       "mana": 70,
       "castTime": null,
       "level": 30,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -2704,7 +2729,8 @@
         }
       ],
       "valuesSummary": "150–290% dmg (L1–L60) · 29 Magic dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Despondent Riffs",
@@ -2718,7 +2744,6 @@
       "mana": 0,
       "castTime": null,
       "level": 32,
-      "type": "ability",
       "tags": [
         "dot"
       ],
@@ -2738,7 +2763,8 @@
         }
       ],
       "valuesSummary": "12–20 Magic/6s (18s) (L32–L60)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Harmony of Visions",
@@ -2752,14 +2778,14 @@
       "mana": 0,
       "castTime": null,
       "level": 33,
-      "type": "ability",
       "tags": [
         "buff"
       ],
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Entrancing Whisper",
@@ -2773,7 +2799,6 @@
       "mana": "",
       "castTime": null,
       "level": 36,
-      "type": "ability",
       "tags": [
         "crowd-control",
         "mez"
@@ -2788,7 +2813,8 @@
         }
       ],
       "valuesSummary": "4s duration",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Siren's Compulsion",
@@ -2802,14 +2828,14 @@
       "mana": "",
       "castTime": null,
       "level": 36,
-      "type": "ability",
       "tags": [
         "charm"
       ],
       "primaryTag": "charm",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Dismal Riffs",
@@ -2823,7 +2849,6 @@
       "mana": 0,
       "castTime": null,
       "level": 40,
-      "type": "ability",
       "tags": [
         "dot"
       ],
@@ -2843,7 +2868,8 @@
         }
       ],
       "valuesSummary": "20–30 Magic/6s (18s) (L40–L60)",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Discordant Vocalization",
@@ -2857,7 +2883,6 @@
       "mana": "",
       "castTime": null,
       "level": 40,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -2882,7 +2907,8 @@
         }
       ],
       "valuesSummary": "150–350% dmg (L1–L60) · 45 Magic dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Allegro Assai",
@@ -2896,7 +2922,6 @@
       "mana": 0,
       "castTime": null,
       "level": 44,
-      "type": "ability",
       "tags": [
         "song",
         "buff",
@@ -2916,7 +2941,8 @@
         }
       ],
       "valuesSummary": "+40–50%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Aria De Grave",
@@ -2930,7 +2956,6 @@
       "mana": 0,
       "castTime": null,
       "level": 44,
-      "type": "ability",
       "tags": [
         "debuff",
         "slow",
@@ -2950,7 +2975,8 @@
         }
       ],
       "valuesSummary": "−40%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Somnolent Whisper",
@@ -2964,7 +2990,6 @@
       "mana": "",
       "castTime": null,
       "level": 46,
-      "type": "ability",
       "tags": [
         "crowd-control",
         "mez"
@@ -2979,7 +3004,8 @@
         }
       ],
       "valuesSummary": "5s duration",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Siren's Thrall",
@@ -2993,14 +3019,14 @@
       "mana": "",
       "castTime": null,
       "level": 48,
-      "type": "ability",
       "tags": [
         "charm"
       ],
       "primaryTag": "charm",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Chaotic Vocalization",
@@ -3014,7 +3040,6 @@
       "mana": "",
       "castTime": null,
       "level": 50,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -3039,7 +3064,8 @@
         }
       ],
       "valuesSummary": "150–350% dmg (L1–L60) · 55 Magic dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Hypnotic Whisper",
@@ -3053,7 +3079,6 @@
       "mana": "",
       "castTime": null,
       "level": 56,
-      "type": "ability",
       "tags": [
         "crowd-control",
         "mez"
@@ -3068,7 +3093,8 @@
         }
       ],
       "valuesSummary": "6s duration",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Aria de Larghissimo",
@@ -3082,7 +3108,6 @@
       "mana": 0,
       "castTime": null,
       "level": 56,
-      "type": "ability",
       "tags": [
         "debuff",
         "slow",
@@ -3102,7 +3127,8 @@
         }
       ],
       "valuesSummary": "−50%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Molto Allegro",
@@ -3116,7 +3142,6 @@
       "mana": 0,
       "castTime": null,
       "level": 60,
-      "type": "ability",
       "tags": [
         "song",
         "buff",
@@ -3136,7 +3161,8 @@
         }
       ],
       "valuesSummary": "+55%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Thunderous Vocalization",
@@ -3150,7 +3176,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "ability",
       "tags": [
         "damage"
       ],
@@ -3175,7 +3200,8 @@
         }
       ],
       "valuesSummary": "150–350% dmg (L1–L60) · 60 Magic dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     }
   ]
 }
