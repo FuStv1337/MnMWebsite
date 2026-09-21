@@ -41,7 +41,6 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "buff",
           "CR"
@@ -60,7 +59,8 @@
         "valuesSummary": "+4 Cold Resistance",
         "statTags": [
           "CR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Draw Strength",
@@ -74,7 +74,6 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "buff",
           "debuff",
@@ -109,7 +108,8 @@
         "valuesSummary": "−2 Strength · −2 increasing your own Strength · +2 own Strength",
         "statTags": [
           "STR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Ghoul Pet Tier 1",
@@ -123,7 +123,6 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -131,13 +130,14 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Holy Protection",
         "slug": "Holy_Protection",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Holy_Protection",
-        "description": "Wards your target against the divine, increasing their Holy Resistance by 5 for 1 hour.",
+        "description": "Ward your target against divine, increasing their Holy Resistance by 5 for 1 hour.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -145,7 +145,6 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "buff",
           "HR"
@@ -164,13 +163,14 @@
         "valuesSummary": "+5 Holy Resistance",
         "statTags": [
           "HR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Invisibility",
         "slug": "Invisibility",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Invisibility",
-        "description": "Shroud a target group member in a cloak of invisibility, rendering them unseen by the living for 10 minutes.",
+        "description": "Shroud a target party member in a cloak of invisibility, rendering them unseen by the living for 10 minutes.",
         "category": "Div",
         "categorySlug": "Skill_Divination",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
@@ -178,20 +178,20 @@
         "mana": 20,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "invisibility"
         ],
         "primaryTag": "invisibility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Invisibility versus Undead",
         "slug": "Invisibility_versus_Undead",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Invisibility_versus_Undead",
-        "description": "Shroud a target group member in darkness, rendering them unseen by the undead for 10 minutes. This spell has a moderate chance to end early.",
+        "description": "Shroud a target group member in a cloak of invisibility, rendering them unseen by the undead for 10 minutes.",
         "category": "Div",
         "categorySlug": "Skill_Divination",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
@@ -199,7 +199,6 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "buff",
           "invisibility"
@@ -207,7 +206,8 @@
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Life Drain",
@@ -221,14 +221,14 @@
         "mana": 7,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Lift Bones",
@@ -242,14 +242,14 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "pet"
         ],
         "primaryTag": "pet",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Locate Corpse",
@@ -263,12 +263,12 @@
         "mana": 5,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [],
         "primaryTag": null,
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Minor Spellshield",
@@ -282,7 +282,6 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "buff",
           "shield",
@@ -323,7 +322,8 @@
           "AC",
           "MAX HP",
           "MR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Noxious Deluge",
@@ -337,7 +337,6 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "damage",
           "dot"
@@ -363,7 +362,8 @@
           }
         ],
         "valuesSummary": "2 Poison/6s (30s) · 5 Poison dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Polar Align: North",
@@ -377,7 +377,6 @@
         "mana": 5,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "utility",
           "self"
@@ -385,7 +384,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Reclaim Essence",
@@ -399,7 +399,6 @@
         "mana": 5,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -407,7 +406,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Zombie Pet Tier 1",
@@ -421,7 +421,6 @@
         "mana": 10,
         "castTime": null,
         "level": 1,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -429,7 +428,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "4": [
@@ -445,14 +445,14 @@
         "mana": 50,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "dispel"
         ],
         "primaryTag": "dispel",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Fear",
@@ -466,7 +466,6 @@
         "mana": 20,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "crowd-control",
           "fear"
@@ -474,7 +473,8 @@
         "primaryTag": "fear",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Gate",
@@ -488,7 +488,6 @@
         "mana": 55,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "summon",
           "teleport"
@@ -496,7 +495,8 @@
         "primaryTag": "summon",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Ghoul Pet Tier 2",
@@ -510,7 +510,6 @@
         "mana": 30,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -518,7 +517,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Life Draw",
@@ -532,14 +532,14 @@
         "mana": 15,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Lull the Dead",
@@ -553,14 +553,14 @@
         "mana": 15,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "debuff"
         ],
         "primaryTag": "debuff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Mind Surge",
@@ -574,14 +574,14 @@
         "mana": 20,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "buff"
         ],
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Reanimate Corpse",
@@ -595,14 +595,14 @@
         "mana": 30,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "pet"
         ],
         "primaryTag": "pet",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "See Invisibility",
@@ -616,7 +616,6 @@
         "mana": 20,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "buff",
           "invisibility",
@@ -625,7 +624,8 @@
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Sense Magic",
@@ -639,7 +639,6 @@
         "mana": 20,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "buff",
           "utility"
@@ -647,7 +646,8 @@
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Soulbind",
@@ -661,14 +661,14 @@
         "mana": 75,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "teleport"
         ],
         "primaryTag": "teleport",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Spirit Break",
@@ -682,7 +682,6 @@
         "mana": 10,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "debuff",
           "MR"
@@ -704,7 +703,8 @@
         "valuesSummary": "+1–2 Magic Resistance (L1–L8)",
         "statTags": [
           "MR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Swirling Shadows",
@@ -718,7 +718,6 @@
         "mana": 10,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "debuff",
           "slow"
@@ -736,7 +735,8 @@
           }
         ],
         "valuesSummary": "−30%",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Zombie Pet Tier 2",
@@ -750,7 +750,6 @@
         "mana": 30,
         "castTime": null,
         "level": 4,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -758,7 +757,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "8": [
@@ -774,7 +774,6 @@
         "mana": 25,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "damage",
           "buff",
@@ -794,7 +793,8 @@
           }
         ],
         "valuesSummary": "1–30 Corruption dmg (L1–L60)",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Blood Pact",
@@ -808,7 +808,6 @@
         "mana": 5,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "buff",
           "self",
@@ -828,7 +827,8 @@
         "valuesSummary": "+2 Mana Regeneration",
         "statTags": [
           "MANA"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Dark Embrace",
@@ -842,7 +842,6 @@
         "mana": 25,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "heal"
         ],
@@ -856,7 +855,8 @@
           }
         ],
         "valuesSummary": "40 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Deathly Howl",
@@ -870,7 +870,6 @@
         "mana": 50,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "crowd-control",
           "fear",
@@ -879,7 +878,8 @@
         "primaryTag": "fear",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Feign Death (Spell)",
@@ -893,14 +893,14 @@
         "mana": 30,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "self"
         ],
         "primaryTag": "self",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Ghoul Pet Tier 3",
@@ -914,7 +914,6 @@
         "mana": 60,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -922,13 +921,14 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Lesser Spellshield",
         "slug": "Lesser_Spellshield",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Lesser_Spellshield",
-        "description": "A magical shield encircles you, increasing your HP by 25, AC by 10, and Magic Resistance by 10.",
+        "description": "Encircle yourself with a magical shield, increasing your maximum Health by 25, Armor Class by 10, and Magic Resistance by 10 for 1 hour.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -936,7 +936,6 @@
         "mana": 25,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "buff",
           "shield",
@@ -949,17 +948,17 @@
         "effects": [
           {
             "kind": "buff",
-            "stat": "HP",
+            "stat": "Health",
             "amount": 25,
-            "display": "+25 HP",
+            "display": "+25 Health",
             "sortKey": 25,
             "statTag": "MAX HP"
           },
           {
             "kind": "buff",
-            "stat": "AC",
+            "stat": "Armor Class",
             "amount": 10,
-            "display": "+10 AC",
+            "display": "+10 Armor Class",
             "sortKey": 10,
             "statTag": "AC"
           },
@@ -972,12 +971,13 @@
             "statTag": "MR"
           }
         ],
-        "valuesSummary": "+25 HP · +10 AC · +10 Magic Resistance",
+        "valuesSummary": "+25 Health · +10 Armor Class · +10 Magic Resistance",
         "statTags": [
           "AC",
           "MAX HP",
           "MR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Life Sap",
@@ -991,7 +991,6 @@
         "mana": 35,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "damage"
         ],
@@ -1006,7 +1005,8 @@
           }
         ],
         "valuesSummary": "30 dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Malady",
@@ -1020,7 +1020,6 @@
         "mana": 20,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "dot"
         ],
@@ -1038,7 +1037,8 @@
           }
         ],
         "valuesSummary": "3 Disease/6s (60s)",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Mana Surge",
@@ -1052,14 +1052,14 @@
         "mana": 40,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "buff"
         ],
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Mend the Dead",
@@ -1073,7 +1073,6 @@
         "mana": 25,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "heal"
         ],
@@ -1087,7 +1086,8 @@
           }
         ],
         "valuesSummary": "40 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Poisonous Deluge",
@@ -1101,7 +1101,6 @@
         "mana": 40,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "damage",
           "dot"
@@ -1127,7 +1126,8 @@
           }
         ],
         "valuesSummary": "10 Poison/6s (30s) · 20 Poison dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Repel the Dead",
@@ -1141,7 +1141,6 @@
         "mana": 25,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "damage"
         ],
@@ -1156,7 +1155,8 @@
           }
         ],
         "valuesSummary": "30 Holy dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Minor Lifestone",
@@ -1170,7 +1170,6 @@
         "mana": 40,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "heal",
           "summon"
@@ -1185,7 +1184,8 @@
           }
         ],
         "valuesSummary": "10 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Transfer Strength",
@@ -1199,7 +1199,6 @@
         "mana": 15,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "buff",
           "STR"
@@ -1218,7 +1217,8 @@
         "valuesSummary": "−2 strength",
         "statTags": [
           "STR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Upheave the Dead",
@@ -1232,14 +1232,14 @@
         "mana": 60,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "pet"
         ],
         "primaryTag": "pet",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Zombie Pet Tier 3",
@@ -1253,7 +1253,6 @@
         "mana": 60,
         "castTime": null,
         "level": 8,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -1261,7 +1260,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "12": [
@@ -1277,14 +1277,14 @@
         "mana": 60,
         "castTime": null,
         "level": 12,
-        "type": "spell",
         "tags": [
           "charm"
         ],
         "primaryTag": "charm",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Fear the Dead",
@@ -1298,7 +1298,6 @@
         "mana": 20,
         "castTime": null,
         "level": 12,
-        "type": "spell",
         "tags": [
           "crowd-control",
           "fear"
@@ -1306,7 +1305,8 @@
         "primaryTag": "fear",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Ghoul Pet Tier 4",
@@ -1320,7 +1320,6 @@
         "mana": 90,
         "castTime": null,
         "level": 12,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -1328,7 +1327,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Leech Lifeforce",
@@ -1342,7 +1342,6 @@
         "mana": 75,
         "castTime": null,
         "level": 12,
-        "type": "spell",
         "tags": [
           "dot",
           "hot"
@@ -1361,7 +1360,8 @@
           }
         ],
         "valuesSummary": "10 Corruption/6s (60s)",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Restrain the Dead",
@@ -1375,7 +1375,6 @@
         "mana": 15,
         "castTime": null,
         "level": 12,
-        "type": "spell",
         "tags": [
           "crowd-control",
           "mez"
@@ -1383,7 +1382,8 @@
         "primaryTag": "mez",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Spirit Splinter",
@@ -1397,7 +1397,6 @@
         "mana": 25,
         "castTime": null,
         "level": 12,
-        "type": "spell",
         "tags": [
           "debuff",
           "MR"
@@ -1419,7 +1418,8 @@
         "valuesSummary": "+3–4 Magic Resistance (L12–L16)",
         "statTags": [
           "MR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Surging Shadows",
@@ -1433,7 +1433,6 @@
         "mana": 20,
         "castTime": null,
         "level": 12,
-        "type": "spell",
         "tags": [
           "debuff",
           "slow"
@@ -1451,7 +1450,8 @@
           }
         ],
         "valuesSummary": "−40%",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Aberration",
@@ -1465,14 +1465,14 @@
         "mana": 90,
         "castTime": null,
         "level": 12,
-        "type": "spell",
         "tags": [
           "pet"
         ],
         "primaryTag": "pet",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Unholy Bulwark",
@@ -1486,14 +1486,14 @@
         "mana": 10,
         "castTime": null,
         "level": 12,
-        "type": "spell",
         "tags": [
           "crowd-control"
         ],
         "primaryTag": "crowd-control",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Zombie Pet Tier 4",
@@ -1507,7 +1507,6 @@
         "mana": 60,
         "castTime": null,
         "level": 12,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -1515,7 +1514,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "16": [
@@ -1531,7 +1531,6 @@
         "mana": 130,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -1539,13 +1538,14 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Infectious Disease",
         "slug": "Infectious_Disease",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Infectious_Disease",
-        "description": "Infects your target with a fever, dealing 8 Disease Damage every 6 seconds for 1 minute.",
+        "description": "Infect your target with disease, dealing 8 Disease Damage every 6 seconds for 1 minute.",
         "category": "Con",
         "categorySlug": "Skill_Conjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -1553,7 +1553,6 @@
         "mana": 45,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "dot"
         ],
@@ -1571,7 +1570,8 @@
           }
         ],
         "valuesSummary": "8 Disease/6s (60s)",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Life Siphon",
@@ -1585,7 +1585,6 @@
         "mana": 80,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "damage"
         ],
@@ -1600,7 +1599,8 @@
           }
         ],
         "valuesSummary": "100 dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Raise the Departed",
@@ -1614,7 +1614,6 @@
         "mana": 130,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "buff",
           "pet"
@@ -1622,13 +1621,14 @@
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Spellshield",
         "slug": "Spellshield",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Spellshield",
-        "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 50, Armor Class by 15, and Magic Resistance by 15 for 1 hour.",
+        "description": "Encircle yourself with a magical shield, increasing your maximum Health by 50, Armor Class by 15, and Magic Resistance by 15 for 1 hour.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -1636,7 +1636,6 @@
         "mana": 50,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "buff",
           "shield",
@@ -1677,7 +1676,8 @@
           "AC",
           "MAX HP",
           "MR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Steal Strength",
@@ -1691,7 +1691,6 @@
         "mana": 10,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "debuff",
           "STR"
@@ -1710,7 +1709,8 @@
         "valuesSummary": "−5 Strength",
         "statTags": [
           "STR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Summon Lesser Lifestone",
@@ -1724,7 +1724,6 @@
         "mana": 80,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "heal",
           "summon"
@@ -1739,7 +1738,8 @@
           }
         ],
         "valuesSummary": "75 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Venomous Deluge",
@@ -1753,7 +1753,6 @@
         "mana": 70,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "damage",
           "dot"
@@ -1779,7 +1778,8 @@
           }
         ],
         "valuesSummary": "20 Poison/6s (30s) · 40 Poison dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Zombie Pet Tier 5",
@@ -1793,7 +1793,6 @@
         "mana": 130,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -1801,7 +1800,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Burning Bones",
@@ -1815,14 +1815,14 @@
         "mana": 60,
         "castTime": null,
         "level": 16,
-        "type": "spell",
         "tags": [
           "pet"
         ],
         "primaryTag": "pet",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "20": [
@@ -1838,7 +1838,6 @@
         "mana": "",
         "castTime": null,
         "level": 20,
-        "type": "spell",
         "tags": [
           "shield"
         ],
@@ -1853,7 +1852,8 @@
           }
         ],
         "valuesSummary": "90 Holy absorb",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Covenant of Life",
@@ -1867,7 +1867,6 @@
         "mana": 10,
         "castTime": null,
         "level": 20,
-        "type": "spell",
         "tags": [
           "heal"
         ],
@@ -1881,7 +1880,8 @@
           }
         ],
         "valuesSummary": "20 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Death Pact",
@@ -1895,7 +1895,6 @@
         "mana": 5,
         "castTime": null,
         "level": 20,
-        "type": "spell",
         "tags": [
           "buff",
           "self",
@@ -1915,7 +1914,8 @@
         "valuesSummary": "+6 Mana Regeneration",
         "statTags": [
           "MANA"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Ghoul Pet Tier 6",
@@ -1929,7 +1929,6 @@
         "mana": 170,
         "castTime": null,
         "level": 20,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -1937,7 +1936,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Mental Surge",
@@ -1951,14 +1951,14 @@
         "mana": 75,
         "castTime": null,
         "level": 20,
-        "type": "spell",
         "tags": [
           "buff"
         ],
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Reanimate Ally",
@@ -1972,18 +1972,18 @@
         "mana": "",
         "castTime": null,
         "level": 20,
-        "type": "spell",
         "tags": [],
         "primaryTag": null,
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Root",
         "slug": "Root",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Root",
-        "description": "Roots emerge from the ground and cling to your target's feet, applying an immobilize effect for 30 seconds. This effect has a change to be removed by Damage or end early. Limit one.",
+        "description": "Root your target to the ground, immobilizing them for 30 seconds. This spell has a chance to be removed by damage. This spell has a very strong chance to end early.",
         "category": "Alt",
         "categorySlug": "Skill_Alteration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -1991,15 +1991,22 @@
         "mana": 15,
         "castTime": null,
         "level": 20,
-        "type": "spell",
         "tags": [
           "crowd-control",
           "root"
         ],
         "primaryTag": "root",
-        "effects": [],
-        "valuesSummary": "",
-        "statTags": []
+        "effects": [
+          {
+            "kind": "crowd-control",
+            "duration": 30,
+            "display": "30s duration",
+            "sortKey": 30
+          }
+        ],
+        "valuesSummary": "30s duration",
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Skeleton Pet Tier 6",
@@ -2013,14 +2020,14 @@
         "mana": 170,
         "castTime": null,
         "level": 20,
-        "type": "spell",
         "tags": [
           "pet"
         ],
         "primaryTag": "pet",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Unrelenting Dead",
@@ -2034,7 +2041,6 @@
         "mana": 60,
         "castTime": null,
         "level": 20,
-        "type": "spell",
         "tags": [
           "buff",
           "haste",
@@ -2065,7 +2071,8 @@
         "valuesSummary": "+20% · +5 Strength",
         "statTags": [
           "STR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Whirling Shadows",
@@ -2079,7 +2086,6 @@
         "mana": 40,
         "castTime": null,
         "level": 20,
-        "type": "spell",
         "tags": [
           "debuff",
           "slow"
@@ -2097,7 +2103,8 @@
           }
         ],
         "valuesSummary": "−50%",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Zombie Pet Tier 6",
@@ -2111,7 +2118,6 @@
         "mana": 170,
         "castTime": null,
         "level": 20,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -2119,7 +2125,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "24": [
@@ -2135,14 +2142,14 @@
         "mana": "",
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "charm"
         ],
         "primaryTag": "charm",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Cold Resistance",
@@ -2156,7 +2163,6 @@
         "mana": "",
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "buff",
           "CR"
@@ -2175,7 +2181,8 @@
         "valuesSummary": "+15 Cold Resistance",
         "statTags": [
           "CR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Ghoul Pet Tier 7",
@@ -2189,7 +2196,6 @@
         "mana": 210,
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -2197,13 +2203,14 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Greater Spellshield",
         "slug": "Greater_Spellshield",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Greater_Spellshield",
-        "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 75, Armor Class by 10, and Magic Resistance by 10 for 1 hour.",
+        "description": "Encircle yourself with a magical shield, increasing your maximum Health by 75, Armor Class by 20, and Magic Resistance by 20 for 1 hour.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -2211,7 +2218,6 @@
         "mana": 75,
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "buff",
           "shield",
@@ -2233,32 +2239,33 @@
           {
             "kind": "buff",
             "stat": "Armor Class",
-            "amount": 10,
-            "display": "+10 Armor Class",
-            "sortKey": 10,
+            "amount": 20,
+            "display": "+20 Armor Class",
+            "sortKey": 20,
             "statTag": "AC"
           },
           {
             "kind": "buff",
             "stat": "Magic Resistance",
-            "amount": 10,
-            "display": "+10 Magic Resistance",
-            "sortKey": 10,
+            "amount": 20,
+            "display": "+20 Magic Resistance",
+            "sortKey": 20,
             "statTag": "MR"
           }
         ],
-        "valuesSummary": "+75 Health · +10 Armor Class · +10 Magic Resistance",
+        "valuesSummary": "+75 Health · +20 Armor Class · +20 Magic Resistance",
         "statTags": [
           "AC",
           "MAX HP",
           "MR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Holy Resistance",
         "slug": "Holy_Resistance",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Holy_Resistance",
-        "description": "Greatly wards your target from the arcane, increasing their Holy Resistance by 15",
+        "description": "Greatly ward your target against the divine, increasing their Holy Resistance by 15 for 1 hour.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -2266,7 +2273,6 @@
         "mana": "",
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "buff",
           "HR"
@@ -2285,7 +2291,8 @@
         "valuesSummary": "+15 Holy Resistance",
         "statTags": [
           "HR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Leech Essence",
@@ -2299,7 +2306,6 @@
         "mana": 125,
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "dot",
           "hot"
@@ -2318,7 +2324,8 @@
           }
         ],
         "valuesSummary": "20 Corruption/6s (60s)",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Life Leech",
@@ -2332,7 +2339,6 @@
         "mana": 115,
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "damage"
         ],
@@ -2347,7 +2353,8 @@
           }
         ],
         "valuesSummary": "165 dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Sacrificial Embrace",
@@ -2361,7 +2368,6 @@
         "mana": 45,
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "heal"
         ],
@@ -2375,7 +2381,8 @@
           }
         ],
         "valuesSummary": "80 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Skeleton Pet Tier 7",
@@ -2389,14 +2396,14 @@
         "mana": 210,
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "pet"
         ],
         "primaryTag": "pet",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Spirit Crack",
@@ -2410,7 +2417,6 @@
         "mana": 40,
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "debuff",
           "MR"
@@ -2432,7 +2438,8 @@
         "valuesSummary": "+5–6 Magic Resistance (L24–L28)",
         "statTags": [
           "MR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Stitch the Dead",
@@ -2446,7 +2453,6 @@
         "mana": 85,
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "heal",
           "pet"
@@ -2461,7 +2467,8 @@
           }
         ],
         "valuesSummary": "180 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Corpse",
@@ -2475,12 +2482,12 @@
         "mana": "",
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [],
         "primaryTag": null,
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Toxic Deluge",
@@ -2494,7 +2501,6 @@
         "mana": 135,
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "damage",
           "dot"
@@ -2520,7 +2526,8 @@
           }
         ],
         "valuesSummary": "45 Poison/6s (30s) · 90 dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Zombie Pet Tier 7",
@@ -2534,7 +2541,6 @@
         "mana": 210,
         "castTime": null,
         "level": 24,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -2542,7 +2548,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "28": [
@@ -2558,14 +2565,14 @@
         "mana": 130,
         "castTime": null,
         "level": 28,
-        "type": "spell",
         "tags": [
           "buff"
         ],
         "primaryTag": "buff",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Ghoul Pet Tier 8",
@@ -2579,7 +2586,6 @@
         "mana": 260,
         "castTime": null,
         "level": 28,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -2587,7 +2593,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Shuddering Sickness",
@@ -2601,7 +2608,6 @@
         "mana": 105,
         "castTime": null,
         "level": 28,
-        "type": "spell",
         "tags": [
           "dot"
         ],
@@ -2619,7 +2625,8 @@
           }
         ],
         "valuesSummary": "30 Disease/6s (60s)",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Skeleton Pet Tier 8",
@@ -2633,14 +2640,14 @@
         "mana": 260,
         "castTime": null,
         "level": 28,
-        "type": "spell",
         "tags": [
           "pet"
         ],
         "primaryTag": "pet",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Lifestone",
@@ -2654,7 +2661,6 @@
         "mana": 200,
         "castTime": null,
         "level": 28,
-        "type": "spell",
         "tags": [
           "heal",
           "summon"
@@ -2669,7 +2675,8 @@
           }
         ],
         "valuesSummary": "390 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Twisting Shadows",
@@ -2683,7 +2690,6 @@
         "mana": 70,
         "castTime": null,
         "level": 28,
-        "type": "spell",
         "tags": [
           "debuff",
           "slow"
@@ -2701,7 +2707,8 @@
           }
         ],
         "valuesSummary": "−55%",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Zombie Pet Tier 8",
@@ -2715,7 +2722,6 @@
         "mana": 260,
         "castTime": null,
         "level": 28,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -2723,7 +2729,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "32": [
@@ -2739,20 +2746,20 @@
         "mana": 100,
         "castTime": null,
         "level": 32,
-        "type": "spell",
         "tags": [
           "dispel"
         ],
         "primaryTag": "dispel",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Exceptional Spellshield",
         "slug": "Exceptional_Spellshield",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Exceptional_Spellshield",
-        "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 100, Armor Class by 25, and Magic Resistance by 25 for 1 hour.",
+        "description": "Encircle yourself with a magical shield, increasing your maximum Health by 100, Armor Class by 25, and Magic Resistance by 25 for 1 hour.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -2760,7 +2767,6 @@
         "mana": 125,
         "castTime": null,
         "level": 32,
-        "type": "spell",
         "tags": [
           "buff",
           "shield",
@@ -2801,7 +2807,8 @@
           "AC",
           "MAX HP",
           "MR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Extract Strength",
@@ -2815,7 +2822,6 @@
         "mana": 15,
         "castTime": null,
         "level": 32,
-        "type": "spell",
         "tags": [
           "debuff",
           "STR"
@@ -2834,7 +2840,8 @@
         "valuesSummary": "−10 Strength",
         "statTags": [
           "STR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Ghoul Pet Tier 9",
@@ -2848,7 +2855,6 @@
         "mana": 310,
         "castTime": null,
         "level": 32,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -2856,7 +2862,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Pernicious Deluge",
@@ -2870,7 +2877,6 @@
         "mana": 185,
         "castTime": null,
         "level": 32,
-        "type": "spell",
         "tags": [
           "damage",
           "dot"
@@ -2896,13 +2902,14 @@
           }
         ],
         "valuesSummary": "75 poision/6s (30s) · 150 Poison dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Rebuff the Dead",
         "slug": "Rebuff_the_Dead",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Rebuff_the_Dead",
-        "description": "Rebuff a target undead with a blast of energy, dealing 150 Holy Damage.",
+        "description": "Wards an Undead target with holy energy for 150 points of Holy Damage.",
         "category": "Evo",
         "categorySlug": "Skill_Evocation",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
@@ -2910,22 +2917,22 @@
         "mana": 70,
         "castTime": null,
         "level": 32,
-        "type": "spell",
         "tags": [
-          "damage"
+          "shield"
         ],
-        "primaryTag": "damage",
+        "primaryTag": "shield",
         "effects": [
           {
-            "kind": "damage",
+            "kind": "shield",
             "amount": 150,
             "damageType": "Holy",
-            "display": "150 Holy dmg",
+            "display": "150 Holy absorb",
             "sortKey": 150
           }
         ],
-        "valuesSummary": "150 Holy dmg",
-        "statTags": []
+        "valuesSummary": "150 Holy absorb",
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Shed Bones",
@@ -2939,7 +2946,6 @@
         "mana": 5,
         "castTime": null,
         "level": 32,
-        "type": "spell",
         "tags": [
           "buff",
           "self",
@@ -2959,7 +2965,8 @@
         "valuesSummary": "+8 Mana Regeneration",
         "statTags": [
           "MANA"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Skeleton Pet Tier 9",
@@ -2973,14 +2980,14 @@
         "mana": 310,
         "castTime": null,
         "level": 32,
-        "type": "spell",
         "tags": [
           "pet"
         ],
         "primaryTag": "pet",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Zombie Pet Tier 9",
@@ -2994,7 +3001,6 @@
         "mana": 310,
         "castTime": null,
         "level": 32,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -3002,7 +3008,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "36": [
@@ -3018,7 +3025,6 @@
         "mana": 155,
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "dot"
         ],
@@ -3036,7 +3042,8 @@
           }
         ],
         "valuesSummary": "55 Disease/6s (60s)",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Coax Undead",
@@ -3050,14 +3057,14 @@
         "mana": 175,
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "charm"
         ],
         "primaryTag": "charm",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Ghoul Pet Tier 10",
@@ -3071,7 +3078,6 @@
         "mana": 360,
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -3079,7 +3085,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Leech Spirit",
@@ -3093,7 +3100,6 @@
         "mana": 200,
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "dot",
           "hot"
@@ -3112,7 +3118,8 @@
           }
         ],
         "valuesSummary": "40 Corruption/6s (60s)",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Life Tap",
@@ -3126,7 +3133,6 @@
         "mana": 160,
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "damage"
         ],
@@ -3141,7 +3147,8 @@
           }
         ],
         "valuesSummary": "270 dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Reconstruct the Dead",
@@ -3155,7 +3162,6 @@
         "mana": 145,
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "heal",
           "pet"
@@ -3170,7 +3176,8 @@
           }
         ],
         "valuesSummary": "420 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Skeleton Pet Tier 10",
@@ -3184,14 +3191,14 @@
         "mana": 360,
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "pet"
         ],
         "primaryTag": "pet",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Spiraling Shadows",
@@ -3205,7 +3212,6 @@
         "mana": 120,
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "debuff",
           "slow"
@@ -3223,7 +3229,8 @@
           }
         ],
         "valuesSummary": "−60%",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Unyielding Dead",
@@ -3237,7 +3244,6 @@
         "mana": 125,
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "buff",
           "haste",
@@ -3268,7 +3274,8 @@
         "valuesSummary": "+30% · +10 Strength",
         "statTags": [
           "STR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Zombie Pet Tier 10",
@@ -3282,7 +3289,6 @@
         "mana": 360,
         "castTime": null,
         "level": 36,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -3290,7 +3296,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "40": [
@@ -3298,7 +3305,7 @@
         "name": "Arch Spellshield",
         "slug": "Arch_Spellshield",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Arch_Spellshield",
-        "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 150, Armor Class by 10, and Magic Resistance by 1 for 1 hour.",
+        "description": "Encircle yourself with a magical shield, increasing your maximum Health by 150, Armor Class by 30, and Magic Resistance by 30 for 1 hour.",
         "category": "Abj",
         "categorySlug": "Skill_Abjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -3306,7 +3313,6 @@
         "mana": 175,
         "castTime": null,
         "level": 40,
-        "type": "spell",
         "tags": [
           "buff",
           "shield",
@@ -3328,26 +3334,27 @@
           {
             "kind": "buff",
             "stat": "Armor Class",
-            "amount": 10,
-            "display": "+10 Armor Class",
-            "sortKey": 10,
+            "amount": 30,
+            "display": "+30 Armor Class",
+            "sortKey": 30,
             "statTag": "AC"
           },
           {
             "kind": "buff",
             "stat": "Magic Resistance",
-            "amount": 1,
-            "display": "+1 Magic Resistance",
-            "sortKey": 1,
+            "amount": 30,
+            "display": "+30 Magic Resistance",
+            "sortKey": 30,
             "statTag": "MR"
           }
         ],
-        "valuesSummary": "+150 Health · +10 Armor Class · +1 Magic Resistance",
+        "valuesSummary": "+150 Health · +30 Armor Class · +30 Magic Resistance",
         "statTags": [
           "AC",
           "MAX HP",
           "MR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Covenant of Darkness",
@@ -3361,7 +3368,6 @@
         "mana": 15,
         "castTime": null,
         "level": 40,
-        "type": "spell",
         "tags": [
           "heal"
         ],
@@ -3375,7 +3381,8 @@
           }
         ],
         "valuesSummary": "90 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Ghoul Pet Tier 11",
@@ -3389,7 +3396,6 @@
         "mana": 420,
         "castTime": null,
         "level": 40,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -3397,7 +3403,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Skeleton Pet Tier 11",
@@ -3411,14 +3418,14 @@
         "mana": 420,
         "castTime": null,
         "level": 40,
-        "type": "spell",
         "tags": [
           "pet"
         ],
         "primaryTag": "pet",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Spirit Fracture",
@@ -3432,7 +3439,6 @@
         "mana": 55,
         "castTime": null,
         "level": 40,
-        "type": "spell",
         "tags": [
           "debuff",
           "MR"
@@ -3454,7 +3460,8 @@
         "valuesSummary": "+7–8 Magic Resistance (L40–L44)",
         "statTags": [
           "MR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Summon Greater Lifestone",
@@ -3468,7 +3475,6 @@
         "mana": 250,
         "castTime": null,
         "level": 40,
-        "type": "spell",
         "tags": [
           "heal",
           "summon"
@@ -3483,7 +3489,8 @@
           }
         ],
         "valuesSummary": "705 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Zombie Pet Tier 11",
@@ -3497,7 +3504,6 @@
         "mana": 420,
         "castTime": null,
         "level": 40,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -3505,7 +3511,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "44": [
@@ -3513,7 +3520,7 @@
         "name": "Beleaguer the Dead",
         "slug": "Beleaguer_the_Dead",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Beleaguer_the_Dead",
-        "description": "Beleaguer a target undead with a blast of energy, dealing 245 Holy Damage.",
+        "description": "Wards off an undead target with holy energy for 245 points of Holy Damage.",
         "category": "Evo",
         "categorySlug": "Skill_Evocation",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
@@ -3521,22 +3528,22 @@
         "mana": 95,
         "castTime": null,
         "level": 44,
-        "type": "spell",
         "tags": [
-          "damage"
+          "shield"
         ],
-        "primaryTag": "damage",
+        "primaryTag": "shield",
         "effects": [
           {
-            "kind": "damage",
+            "kind": "shield",
             "amount": 245,
             "damageType": "Holy",
-            "display": "245 Holy dmg",
+            "display": "245 Holy absorb",
             "sortKey": 245
           }
         ],
-        "valuesSummary": "245 Holy dmg",
-        "statTags": []
+        "valuesSummary": "245 Holy absorb",
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Corporeal Embrace",
@@ -3550,7 +3557,6 @@
         "mana": 115,
         "castTime": null,
         "level": 44,
-        "type": "spell",
         "tags": [
           "heal"
         ],
@@ -3564,7 +3570,8 @@
           }
         ],
         "valuesSummary": "225 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Ghoul Pet Tier 12",
@@ -3578,7 +3585,6 @@
         "mana": 460,
         "castTime": null,
         "level": 44,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -3586,7 +3592,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Irking Illness",
@@ -3600,7 +3607,6 @@
         "mana": 180,
         "castTime": null,
         "level": 44,
-        "type": "spell",
         "tags": [
           "dot"
         ],
@@ -3618,7 +3624,8 @@
           }
         ],
         "valuesSummary": "80 Disease/6s (60s)",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Skeleton Pet Tier 12",
@@ -3632,14 +3639,14 @@
         "mana": 460,
         "castTime": null,
         "level": 44,
-        "type": "spell",
         "tags": [
           "pet"
         ],
         "primaryTag": "pet",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Vile Deluge",
@@ -3653,7 +3660,6 @@
         "mana": 250,
         "castTime": null,
         "level": 44,
-        "type": "spell",
         "tags": [
           "damage",
           "dot"
@@ -3679,7 +3685,8 @@
           }
         ],
         "valuesSummary": "125 Poison/6s (30s) · 250 dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Zombie Pet Tier 12",
@@ -3693,7 +3700,6 @@
         "mana": 460,
         "castTime": null,
         "level": 44,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -3701,7 +3707,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "48": [
@@ -3717,7 +3724,6 @@
         "mana": 540,
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -3725,7 +3731,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Leech Soul",
@@ -3739,7 +3746,6 @@
         "mana": 300,
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "dot",
           "hot"
@@ -3758,7 +3764,8 @@
           }
         ],
         "valuesSummary": "80 Corruption/6s (60s)",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Life Guzzle",
@@ -3772,7 +3779,6 @@
         "mana": 225,
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "damage"
         ],
@@ -3787,7 +3793,8 @@
           }
         ],
         "valuesSummary": "450 dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Persuade Undead",
@@ -3801,14 +3808,14 @@
         "mana": "",
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "charm"
         ],
         "primaryTag": "charm",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Rippling Shadows",
@@ -3822,7 +3829,6 @@
         "mana": 210,
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "debuff",
           "slow"
@@ -3840,7 +3846,8 @@
           }
         ],
         "valuesSummary": "−65%",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Skeleton Pet Tier 13",
@@ -3854,14 +3861,14 @@
         "mana": 540,
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "pet"
         ],
         "primaryTag": "pet",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Void Strength",
@@ -3875,7 +3882,6 @@
         "mana": "",
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "debuff",
           "STR"
@@ -3894,7 +3900,8 @@
         "valuesSummary": "−15 Strength",
         "statTags": [
           "STR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Zombie Pet Tier 13",
@@ -3908,7 +3915,6 @@
         "mana": 540,
         "castTime": null,
         "level": 48,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -3916,7 +3922,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "50": [
@@ -3932,7 +3939,6 @@
         "mana": "",
         "castTime": null,
         "level": 50,
-        "type": "spell",
         "tags": [
           "buff",
           "self",
@@ -3952,7 +3958,8 @@
         "valuesSummary": "+20 Mana Regeneration",
         "statTags": [
           "MANA"
-        ]
+        ],
+        "type": "spell"
       }
     ],
     "52": [
@@ -3968,7 +3975,6 @@
         "mana": "",
         "castTime": null,
         "level": 52,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -3976,7 +3982,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Inexorable Dead",
@@ -3990,7 +3997,6 @@
         "mana": "",
         "castTime": null,
         "level": 52,
-        "type": "spell",
         "tags": [
           "buff",
           "haste",
@@ -4021,7 +4027,8 @@
         "valuesSummary": "+40% · +15 Strength",
         "statTags": [
           "STR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Skeleton Pet Tier 14",
@@ -4035,14 +4042,14 @@
         "mana": "",
         "castTime": null,
         "level": 52,
-        "type": "spell",
         "tags": [
           "pet"
         ],
         "primaryTag": "pet",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Zombie Pet Tier 14",
@@ -4056,7 +4063,6 @@
         "mana": "",
         "castTime": null,
         "level": 52,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -4064,7 +4070,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "54": [
@@ -4080,7 +4087,6 @@
         "mana": "",
         "castTime": null,
         "level": 54,
-        "type": "spell",
         "tags": [
           "damage"
         ],
@@ -4095,7 +4101,8 @@
           }
         ],
         "valuesSummary": "750 dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "55": [
@@ -4111,7 +4118,6 @@
         "mana": "",
         "castTime": null,
         "level": 55,
-        "type": "spell",
         "tags": [
           "buff",
           "self",
@@ -4131,7 +4137,8 @@
         "valuesSummary": "+25 Mana Regeneration",
         "statTags": [
           "MANA"
-        ]
+        ],
+        "type": "spell"
       }
     ],
     "56": [
@@ -4139,7 +4146,7 @@
         "name": "Assail the Dead",
         "slug": "Assail_the_Dead",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Assail_the_Dead",
-        "description": "Assail a target undead with a blast of energy, dealing 525 Holy Damage.",
+        "description": "Wards an undead target with holy energy for 525 points of Holy Damage.",
         "category": "Evo",
         "categorySlug": "Skill_Evocation",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
@@ -4147,22 +4154,22 @@
         "mana": "",
         "castTime": null,
         "level": 56,
-        "type": "spell",
         "tags": [
-          "damage"
+          "shield"
         ],
-        "primaryTag": "damage",
+        "primaryTag": "shield",
         "effects": [
           {
-            "kind": "damage",
+            "kind": "shield",
             "amount": 525,
             "damageType": "Holy",
-            "display": "525 Holy dmg",
+            "display": "525 Holy absorb",
             "sortKey": 525
           }
         ],
-        "valuesSummary": "525 Holy dmg",
-        "statTags": []
+        "valuesSummary": "525 Holy absorb",
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Ghoul Pet Tier 15",
@@ -4176,7 +4183,6 @@
         "mana": "",
         "castTime": null,
         "level": 56,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -4184,7 +4190,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Lethal Deluge",
@@ -4198,7 +4205,6 @@
         "mana": "",
         "castTime": null,
         "level": 56,
-        "type": "spell",
         "tags": [
           "damage",
           "dot"
@@ -4224,7 +4230,8 @@
           }
         ],
         "valuesSummary": "200 Poison/6s (30s) · 400 dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Skeleton Pet Tier 15",
@@ -4238,14 +4245,14 @@
         "mana": "",
         "castTime": null,
         "level": 56,
-        "type": "spell",
         "tags": [
           "pet"
         ],
         "primaryTag": "pet",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Summon Exceptional Lifestone",
@@ -4259,7 +4266,6 @@
         "mana": "",
         "castTime": null,
         "level": 56,
-        "type": "spell",
         "tags": [],
         "primaryTag": null,
         "effects": [
@@ -4271,13 +4277,14 @@
           }
         ],
         "valuesSummary": "1110 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Virulent Virus",
         "slug": "Virulent_Virus",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Virulent_Virus",
-        "description": "Infects your target with a fever, dealing 125 Disease Damage every 6 seconds for 1 minute.",
+        "description": "Infect your target with a virus, dealing 125 Disease Damage every 6 seconds for 1 minute.",
         "category": "Con",
         "categorySlug": "Skill_Conjuration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -4285,7 +4292,6 @@
         "mana": "",
         "castTime": null,
         "level": 56,
-        "type": "spell",
         "tags": [
           "dot"
         ],
@@ -4303,7 +4309,8 @@
           }
         ],
         "valuesSummary": "125 Disease/6s (60s)",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Zombie Pet Tier 15",
@@ -4317,14 +4324,14 @@
         "mana": "",
         "castTime": null,
         "level": 56,
-        "type": "spell",
         "tags": [
           "pet"
         ],
         "primaryTag": "pet",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "57": [
@@ -4340,7 +4347,6 @@
         "mana": "",
         "castTime": null,
         "level": 57,
-        "type": "spell",
         "tags": [
           "buff",
           "self",
@@ -4360,7 +4366,8 @@
         "valuesSummary": "+30 Mana Regeneration",
         "statTags": [
           "MANA"
-        ]
+        ],
+        "type": "spell"
       }
     ],
     "60": [
@@ -4376,7 +4383,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "buff",
           "self",
@@ -4396,7 +4402,8 @@
         "valuesSummary": "+35 Mana Regeneration",
         "statTags": [
           "MANA"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Covenant of Shadow",
@@ -4410,7 +4417,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "heal"
         ],
@@ -4424,7 +4430,8 @@
           }
         ],
         "valuesSummary": "200 heal",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Ghoul Pet Tier 16",
@@ -4438,7 +4445,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -4446,7 +4452,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Leech Anima",
@@ -4460,7 +4467,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "dot",
           "hot"
@@ -4479,7 +4485,8 @@
           }
         ],
         "valuesSummary": "120 Corruption/6s (60s)",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Lich Spirit",
@@ -4493,7 +4500,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "buff",
           "self",
@@ -4513,7 +4519,8 @@
         "valuesSummary": "+100 Mana Regeneration",
         "statTags": [
           "MANA"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Life Flume",
@@ -4527,7 +4534,6 @@
         "mana": 450,
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "damage"
         ],
@@ -4542,7 +4548,8 @@
           }
         ],
         "valuesSummary": "900 dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Sacrifice",
@@ -4556,12 +4563,12 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [],
         "primaryTag": null,
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Seething Shadows",
@@ -4575,7 +4582,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "debuff",
           "slow"
@@ -4593,7 +4599,8 @@
           }
         ],
         "valuesSummary": "−70%",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Skeleton Pet Tier 16",
@@ -4607,14 +4614,14 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "pet"
         ],
         "primaryTag": "pet",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       },
       {
         "name": "Spirit Shatter",
@@ -4628,7 +4635,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "debuff",
           "MR"
@@ -4661,7 +4667,8 @@
         "valuesSummary": "−10 Corruption/Holy/MR",
         "statTags": [
           "MR"
-        ]
+        ],
+        "type": "spell"
       },
       {
         "name": "Zombie Pet Tier 16",
@@ -4675,7 +4682,6 @@
         "mana": "",
         "castTime": null,
         "level": 60,
-        "type": "spell",
         "tags": [
           "utility",
           "pet"
@@ -4683,7 +4689,8 @@
         "primaryTag": "utility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "spell"
       }
     ]
   },
@@ -4700,7 +4707,6 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "buff",
         "CR"
@@ -4719,7 +4725,8 @@
       "valuesSummary": "+4 Cold Resistance",
       "statTags": [
         "CR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Draw Strength",
@@ -4733,7 +4740,6 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "buff",
         "debuff",
@@ -4768,7 +4774,8 @@
       "valuesSummary": "−2 Strength · −2 increasing your own Strength · +2 own Strength",
       "statTags": [
         "STR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Ghoul Pet Tier 1",
@@ -4782,7 +4789,6 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -4790,13 +4796,14 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Holy Protection",
       "slug": "Holy_Protection",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Holy_Protection",
-      "description": "Wards your target against the divine, increasing their Holy Resistance by 5 for 1 hour.",
+      "description": "Ward your target against divine, increasing their Holy Resistance by 5 for 1 hour.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -4804,7 +4811,6 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "buff",
         "HR"
@@ -4823,13 +4829,14 @@
       "valuesSummary": "+5 Holy Resistance",
       "statTags": [
         "HR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Invisibility",
       "slug": "Invisibility",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Invisibility",
-      "description": "Shroud a target group member in a cloak of invisibility, rendering them unseen by the living for 10 minutes.",
+      "description": "Shroud a target party member in a cloak of invisibility, rendering them unseen by the living for 10 minutes.",
       "category": "Div",
       "categorySlug": "Skill_Divination",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
@@ -4837,20 +4844,20 @@
       "mana": 20,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "invisibility"
       ],
       "primaryTag": "invisibility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Invisibility versus Undead",
       "slug": "Invisibility_versus_Undead",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Invisibility_versus_Undead",
-      "description": "Shroud a target group member in darkness, rendering them unseen by the undead for 10 minutes. This spell has a moderate chance to end early.",
+      "description": "Shroud a target group member in a cloak of invisibility, rendering them unseen by the undead for 10 minutes.",
       "category": "Div",
       "categorySlug": "Skill_Divination",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Divination",
@@ -4858,7 +4865,6 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "buff",
         "invisibility"
@@ -4866,7 +4872,8 @@
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Life Drain",
@@ -4880,14 +4887,14 @@
       "mana": 7,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Lift Bones",
@@ -4901,14 +4908,14 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "pet"
       ],
       "primaryTag": "pet",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Locate Corpse",
@@ -4922,12 +4929,12 @@
       "mana": 5,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [],
       "primaryTag": null,
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Minor Spellshield",
@@ -4941,7 +4948,6 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "buff",
         "shield",
@@ -4982,7 +4988,8 @@
         "AC",
         "MAX HP",
         "MR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Noxious Deluge",
@@ -4996,7 +5003,6 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "damage",
         "dot"
@@ -5022,7 +5028,8 @@
         }
       ],
       "valuesSummary": "2 Poison/6s (30s) · 5 Poison dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Polar Align: North",
@@ -5036,7 +5043,6 @@
       "mana": 5,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "utility",
         "self"
@@ -5044,7 +5050,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Reclaim Essence",
@@ -5058,7 +5065,6 @@
       "mana": 5,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -5066,7 +5072,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Zombie Pet Tier 1",
@@ -5080,7 +5087,6 @@
       "mana": 10,
       "castTime": null,
       "level": 1,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -5088,7 +5094,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Dispel Magic",
@@ -5102,14 +5109,14 @@
       "mana": 50,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "dispel"
       ],
       "primaryTag": "dispel",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Fear",
@@ -5123,7 +5130,6 @@
       "mana": 20,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "crowd-control",
         "fear"
@@ -5131,7 +5137,8 @@
       "primaryTag": "fear",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Gate",
@@ -5145,7 +5152,6 @@
       "mana": 55,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "summon",
         "teleport"
@@ -5153,7 +5159,8 @@
       "primaryTag": "summon",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Ghoul Pet Tier 2",
@@ -5167,7 +5174,6 @@
       "mana": 30,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -5175,7 +5181,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Life Draw",
@@ -5189,14 +5196,14 @@
       "mana": 15,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Lull the Dead",
@@ -5210,14 +5217,14 @@
       "mana": 15,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "debuff"
       ],
       "primaryTag": "debuff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Mind Surge",
@@ -5231,14 +5238,14 @@
       "mana": 20,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "buff"
       ],
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Reanimate Corpse",
@@ -5252,14 +5259,14 @@
       "mana": 30,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "pet"
       ],
       "primaryTag": "pet",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "See Invisibility",
@@ -5273,7 +5280,6 @@
       "mana": 20,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "buff",
         "invisibility",
@@ -5282,7 +5288,8 @@
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Sense Magic",
@@ -5296,7 +5303,6 @@
       "mana": 20,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "buff",
         "utility"
@@ -5304,7 +5310,8 @@
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Soulbind",
@@ -5318,14 +5325,14 @@
       "mana": 75,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "teleport"
       ],
       "primaryTag": "teleport",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Spirit Break",
@@ -5339,7 +5346,6 @@
       "mana": 10,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "debuff",
         "MR"
@@ -5361,7 +5367,8 @@
       "valuesSummary": "+1–2 Magic Resistance (L1–L8)",
       "statTags": [
         "MR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Swirling Shadows",
@@ -5375,7 +5382,6 @@
       "mana": 10,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "debuff",
         "slow"
@@ -5393,7 +5399,8 @@
         }
       ],
       "valuesSummary": "−30%",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Zombie Pet Tier 2",
@@ -5407,7 +5414,6 @@
       "mana": 30,
       "castTime": null,
       "level": 4,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -5415,7 +5421,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Aspect of Vampirism",
@@ -5429,7 +5436,6 @@
       "mana": 25,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "damage",
         "buff",
@@ -5449,7 +5455,8 @@
         }
       ],
       "valuesSummary": "1–30 Corruption dmg (L1–L60)",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Blood Pact",
@@ -5463,7 +5470,6 @@
       "mana": 5,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "buff",
         "self",
@@ -5483,7 +5489,8 @@
       "valuesSummary": "+2 Mana Regeneration",
       "statTags": [
         "MANA"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Dark Embrace",
@@ -5497,7 +5504,6 @@
       "mana": 25,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "heal"
       ],
@@ -5511,7 +5517,8 @@
         }
       ],
       "valuesSummary": "40 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Deathly Howl",
@@ -5525,7 +5532,6 @@
       "mana": 50,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "crowd-control",
         "fear",
@@ -5534,7 +5540,8 @@
       "primaryTag": "fear",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Feign Death (Spell)",
@@ -5548,14 +5555,14 @@
       "mana": 30,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "self"
       ],
       "primaryTag": "self",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Ghoul Pet Tier 3",
@@ -5569,7 +5576,6 @@
       "mana": 60,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -5577,13 +5583,14 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Lesser Spellshield",
       "slug": "Lesser_Spellshield",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Lesser_Spellshield",
-      "description": "A magical shield encircles you, increasing your HP by 25, AC by 10, and Magic Resistance by 10.",
+      "description": "Encircle yourself with a magical shield, increasing your maximum Health by 25, Armor Class by 10, and Magic Resistance by 10 for 1 hour.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -5591,7 +5598,6 @@
       "mana": 25,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "buff",
         "shield",
@@ -5604,17 +5610,17 @@
       "effects": [
         {
           "kind": "buff",
-          "stat": "HP",
+          "stat": "Health",
           "amount": 25,
-          "display": "+25 HP",
+          "display": "+25 Health",
           "sortKey": 25,
           "statTag": "MAX HP"
         },
         {
           "kind": "buff",
-          "stat": "AC",
+          "stat": "Armor Class",
           "amount": 10,
-          "display": "+10 AC",
+          "display": "+10 Armor Class",
           "sortKey": 10,
           "statTag": "AC"
         },
@@ -5627,12 +5633,13 @@
           "statTag": "MR"
         }
       ],
-      "valuesSummary": "+25 HP · +10 AC · +10 Magic Resistance",
+      "valuesSummary": "+25 Health · +10 Armor Class · +10 Magic Resistance",
       "statTags": [
         "AC",
         "MAX HP",
         "MR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Life Sap",
@@ -5646,7 +5653,6 @@
       "mana": 35,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "damage"
       ],
@@ -5661,7 +5667,8 @@
         }
       ],
       "valuesSummary": "30 dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Malady",
@@ -5675,7 +5682,6 @@
       "mana": 20,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "dot"
       ],
@@ -5693,7 +5699,8 @@
         }
       ],
       "valuesSummary": "3 Disease/6s (60s)",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Mana Surge",
@@ -5707,14 +5714,14 @@
       "mana": 40,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "buff"
       ],
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Mend the Dead",
@@ -5728,7 +5735,6 @@
       "mana": 25,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "heal"
       ],
@@ -5742,7 +5748,8 @@
         }
       ],
       "valuesSummary": "40 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Poisonous Deluge",
@@ -5756,7 +5763,6 @@
       "mana": 40,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "damage",
         "dot"
@@ -5782,7 +5788,8 @@
         }
       ],
       "valuesSummary": "10 Poison/6s (30s) · 20 Poison dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Repel the Dead",
@@ -5796,7 +5803,6 @@
       "mana": 25,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "damage"
       ],
@@ -5811,7 +5817,8 @@
         }
       ],
       "valuesSummary": "30 Holy dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Minor Lifestone",
@@ -5825,7 +5832,6 @@
       "mana": 40,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "heal",
         "summon"
@@ -5840,7 +5846,8 @@
         }
       ],
       "valuesSummary": "10 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Transfer Strength",
@@ -5854,7 +5861,6 @@
       "mana": 15,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "buff",
         "STR"
@@ -5873,7 +5879,8 @@
       "valuesSummary": "−2 strength",
       "statTags": [
         "STR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Upheave the Dead",
@@ -5887,14 +5894,14 @@
       "mana": 60,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "pet"
       ],
       "primaryTag": "pet",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Zombie Pet Tier 3",
@@ -5908,7 +5915,6 @@
       "mana": 60,
       "castTime": null,
       "level": 8,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -5916,7 +5922,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Charm Undead",
@@ -5930,14 +5937,14 @@
       "mana": 60,
       "castTime": null,
       "level": 12,
-      "type": "spell",
       "tags": [
         "charm"
       ],
       "primaryTag": "charm",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Fear the Dead",
@@ -5951,7 +5958,6 @@
       "mana": 20,
       "castTime": null,
       "level": 12,
-      "type": "spell",
       "tags": [
         "crowd-control",
         "fear"
@@ -5959,7 +5965,8 @@
       "primaryTag": "fear",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Ghoul Pet Tier 4",
@@ -5973,7 +5980,6 @@
       "mana": 90,
       "castTime": null,
       "level": 12,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -5981,7 +5987,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Leech Lifeforce",
@@ -5995,7 +6002,6 @@
       "mana": 75,
       "castTime": null,
       "level": 12,
-      "type": "spell",
       "tags": [
         "dot",
         "hot"
@@ -6014,7 +6020,8 @@
         }
       ],
       "valuesSummary": "10 Corruption/6s (60s)",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Restrain the Dead",
@@ -6028,7 +6035,6 @@
       "mana": 15,
       "castTime": null,
       "level": 12,
-      "type": "spell",
       "tags": [
         "crowd-control",
         "mez"
@@ -6036,7 +6042,8 @@
       "primaryTag": "mez",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Spirit Splinter",
@@ -6050,7 +6057,6 @@
       "mana": 25,
       "castTime": null,
       "level": 12,
-      "type": "spell",
       "tags": [
         "debuff",
         "MR"
@@ -6072,7 +6078,8 @@
       "valuesSummary": "+3–4 Magic Resistance (L12–L16)",
       "statTags": [
         "MR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Surging Shadows",
@@ -6086,7 +6093,6 @@
       "mana": 20,
       "castTime": null,
       "level": 12,
-      "type": "spell",
       "tags": [
         "debuff",
         "slow"
@@ -6104,7 +6110,8 @@
         }
       ],
       "valuesSummary": "−40%",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Aberration",
@@ -6118,14 +6125,14 @@
       "mana": 90,
       "castTime": null,
       "level": 12,
-      "type": "spell",
       "tags": [
         "pet"
       ],
       "primaryTag": "pet",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Unholy Bulwark",
@@ -6139,14 +6146,14 @@
       "mana": 10,
       "castTime": null,
       "level": 12,
-      "type": "spell",
       "tags": [
         "crowd-control"
       ],
       "primaryTag": "crowd-control",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Zombie Pet Tier 4",
@@ -6160,7 +6167,6 @@
       "mana": 60,
       "castTime": null,
       "level": 12,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -6168,7 +6174,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Ghoul Pet Tier 5",
@@ -6182,7 +6189,6 @@
       "mana": 130,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -6190,13 +6196,14 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Infectious Disease",
       "slug": "Infectious_Disease",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Infectious_Disease",
-      "description": "Infects your target with a fever, dealing 8 Disease Damage every 6 seconds for 1 minute.",
+      "description": "Infect your target with disease, dealing 8 Disease Damage every 6 seconds for 1 minute.",
       "category": "Con",
       "categorySlug": "Skill_Conjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -6204,7 +6211,6 @@
       "mana": 45,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "dot"
       ],
@@ -6222,7 +6228,8 @@
         }
       ],
       "valuesSummary": "8 Disease/6s (60s)",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Life Siphon",
@@ -6236,7 +6243,6 @@
       "mana": 80,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "damage"
       ],
@@ -6251,7 +6257,8 @@
         }
       ],
       "valuesSummary": "100 dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Raise the Departed",
@@ -6265,7 +6272,6 @@
       "mana": 130,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "buff",
         "pet"
@@ -6273,13 +6279,14 @@
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Spellshield",
       "slug": "Spellshield",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Spellshield",
-      "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 50, Armor Class by 15, and Magic Resistance by 15 for 1 hour.",
+      "description": "Encircle yourself with a magical shield, increasing your maximum Health by 50, Armor Class by 15, and Magic Resistance by 15 for 1 hour.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -6287,7 +6294,6 @@
       "mana": 50,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "buff",
         "shield",
@@ -6328,7 +6334,8 @@
         "AC",
         "MAX HP",
         "MR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Steal Strength",
@@ -6342,7 +6349,6 @@
       "mana": 10,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "debuff",
         "STR"
@@ -6361,7 +6367,8 @@
       "valuesSummary": "−5 Strength",
       "statTags": [
         "STR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Summon Lesser Lifestone",
@@ -6375,7 +6382,6 @@
       "mana": 80,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "heal",
         "summon"
@@ -6390,7 +6396,8 @@
         }
       ],
       "valuesSummary": "75 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Venomous Deluge",
@@ -6404,7 +6411,6 @@
       "mana": 70,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "damage",
         "dot"
@@ -6430,7 +6436,8 @@
         }
       ],
       "valuesSummary": "20 Poison/6s (30s) · 40 Poison dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Zombie Pet Tier 5",
@@ -6444,7 +6451,6 @@
       "mana": 130,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -6452,7 +6458,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Burning Bones",
@@ -6466,14 +6473,14 @@
       "mana": 60,
       "castTime": null,
       "level": 16,
-      "type": "spell",
       "tags": [
         "pet"
       ],
       "primaryTag": "pet",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Beset the Dead",
@@ -6487,7 +6494,6 @@
       "mana": "",
       "castTime": null,
       "level": 20,
-      "type": "spell",
       "tags": [
         "shield"
       ],
@@ -6502,7 +6508,8 @@
         }
       ],
       "valuesSummary": "90 Holy absorb",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Covenant of Life",
@@ -6516,7 +6523,6 @@
       "mana": 10,
       "castTime": null,
       "level": 20,
-      "type": "spell",
       "tags": [
         "heal"
       ],
@@ -6530,7 +6536,8 @@
         }
       ],
       "valuesSummary": "20 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Death Pact",
@@ -6544,7 +6551,6 @@
       "mana": 5,
       "castTime": null,
       "level": 20,
-      "type": "spell",
       "tags": [
         "buff",
         "self",
@@ -6564,7 +6570,8 @@
       "valuesSummary": "+6 Mana Regeneration",
       "statTags": [
         "MANA"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Ghoul Pet Tier 6",
@@ -6578,7 +6585,6 @@
       "mana": 170,
       "castTime": null,
       "level": 20,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -6586,7 +6592,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Mental Surge",
@@ -6600,14 +6607,14 @@
       "mana": 75,
       "castTime": null,
       "level": 20,
-      "type": "spell",
       "tags": [
         "buff"
       ],
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Reanimate Ally",
@@ -6621,18 +6628,18 @@
       "mana": "",
       "castTime": null,
       "level": 20,
-      "type": "spell",
       "tags": [],
       "primaryTag": null,
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Root",
       "slug": "Root",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Root",
-      "description": "Roots emerge from the ground and cling to your target's feet, applying an immobilize effect for 30 seconds. This effect has a change to be removed by Damage or end early. Limit one.",
+      "description": "Root your target to the ground, immobilizing them for 30 seconds. This spell has a chance to be removed by damage. This spell has a very strong chance to end early.",
       "category": "Alt",
       "categorySlug": "Skill_Alteration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -6640,15 +6647,22 @@
       "mana": 15,
       "castTime": null,
       "level": 20,
-      "type": "spell",
       "tags": [
         "crowd-control",
         "root"
       ],
       "primaryTag": "root",
-      "effects": [],
-      "valuesSummary": "",
-      "statTags": []
+      "effects": [
+        {
+          "kind": "crowd-control",
+          "duration": 30,
+          "display": "30s duration",
+          "sortKey": 30
+        }
+      ],
+      "valuesSummary": "30s duration",
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Skeleton Pet Tier 6",
@@ -6662,14 +6676,14 @@
       "mana": 170,
       "castTime": null,
       "level": 20,
-      "type": "spell",
       "tags": [
         "pet"
       ],
       "primaryTag": "pet",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Unrelenting Dead",
@@ -6683,7 +6697,6 @@
       "mana": 60,
       "castTime": null,
       "level": 20,
-      "type": "spell",
       "tags": [
         "buff",
         "haste",
@@ -6714,7 +6727,8 @@
       "valuesSummary": "+20% · +5 Strength",
       "statTags": [
         "STR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Whirling Shadows",
@@ -6728,7 +6742,6 @@
       "mana": 40,
       "castTime": null,
       "level": 20,
-      "type": "spell",
       "tags": [
         "debuff",
         "slow"
@@ -6746,7 +6759,8 @@
         }
       ],
       "valuesSummary": "−50%",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Zombie Pet Tier 6",
@@ -6760,7 +6774,6 @@
       "mana": 170,
       "castTime": null,
       "level": 20,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -6768,7 +6781,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Beguile Dead",
@@ -6782,14 +6796,14 @@
       "mana": "",
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "charm"
       ],
       "primaryTag": "charm",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Cold Resistance",
@@ -6803,7 +6817,6 @@
       "mana": "",
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "buff",
         "CR"
@@ -6822,7 +6835,8 @@
       "valuesSummary": "+15 Cold Resistance",
       "statTags": [
         "CR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Ghoul Pet Tier 7",
@@ -6836,7 +6850,6 @@
       "mana": 210,
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -6844,13 +6857,14 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Greater Spellshield",
       "slug": "Greater_Spellshield",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Greater_Spellshield",
-      "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 75, Armor Class by 10, and Magic Resistance by 10 for 1 hour.",
+      "description": "Encircle yourself with a magical shield, increasing your maximum Health by 75, Armor Class by 20, and Magic Resistance by 20 for 1 hour.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -6858,7 +6872,6 @@
       "mana": 75,
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "buff",
         "shield",
@@ -6880,32 +6893,33 @@
         {
           "kind": "buff",
           "stat": "Armor Class",
-          "amount": 10,
-          "display": "+10 Armor Class",
-          "sortKey": 10,
+          "amount": 20,
+          "display": "+20 Armor Class",
+          "sortKey": 20,
           "statTag": "AC"
         },
         {
           "kind": "buff",
           "stat": "Magic Resistance",
-          "amount": 10,
-          "display": "+10 Magic Resistance",
-          "sortKey": 10,
+          "amount": 20,
+          "display": "+20 Magic Resistance",
+          "sortKey": 20,
           "statTag": "MR"
         }
       ],
-      "valuesSummary": "+75 Health · +10 Armor Class · +10 Magic Resistance",
+      "valuesSummary": "+75 Health · +20 Armor Class · +20 Magic Resistance",
       "statTags": [
         "AC",
         "MAX HP",
         "MR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Holy Resistance",
       "slug": "Holy_Resistance",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Holy_Resistance",
-      "description": "Greatly wards your target from the arcane, increasing their Holy Resistance by 15",
+      "description": "Greatly ward your target against the divine, increasing their Holy Resistance by 15 for 1 hour.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -6913,7 +6927,6 @@
       "mana": "",
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "buff",
         "HR"
@@ -6932,7 +6945,8 @@
       "valuesSummary": "+15 Holy Resistance",
       "statTags": [
         "HR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Leech Essence",
@@ -6946,7 +6960,6 @@
       "mana": 125,
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "dot",
         "hot"
@@ -6965,7 +6978,8 @@
         }
       ],
       "valuesSummary": "20 Corruption/6s (60s)",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Life Leech",
@@ -6979,7 +6993,6 @@
       "mana": 115,
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "damage"
       ],
@@ -6994,7 +7007,8 @@
         }
       ],
       "valuesSummary": "165 dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Sacrificial Embrace",
@@ -7008,7 +7022,6 @@
       "mana": 45,
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "heal"
       ],
@@ -7022,7 +7035,8 @@
         }
       ],
       "valuesSummary": "80 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Skeleton Pet Tier 7",
@@ -7036,14 +7050,14 @@
       "mana": 210,
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "pet"
       ],
       "primaryTag": "pet",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Spirit Crack",
@@ -7057,7 +7071,6 @@
       "mana": 40,
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "debuff",
         "MR"
@@ -7079,7 +7092,8 @@
       "valuesSummary": "+5–6 Magic Resistance (L24–L28)",
       "statTags": [
         "MR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Stitch the Dead",
@@ -7093,7 +7107,6 @@
       "mana": 85,
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "heal",
         "pet"
@@ -7108,7 +7121,8 @@
         }
       ],
       "valuesSummary": "180 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Corpse",
@@ -7122,12 +7136,12 @@
       "mana": "",
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [],
       "primaryTag": null,
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Toxic Deluge",
@@ -7141,7 +7155,6 @@
       "mana": 135,
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "damage",
         "dot"
@@ -7167,7 +7180,8 @@
         }
       ],
       "valuesSummary": "45 Poison/6s (30s) · 90 dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Zombie Pet Tier 7",
@@ -7181,7 +7195,6 @@
       "mana": 210,
       "castTime": null,
       "level": 24,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -7189,7 +7202,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Arcane Surge",
@@ -7203,14 +7217,14 @@
       "mana": 130,
       "castTime": null,
       "level": 28,
-      "type": "spell",
       "tags": [
         "buff"
       ],
       "primaryTag": "buff",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Ghoul Pet Tier 8",
@@ -7224,7 +7238,6 @@
       "mana": 260,
       "castTime": null,
       "level": 28,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -7232,7 +7245,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Shuddering Sickness",
@@ -7246,7 +7260,6 @@
       "mana": 105,
       "castTime": null,
       "level": 28,
-      "type": "spell",
       "tags": [
         "dot"
       ],
@@ -7264,7 +7277,8 @@
         }
       ],
       "valuesSummary": "30 Disease/6s (60s)",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Skeleton Pet Tier 8",
@@ -7278,14 +7292,14 @@
       "mana": 260,
       "castTime": null,
       "level": 28,
-      "type": "spell",
       "tags": [
         "pet"
       ],
       "primaryTag": "pet",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Lifestone",
@@ -7299,7 +7313,6 @@
       "mana": 200,
       "castTime": null,
       "level": 28,
-      "type": "spell",
       "tags": [
         "heal",
         "summon"
@@ -7314,7 +7327,8 @@
         }
       ],
       "valuesSummary": "390 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Twisting Shadows",
@@ -7328,7 +7342,6 @@
       "mana": 70,
       "castTime": null,
       "level": 28,
-      "type": "spell",
       "tags": [
         "debuff",
         "slow"
@@ -7346,7 +7359,8 @@
         }
       ],
       "valuesSummary": "−55%",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Zombie Pet Tier 8",
@@ -7360,7 +7374,6 @@
       "mana": 260,
       "castTime": null,
       "level": 28,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -7368,7 +7381,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Abolish Magic",
@@ -7382,20 +7396,20 @@
       "mana": 100,
       "castTime": null,
       "level": 32,
-      "type": "spell",
       "tags": [
         "dispel"
       ],
       "primaryTag": "dispel",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Exceptional Spellshield",
       "slug": "Exceptional_Spellshield",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Exceptional_Spellshield",
-      "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 100, Armor Class by 25, and Magic Resistance by 25 for 1 hour.",
+      "description": "Encircle yourself with a magical shield, increasing your maximum Health by 100, Armor Class by 25, and Magic Resistance by 25 for 1 hour.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -7403,7 +7417,6 @@
       "mana": 125,
       "castTime": null,
       "level": 32,
-      "type": "spell",
       "tags": [
         "buff",
         "shield",
@@ -7444,7 +7457,8 @@
         "AC",
         "MAX HP",
         "MR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Extract Strength",
@@ -7458,7 +7472,6 @@
       "mana": 15,
       "castTime": null,
       "level": 32,
-      "type": "spell",
       "tags": [
         "debuff",
         "STR"
@@ -7477,7 +7490,8 @@
       "valuesSummary": "−10 Strength",
       "statTags": [
         "STR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Ghoul Pet Tier 9",
@@ -7491,7 +7505,6 @@
       "mana": 310,
       "castTime": null,
       "level": 32,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -7499,7 +7512,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Pernicious Deluge",
@@ -7513,7 +7527,6 @@
       "mana": 185,
       "castTime": null,
       "level": 32,
-      "type": "spell",
       "tags": [
         "damage",
         "dot"
@@ -7539,13 +7552,14 @@
         }
       ],
       "valuesSummary": "75 poision/6s (30s) · 150 Poison dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Rebuff the Dead",
       "slug": "Rebuff_the_Dead",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Rebuff_the_Dead",
-      "description": "Rebuff a target undead with a blast of energy, dealing 150 Holy Damage.",
+      "description": "Wards an Undead target with holy energy for 150 points of Holy Damage.",
       "category": "Evo",
       "categorySlug": "Skill_Evocation",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
@@ -7553,22 +7567,22 @@
       "mana": 70,
       "castTime": null,
       "level": 32,
-      "type": "spell",
       "tags": [
-        "damage"
+        "shield"
       ],
-      "primaryTag": "damage",
+      "primaryTag": "shield",
       "effects": [
         {
-          "kind": "damage",
+          "kind": "shield",
           "amount": 150,
           "damageType": "Holy",
-          "display": "150 Holy dmg",
+          "display": "150 Holy absorb",
           "sortKey": 150
         }
       ],
-      "valuesSummary": "150 Holy dmg",
-      "statTags": []
+      "valuesSummary": "150 Holy absorb",
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Shed Bones",
@@ -7582,7 +7596,6 @@
       "mana": 5,
       "castTime": null,
       "level": 32,
-      "type": "spell",
       "tags": [
         "buff",
         "self",
@@ -7602,7 +7615,8 @@
       "valuesSummary": "+8 Mana Regeneration",
       "statTags": [
         "MANA"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Skeleton Pet Tier 9",
@@ -7616,14 +7630,14 @@
       "mana": 310,
       "castTime": null,
       "level": 32,
-      "type": "spell",
       "tags": [
         "pet"
       ],
       "primaryTag": "pet",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Zombie Pet Tier 9",
@@ -7637,7 +7651,6 @@
       "mana": 310,
       "castTime": null,
       "level": 32,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -7645,7 +7658,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Afflicting Ailment",
@@ -7659,7 +7673,6 @@
       "mana": 155,
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "dot"
       ],
@@ -7677,7 +7690,8 @@
         }
       ],
       "valuesSummary": "55 Disease/6s (60s)",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Coax Undead",
@@ -7691,14 +7705,14 @@
       "mana": 175,
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "charm"
       ],
       "primaryTag": "charm",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Ghoul Pet Tier 10",
@@ -7712,7 +7726,6 @@
       "mana": 360,
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -7720,7 +7733,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Leech Spirit",
@@ -7734,7 +7748,6 @@
       "mana": 200,
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "dot",
         "hot"
@@ -7753,7 +7766,8 @@
         }
       ],
       "valuesSummary": "40 Corruption/6s (60s)",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Life Tap",
@@ -7767,7 +7781,6 @@
       "mana": 160,
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "damage"
       ],
@@ -7782,7 +7795,8 @@
         }
       ],
       "valuesSummary": "270 dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Reconstruct the Dead",
@@ -7796,7 +7810,6 @@
       "mana": 145,
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "heal",
         "pet"
@@ -7811,7 +7824,8 @@
         }
       ],
       "valuesSummary": "420 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Skeleton Pet Tier 10",
@@ -7825,14 +7839,14 @@
       "mana": 360,
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "pet"
       ],
       "primaryTag": "pet",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Spiraling Shadows",
@@ -7846,7 +7860,6 @@
       "mana": 120,
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "debuff",
         "slow"
@@ -7864,7 +7877,8 @@
         }
       ],
       "valuesSummary": "−60%",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Unyielding Dead",
@@ -7878,7 +7892,6 @@
       "mana": 125,
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "buff",
         "haste",
@@ -7909,7 +7922,8 @@
       "valuesSummary": "+30% · +10 Strength",
       "statTags": [
         "STR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Zombie Pet Tier 10",
@@ -7923,7 +7937,6 @@
       "mana": 360,
       "castTime": null,
       "level": 36,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -7931,13 +7944,14 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Arch Spellshield",
       "slug": "Arch_Spellshield",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Arch_Spellshield",
-      "description": "Enshroud yourself with a magical shield, increasing your maximum Health by 150, Armor Class by 10, and Magic Resistance by 1 for 1 hour.",
+      "description": "Encircle yourself with a magical shield, increasing your maximum Health by 150, Armor Class by 30, and Magic Resistance by 30 for 1 hour.",
       "category": "Abj",
       "categorySlug": "Skill_Abjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Abjuration",
@@ -7945,7 +7959,6 @@
       "mana": 175,
       "castTime": null,
       "level": 40,
-      "type": "spell",
       "tags": [
         "buff",
         "shield",
@@ -7967,26 +7980,27 @@
         {
           "kind": "buff",
           "stat": "Armor Class",
-          "amount": 10,
-          "display": "+10 Armor Class",
-          "sortKey": 10,
+          "amount": 30,
+          "display": "+30 Armor Class",
+          "sortKey": 30,
           "statTag": "AC"
         },
         {
           "kind": "buff",
           "stat": "Magic Resistance",
-          "amount": 1,
-          "display": "+1 Magic Resistance",
-          "sortKey": 1,
+          "amount": 30,
+          "display": "+30 Magic Resistance",
+          "sortKey": 30,
           "statTag": "MR"
         }
       ],
-      "valuesSummary": "+150 Health · +10 Armor Class · +1 Magic Resistance",
+      "valuesSummary": "+150 Health · +30 Armor Class · +30 Magic Resistance",
       "statTags": [
         "AC",
         "MAX HP",
         "MR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Covenant of Darkness",
@@ -8000,7 +8014,6 @@
       "mana": 15,
       "castTime": null,
       "level": 40,
-      "type": "spell",
       "tags": [
         "heal"
       ],
@@ -8014,7 +8027,8 @@
         }
       ],
       "valuesSummary": "90 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Ghoul Pet Tier 11",
@@ -8028,7 +8042,6 @@
       "mana": 420,
       "castTime": null,
       "level": 40,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -8036,7 +8049,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Skeleton Pet Tier 11",
@@ -8050,14 +8064,14 @@
       "mana": 420,
       "castTime": null,
       "level": 40,
-      "type": "spell",
       "tags": [
         "pet"
       ],
       "primaryTag": "pet",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Spirit Fracture",
@@ -8071,7 +8085,6 @@
       "mana": 55,
       "castTime": null,
       "level": 40,
-      "type": "spell",
       "tags": [
         "debuff",
         "MR"
@@ -8093,7 +8106,8 @@
       "valuesSummary": "+7–8 Magic Resistance (L40–L44)",
       "statTags": [
         "MR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Summon Greater Lifestone",
@@ -8107,7 +8121,6 @@
       "mana": 250,
       "castTime": null,
       "level": 40,
-      "type": "spell",
       "tags": [
         "heal",
         "summon"
@@ -8122,7 +8135,8 @@
         }
       ],
       "valuesSummary": "705 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Zombie Pet Tier 11",
@@ -8136,7 +8150,6 @@
       "mana": 420,
       "castTime": null,
       "level": 40,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -8144,13 +8157,14 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Beleaguer the Dead",
       "slug": "Beleaguer_the_Dead",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Beleaguer_the_Dead",
-      "description": "Beleaguer a target undead with a blast of energy, dealing 245 Holy Damage.",
+      "description": "Wards off an undead target with holy energy for 245 points of Holy Damage.",
       "category": "Evo",
       "categorySlug": "Skill_Evocation",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
@@ -8158,22 +8172,22 @@
       "mana": 95,
       "castTime": null,
       "level": 44,
-      "type": "spell",
       "tags": [
-        "damage"
+        "shield"
       ],
-      "primaryTag": "damage",
+      "primaryTag": "shield",
       "effects": [
         {
-          "kind": "damage",
+          "kind": "shield",
           "amount": 245,
           "damageType": "Holy",
-          "display": "245 Holy dmg",
+          "display": "245 Holy absorb",
           "sortKey": 245
         }
       ],
-      "valuesSummary": "245 Holy dmg",
-      "statTags": []
+      "valuesSummary": "245 Holy absorb",
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Corporeal Embrace",
@@ -8187,7 +8201,6 @@
       "mana": 115,
       "castTime": null,
       "level": 44,
-      "type": "spell",
       "tags": [
         "heal"
       ],
@@ -8201,7 +8214,8 @@
         }
       ],
       "valuesSummary": "225 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Ghoul Pet Tier 12",
@@ -8215,7 +8229,6 @@
       "mana": 460,
       "castTime": null,
       "level": 44,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -8223,7 +8236,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Irking Illness",
@@ -8237,7 +8251,6 @@
       "mana": 180,
       "castTime": null,
       "level": 44,
-      "type": "spell",
       "tags": [
         "dot"
       ],
@@ -8255,7 +8268,8 @@
         }
       ],
       "valuesSummary": "80 Disease/6s (60s)",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Skeleton Pet Tier 12",
@@ -8269,14 +8283,14 @@
       "mana": 460,
       "castTime": null,
       "level": 44,
-      "type": "spell",
       "tags": [
         "pet"
       ],
       "primaryTag": "pet",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Vile Deluge",
@@ -8290,7 +8304,6 @@
       "mana": 250,
       "castTime": null,
       "level": 44,
-      "type": "spell",
       "tags": [
         "damage",
         "dot"
@@ -8316,7 +8329,8 @@
         }
       ],
       "valuesSummary": "125 Poison/6s (30s) · 250 dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Zombie Pet Tier 12",
@@ -8330,7 +8344,6 @@
       "mana": 460,
       "castTime": null,
       "level": 44,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -8338,7 +8351,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Ghoul Pet Tier 13",
@@ -8352,7 +8366,6 @@
       "mana": 540,
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -8360,7 +8373,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Leech Soul",
@@ -8374,7 +8388,6 @@
       "mana": 300,
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "dot",
         "hot"
@@ -8393,7 +8406,8 @@
         }
       ],
       "valuesSummary": "80 Corruption/6s (60s)",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Life Guzzle",
@@ -8407,7 +8421,6 @@
       "mana": 225,
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "damage"
       ],
@@ -8422,7 +8435,8 @@
         }
       ],
       "valuesSummary": "450 dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Persuade Undead",
@@ -8436,14 +8450,14 @@
       "mana": "",
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "charm"
       ],
       "primaryTag": "charm",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Rippling Shadows",
@@ -8457,7 +8471,6 @@
       "mana": 210,
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "debuff",
         "slow"
@@ -8475,7 +8488,8 @@
         }
       ],
       "valuesSummary": "−65%",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Skeleton Pet Tier 13",
@@ -8489,14 +8503,14 @@
       "mana": 540,
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "pet"
       ],
       "primaryTag": "pet",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Void Strength",
@@ -8510,7 +8524,6 @@
       "mana": "",
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "debuff",
         "STR"
@@ -8529,7 +8542,8 @@
       "valuesSummary": "−15 Strength",
       "statTags": [
         "STR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Zombie Pet Tier 13",
@@ -8543,7 +8557,6 @@
       "mana": 540,
       "castTime": null,
       "level": 48,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -8551,7 +8564,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Shed Flesh",
@@ -8565,7 +8579,6 @@
       "mana": "",
       "castTime": null,
       "level": 50,
-      "type": "spell",
       "tags": [
         "buff",
         "self",
@@ -8585,7 +8598,8 @@
       "valuesSummary": "+20 Mana Regeneration",
       "statTags": [
         "MANA"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Ghoul Pet Tier 14",
@@ -8599,7 +8613,6 @@
       "mana": "",
       "castTime": null,
       "level": 52,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -8607,7 +8620,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Inexorable Dead",
@@ -8621,7 +8635,6 @@
       "mana": "",
       "castTime": null,
       "level": 52,
-      "type": "spell",
       "tags": [
         "buff",
         "haste",
@@ -8652,7 +8665,8 @@
       "valuesSummary": "+40% · +15 Strength",
       "statTags": [
         "STR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Skeleton Pet Tier 14",
@@ -8666,14 +8680,14 @@
       "mana": "",
       "castTime": null,
       "level": 52,
-      "type": "spell",
       "tags": [
         "pet"
       ],
       "primaryTag": "pet",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Zombie Pet Tier 14",
@@ -8687,7 +8701,6 @@
       "mana": "",
       "castTime": null,
       "level": 52,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -8695,7 +8708,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Life Duct",
@@ -8709,7 +8723,6 @@
       "mana": "",
       "castTime": null,
       "level": 54,
-      "type": "spell",
       "tags": [
         "damage"
       ],
@@ -8724,7 +8737,8 @@
         }
       ],
       "valuesSummary": "750 dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Lich",
@@ -8738,7 +8752,6 @@
       "mana": "",
       "castTime": null,
       "level": 55,
-      "type": "spell",
       "tags": [
         "buff",
         "self",
@@ -8758,13 +8771,14 @@
       "valuesSummary": "+25 Mana Regeneration",
       "statTags": [
         "MANA"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Assail the Dead",
       "slug": "Assail_the_Dead",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Assail_the_Dead",
-      "description": "Assail a target undead with a blast of energy, dealing 525 Holy Damage.",
+      "description": "Wards an undead target with holy energy for 525 points of Holy Damage.",
       "category": "Evo",
       "categorySlug": "Skill_Evocation",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Evocation",
@@ -8772,22 +8786,22 @@
       "mana": "",
       "castTime": null,
       "level": 56,
-      "type": "spell",
       "tags": [
-        "damage"
+        "shield"
       ],
-      "primaryTag": "damage",
+      "primaryTag": "shield",
       "effects": [
         {
-          "kind": "damage",
+          "kind": "shield",
           "amount": 525,
           "damageType": "Holy",
-          "display": "525 Holy dmg",
+          "display": "525 Holy absorb",
           "sortKey": 525
         }
       ],
-      "valuesSummary": "525 Holy dmg",
-      "statTags": []
+      "valuesSummary": "525 Holy absorb",
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Ghoul Pet Tier 15",
@@ -8801,7 +8815,6 @@
       "mana": "",
       "castTime": null,
       "level": 56,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -8809,7 +8822,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Lethal Deluge",
@@ -8823,7 +8837,6 @@
       "mana": "",
       "castTime": null,
       "level": 56,
-      "type": "spell",
       "tags": [
         "damage",
         "dot"
@@ -8849,7 +8862,8 @@
         }
       ],
       "valuesSummary": "200 Poison/6s (30s) · 400 dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Skeleton Pet Tier 15",
@@ -8863,14 +8877,14 @@
       "mana": "",
       "castTime": null,
       "level": 56,
-      "type": "spell",
       "tags": [
         "pet"
       ],
       "primaryTag": "pet",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Summon Exceptional Lifestone",
@@ -8884,7 +8898,6 @@
       "mana": "",
       "castTime": null,
       "level": 56,
-      "type": "spell",
       "tags": [],
       "primaryTag": null,
       "effects": [
@@ -8896,13 +8909,14 @@
         }
       ],
       "valuesSummary": "1110 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Virulent Virus",
       "slug": "Virulent_Virus",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Virulent_Virus",
-      "description": "Infects your target with a fever, dealing 125 Disease Damage every 6 seconds for 1 minute.",
+      "description": "Infect your target with a virus, dealing 125 Disease Damage every 6 seconds for 1 minute.",
       "category": "Con",
       "categorySlug": "Skill_Conjuration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Conjuration",
@@ -8910,7 +8924,6 @@
       "mana": "",
       "castTime": null,
       "level": 56,
-      "type": "spell",
       "tags": [
         "dot"
       ],
@@ -8928,7 +8941,8 @@
         }
       ],
       "valuesSummary": "125 Disease/6s (60s)",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Zombie Pet Tier 15",
@@ -8942,14 +8956,14 @@
       "mana": "",
       "castTime": null,
       "level": 56,
-      "type": "spell",
       "tags": [
         "pet"
       ],
       "primaryTag": "pet",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Demi Lich",
@@ -8963,7 +8977,6 @@
       "mana": "",
       "castTime": null,
       "level": 57,
-      "type": "spell",
       "tags": [
         "buff",
         "self",
@@ -8983,7 +8996,8 @@
       "valuesSummary": "+30 Mana Regeneration",
       "statTags": [
         "MANA"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Arch Lich",
@@ -8997,7 +9011,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "buff",
         "self",
@@ -9017,7 +9030,8 @@
       "valuesSummary": "+35 Mana Regeneration",
       "statTags": [
         "MANA"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Covenant of Shadow",
@@ -9031,7 +9045,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "heal"
       ],
@@ -9045,7 +9058,8 @@
         }
       ],
       "valuesSummary": "200 heal",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Ghoul Pet Tier 16",
@@ -9059,7 +9073,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -9067,7 +9080,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Leech Anima",
@@ -9081,7 +9095,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "dot",
         "hot"
@@ -9100,7 +9113,8 @@
         }
       ],
       "valuesSummary": "120 Corruption/6s (60s)",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Lich Spirit",
@@ -9114,7 +9128,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "buff",
         "self",
@@ -9134,7 +9147,8 @@
       "valuesSummary": "+100 Mana Regeneration",
       "statTags": [
         "MANA"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Life Flume",
@@ -9148,7 +9162,6 @@
       "mana": 450,
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "damage"
       ],
@@ -9163,7 +9176,8 @@
         }
       ],
       "valuesSummary": "900 dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Sacrifice",
@@ -9177,12 +9191,12 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [],
       "primaryTag": null,
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Seething Shadows",
@@ -9196,7 +9210,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "debuff",
         "slow"
@@ -9214,7 +9227,8 @@
         }
       ],
       "valuesSummary": "−70%",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Skeleton Pet Tier 16",
@@ -9228,14 +9242,14 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "pet"
       ],
       "primaryTag": "pet",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     },
     {
       "name": "Spirit Shatter",
@@ -9249,7 +9263,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "debuff",
         "MR"
@@ -9282,7 +9295,8 @@
       "valuesSummary": "−10 Corruption/Holy/MR",
       "statTags": [
         "MR"
-      ]
+      ],
+      "type": "spell"
     },
     {
       "name": "Zombie Pet Tier 16",
@@ -9296,7 +9310,6 @@
       "mana": "",
       "castTime": null,
       "level": 60,
-      "type": "spell",
       "tags": [
         "utility",
         "pet"
@@ -9304,7 +9317,8 @@
       "primaryTag": "utility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "spell"
     }
   ]
 }

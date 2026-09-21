@@ -4,7 +4,7 @@
   "type": "ability",
   "sectionTitle": "Monk Abilities",
   "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Monk",
-  "entryCount": 20,
+  "entryCount": 32,
   "levels": [
     1,
     2,
@@ -20,7 +20,17 @@
     14,
     16,
     18,
-    20
+    20,
+    21,
+    22,
+    24,
+    25,
+    26,
+    28,
+    30,
+    31,
+    34,
+    35
   ],
   "entriesByLevel": {
     "1": [
@@ -36,7 +46,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "buff",
           "self",
@@ -64,7 +73,8 @@
         "valuesSummary": "+25% · 30% heal",
         "statTags": [
           "AC"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Round Kick",
@@ -78,7 +88,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "damage",
           "buff"
@@ -94,7 +103,8 @@
           }
         ],
         "valuesSummary": "5 Physical dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Throw",
@@ -108,14 +118,14 @@
         "mana": "Innate",
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "damage"
         ],
         "primaryTag": "damage",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Moon Style",
@@ -129,7 +139,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 1,
-        "type": "ability",
         "tags": [
           "buff",
           "self"
@@ -145,7 +154,29 @@
           }
         ],
         "valuesSummary": "+5 Dodge and Block",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
+      },
+      {
+        "name": "Taunt",
+        "slug": "Taunt",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Taunt",
+        "description": "Taunt your target, causing them to focus their attacks on you. Triggers cooldown of Martial abilities.",
+        "category": "Mit",
+        "categorySlug": "Skill_Might",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 1,
+        "tags": [
+          "taunt"
+        ],
+        "primaryTag": "taunt",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "2": [
@@ -161,7 +192,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 2,
-        "type": "ability",
         "tags": [
           "damage",
           "buff",
@@ -196,7 +226,8 @@
           }
         ],
         "valuesSummary": "130% weapon dmg · 1–5 Physical dmg (L1–L10) · +10%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "3": [
@@ -212,14 +243,14 @@
         "mana": "Innate",
         "castTime": null,
         "level": 3,
-        "type": "ability",
         "tags": [
           "interrupt"
         ],
         "primaryTag": "interrupt",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "4": [
@@ -235,7 +266,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 4,
-        "type": "ability",
         "tags": [
           "damage",
           "buff",
@@ -265,7 +295,8 @@
         "valuesSummary": "1–180 Magic after 6 seconds dmg (L1–L60) · +5 Offense",
         "statTags": [
           "OFF"
-        ]
+        ],
+        "type": "ability"
       },
       {
         "name": "Feign Death",
@@ -279,12 +310,12 @@
         "mana": "Innate",
         "castTime": null,
         "level": 4,
-        "type": "ability",
         "tags": [],
         "primaryTag": null,
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "5": [
@@ -300,7 +331,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 5,
-        "type": "ability",
         "tags": [
           "crowd-control",
           "stun",
@@ -316,7 +346,8 @@
           }
         ],
         "valuesSummary": "3s duration",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "6": [
@@ -332,14 +363,14 @@
         "mana": "Innate",
         "castTime": null,
         "level": 6,
-        "type": "ability",
         "tags": [
           "invisibility"
         ],
         "primaryTag": "invisibility",
         "effects": [],
         "valuesSummary": "",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "7": [
@@ -355,7 +386,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 7,
-        "type": "ability",
         "tags": [
           "damage",
           "crowd-control",
@@ -376,7 +406,8 @@
           }
         ],
         "valuesSummary": "100% weapon dmg · 6s duration",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "9": [
@@ -392,7 +423,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 9,
-        "type": "ability",
         "tags": [
           "buff",
           "debuff",
@@ -414,7 +444,8 @@
           }
         ],
         "valuesSummary": "−60%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "10": [
@@ -430,7 +461,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 10,
-        "type": "ability",
         "tags": [
           "damage",
           "buff"
@@ -446,7 +476,8 @@
           }
         ],
         "valuesSummary": "20 Physical dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "11": [
@@ -462,7 +493,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 11,
-        "type": "ability",
         "tags": [
           "damage",
           "buff",
@@ -497,7 +527,8 @@
           }
         ],
         "valuesSummary": "135% weapon dmg · 5–10 Physical dmg (L10–L15) · +10%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "12": [
@@ -513,7 +544,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 12,
-        "type": "ability",
         "tags": [
           "damage",
           "buff",
@@ -533,14 +563,15 @@
           }
         ],
         "valuesSummary": "+10%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "14": [
       {
-        "name": "Flying Kick I",
-        "slug": "Flying_Kick_I",
-        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Flying_Kick_I?action=edit&redlink=1",
+        "name": "Flying Kick",
+        "slug": "Flying_Kick",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Flying_Kick?action=edit&redlink=1",
         "description": "Leap toward your target to deliver a devastating flying kick, dealing 25 Physical Damage. This ability scales with your Dexterity.",
         "category": "Mit?",
         "categorySlug": "Skill_Might",
@@ -549,7 +580,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 14,
-        "type": "ability",
         "tags": [
           "damage",
           "movement"
@@ -565,7 +595,8 @@
           }
         ],
         "valuesSummary": "25 Physical dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "16": [
@@ -581,7 +612,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 16,
-        "type": "ability",
         "tags": [
           "damage",
           "debuff",
@@ -600,7 +630,8 @@
           }
         ],
         "valuesSummary": "−80%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "18": [
@@ -616,7 +647,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 18,
-        "type": "ability",
         "tags": [
           "buff",
           "debuff"
@@ -643,7 +673,8 @@
           }
         ],
         "valuesSummary": "−5% · +5%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       }
     ],
     "20": [
@@ -659,7 +690,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 20,
-        "type": "ability",
         "tags": [
           "buff",
           "movement",
@@ -679,7 +709,8 @@
           }
         ],
         "valuesSummary": "+35%",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
       },
       {
         "name": "Round Kick III",
@@ -693,7 +724,6 @@
         "mana": "Innate",
         "castTime": null,
         "level": 20,
-        "type": "ability",
         "tags": [
           "damage",
           "buff"
@@ -709,7 +739,403 @@
           }
         ],
         "valuesSummary": "45 Physical dmg",
-        "statTags": []
+        "statTags": [],
+        "type": "ability"
+      }
+    ],
+    "21": [
+      {
+        "name": "Celestial Strike III",
+        "slug": "Celestial_Strike_III",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Celestial_Strike_III?action=edit&redlink=1",
+        "description": "Squarely strike your target, dealing 140% Weapon Ratio Damage plus 10 (L20) to 15 (L30) Physical Damage, granting Celestial Fury, and granting you a chance to activate Celestial Vitality. Celestial Fury: Let fury guide your strikes, increasing your Attack Speed by 10% for 30 seconds. Celestial Vitality: Infuse yourself with vitality, restoring 1 (L1) to 100 (L60) Health. This ability can be enhanced by your active Style.",
+        "category": "Mit?",
+        "categorySlug": "Skill_Might",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 21,
+        "tags": [
+          "damage",
+          "buff",
+          "haste"
+        ],
+        "primaryTag": "damage",
+        "effects": [
+          {
+            "kind": "damage",
+            "display": "140% weapon dmg",
+            "sortKey": 140
+          },
+          {
+            "kind": "damage",
+            "min": 10,
+            "max": 15,
+            "minLevel": 20,
+            "maxLevel": 30,
+            "damageType": "Physical",
+            "display": "10–15 Physical dmg (L20–L30)",
+            "sortKey": 15
+          },
+          {
+            "kind": "buff",
+            "stat": "Attack Speed",
+            "min": 10,
+            "max": 10,
+            "unit": "%",
+            "display": "+10%",
+            "sortKey": 10,
+            "statTag": "ATK"
+          }
+        ],
+        "valuesSummary": "140% weapon dmg · 10–15 Physical dmg (L20–L30) · +10%",
+        "statTags": [],
+        "type": "ability"
+      }
+    ],
+    "22": [
+      {
+        "name": "Spirit Sustenance",
+        "slug": "Spirit_Sustenance",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Spirit_Sustenance?action=edit&redlink=1",
+        "description": "Suppress the need for sustenance, decreasing your food and drink consumption by 25% for 1 hour. You can only have one body alteration ability active at a time.",
+        "category": "Mit?",
+        "categorySlug": "Skill_Might",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 22,
+        "tags": [],
+        "primaryTag": null,
+        "effects": [
+          {
+            "kind": "debuff",
+            "stat": "food and drink consumption",
+            "min": 25,
+            "max": 25,
+            "unit": "%",
+            "display": "−25%",
+            "sortKey": 25
+          }
+        ],
+        "valuesSummary": "−25%",
+        "statTags": [],
+        "type": "ability"
+      }
+    ],
+    "24": [
+      {
+        "name": "Flying Kick II",
+        "slug": "Flying_Kick_II",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Flying_Kick_II?action=edit&redlink=1",
+        "description": "Leap toward your target to deliver a devastating flying kick, dealing 50 Physical Damage. This ability scales with your Dexterity.",
+        "category": "Mit?",
+        "categorySlug": "Skill_Might",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 24,
+        "tags": [
+          "damage",
+          "movement"
+        ],
+        "primaryTag": "damage",
+        "effects": [
+          {
+            "kind": "damage",
+            "amount": 50,
+            "damageType": "Physical",
+            "display": "50 Physical dmg",
+            "sortKey": 50
+          }
+        ],
+        "valuesSummary": "50 Physical dmg",
+        "statTags": [],
+        "type": "ability"
+      }
+    ],
+    "25": [
+      {
+        "name": "Falling Petal",
+        "slug": "Falling_Petal",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Falling_Petal?action=edit&redlink=1",
+        "description": "Move with the grace of a falling petal, reducing the effect of gravity on your body for 1 hour. You can only have one body alteration ability active at a time.",
+        "category": "Mit?",
+        "categorySlug": "Skill_Might",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 25,
+        "tags": [
+          "debuff"
+        ],
+        "primaryTag": "debuff",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": [],
+        "type": "ability"
+      }
+    ],
+    "26": [
+      {
+        "name": "Cyclone Staff",
+        "slug": "Cyclone_Staff",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Cyclone_Staff?action=edit&redlink=1",
+        "description": "Spin your staff rapidly to deflect incoming blows, increasing your Block by 50% and dealing 100% Weapon Ratio Damage with each successful block.",
+        "category": "Mit?",
+        "categorySlug": "Skill_Might",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 26,
+        "tags": [
+          "damage",
+          "buff",
+          "self",
+          "BLOCK"
+        ],
+        "primaryTag": "damage",
+        "effects": [
+          {
+            "kind": "damage",
+            "display": "100% weapon dmg",
+            "sortKey": 100
+          },
+          {
+            "kind": "buff",
+            "stat": "Block",
+            "min": 50,
+            "max": 50,
+            "unit": "%",
+            "display": "+50%",
+            "sortKey": 50,
+            "statTag": "BLOCK"
+          }
+        ],
+        "valuesSummary": "100% weapon dmg · +50%",
+        "statTags": [
+          "BLOCK"
+        ],
+        "type": "ability"
+      }
+    ],
+    "28": [
+      {
+        "name": "Disarming Strike",
+        "slug": "Disarming_Strike",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Disarming_Strike?action=edit&redlink=1",
+        "description": "Strike the wrist of your target, temporarily removing their weapon and reducing their Physical Damage dealt by 10% for 8 seconds. This ability has diminishing returns when used in PvE. This ability shares a cooldown with other Martial abilities.",
+        "category": "Mit?",
+        "categorySlug": "Skill_Might",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 28,
+        "tags": [
+          "debuff"
+        ],
+        "primaryTag": "debuff",
+        "effects": [
+          {
+            "kind": "debuff",
+            "stat": "Damage dealt",
+            "min": 10,
+            "max": 10,
+            "unit": "%",
+            "display": "−10%",
+            "sortKey": 10
+          }
+        ],
+        "valuesSummary": "−10%",
+        "statTags": [],
+        "type": "ability"
+      }
+    ],
+    "30": [
+      {
+        "name": "Round Kick IV",
+        "slug": "Round_Kick_IV",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Round_Kick_IV?action=edit&redlink=1",
+        "description": "Deliver a crushing round kick to your target, dealing 70 Physical Damage and granting you a chance to reset the cooldown of your Celestial Strike and Hundred Fists abilities. This ability scales with your Dexterity.",
+        "category": "Mit?",
+        "categorySlug": "Skill_Might",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 30,
+        "tags": [
+          "damage",
+          "buff"
+        ],
+        "primaryTag": "damage",
+        "effects": [
+          {
+            "kind": "damage",
+            "amount": 70,
+            "damageType": "Physical",
+            "display": "70 Physical dmg",
+            "sortKey": 70
+          }
+        ],
+        "valuesSummary": "70 Physical dmg",
+        "statTags": [],
+        "type": "ability"
+      },
+      {
+        "name": "Slow Breathing",
+        "slug": "Slow_Breathing",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Slow_Breathing?action=edit&redlink=1",
+        "description": "Slow your breathing, decreasing your air consumption by 80% for 1 hour. You can only have one body alteration ability active at a time.",
+        "category": "Mit?",
+        "categorySlug": "Skill_Might",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 30,
+        "tags": [],
+        "primaryTag": null,
+        "effects": [
+          {
+            "kind": "debuff",
+            "stat": "air consumption",
+            "min": 80,
+            "max": 80,
+            "unit": "%",
+            "display": "−80%",
+            "sortKey": 80
+          }
+        ],
+        "valuesSummary": "−80%",
+        "statTags": [],
+        "type": "ability"
+      }
+    ],
+    "31": [
+      {
+        "name": "Celestial Strike IV",
+        "slug": "Celestial_Strike_IV",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Celestial_Strike_IV?action=edit&redlink=1",
+        "description": "Squarely strike your target, dealing 145% Weapon Ratio Damage plus 15 (L30) to 20 (L40) Physical Damage, granting Celestial Fury, and granting you a chance to activate Celestial Vitality. Celestial Fury: Let fury guide your strikes, increasing your Attack Speed by 10% for 30 seconds. Celestial Vitality: Infuse yourself with vitality, restoring 1 (L1) to 100 (L60) Health. This ability can be enhanced by your active Style..",
+        "category": "Mit?",
+        "categorySlug": "Skill_Might",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 31,
+        "tags": [
+          "damage",
+          "buff",
+          "haste"
+        ],
+        "primaryTag": "damage",
+        "effects": [
+          {
+            "kind": "damage",
+            "display": "145% weapon dmg",
+            "sortKey": 145
+          },
+          {
+            "kind": "damage",
+            "min": 15,
+            "max": 20,
+            "minLevel": 30,
+            "maxLevel": 40,
+            "damageType": "Physical",
+            "display": "15–20 Physical dmg (L30–L40)",
+            "sortKey": 20
+          },
+          {
+            "kind": "buff",
+            "stat": "Attack Speed",
+            "min": 10,
+            "max": 10,
+            "unit": "%",
+            "display": "+10%",
+            "sortKey": 10,
+            "statTag": "ATK"
+          }
+        ],
+        "valuesSummary": "145% weapon dmg · 15–20 Physical dmg (L30–L40) · +10%",
+        "statTags": [],
+        "type": "ability"
+      }
+    ],
+    "34": [
+      {
+        "name": "Flying Kick III",
+        "slug": "Flying_Kick_III",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Flying_Kick_III?action=edit&redlink=1",
+        "description": "Leap toward your target to deliver a devastating flying kick, dealing 75 Physical Damage. This ability scales with your Dexterity.",
+        "category": "Mit?",
+        "categorySlug": "Skill_Might",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 34,
+        "tags": [
+          "damage",
+          "movement"
+        ],
+        "primaryTag": "damage",
+        "effects": [
+          {
+            "kind": "damage",
+            "amount": 75,
+            "damageType": "Physical",
+            "display": "75 Physical dmg",
+            "sortKey": 75
+          }
+        ],
+        "valuesSummary": "75 Physical dmg",
+        "statTags": [],
+        "type": "ability"
+      }
+    ],
+    "35": [
+      {
+        "name": "Hundred Fists",
+        "slug": "Hundred_Fists",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Hundred_Fists?action=edit&redlink=1",
+        "description": "Pummel your target in rapid succession, dealing 100% Weapon Ratio Damage four times. Additionally, if your target is off balance, you have a chance to stun them for 4 seconds. This ability can be used while moving. This ability is channeled.",
+        "category": "Mit?",
+        "categorySlug": "Skill_Might",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+        "location": "Vendor",
+        "mana": "Innate",
+        "castTime": null,
+        "level": 35,
+        "tags": [
+          "damage",
+          "crowd-control",
+          "stun"
+        ],
+        "primaryTag": "damage",
+        "effects": [
+          {
+            "kind": "damage",
+            "display": "100% weapon dmg",
+            "sortKey": 100
+          },
+          {
+            "kind": "crowd-control",
+            "duration": 4,
+            "display": "4s duration",
+            "sortKey": 4
+          }
+        ],
+        "valuesSummary": "100% weapon dmg · 4s duration",
+        "statTags": [],
+        "type": "ability"
       }
     ]
   },
@@ -726,7 +1152,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "buff",
         "self",
@@ -754,7 +1179,8 @@
       "valuesSummary": "+25% · 30% heal",
       "statTags": [
         "AC"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Round Kick",
@@ -768,7 +1194,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "damage",
         "buff"
@@ -784,7 +1209,8 @@
         }
       ],
       "valuesSummary": "5 Physical dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Throw",
@@ -798,14 +1224,14 @@
       "mana": "Innate",
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "damage"
       ],
       "primaryTag": "damage",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Moon Style",
@@ -819,7 +1245,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 1,
-      "type": "ability",
       "tags": [
         "buff",
         "self"
@@ -835,7 +1260,29 @@
         }
       ],
       "valuesSummary": "+5 Dodge and Block",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
+    },
+    {
+      "name": "Taunt",
+      "slug": "Taunt",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Taunt",
+      "description": "Taunt your target, causing them to focus their attacks on you. Triggers cooldown of Martial abilities.",
+      "category": "Mit",
+      "categorySlug": "Skill_Might",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 1,
+      "tags": [
+        "taunt"
+      ],
+      "primaryTag": "taunt",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Celestial Strike",
@@ -849,7 +1296,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 2,
-      "type": "ability",
       "tags": [
         "damage",
         "buff",
@@ -884,7 +1330,8 @@
         }
       ],
       "valuesSummary": "130% weapon dmg · 1–5 Physical dmg (L1–L10) · +10%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Jab",
@@ -898,14 +1345,14 @@
       "mana": "Innate",
       "castTime": null,
       "level": 3,
-      "type": "ability",
       "tags": [
         "interrupt"
       ],
       "primaryTag": "interrupt",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Sun Style",
@@ -919,7 +1366,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 4,
-      "type": "ability",
       "tags": [
         "damage",
         "buff",
@@ -949,7 +1395,8 @@
       "valuesSummary": "1–180 Magic after 6 seconds dmg (L1–L60) · +5 Offense",
       "statTags": [
         "OFF"
-      ]
+      ],
+      "type": "ability"
     },
     {
       "name": "Feign Death",
@@ -963,12 +1410,12 @@
       "mana": "Innate",
       "castTime": null,
       "level": 4,
-      "type": "ability",
       "tags": [],
       "primaryTag": null,
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Sweeping Kick",
@@ -982,7 +1429,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 5,
-      "type": "ability",
       "tags": [
         "crowd-control",
         "stun",
@@ -998,7 +1444,8 @@
         }
       ],
       "valuesSummary": "3s duration",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Sneak",
@@ -1012,14 +1459,14 @@
       "mana": "Innate",
       "castTime": null,
       "level": 6,
-      "type": "ability",
       "tags": [
         "invisibility"
       ],
       "primaryTag": "invisibility",
       "effects": [],
       "valuesSummary": "",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Pinning Throw",
@@ -1033,7 +1480,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 7,
-      "type": "ability",
       "tags": [
         "damage",
         "crowd-control",
@@ -1054,7 +1500,8 @@
         }
       ],
       "valuesSummary": "100% weapon dmg · 6s duration",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Stone Stance",
@@ -1068,7 +1515,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 9,
-      "type": "ability",
       "tags": [
         "buff",
         "debuff",
@@ -1090,7 +1536,8 @@
         }
       ],
       "valuesSummary": "−60%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Round Kick II",
@@ -1104,7 +1551,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 10,
-      "type": "ability",
       "tags": [
         "damage",
         "buff"
@@ -1120,7 +1566,8 @@
         }
       ],
       "valuesSummary": "20 Physical dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Celestial Strike II",
@@ -1134,7 +1581,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 11,
-      "type": "ability",
       "tags": [
         "damage",
         "buff",
@@ -1169,7 +1615,8 @@
         }
       ],
       "valuesSummary": "135% weapon dmg · 5–10 Physical dmg (L10–L15) · +10%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Wind Style",
@@ -1183,7 +1630,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 12,
-      "type": "ability",
       "tags": [
         "damage",
         "buff",
@@ -1203,12 +1649,13 @@
         }
       ],
       "valuesSummary": "+10%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
-      "name": "Flying Kick I",
-      "slug": "Flying_Kick_I",
-      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Flying_Kick_I?action=edit&redlink=1",
+      "name": "Flying Kick",
+      "slug": "Flying_Kick",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Flying_Kick?action=edit&redlink=1",
       "description": "Leap toward your target to deliver a devastating flying kick, dealing 25 Physical Damage. This ability scales with your Dexterity.",
       "category": "Mit?",
       "categorySlug": "Skill_Might",
@@ -1217,7 +1664,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 14,
-      "type": "ability",
       "tags": [
         "damage",
         "movement"
@@ -1233,7 +1679,8 @@
         }
       ],
       "valuesSummary": "25 Physical dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Double-Handed Strike",
@@ -1247,7 +1694,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 16,
-      "type": "ability",
       "tags": [
         "damage",
         "debuff",
@@ -1266,7 +1712,8 @@
         }
       ],
       "valuesSummary": "−80%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Quivering Palm",
@@ -1280,7 +1727,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 18,
-      "type": "ability",
       "tags": [
         "buff",
         "debuff"
@@ -1307,7 +1753,8 @@
         }
       ],
       "valuesSummary": "−5% · +5%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Fleet of Foot",
@@ -1321,7 +1768,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 20,
-      "type": "ability",
       "tags": [
         "buff",
         "movement",
@@ -1341,7 +1787,8 @@
         }
       ],
       "valuesSummary": "+35%",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
     },
     {
       "name": "Round Kick III",
@@ -1355,7 +1802,6 @@
       "mana": "Innate",
       "castTime": null,
       "level": 20,
-      "type": "ability",
       "tags": [
         "damage",
         "buff"
@@ -1371,7 +1817,383 @@
         }
       ],
       "valuesSummary": "45 Physical dmg",
-      "statTags": []
+      "statTags": [],
+      "type": "ability"
+    },
+    {
+      "name": "Celestial Strike III",
+      "slug": "Celestial_Strike_III",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Celestial_Strike_III?action=edit&redlink=1",
+      "description": "Squarely strike your target, dealing 140% Weapon Ratio Damage plus 10 (L20) to 15 (L30) Physical Damage, granting Celestial Fury, and granting you a chance to activate Celestial Vitality. Celestial Fury: Let fury guide your strikes, increasing your Attack Speed by 10% for 30 seconds. Celestial Vitality: Infuse yourself with vitality, restoring 1 (L1) to 100 (L60) Health. This ability can be enhanced by your active Style.",
+      "category": "Mit?",
+      "categorySlug": "Skill_Might",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 21,
+      "tags": [
+        "damage",
+        "buff",
+        "haste"
+      ],
+      "primaryTag": "damage",
+      "effects": [
+        {
+          "kind": "damage",
+          "display": "140% weapon dmg",
+          "sortKey": 140
+        },
+        {
+          "kind": "damage",
+          "min": 10,
+          "max": 15,
+          "minLevel": 20,
+          "maxLevel": 30,
+          "damageType": "Physical",
+          "display": "10–15 Physical dmg (L20–L30)",
+          "sortKey": 15
+        },
+        {
+          "kind": "buff",
+          "stat": "Attack Speed",
+          "min": 10,
+          "max": 10,
+          "unit": "%",
+          "display": "+10%",
+          "sortKey": 10,
+          "statTag": "ATK"
+        }
+      ],
+      "valuesSummary": "140% weapon dmg · 10–15 Physical dmg (L20–L30) · +10%",
+      "statTags": [],
+      "type": "ability"
+    },
+    {
+      "name": "Spirit Sustenance",
+      "slug": "Spirit_Sustenance",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Spirit_Sustenance?action=edit&redlink=1",
+      "description": "Suppress the need for sustenance, decreasing your food and drink consumption by 25% for 1 hour. You can only have one body alteration ability active at a time.",
+      "category": "Mit?",
+      "categorySlug": "Skill_Might",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 22,
+      "tags": [],
+      "primaryTag": null,
+      "effects": [
+        {
+          "kind": "debuff",
+          "stat": "food and drink consumption",
+          "min": 25,
+          "max": 25,
+          "unit": "%",
+          "display": "−25%",
+          "sortKey": 25
+        }
+      ],
+      "valuesSummary": "−25%",
+      "statTags": [],
+      "type": "ability"
+    },
+    {
+      "name": "Flying Kick II",
+      "slug": "Flying_Kick_II",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Flying_Kick_II?action=edit&redlink=1",
+      "description": "Leap toward your target to deliver a devastating flying kick, dealing 50 Physical Damage. This ability scales with your Dexterity.",
+      "category": "Mit?",
+      "categorySlug": "Skill_Might",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 24,
+      "tags": [
+        "damage",
+        "movement"
+      ],
+      "primaryTag": "damage",
+      "effects": [
+        {
+          "kind": "damage",
+          "amount": 50,
+          "damageType": "Physical",
+          "display": "50 Physical dmg",
+          "sortKey": 50
+        }
+      ],
+      "valuesSummary": "50 Physical dmg",
+      "statTags": [],
+      "type": "ability"
+    },
+    {
+      "name": "Falling Petal",
+      "slug": "Falling_Petal",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Falling_Petal?action=edit&redlink=1",
+      "description": "Move with the grace of a falling petal, reducing the effect of gravity on your body for 1 hour. You can only have one body alteration ability active at a time.",
+      "category": "Mit?",
+      "categorySlug": "Skill_Might",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 25,
+      "tags": [
+        "debuff"
+      ],
+      "primaryTag": "debuff",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": [],
+      "type": "ability"
+    },
+    {
+      "name": "Cyclone Staff",
+      "slug": "Cyclone_Staff",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Cyclone_Staff?action=edit&redlink=1",
+      "description": "Spin your staff rapidly to deflect incoming blows, increasing your Block by 50% and dealing 100% Weapon Ratio Damage with each successful block.",
+      "category": "Mit?",
+      "categorySlug": "Skill_Might",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 26,
+      "tags": [
+        "damage",
+        "buff",
+        "self",
+        "BLOCK"
+      ],
+      "primaryTag": "damage",
+      "effects": [
+        {
+          "kind": "damage",
+          "display": "100% weapon dmg",
+          "sortKey": 100
+        },
+        {
+          "kind": "buff",
+          "stat": "Block",
+          "min": 50,
+          "max": 50,
+          "unit": "%",
+          "display": "+50%",
+          "sortKey": 50,
+          "statTag": "BLOCK"
+        }
+      ],
+      "valuesSummary": "100% weapon dmg · +50%",
+      "statTags": [
+        "BLOCK"
+      ],
+      "type": "ability"
+    },
+    {
+      "name": "Disarming Strike",
+      "slug": "Disarming_Strike",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Disarming_Strike?action=edit&redlink=1",
+      "description": "Strike the wrist of your target, temporarily removing their weapon and reducing their Physical Damage dealt by 10% for 8 seconds. This ability has diminishing returns when used in PvE. This ability shares a cooldown with other Martial abilities.",
+      "category": "Mit?",
+      "categorySlug": "Skill_Might",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 28,
+      "tags": [
+        "debuff"
+      ],
+      "primaryTag": "debuff",
+      "effects": [
+        {
+          "kind": "debuff",
+          "stat": "Damage dealt",
+          "min": 10,
+          "max": 10,
+          "unit": "%",
+          "display": "−10%",
+          "sortKey": 10
+        }
+      ],
+      "valuesSummary": "−10%",
+      "statTags": [],
+      "type": "ability"
+    },
+    {
+      "name": "Round Kick IV",
+      "slug": "Round_Kick_IV",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Round_Kick_IV?action=edit&redlink=1",
+      "description": "Deliver a crushing round kick to your target, dealing 70 Physical Damage and granting you a chance to reset the cooldown of your Celestial Strike and Hundred Fists abilities. This ability scales with your Dexterity.",
+      "category": "Mit?",
+      "categorySlug": "Skill_Might",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 30,
+      "tags": [
+        "damage",
+        "buff"
+      ],
+      "primaryTag": "damage",
+      "effects": [
+        {
+          "kind": "damage",
+          "amount": 70,
+          "damageType": "Physical",
+          "display": "70 Physical dmg",
+          "sortKey": 70
+        }
+      ],
+      "valuesSummary": "70 Physical dmg",
+      "statTags": [],
+      "type": "ability"
+    },
+    {
+      "name": "Slow Breathing",
+      "slug": "Slow_Breathing",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Slow_Breathing?action=edit&redlink=1",
+      "description": "Slow your breathing, decreasing your air consumption by 80% for 1 hour. You can only have one body alteration ability active at a time.",
+      "category": "Mit?",
+      "categorySlug": "Skill_Might",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 30,
+      "tags": [],
+      "primaryTag": null,
+      "effects": [
+        {
+          "kind": "debuff",
+          "stat": "air consumption",
+          "min": 80,
+          "max": 80,
+          "unit": "%",
+          "display": "−80%",
+          "sortKey": 80
+        }
+      ],
+      "valuesSummary": "−80%",
+      "statTags": [],
+      "type": "ability"
+    },
+    {
+      "name": "Celestial Strike IV",
+      "slug": "Celestial_Strike_IV",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Celestial_Strike_IV?action=edit&redlink=1",
+      "description": "Squarely strike your target, dealing 145% Weapon Ratio Damage plus 15 (L30) to 20 (L40) Physical Damage, granting Celestial Fury, and granting you a chance to activate Celestial Vitality. Celestial Fury: Let fury guide your strikes, increasing your Attack Speed by 10% for 30 seconds. Celestial Vitality: Infuse yourself with vitality, restoring 1 (L1) to 100 (L60) Health. This ability can be enhanced by your active Style..",
+      "category": "Mit?",
+      "categorySlug": "Skill_Might",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 31,
+      "tags": [
+        "damage",
+        "buff",
+        "haste"
+      ],
+      "primaryTag": "damage",
+      "effects": [
+        {
+          "kind": "damage",
+          "display": "145% weapon dmg",
+          "sortKey": 145
+        },
+        {
+          "kind": "damage",
+          "min": 15,
+          "max": 20,
+          "minLevel": 30,
+          "maxLevel": 40,
+          "damageType": "Physical",
+          "display": "15–20 Physical dmg (L30–L40)",
+          "sortKey": 20
+        },
+        {
+          "kind": "buff",
+          "stat": "Attack Speed",
+          "min": 10,
+          "max": 10,
+          "unit": "%",
+          "display": "+10%",
+          "sortKey": 10,
+          "statTag": "ATK"
+        }
+      ],
+      "valuesSummary": "145% weapon dmg · 15–20 Physical dmg (L30–L40) · +10%",
+      "statTags": [],
+      "type": "ability"
+    },
+    {
+      "name": "Flying Kick III",
+      "slug": "Flying_Kick_III",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Flying_Kick_III?action=edit&redlink=1",
+      "description": "Leap toward your target to deliver a devastating flying kick, dealing 75 Physical Damage. This ability scales with your Dexterity.",
+      "category": "Mit?",
+      "categorySlug": "Skill_Might",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 34,
+      "tags": [
+        "damage",
+        "movement"
+      ],
+      "primaryTag": "damage",
+      "effects": [
+        {
+          "kind": "damage",
+          "amount": 75,
+          "damageType": "Physical",
+          "display": "75 Physical dmg",
+          "sortKey": 75
+        }
+      ],
+      "valuesSummary": "75 Physical dmg",
+      "statTags": [],
+      "type": "ability"
+    },
+    {
+      "name": "Hundred Fists",
+      "slug": "Hundred_Fists",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Hundred_Fists?action=edit&redlink=1",
+      "description": "Pummel your target in rapid succession, dealing 100% Weapon Ratio Damage four times. Additionally, if your target is off balance, you have a chance to stun them for 4 seconds. This ability can be used while moving. This ability is channeled.",
+      "category": "Mit?",
+      "categorySlug": "Skill_Might",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Might",
+      "location": "Vendor",
+      "mana": "Innate",
+      "castTime": null,
+      "level": 35,
+      "tags": [
+        "damage",
+        "crowd-control",
+        "stun"
+      ],
+      "primaryTag": "damage",
+      "effects": [
+        {
+          "kind": "damage",
+          "display": "100% weapon dmg",
+          "sortKey": 100
+        },
+        {
+          "kind": "crowd-control",
+          "duration": 4,
+          "display": "4s duration",
+          "sortKey": 4
+        }
+      ],
+      "valuesSummary": "100% weapon dmg · 4s duration",
+      "statTags": [],
+      "type": "ability"
     }
   ]
 }
