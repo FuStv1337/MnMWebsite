@@ -1,0 +1,322 @@
+{
+  "evershade": {
+    "path": "maps/evershade.webp",
+    "width": 2560,
+    "height": 1711,
+    "source": "https://monstersandmemories.miraheze.org/wiki/File:Evershade_Weald_june_26.jpg",
+    "original": "https://static.wikitide.net/monstersandmemorieswiki/7/74/Evershade_Weald_june_26.jpg",
+    "page": "https://monstersandmemories.miraheze.org/wiki/Evershade_Weald",
+    "metadata": {
+      "DateTime": {
+        "value": "2026-06-28T22:01:30Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Evershade Weald june 26",
+        "source": "mediawiki-metadata"
+      }
+    },
+    "thumbnail": "maps/evershade-thumb.webp"
+  },
+  "keepers": {
+    "path": "maps/keepers.webp",
+    "width": 5400,
+    "height": 7155,
+    "source": "https://monstersandmemories.miraheze.org/wiki/File:Keepersbighteg.png",
+    "original": "https://static.wikitide.net/monstersandmemorieswiki/1/19/Keepersbighteg.png",
+    "page": "https://monstersandmemories.miraheze.org/wiki/Keeper's_Bight",
+    "metadata": {
+      "DateTime": {
+        "value": "2026-07-19T22:54:24Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Keepersbighteg",
+        "source": "mediawiki-metadata"
+      }
+    },
+    "thumbnail": "maps/keepers-thumb.webp"
+  },
+  "scarwood": {
+    "path": "maps/scarwood.webp",
+    "width": 9700,
+    "height": 6000,
+    "source": "https://monstersandmemories.miraheze.org/wiki/File:Scarwood.png",
+    "original": "https://static.wikitide.net/monstersandmemorieswiki/3/34/Scarwood.png",
+    "page": "https://monstersandmemories.miraheze.org/wiki/Scarwood",
+    "metadata": {
+      "DateTime": {
+        "value": "2026-07-26T01:56:33Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Scarwood",
+        "source": "mediawiki-metadata"
+      }
+    },
+    "thumbnail": "maps/scarwood-thumb.webp"
+  },
+  "shoals": {
+    "path": "maps/shoals.webp",
+    "width": 2000,
+    "height": 4020,
+    "source": "https://monstersandmemories.miraheze.org/wiki/File:Shallowshoalseg.png",
+    "original": "https://static.wikitide.net/monstersandmemorieswiki/0/07/Shallowshoalseg.png",
+    "page": "https://monstersandmemories.miraheze.org/wiki/Shallow_Shoals",
+    "metadata": {
+      "DateTime": {
+        "value": "2026-07-26T03:35:37Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Shallowshoalseg",
+        "source": "mediawiki-metadata"
+      }
+    },
+    "thumbnail": "maps/shoals-thumb.webp"
+  },
+  "zintar": {
+    "path": "maps/zintar.webp",
+    "width": 5809,
+    "height": 9829,
+    "source": "https://monstersandmemories.miraheze.org/wiki/File:Valeofzintareg.png",
+    "original": "https://static.wikitide.net/monstersandmemorieswiki/a/ab/Valeofzintareg.png",
+    "page": "https://monstersandmemories.miraheze.org/wiki/Vale_of_Zintar",
+    "metadata": {
+      "DateTime": {
+        "value": "2026-07-18T06:45:30Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Valeofzintareg",
+        "source": "mediawiki-metadata"
+      }
+    },
+    "thumbnail": "maps/zintar-thumb.webp"
+  },
+  "glass": {
+    "path": "maps/glass.webp",
+    "width": 9702,
+    "height": 5821,
+    "source": "https://monstersandmemories.miraheze.org/wiki/File:Glass_Flats_Map.png",
+    "original": "https://static.wikitide.net/monstersandmemorieswiki/e/eb/Glass_Flats_Map.png",
+    "page": "https://monstersandmemories.miraheze.org/wiki/Glass_Flats",
+    "metadata": {
+      "DateTime": {
+        "value": "2026-04-24T18:47:35Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Glass Flats Map",
+        "source": "mediawiki-metadata"
+      }
+    },
+    "thumbnail": "maps/glass-thumb.webp"
+  },
+  "sungreet": {
+    "path": "maps/sungreet.webp",
+    "width": 5688,
+    "height": 3672,
+    "source": "https://monstersandmemories.miraheze.org/wiki/File:Sungreet_Strand_v4.jpg",
+    "original": "https://static.wikitide.net/monstersandmemorieswiki/0/0c/Sungreet_Strand_v4.jpg",
+    "page": "https://monstersandmemories.miraheze.org/wiki/Sungreet_Strand",
+    "metadata": {
+      "DateTime": {
+        "value": "2025-12-23T20:53:08Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Sungreet Strand v4",
+        "source": "mediawiki-metadata"
+      }
+    },
+    "thumbnail": "maps/sungreet-thumb.webp"
+  },
+  "tel": {
+    "path": "maps/tel.webp",
+    "width": 7200,
+    "height": 5400,
+    "source": "https://monstersandmemories.miraheze.org/wiki/File:Tel-ekir-isometric.jpg",
+    "original": "https://static.wikitide.net/monstersandmemorieswiki/f/f7/Tel-ekir-isometric.jpg",
+    "page": "https://monstersandmemories.miraheze.org/wiki/Tel_Ekir",
+    "metadata": {
+      "DateTime": {
+        "value": "2026-07-13T03:21:48Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Tel-ekir-isometric",
+        "source": "mediawiki-metadata"
+      }
+    },
+    "thumbnail": "maps/tel-thumb.webp"
+  },
+  "irem": {
+    "path": "maps/irem.webp",
+    "width": 1975,
+    "height": 1544,
+    "source": "https://monstersandmemories.miraheze.org/wiki/File:Caves_of_Irem_By_Naawa.png",
+    "original": "https://static.wikitide.net/monstersandmemorieswiki/c/c2/Caves_of_Irem_By_Naawa.png",
+    "page": "https://monstersandmemories.miraheze.org/wiki/Caves_of_Irem",
+    "metadata": {
+      "DateTime": {
+        "value": "2026-09-17T22:28:28Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "20260917222827!chunkedupload aefdf3198f8c",
+        "source": "mediawiki-metadata"
+      }
+    },
+    "thumbnail": "maps/irem-thumb.webp"
+  },
+  "ancient": {
+    "path": "maps/ancient.webp",
+    "width": 8400,
+    "height": 9300,
+    "source": "https://monstersandmemories.miraheze.org/wiki/File:Ancient_Crypt_Map.png",
+    "original": "https://static.wikitide.net/monstersandmemorieswiki/a/ae/Ancient_Crypt_Map.png",
+    "page": "https://monstersandmemories.miraheze.org/wiki/Ancient_Crypt",
+    "metadata": {
+      "DateTime": {
+        "value": "2025-05-05T06:24:10Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Ancient Crypt Map",
+        "source": "mediawiki-metadata"
+      }
+    },
+    "thumbnail": "maps/ancient-thumb.webp"
+  },
+  "tomb": {
+    "path": "maps/tomb.webp",
+    "width": 2760,
+    "height": 1710,
+    "source": "https://monstersandmemories.miraheze.org/wiki/File:WyrmsbaneCombined_v0.91.png",
+    "original": "https://static.wikitide.net/monstersandmemorieswiki/f/f7/WyrmsbaneCombined_v0.91.png",
+    "page": "https://monstersandmemories.miraheze.org/wiki/Tomb_of_the_Last_Wyrmsbane",
+    "metadata": {
+      "DateTime": {
+        "value": "2025-06-27T20:53:45Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "WyrmsbaneCombined v0.91",
+        "source": "mediawiki-metadata"
+      }
+    },
+    "thumbnail": "maps/tomb-thumb.webp"
+  },
+  "fallen": {
+    "path": "maps/fallen.webp",
+    "width": 3888,
+    "height": 3744,
+    "source": "https://monstersandmemories.miraheze.org/wiki/File:Fallen_pass_v1.jpg",
+    "original": "https://static.wikitide.net/monstersandmemorieswiki/9/99/Fallen_pass_v1.jpg",
+    "page": "https://monstersandmemories.miraheze.org/wiki/Fallen_Pass",
+    "metadata": {
+      "DateTime": {
+        "value": "2026-03-09T03:54:00Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Fallen pass v1",
+        "source": "mediawiki-metadata"
+      }
+    },
+    "thumbnail": "maps/fallen-thumb.webp"
+  },
+  "dunes": {
+    "path": "maps/dunes.webp",
+    "width": 5760,
+    "height": 3528,
+    "source": "https://monstersandmemories.miraheze.org/wiki/File:Shaded_Dunes_Map.jpg",
+    "original": "https://static.wikitide.net/monstersandmemorieswiki/a/a7/Shaded_Dunes_Map.jpg",
+    "page": "https://monstersandmemories.miraheze.org/wiki/Shaded_Dunes",
+    "metadata": {
+      "DateTime": {
+        "value": "2025-05-09T18:00:51Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Shaded Dunes Map",
+        "source": "mediawiki-metadata"
+      }
+    },
+    "thumbnail": "maps/dunes-thumb.webp"
+  },
+  "harbor": {
+    "path": "maps/harbor.webp",
+    "width": 5760,
+    "height": 4896,
+    "source": "https://monstersandmemories.miraheze.org/wiki/File:Night_harbor_V5.jpg",
+    "original": "https://static.wikitide.net/monstersandmemorieswiki/5/5a/Night_harbor_V5.jpg",
+    "page": "https://monstersandmemories.miraheze.org/wiki/Night_Harbor",
+    "metadata": {
+      "DateTime": {
+        "value": "2026-06-28T22:44:48Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Night harbor V5",
+        "source": "mediawiki-metadata"
+      }
+    },
+    "thumbnail": "maps/harbor-thumb.webp"
+  },
+  "infested": {
+    "path": "maps/infested.webp",
+    "width": 3900,
+    "height": 3600,
+    "source": "https://monstersandmemories.miraheze.org/wiki/File:Infested_Crypt_Map.png",
+    "original": "https://static.wikitide.net/monstersandmemorieswiki/c/cb/Infested_Crypt_Map.png",
+    "page": "https://monstersandmemories.miraheze.org/wiki/Infested_Crypt",
+    "metadata": {
+      "DateTime": {
+        "value": "2024-12-27T10:54:35Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Infested Crypt Map",
+        "source": "mediawiki-metadata"
+      }
+    },
+    "thumbnail": "maps/infested-thumb.webp"
+  },
+  "underdocks": {
+    "path": "maps/underdocks.webp",
+    "width": 977,
+    "height": 1221,
+    "source": "https://monstersandmemories.miraheze.org/wiki/File:Underdocks_map.png",
+    "original": "https://static.wikitide.net/monstersandmemorieswiki/0/00/Underdocks_map.png",
+    "page": "https://monstersandmemories.miraheze.org/wiki/Underdocks",
+    "metadata": {
+      "DateTime": {
+        "value": "2026-09-17T03:08:38Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "20260917030837!chunkedupload 2831c0be2ed8",
+        "source": "mediawiki-metadata"
+      }
+    },
+    "thumbnail": "maps/underdocks-thumb.webp"
+  }
+}

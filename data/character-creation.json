@@ -11,7 +11,7 @@
     "WIS",
     "CHA"
   ],
-  "statPointBudget": 7,
+  "statPointBudget": 10,
   "traitSlots": [
     {
       "id": "majorCombat",
@@ -2570,7 +2570,7 @@
         "classes": {
           "type": "any"
         },
-        "description": "Passive: Your Agility is increased by 10. Active: Increases your Agility by 200 for 15 seconds."
+        "description": "Passive: Increases your total Agility attribute by 5%. On use: Gives 50% extra Agility for 15 seconds."
       },
       {
         "name": "Charismatic",
@@ -2581,7 +2581,7 @@
         "classes": {
           "type": "any"
         },
-        "description": "Passive: Your Charisma is increased by 10. Active: Become charismatic, increasing your Charisma by 100 for 12 seconds."
+        "description": "Passive: Increases your total Charisma attribute by 5%. On use: Gives 50% extra Charisma for 15 seconds."
       },
       {
         "name": "Cold Resistant",
@@ -2614,7 +2614,7 @@
         "classes": {
           "type": "any"
         },
-        "description": "Passive: Your Dexterity is increased by 10. Active: Become dexterous, increasing your Dexterity by 10% for 12 seconds."
+        "description": "Passive: Increases your total Dexterity attribute by 5%. On use: Gives 50% extra Dexterity for 15 seconds."
       },
       {
         "name": "Disease Resistant",
@@ -2669,7 +2669,7 @@
         "classes": {
           "type": "any"
         },
-        "description": "Passive: Your Intelligence is increased by 10. Active: Become intelligent, increasing your Intelligence by 100 for 12 seconds."
+        "description": "Passive: Increases your total Intelligence attribute by 5%. On use: Gives 50% extra Intelligence for 15 seconds."
       },
       {
         "name": "Magic Resistant",
@@ -2702,7 +2702,7 @@
         "classes": {
           "type": "any"
         },
-        "description": "Passive: Your Strength is increased by 10. Active: Increasing your Strength by 100 for 15 seconds."
+        "description": "Passive: Increases your total Strength attribute by 5%. On use: Gives 50% extra Strength for 15 seconds."
       },
       {
         "name": "Tough",
@@ -2713,7 +2713,7 @@
         "classes": {
           "type": "any"
         },
-        "description": "Passive: Your Stamina is increased by 10. Active: Become tough, increasing your Stamina by 10% for 5 seconds."
+        "description": "Passive: Increases your total Stamina attribute by 5%. On use: Gives 50% extra Stamina for 15 seconds."
       },
       {
         "name": "Wise",
@@ -2724,7 +2724,7 @@
         "classes": {
           "type": "any"
         },
-        "description": "Passive: Your base Wisdom is increased by 10. Active: Become wise, increasing your Wisdom by 10% for 12 seconds."
+        "description": "Passive: Increases your total Wisdom attribute by 5%. On use: Gives 50% extra Wisdom for 15 seconds."
       }
     ],
     "minorCombat": [

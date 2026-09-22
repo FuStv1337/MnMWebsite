@@ -31,11 +31,11 @@ export function parseTraitStatModifiers(description) {
   if (!description) return bonuses;
 
   const pattern =
-    /Your (?:base )?(Strength|Stamina|Dexterity|Agility|Intelligence|Wisdom|Charisma) is (increased|decreased) by (\d+)/gi;
+    /Increases your total (Strength|Stamina|Dexterity|Agility|Intelligence|Wisdom|Charisma) attribute by (\d+(?:\.\d+)?)%/gi;
   let match = pattern.exec(description);
   while (match) {
     const key = STAT_NAME_TO_KEY[match[1]];
-    const delta = Number(match[3]) * (match[2].toLowerCase() === 'decreased' ? -1 : 1);
+    const delta = Number(match[2]);
     if (key) bonuses[key] = (bonuses[key] ?? 0) + delta;
     match = pattern.exec(description);
   }
@@ -53,8 +53,12 @@ export function findTraitByName(name) {
   return null;
 }
 
-/** @param {Record<string, string | null>} traitState */
-export function computeTraitStatBonuses(traitState) {
+/** Passive percentages apply after race, class, and allocated points.
+ * @param {Record<string, string | null>} traitState
+ * @param {Record<string, number | null> | null} baseStats
+ * @param {Record<string, number>} allocation
+ */
+export function computeTraitStatBonuses(traitState, baseStats = {}, allocation = {}) {
   /** @type {Record<string, number>} */
   const totals = Object.fromEntries(statKeys.map((key) => [key, 0]));
 
@@ -63,18 +67,18 @@ export function computeTraitStatBonuses(traitState) {
     if (!trait) continue;
     const mods = parseTraitStatModifiers(trait.description);
     for (const key of statKeys) {
-      totals[key] += mods[key] ?? 0;
+      totals[key] += ((baseStats?.[key] ?? 0) + (allocation[key] ?? 0)) * (mods[key] ?? 0) / 100;
     }
   }
 
-  return totals;
+  return Object.fromEntries(statKeys.map((key) => [key, Number(totals[key].toFixed(2))]));
 }
 
 /** @param {Record<string, number>} mods */
 export function formatTraitStatModifierSummary(mods) {
   return statKeys
     .filter((key) => mods[key])
-    .map((key) => `${mods[key] > 0 ? '+' : ''}${mods[key]} ${key}`)
+    .map((key) => `${mods[key] > 0 ? '+' : ''}${mods[key]}% ${key}`)
     .join(', ');
 }
 
@@ -238,7 +242,7 @@ export function computeFinalStats(baseStats, allocation = {}, traitBonuses = {})
     if (base == null) {
       finalStats[key] = null;
     } else {
-      finalStats[key] = base + bonus + traitBonus;
+      finalStats[key] = Number((base + bonus + traitBonus).toFixed(2));
     }
   }
   return finalStats;

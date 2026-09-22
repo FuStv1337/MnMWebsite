@@ -1,0 +1,345 @@
+{
+  "evershade": {
+    "page": "Evershade_Weald",
+    "images": [
+      {
+        "file": "File:Evershade_Weald.png",
+        "caption": "placeholder",
+        "alt": ""
+      },
+      {
+        "file": "File:Evershade_Weald_june_26.jpg",
+        "caption": "",
+        "alt": ""
+      }
+    ]
+  },
+  "keepers": {
+    "page": "Keeper's_Bight",
+    "images": [
+      {
+        "file": "File:Keepers_Bight.png",
+        "caption": "",
+        "alt": ""
+      },
+      {
+        "file": "File:Keepersbighteg.png",
+        "caption": "Keeper's Bight High Res",
+        "alt": "Map of Keeper's Bight"
+      }
+    ]
+  },
+  "scarwood": {
+    "page": "Scarwood",
+    "images": [
+      {
+        "file": "File:Screenshot_20260327_202004.png",
+        "caption": "A view of Scarwood from the lake looking to the West.",
+        "alt": "Scarwood"
+      },
+      {
+        "file": "File:Scarwood.png",
+        "caption": "Scarwood High Res",
+        "alt": "Map of Scarwood"
+      }
+    ]
+  },
+  "field": {
+    "page": "Field_of_the_Lost",
+    "images": []
+  },
+  "shoals": {
+    "page": "Shallow_Shoals",
+    "images": [
+      {
+        "file": "File:Shallow_shoals.png",
+        "caption": "",
+        "alt": ""
+      },
+      {
+        "file": "File:BadShallowShoalMap.png",
+        "caption": "",
+        "alt": ""
+      },
+      {
+        "file": "File:Shallowshoalseg.png",
+        "caption": "Shallow Shoals High Res",
+        "alt": "Map of Shallow Shoals"
+      }
+    ]
+  },
+  "zintar": {
+    "page": "Vale_of_Zintar",
+    "images": [
+      {
+        "file": "File:Vale_of_Zintar.png",
+        "caption": "Inside the giant city. Fallen Watch and the floating citadel visible in the background.",
+        "alt": ""
+      },
+      {
+        "file": "File:Vale_of_Zintar_Map.png",
+        "caption": "Vale of Zintar",
+        "alt": "Map of the Vale of Zintar with lettered zonelines and points of interest"
+      },
+      {
+        "file": "File:Valeofzintareg.png",
+        "caption": "Vale of Zintar High Res",
+        "alt": "A Map of the Vale of Zintar"
+      },
+      {
+        "file": "File:Zintarwithnumbers.jpg",
+        "caption": "",
+        "alt": "Map of Vale of Zintar with Numbers"
+      }
+    ]
+  },
+  "glass": {
+    "page": "Glass_Flats",
+    "images": [
+      {
+        "file": "File:Glass_flats.png",
+        "caption": "A sunrise over Glass Flats",
+        "alt": ""
+      },
+      {
+        "file": "File:Glass_Flats_Map.png",
+        "caption": "Glass Flats High Res",
+        "alt": "A Map of Glass Flats"
+      }
+    ]
+  },
+  "sungreet": {
+    "page": "Sungreet_Strand",
+    "images": [
+      {
+        "file": "File:Sungreetstrand.png",
+        "caption": "Overview of Sungreet Strand and its quarry.",
+        "alt": ""
+      },
+      {
+        "file": "File:Sungreet_Strand_v4.jpg",
+        "caption": "",
+        "alt": ""
+      }
+    ]
+  },
+  "tel": {
+    "page": "Tel_Ekir",
+    "images": [
+      {
+        "file": "File:Telekir.png",
+        "caption": "Tel Ekir",
+        "alt": ""
+      },
+      {
+        "file": "File:Tel-ekir-isometric.jpg",
+        "caption": "",
+        "alt": ""
+      }
+    ]
+  },
+  "irem": {
+    "page": "Caves_of_Irem",
+    "images": [
+      {
+        "file": "File:Deep_Dunes_screenshot.png",
+        "caption": "Screenshot taken in the Deep Dunes by Opeth",
+        "alt": ""
+      },
+      {
+        "file": "File:Caves_of_Irem_By_Naawa.png",
+        "caption": "",
+        "alt": ""
+      }
+    ]
+  },
+  "ancient": {
+    "page": "Ancient_Crypt",
+    "images": [
+      {
+        "file": "File:Entrance_to_Ancient_Crypt.png",
+        "caption": "Ancient Crypt",
+        "alt": ""
+      },
+      {
+        "file": "File:Ancient_Crypt_Map.png",
+        "caption": "",
+        "alt": ""
+      }
+    ]
+  },
+  "tomb": {
+    "page": "Tomb_of_the_Last_Wyrmsbane",
+    "images": [
+      {
+        "file": "File:Wyrmsbane.png",
+        "caption": "Illustration by Goblin of Wyrmsbane entrance",
+        "alt": ""
+      },
+      {
+        "file": "File:WyrmsbaneCombined_v0.91.png",
+        "caption": "Wyrmsbane Map",
+        "alt": ""
+      },
+      {
+        "file": "File:TombOfTheLastWyrmsbaneIsometric.jpg",
+        "caption": "Wyrmsbane Isometric",
+        "alt": ""
+      },
+      {
+        "file": "File:Wyrmsbane_Tomb.png",
+        "caption": "",
+        "alt": ""
+      }
+    ]
+  },
+  "fallen": {
+    "page": "Fallen_Pass",
+    "images": [
+      {
+        "file": "File:Screenshot_2025-08-20_201810.png",
+        "caption": "placeholder image",
+        "alt": ""
+      },
+      {
+        "file": "File:Fallen_pass_v1.jpg",
+        "caption": "",
+        "alt": ""
+      }
+    ]
+  },
+  "dunes": {
+    "page": "Shaded_Dunes",
+    "images": [
+      {
+        "file": "File:Shaded_Dunes.png",
+        "caption": "Shaded Dunes from a vantage point",
+        "alt": ""
+      },
+      {
+        "file": "File:Shaded_Dunes_Map.jpg",
+        "caption": "",
+        "alt": ""
+      }
+    ]
+  },
+  "harbor": {
+    "page": "Night_Harbor",
+    "images": [
+      {
+        "file": "File:NightHarbor1.jpg",
+        "caption": "Night Harbor at Night",
+        "alt": "Night Harbor at Night"
+      },
+      {
+        "file": "File:Night_harbor_V5.jpg",
+        "caption": "",
+        "alt": ""
+      }
+    ]
+  },
+  "watch": {
+    "page": "Fallen_Watch",
+    "images": [
+      {
+        "file": "File:Fallen_Watch.png",
+        "caption": "",
+        "alt": ""
+      },
+      {
+        "file": "File:Phformaps.png",
+        "caption": "",
+        "alt": ""
+      }
+    ]
+  },
+  "infested": {
+    "page": "Infested_Crypt",
+    "images": [
+      {
+        "file": "File:256_Infested_Crypt.png",
+        "caption": "Infested Crypt",
+        "alt": ""
+      },
+      {
+        "file": "File:Infested_Crypt_Map.png",
+        "caption": "",
+        "alt": ""
+      },
+      {
+        "file": "File:Infested-crypt-isometric.jpg",
+        "caption": "Infested Crypt in isometric perspective",
+        "alt": ""
+      }
+    ]
+  },
+  "underdocks": {
+    "page": "Underdocks",
+    "images": [
+      {
+        "file": "File:UnderdocksBottomFloorCity.png",
+        "caption": "",
+        "alt": ""
+      },
+      {
+        "file": "File:Underdocks_map.png",
+        "caption": "Hand drawn map",
+        "alt": "Hand drawn map"
+      }
+    ]
+  },
+  "sewers": {
+    "page": "Night_Harbor_Sewers",
+    "images": [
+      {
+        "file": "File:Night_Harbor_Sewers_Entrance.png",
+        "caption": "",
+        "alt": ""
+      },
+      {
+        "file": "File:Phformaps.png",
+        "caption": "",
+        "alt": ""
+      }
+    ]
+  },
+  "ail": {
+    "page": "Ail'Vorith",
+    "images": [
+      {
+        "file": "File:Ailvorith.jpg",
+        "caption": "Ail'Vorith",
+        "alt": "Ail'Vorith"
+      },
+      {
+        "file": "File:Ailvorith_foreignquarters2.jpg",
+        "caption": "",
+        "alt": ""
+      },
+      {
+        "file": "File:Phformaps.png",
+        "caption": "",
+        "alt": ""
+      }
+    ]
+  },
+  "cavern": {
+    "page": "Great_Cavern_Sea",
+    "images": []
+  },
+  "rothold": {
+    "page": "Rothold",
+    "images": [
+      {
+        "file": "File:Phicon.png",
+        "caption": "",
+        "alt": ""
+      },
+      {
+        "file": "File:Phformaps.png",
+        "caption": "",
+        "alt": ""
+      }
+    ]
+  }
+}
