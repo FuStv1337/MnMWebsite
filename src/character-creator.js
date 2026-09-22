@@ -152,7 +152,7 @@ function renderTraitStatChips(mods) {
       ${entries
         .map(
           (key) =>
-            `<span class="creator-trait-stat-chip">${escapeHtml(formatTraitMod(mods[key]))} ${key}</span>`
+            `<span class="creator-trait-stat-chip">${escapeHtml(formatTraitMod(mods[key]))}% ${key}</span>`
         )
         .join('')}
     </div>
@@ -170,7 +170,7 @@ function renderStatAllocator(baseStats, finalStats, statBreakdown, primaryStat, 
           <h2>Attribute points</h2>
           <p class="creator-note">
             Starting = race base + class modifiers. Distribute ${statPointBudget} bonus points.
-            ${hasTraitBonuses ? ' Trait passives apply in the +Traits column.' : ''}
+            ${hasTraitBonuses ? ' Trait passives add 5% after allocation, shown in the +Traits column.' : ''}
             ${primaryStat ? `Primary stat: <strong>${escapeHtml(primaryStat)}</strong>${secondaryStat ? ` · Also prioritize <strong>${escapeHtml(secondaryStat)}</strong>` : ''}.` : ''}
           </p>
         </div>
@@ -655,7 +655,7 @@ function render() {
   const race = races.find((entry) => entry.name === state.raceName);
   const cls = classes.find((entry) => entry.name === state.className);
   const baseStats = getStartingStats(state.raceName, state.className);
-  const traitBonuses = computeTraitStatBonuses(state.traits);
+  const traitBonuses = computeTraitStatBonuses(state.traits, baseStats, state.statAllocation);
   const finalStats = computeFinalStats(baseStats, state.statAllocation, traitBonuses);
   const statBreakdown = getStatBreakdown(state.raceName, state.className);
 

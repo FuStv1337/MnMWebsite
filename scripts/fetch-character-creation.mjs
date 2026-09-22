@@ -123,7 +123,11 @@ function parseTraitTable($, table, nameKey) {
         slug,
         races: parseAbbrevList(stripHtml(cells.eq(1).text())),
         classes: parseAbbrevList(stripHtml(cells.eq(2).text())),
-        description: stripHtml(cells.eq(3).text()),
+        // Keep the current attribute rules when refreshing older wiki descriptions.
+        description: stripHtml(cells.eq(3).text()).replace(
+          /Passive: Your (?:base )?(Strength|Stamina|Dexterity|Agility|Intelligence|Wisdom|Charisma) is increased by \d+\. Active: .*/i,
+          (_, stat) => `Passive: Increases your total ${stat} attribute by 5%. On use: Gives 50% extra ${stat} for 15 seconds.`
+        ),
       };
     })
     .get()
@@ -255,7 +259,7 @@ async function main() {
     racesSource: racesJson.source,
     fetchedAt: new Date().toISOString(),
     statKeys: racesJson.statKeys,
-    statPointBudget: 7,
+    statPointBudget: 10,
     traitSlots: [
       { id: 'majorCombat', label: 'Major Combat Trait', category: 'majorCombat' },
       { id: 'minorCombat', label: 'Minor Combat Trait', category: 'minorCombat' },

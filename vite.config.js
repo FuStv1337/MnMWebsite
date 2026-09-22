@@ -15,6 +15,7 @@ export default defineConfig({
         party: './party.html',
         races: './races.html',
         creator: './creator.html',
+        map: './map.html',
       },
     },
   },
