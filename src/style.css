@@ -1961,8 +1961,10 @@ a:hover {
 .creator-stat-table-wrap {
   border: 1px solid var(--border);
   border-radius: 8px;
-  overflow: visible;
+  overflow-x: auto;
 }
+
+.creator-stat-cap { text-align: center; }
 
 .creator-stat-table-head {
   border-top-left-radius: 8px;
@@ -1977,10 +1979,11 @@ a:hover {
 .creator-stat-table-head,
 .creator-stat-row {
   align-items: center;
+  min-width: 660px;
   display: grid;
-  gap: 0.75rem;
-  grid-template-columns: minmax(170px, 1.5fr) 3rem 3.5rem 3.5rem 3.25rem 7rem 3.5rem;
-  padding: 0.65rem 0.85rem;
+  gap: 0.5rem;
+  grid-template-columns: minmax(100px, 1fr) 2.5rem 3rem 3.75rem 2.5rem 3rem 6.5rem 3rem;
+  padding: 0.65rem;
 }
 
 .creator-stat-table-head {
@@ -2920,7 +2923,7 @@ a:hover {
 
   .creator-stat-table-head,
   .creator-stat-row {
-    grid-template-columns: minmax(0, 1fr) 2.5rem 2.5rem 2.5rem 2.25rem 6.5rem 2.5rem;
+    grid-template-columns: minmax(100px, 1fr) 2.5rem 3rem 3.75rem 2.5rem 3rem 6.5rem 3rem;
     padding: 0.55rem 0.65rem;
   }
 }

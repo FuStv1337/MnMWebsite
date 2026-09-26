@@ -1,4 +1,5 @@
 import './style.css';
+import { getAttributeCaps, normalizeAllocation, racialCaps, classCapStats, capStatKeys } from './character-caps.js';
 import { sitePath } from './site-paths.js';
 import { renderSiteHeader } from './site-header.js';
 import { CLASS_ROLES } from './constants.js';
@@ -163,6 +164,7 @@ function renderTraitStatChips(mods) {
 
 function renderStatAllocator(baseStats, finalStats, statBreakdown, primaryStat, secondaryStat, traitBonuses) {
   const remaining = getRemainingPoints(state.statAllocation);
+  const caps = getAttributeCaps(state.raceName, state.className);
   const hasTraitBonuses = statKeys.some((key) => traitBonuses[key]);
 
   return `
@@ -172,6 +174,7 @@ function renderStatAllocator(baseStats, finalStats, statBreakdown, primaryStat, 
           <h2>Attribute points</h2>
           <p class="creator-note">
             Starting = race base + class modifiers. Distribute ${statPointBudget} bonus points.
+            ${caps ? 'Max = racial cap + class cap bonus. Allocation stops at Max before trait bonuses.' : 'Caps are unverified for this race; no racial cap is enforced.'}
             ${hasTraitBonuses ? ' Trait passives add 5% after allocation, shown in the +Traits column.' : ''}
             ${primaryStat ? `Primary stat: <strong>${escapeHtml(primaryStat)}</strong>${secondaryStat ? ` · Also prioritize <strong>${escapeHtml(secondaryStat)}</strong>` : ''}.` : ''}
           </p>
@@ -194,6 +197,7 @@ function renderStatAllocator(baseStats, finalStats, statBreakdown, primaryStat, 
           <span>Base</span>
           <span>+Class</span>
           <span>Starting</span>
+          <span>Max</span>
           <span>+Traits</span>
           <span>Allocate</span>
           <span>Final</span>
@@ -208,6 +212,8 @@ function renderStatAllocator(baseStats, finalStats, statBreakdown, primaryStat, 
               const traitMod = traitBonuses[key] ?? 0;
               const bonus = state.statAllocation[key] ?? 0;
               const finalValue = finalStats[key];
+              const cap = caps?.[key];
+              const atCap = cap != null && starting != null && starting + bonus >= cap;
               const info = getPrimaryStatInfo(key);
               let rowClass = 'creator-stat-row';
               if (key === primaryStat) rowClass += ' creator-stat-row--primary';
@@ -220,11 +226,12 @@ function renderStatAllocator(baseStats, finalStats, statBreakdown, primaryStat, 
                   <span class="creator-stat-base">${formatStat(base)}</span>
                   <span class="creator-stat-mod">${modifier ? `+${modifier}` : '—'}</span>
                   <span class="creator-stat-start">${formatStat(starting)}</span>
+                  <span class="creator-stat-cap" title="${cap != null ? `${racialCaps[state.raceName][capStatKeys.indexOf(key)]} racial cap + ${classCapStats[state.className].includes(key) ? 2 : 0} class cap bonus` : 'Unverified cap'}">${formatStat(cap)}</span>
                   <span class="creator-stat-trait${traitMod ? ' creator-stat-trait--active' : ''}">${formatTraitMod(traitMod)}</span>
                   <div class="creator-stat-controls">
                     <button type="button" class="creator-stat-btn" data-action="stat-dec" data-stat="${key}"${bonus <= 0 ? ' disabled' : ''} aria-label="Remove point from ${key}">−</button>
                     <span class="creator-stat-bonus">+${bonus}</span>
-                    <button type="button" class="creator-stat-btn" data-action="stat-inc" data-stat="${key}"${remaining <= 0 ? ' disabled' : ''} aria-label="Add point to ${key}">+</button>
+                    <button type="button" class="creator-stat-btn" data-action="stat-inc" data-stat="${key}"${remaining <= 0 || atCap || starting == null ? ' disabled' : ''} aria-label="Add point to ${key}"${atCap ? ' title="Attribute cap reached"' : ''}>+</button>
                   </div>
                   <strong class="creator-stat-final">${formatStat(finalValue)}</strong>
                 </div>
@@ -661,6 +668,9 @@ function renderTraitPicker(raceName, className) {
 
 function render() {
   ensureValidCombo();
+  const startingStats = getStartingStats(state.raceName, state.className);
+  state.statAllocation = normalizeAllocation(state.statAllocation, startingStats,
+    getAttributeCaps(state.raceName, state.className), statPointBudget);
   persist();
 
   const race = races.find((entry) => entry.name === state.raceName);
@@ -715,6 +725,9 @@ function bindEvents() {
     button.addEventListener('click', () => {
       const stat = button.getAttribute('data-stat');
       if (!stat || getRemainingPoints(state.statAllocation) <= 0) return;
+      const starting = getStartingStats(state.raceName, state.className)?.[stat];
+      const cap = getAttributeCaps(state.raceName, state.className)?.[stat];
+      if (starting == null || (cap != null && starting + (state.statAllocation[stat] ?? 0) >= cap)) return;
       state.statAllocation[stat] = (state.statAllocation[stat] ?? 0) + 1;
       render();
     });
