@@ -335,7 +335,7 @@ function renderCompareLegend(compareView, classDetails) {
       ? ' · Includes +2 DEX weight for weapon hit rate.' : '';
     const defensiveSkills = getDefensiveFitSkills(classDetails);
     const agiNote = defensiveSkills.length
-      ? ` · +${defensiveSkills.length} AGI weight for ${defensiveSkills.join(', ')} (including skills learned later).` : '';
+      ? ` · +${weights.AGI - (classDetails.statModifiers.AGI ?? 0)} AGI weight for ${defensiveSkills.join(', ')} (including skills learned later).` : '';
     return `<p class="creator-compare-legend"><span class="creator-legend-primary">${escapeHtml(classDetails.primaryStat)} primary</span>${secondary} highlighted · green = best among races · red = lowest primary · <strong>Fit</strong> = weighted starting stats (${escapeHtml(weightText)})${dexNote}${agiNote}</p>`;
   }
   if (compareView === 'race') {

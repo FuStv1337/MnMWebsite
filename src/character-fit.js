@@ -10,7 +10,7 @@ export function getClassFitWeights(classDetails) {
     weights.DEX = (weights.DEX ?? 0) + 2;
   }
   const defensiveCount = getDefensiveFitSkills(classDetails).length;
-  if (defensiveCount) weights.AGI = (weights.AGI ?? 0) + defensiveCount;
+  if (defensiveCount) weights.AGI = (weights.AGI ?? 0) + defensiveCount * 0.5;
   return weights;
 }
 
