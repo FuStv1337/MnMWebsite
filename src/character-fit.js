@@ -1,10 +1,16 @@
 // Fit is a comparison heuristic, separate from actual character stat bonuses.
+export function getDefensiveFitSkills(classDetails) {
+  return ['Parry', 'Dodge', 'Block'].filter((skill) => classDetails?.defensiveSkills?.includes(skill));
+}
+
 export function getClassFitWeights(classDetails) {
   if (!classDetails?.statModifiers) return null;
   const weights = { ...classDetails.statModifiers };
   if (classDetails.role === 'Tank' || classDetails.role === 'Melee/Hybrid') {
     weights.DEX = (weights.DEX ?? 0) + 2;
   }
+  const defensiveCount = getDefensiveFitSkills(classDetails).length;
+  if (defensiveCount) weights.AGI = (weights.AGI ?? 0) + defensiveCount;
   return weights;
 }
 

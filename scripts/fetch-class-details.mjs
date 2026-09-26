@@ -1,5 +1,6 @@
 import * as cheerio from 'cheerio';
 import { readFileSync, writeFileSync } from 'fs';
+import { parseDefensiveSkills } from './class-skill-parser.mjs';
 
 const WIKI_BASE = 'https://monstersandmemories.miraheze.org';
 const API_URL = `${WIKI_BASE}/w/api.php`;
@@ -123,6 +124,7 @@ async function main() {
       statModifiers: details.statModifiers,
       modifierText: details.modifierText,
       bonusPointsAdvice: details.bonusPointsAdvice,
+      defensiveSkills: parseDefensiveSkills(html),
     };
 
     await new Promise((r) => setTimeout(r, 120));

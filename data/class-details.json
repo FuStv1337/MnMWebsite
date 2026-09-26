@@ -1,6 +1,6 @@
 {
   "source": "https://monstersandmemories.miraheze.org/wiki/Category:Classes",
-  "fetchedAt": "2026-09-26T16:03:04.448Z",
+  "fetchedAt": "2026-09-26T16:28:09.062Z",
   "classes": {
     "Archer": {
       "name": "Archer",
@@ -13,7 +13,11 @@
         "AGI": 2
       },
       "modifierText": "+2 STR, +4 DEX, +2 AGI",
-      "bonusPointsAdvice": null
+      "bonusPointsAdvice": null,
+      "defensiveSkills": [
+        "Parry",
+        "Dodge"
+      ]
     },
     "Bard": {
       "name": "Bard",
@@ -26,7 +30,10 @@
         "CHA": 4
       },
       "modifierText": "+1 STR, +3 DEX, +4 CHA",
-      "bonusPointsAdvice": "Listed below is the recommended allocation of bonus points by race. Since Charisma is a Bard’s main attribute, you should focus on maximizing it whenever possible. Most of your songs' effectiveness are tied to it. The remaining points are flexible as it is currently unknown how or if songs are affected by the other stats. As more information comes to light, this section will be appropriately updated. * Note: Mana total is only affected by the higher stat between intelligence and wisdom. ''' Dwar"
+      "bonusPointsAdvice": "Listed below is the recommended allocation of bonus points by race. Since Charisma is a Bard’s main attribute, you should focus on maximizing it whenever possible. Most of your songs' effectiveness are tied to it. The remaining points are flexible as it is currently unknown how or if songs are affected by the other stats. As more information comes to light, this section will be appropriately updated. * Note: Mana total is only affected by the higher stat between intelligence and wisdom. ''' Dwar",
+      "defensiveSkills": [
+        "Dodge"
+      ]
     },
     "Beastmaster": {
       "name": "Beastmaster",
@@ -39,7 +46,11 @@
         "WIS": 2
       },
       "modifierText": "+4 STR, +2 AGI, +2 WIS",
-      "bonusPointsAdvice": null
+      "bonusPointsAdvice": null,
+      "defensiveSkills": [
+        "Parry",
+        "Dodge"
+      ]
     },
     "Cleric": {
       "name": "Cleric",
@@ -53,7 +64,8 @@
         "CHA": 1
       },
       "modifierText": "+2 STR, +2 STA, +3 WIS, +1 CHA",
-      "bonusPointsAdvice": "Listed below is the recommended allocation of bonus points by race. Since Wisdom is a Cleric’s main attribute, you should focus on maximizing it whenever possible. Wisdom is directly tied to your healing spells effectiveness and total mana. After that, prioritize Stamina. It gives you extra HP and a bit of stun resistance. Finally, put a point into Dexterity if you have any left. It affects hit rate across the board and increases your proc chance. ''' Dwarf: +2 Stamina and +8 Wisdom Gnome: +2 St"
+      "bonusPointsAdvice": "Listed below is the recommended allocation of bonus points by race. Since Wisdom is a Cleric’s main attribute, you should focus on maximizing it whenever possible. Wisdom is directly tied to your healing spells effectiveness and total mana. After that, prioritize Stamina. It gives you extra HP and a bit of stun resistance. Finally, put a point into Dexterity if you have any left. It affects hit rate across the board and increases your proc chance. ''' Dwarf: +2 Stamina and +8 Wisdom Gnome: +2 St",
+      "defensiveSkills": []
     },
     "Druid": {
       "name": "Druid",
@@ -66,7 +78,8 @@
         "CHA": 2
       },
       "modifierText": "+2 AGI, +4 WIS, +2 CHA",
-      "bonusPointsAdvice": "Listed below is the recommended allocation of bonus points by race. Since Wisdom is a Druid’s main attribute, you should focus on maximizing it whenever possible. Wisdom is directly tied to your healing spells effectiveness and total mana. After that, prioritize Charisma. It helps with the Druid's charm line of spells, along with a few other spell lines. Finally, put a point into Dexterity if you have any left. It affects hit rate across the board and increases your proc chance. ''' Goblin: +1 D"
+      "bonusPointsAdvice": "Listed below is the recommended allocation of bonus points by race. Since Wisdom is a Druid’s main attribute, you should focus on maximizing it whenever possible. Wisdom is directly tied to your healing spells effectiveness and total mana. After that, prioritize Charisma. It helps with the Druid's charm line of spells, along with a few other spell lines. Finally, put a point into Dexterity if you have any left. It affects hit rate across the board and increases your proc chance. ''' Goblin: +1 D",
+      "defensiveSkills": []
     },
     "Elementalist": {
       "name": "Elementalist",
@@ -78,7 +91,8 @@
         "INT": 4
       },
       "modifierText": "+4 STA, +4 INT",
-      "bonusPointsAdvice": "Below is the recommended allocation of bonus points by race. Since Intelligence is a Elementalist’s main attribute, you should focus on maximizing it whenever possible. Your spell damage and mana total is directly tied to it. After that, prioritize Stamina. It gives you extra HP and a bit of stun resistance. Finally, put a point or two into Dexterity. It affects hit rate across the board and increases your proc chance. ''' Dwarf: +2 Stamina, +1 Dexterity, and +7 Intelligence Gnome: +3 Stamina, +"
+      "bonusPointsAdvice": "Below is the recommended allocation of bonus points by race. Since Intelligence is a Elementalist’s main attribute, you should focus on maximizing it whenever possible. Your spell damage and mana total is directly tied to it. After that, prioritize Stamina. It gives you extra HP and a bit of stun resistance. Finally, put a point or two into Dexterity. It affects hit rate across the board and increases your proc chance. ''' Dwarf: +2 Stamina, +1 Dexterity, and +7 Intelligence Gnome: +3 Stamina, +",
+      "defensiveSkills": []
     },
     "Enchanter": {
       "name": "Enchanter",
@@ -90,7 +104,8 @@
         "CHA": 4
       },
       "modifierText": "+4 INT, + 4 CHA",
-      "bonusPointsAdvice": "Below is the recommended allocation of bonus points by race. Since Intelligence is a Enchanter’s main attribute, you should focus on maximizing it whenever possible. Your spell damage and mana total is directly tied to it. Very close behind it is Charisma. As an Enchanter you are the best crowd controller in the game, and both your Charm and Mesmerize line of skills rely on this stat. ''' Dwarf: +5 Intelligence and +5 Charisma Gnome: +5 Intelligence and +5 Charisma Goblin: +5 Intelligence and +5"
+      "bonusPointsAdvice": "Below is the recommended allocation of bonus points by race. Since Intelligence is a Enchanter’s main attribute, you should focus on maximizing it whenever possible. Your spell damage and mana total is directly tied to it. Very close behind it is Charisma. As an Enchanter you are the best crowd controller in the game, and both your Charm and Mesmerize line of skills rely on this stat. ''' Dwarf: +5 Intelligence and +5 Charisma Gnome: +5 Intelligence and +5 Charisma Goblin: +5 Intelligence and +5",
+      "defensiveSkills": []
     },
     "Fighter": {
       "name": "Fighter",
@@ -103,7 +118,12 @@
         "AGI": 1
       },
       "modifierText": "+4 STR, +3 STA, +1 AGI",
-      "bonusPointsAdvice": null
+      "bonusPointsAdvice": null,
+      "defensiveSkills": [
+        "Parry",
+        "Dodge",
+        "Block"
+      ]
     },
     "Inquisitor": {
       "name": "Inquisitor",
@@ -118,7 +138,12 @@
         "CHA": 1
       },
       "modifierText": "+1 STR, +3 STA, +1 DEX, +2 INT, +1 CHA",
-      "bonusPointsAdvice": null
+      "bonusPointsAdvice": null,
+      "defensiveSkills": [
+        "Parry",
+        "Dodge",
+        "Block"
+      ]
     },
     "Monk": {
       "name": "Monk",
@@ -131,7 +156,11 @@
         "AGI": 4
       },
       "modifierText": "+1 STR, +3 DEX, +4 AGI ",
-      "bonusPointsAdvice": null
+      "bonusPointsAdvice": null,
+      "defensiveSkills": [
+        "Dodge",
+        "Block"
+      ]
     },
     "Necromancer": {
       "name": "Necromancer",
@@ -143,7 +172,8 @@
         "INT": 4
       },
       "modifierText": "+4 DEX, +4 INT",
-      "bonusPointsAdvice": "Below is the recommended allocation of bonus points by race. Since Intelligence is a Necromancer’s main attribute, you should focus on maximizing it whenever possible. Your spell damage and mana total is directly tied to it. After that, prioritize Stamina. It gives you extra HP and a bit of stun resistance. Finally, put a point or two into Dexterity. It affects hit rate across the board and increases your proc chance. ''' Gnome: +4 Stamina, +1 Dexterity, and +5 Intelligence Goblin: +3 Stamina, +"
+      "bonusPointsAdvice": "Below is the recommended allocation of bonus points by race. Since Intelligence is a Necromancer’s main attribute, you should focus on maximizing it whenever possible. Your spell damage and mana total is directly tied to it. After that, prioritize Stamina. It gives you extra HP and a bit of stun resistance. Finally, put a point or two into Dexterity. It affects hit rate across the board and increases your proc chance. ''' Gnome: +4 Stamina, +1 Dexterity, and +5 Intelligence Goblin: +3 Stamina, +",
+      "defensiveSkills": []
     },
     "Paladin": {
       "name": "Paladin",
@@ -156,7 +186,12 @@
         "WIS": 2
       },
       "modifierText": "+2 STR, +4 STA, +2 WIS",
-      "bonusPointsAdvice": null
+      "bonusPointsAdvice": null,
+      "defensiveSkills": [
+        "Parry",
+        "Dodge",
+        "Block"
+      ]
     },
     "Ranger": {
       "name": "Ranger",
@@ -170,7 +205,11 @@
         "WIS": 2
       },
       "modifierText": "+1 STR, +3 DEX, +2 AGI, +2 WIS",
-      "bonusPointsAdvice": null
+      "bonusPointsAdvice": null,
+      "defensiveSkills": [
+        "Parry",
+        "Dodge"
+      ]
     },
     "Rogue": {
       "name": "Rogue",
@@ -182,7 +221,11 @@
         "AGI": 4
       },
       "modifierText": "+4 DEX, +4 AGI",
-      "bonusPointsAdvice": null
+      "bonusPointsAdvice": null,
+      "defensiveSkills": [
+        "Parry",
+        "Dodge"
+      ]
     },
     "Shadow Knight": {
       "name": "Shadow Knight",
@@ -195,7 +238,12 @@
         "INT": 3
       },
       "modifierText": "+3 STR, +2 STA, +3 INT",
-      "bonusPointsAdvice": null
+      "bonusPointsAdvice": null,
+      "defensiveSkills": [
+        "Parry",
+        "Dodge",
+        "Block"
+      ]
     },
     "Shaman": {
       "name": "Shaman",
@@ -209,7 +257,8 @@
         "WIS": 4
       },
       "modifierText": "+1 STR, +2 STA, +1 DEX, +4 WIS",
-      "bonusPointsAdvice": "Listed below is the recommended allocation of bonus points by race. Since Wisdom is a Shaman’s main attribute, you should focus on maximizing it whenever possible. Wisdom is directly tied to your healing spells effectiveness and total mana. After that, prioritize Stamina. It gives you extra HP and a bit of stun resistance. Finally, put a point into Dexterity if you have any left. It affects hit rate across the board and increases your proc chance. ''' Goblin: +4 Stamina and +6 Wisdom Human: +2 S"
+      "bonusPointsAdvice": "Listed below is the recommended allocation of bonus points by race. Since Wisdom is a Shaman’s main attribute, you should focus on maximizing it whenever possible. Wisdom is directly tied to your healing spells effectiveness and total mana. After that, prioritize Stamina. It gives you extra HP and a bit of stun resistance. Finally, put a point into Dexterity if you have any left. It affects hit rate across the board and increases your proc chance. ''' Goblin: +4 Stamina and +6 Wisdom Human: +2 S",
+      "defensiveSkills": []
     },
     "Spellblade": {
       "name": "Spellblade",
@@ -222,7 +271,12 @@
         "INT": 3
       },
       "modifierText": "+2 STR, +3 DEX, +3 INT",
-      "bonusPointsAdvice": null
+      "bonusPointsAdvice": null,
+      "defensiveSkills": [
+        "Parry",
+        "Dodge",
+        "Block"
+      ]
     },
     "Wizard": {
       "name": "Wizard",
@@ -235,7 +289,8 @@
         "INT": 4
       },
       "modifierText": "+3 STR, +1 DEX, +4 INT",
-      "bonusPointsAdvice": "Below is the recommended allocation of bonus points by race. Since Intelligence is a Wizard’s main attribute, you should focus on maximizing it whenever possible. Your spell damage and mana total is directly tied to it. After that, prioritize Dexterity. It affects hit rate across the board and increases your proc chance. Finally, put some points into Stamina for extra HP and a bit of stun resistance. ''' Dwarf: +1 Stamina, +2 Dexterity, and +7 Intelligence Gnome: +3 Stamina, +2 Dexterity, and +5"
+      "bonusPointsAdvice": "Below is the recommended allocation of bonus points by race. Since Intelligence is a Wizard’s main attribute, you should focus on maximizing it whenever possible. Your spell damage and mana total is directly tied to it. After that, prioritize Dexterity. It affects hit rate across the board and increases your proc chance. Finally, put some points into Stamina for extra HP and a bit of stun resistance. ''' Dwarf: +1 Stamina, +2 Dexterity, and +7 Intelligence Gnome: +3 Stamina, +2 Dexterity, and +5",
+      "defensiveSkills": []
     }
   }
 }

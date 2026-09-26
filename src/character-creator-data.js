@@ -311,7 +311,7 @@ export function saveBuild(build) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(build));
 }
 
-export { computeClassFitScore, getClassFitWeights } from './character-fit.js';
+export { computeClassFitScore, getClassFitWeights, getDefensiveFitSkills } from './character-fit.js';
 
 /** @param {object[]} rows @param {string} stat */
 export function getStatHighlights(rows, stat) {

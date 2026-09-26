@@ -23,6 +23,7 @@ import {
   getClassDetails,
   computeClassFitScore,
   getClassFitWeights,
+  getDefensiveFitSkills,
   computeTraitStatBonuses,
   findTraitByName,
   parseTraitStatModifiers,
@@ -332,7 +333,10 @@ function renderCompareLegend(compareView, classDetails) {
       .map((key) => `${key} × ${weights[key]}`).join(' + ');
     const dexNote = weights && weights.DEX > (classDetails.statModifiers?.DEX ?? 0)
       ? ' · Includes +2 DEX weight for weapon hit rate.' : '';
-    return `<p class="creator-compare-legend"><span class="creator-legend-primary">${escapeHtml(classDetails.primaryStat)} primary</span>${secondary} highlighted · green = best among races · red = lowest primary · <strong>Fit</strong> = weighted starting stats (${escapeHtml(weightText)})${dexNote}</p>`;
+    const defensiveSkills = getDefensiveFitSkills(classDetails);
+    const agiNote = defensiveSkills.length
+      ? ` · +${defensiveSkills.length} AGI weight for ${defensiveSkills.join(', ')} (including skills learned later).` : '';
+    return `<p class="creator-compare-legend"><span class="creator-legend-primary">${escapeHtml(classDetails.primaryStat)} primary</span>${secondary} highlighted · green = best among races · red = lowest primary · <strong>Fit</strong> = weighted starting stats (${escapeHtml(weightText)})${dexNote}${agiNote}</p>`;
   }
   if (compareView === 'race') {
     return '<p class="creator-compare-legend">Gold and blue columns show each class’s primary and secondary stat.</p>';
