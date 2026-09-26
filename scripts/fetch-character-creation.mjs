@@ -183,7 +183,9 @@ async function main() {
       abbrev,
       alignment: row.Alignment === '??' ? null : row.Alignment,
       startingCity: row['Starting City'] || null,
-      classes,
+      // Individual race pages are the source for eligibility; guide tables disagree.
+      classes: wikiRace?.classes?.length ? wikiRace.classes : classes,
+      classesSource: wikiRace?.classes?.length ? wikiRace.wikiUrl : `${WIKI_BASE}/wiki/${PAGE}`,
       wikiPage: wikiRace?.wikiPage ?? null,
       wikiUrl: wikiRace?.wikiUrl ?? null,
       imageUrl: wikiRace?.imageUrl ?? null,
@@ -236,6 +238,18 @@ async function main() {
       races: uniqueInOrder(raceAbbrevs.map((code) => raceAbbrevToName[code]).filter(Boolean)),
     };
   });
+
+  // Derive both selector directions from one relation instead of independent tables.
+  for (const race of races) {
+    for (const name of race.classes) {
+      if (!classNameToAbbrev[name]) throw new Error(`Unknown class ${name} for ${race.name}`);
+    }
+  }
+  for (const cls of classes) {
+    const eligible = races.filter((race) => race.classes.includes(cls.name));
+    cls.races = eligible.map((race) => race.name);
+    cls.raceAbbrevs = eligible.map((race) => race.abbrev);
+  }
 
   const traitSections = [
     { id: 'classSpecific', heading: 'Class_Specific_Traits', label: 'Class Specific', selectable: false },

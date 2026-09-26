@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "fetch-data": "node scripts/fetch-wiki-data.mjs",
     "fetch-races": "node scripts/fetch-races.mjs",
-    "fetch-creator": "node scripts/fetch-character-creation.mjs && node scripts/fetch-class-details.mjs",
+    "fetch-creator": "node scripts/fetch-races.mjs && node scripts/fetch-character-creation.mjs && node scripts/fetch-class-details.mjs",
     "fetch-statistics": "node scripts/fetch-statistics.mjs",
     "tag-data": "node scripts/tag-data.mjs"
   },

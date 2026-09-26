@@ -1,5 +1,5 @@
 import * as cheerio from 'cheerio';
-import { writeFileSync } from 'fs';
+import { readFileSync, writeFileSync } from 'fs';
 
 const WIKI_BASE = 'https://monstersandmemories.miraheze.org';
 const API_URL = `${WIKI_BASE}/w/api.php`;
@@ -52,7 +52,11 @@ async function fetchPageHtml(page) {
   const res = await fetch(url);
   if (!res.ok) throw new Error(`Failed to fetch ${page}: ${res.status}`);
   const data = await res.json();
-  if (data.error) throw new Error(data.error.info || `API error for ${page}`);
+  if (data.error) {
+    const error = new Error(data.error.info || `API error for ${page}`);
+    error.code = data.error.code;
+    throw error;
+  }
   return data.parse.text['*'];
 }
 
@@ -393,6 +397,7 @@ async function fetchRacialAbilityDescription(abilityPage) {
 }
 
 async function main() {
+  const previous = JSON.parse(readFileSync(OUTPUT_FILE, 'utf8'));
   console.log(`Fetching ${INDEX_PAGE}…`);
   const indexHtml = await fetchPageHtml(INDEX_PAGE);
   const $index = cheerio.load(indexHtml);
@@ -404,7 +409,20 @@ async function main() {
 
   for (const card of overviewCards) {
     console.log(`  → ${card.wikiPage}`);
-    const detailHtml = await fetchPageHtml(card.wikiPage);
+    let detailHtml;
+    try {
+      detailHtml = await fetchPageHtml(card.wikiPage);
+    } catch (error) {
+      const saved = previous.races.find((race) => race.wikiPage === card.wikiPage);
+      if (error.code !== 'missingtitle') throw error;
+      if (!saved) {
+        console.warn(`  Missing ${card.wikiPage}; skipping unavailable new race`);
+        continue;
+      }
+      console.warn(`  Missing ${card.wikiPage}; preserving previous data`);
+      races.push({ ...saved, refreshWarning: 'Wiki page missing; previous data retained', lastSuccessfulFetch: saved.lastSuccessfulFetch || previous.fetchedAt });
+      continue;
+    }
     const $detail = cheerio.load(detailHtml);
     const detail = parseRaceDetailPage($detail);
 
