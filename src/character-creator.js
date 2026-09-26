@@ -22,6 +22,7 @@ import {
   getStatHighlights,
   getClassDetails,
   computeClassFitScore,
+  getClassFitWeights,
   computeTraitStatBonuses,
   findTraitByName,
   parseTraitStatModifiers,
@@ -326,7 +327,12 @@ function renderCompareLegend(compareView, classDetails) {
     const secondary = classDetails.secondaryStat
       ? ` · <span class="creator-legend-secondary">${escapeHtml(classDetails.secondaryStat)} secondary</span>`
       : '';
-    return `<p class="creator-compare-legend"><span class="creator-legend-primary">${escapeHtml(classDetails.primaryStat)} primary</span>${secondary} highlighted · green = best among races · red = lowest primary · <strong>Fit</strong> = starting stats weighted by class modifiers (${escapeHtml(classDetails.modifierText || '')})</p>`;
+    const weights = getClassFitWeights(classDetails);
+    const weightText = statKeys.filter((key) => weights?.[key] > 0)
+      .map((key) => `${key} × ${weights[key]}`).join(' + ');
+    const dexNote = weights && weights.DEX > (classDetails.statModifiers?.DEX ?? 0)
+      ? ' · Includes +2 DEX weight for weapon hit rate.' : '';
+    return `<p class="creator-compare-legend"><span class="creator-legend-primary">${escapeHtml(classDetails.primaryStat)} primary</span>${secondary} highlighted · green = best among races · red = lowest primary · <strong>Fit</strong> = weighted starting stats (${escapeHtml(weightText)})${dexNote}</p>`;
   }
   if (compareView === 'race') {
     return '<p class="creator-compare-legend">Gold and blue columns show each class’s primary and secondary stat.</p>';
@@ -340,8 +346,9 @@ function renderStatsMatrix({ title, subtitle, rowHeader, rows, compareView = 'cl
   );
 
   const showFitColumn = compareView === 'class' && classDetails?.statModifiers;
+  const fitWeights = getClassFitWeights(classDetails);
   const fitScores = showFitColumn
-    ? rows.map((row) => computeClassFitScore(row.stats, classDetails.statModifiers))
+    ? rows.map((row) => computeClassFitScore(row.stats, fitWeights))
     : [];
   const fitMax =
     fitScores.length && fitScores.some((score) => score != null)

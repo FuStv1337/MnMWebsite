@@ -311,24 +311,7 @@ export function saveBuild(build) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(build));
 }
 
-/** @param {Record<string, number | null> | null | undefined} stats @param {Record<string, number> | null | undefined} statModifiers */
-export function computeClassFitScore(stats, statModifiers) {
-  if (!stats || !statModifiers) return null;
-
-  let score = 0;
-  let hasValue = false;
-
-  for (const key of statKeys) {
-    const modifier = statModifiers[key] ?? 0;
-    const value = stats[key];
-    if (modifier > 0 && value != null) {
-      score += value * modifier;
-      hasValue = true;
-    }
-  }
-
-  return hasValue ? score : null;
-}
+export { computeClassFitScore, getClassFitWeights } from './character-fit.js';
 
 /** @param {object[]} rows @param {string} stat */
 export function getStatHighlights(rows, stat) {
