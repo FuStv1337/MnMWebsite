@@ -29,6 +29,10 @@ const ACTION_VERBS =
 function normalizeDescription(description) {
   return description
     .replace(/\s+/g, ' ')
+    // Expand attributes sharing a level-scaled value so every stat is parsed.
+    .replace(/\b(increasing|decreasing|reducing)\s+(?:(?:their|your|the)\s+)?((?:Strength|Stamina|Dexterity|Agility|Intelligence|Wisdom|Charisma)(?:\s*(?:,\s*(?:and\s+)?|and\s+)(?:Strength|Stamina|Dexterity|Agility|Intelligence|Wisdom|Charisma))+)(?:\s+of\s+you\s+and\s+your\s+group)?\s+by\s+(\d+(?:\.\d+)?\s*\(L\d+\)\s+to\s+\d+(?:\.\d+)?\s*\(L\d+\))/gi,
+      (_, verb, list, value) => list.match(/Strength|Stamina|Dexterity|Agility|Intelligence|Wisdom|Charisma/gi)
+        .map((stat) => `${verb} ${stat} by ${value}`).join('; '))
     .replace(/(\d+(?:\.\d+)?)\s*\(L(\d+)\s+(?!(?:up to|to)\s)([A-Z][\w\s]*(?:Damage|Health|Mana|Resistance|Speed|AC|HP))/gi, '$1 (L$2) $3')
     .trim();
 }

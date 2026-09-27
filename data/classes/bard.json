@@ -55,25 +55,51 @@
         "tags": [
           "song",
           "buff",
-          "DEX"
+          "AGI",
+          "DEX",
+          "STR"
         ],
         "primaryTag": "song",
         "effects": [
           {
             "kind": "buff",
-            "stat": "Dexterity of you and your group",
+            "stat": "Strength",
             "min": 2,
             "max": 4,
             "minLevel": 1,
             "maxLevel": 16,
-            "display": "+2–4 Dexterity of you and your group (L1–L16)",
+            "display": "+2–4 Strength (L1–L16)",
+            "sortKey": 4,
+            "statTag": "STR"
+          },
+          {
+            "kind": "buff",
+            "stat": "Agility",
+            "min": 2,
+            "max": 4,
+            "minLevel": 1,
+            "maxLevel": 16,
+            "display": "+2–4 Agility (L1–L16)",
+            "sortKey": 4,
+            "statTag": "AGI"
+          },
+          {
+            "kind": "buff",
+            "stat": "Dexterity",
+            "min": 2,
+            "max": 4,
+            "minLevel": 1,
+            "maxLevel": 16,
+            "display": "+2–4 Dexterity (L1–L16)",
             "sortKey": 4,
             "statTag": "DEX"
           }
         ],
-        "valuesSummary": "+2–4 Dexterity of you and your group (L1–L16)",
+        "valuesSummary": "+2–4 Strength (L1–L16) · +2–4 Agility (L1–L16) · +2–4 Dexterity (L1–L16)",
         "statTags": [
-          "DEX"
+          "AGI",
+          "DEX",
+          "STR"
         ],
         "type": "ability"
       },
@@ -1668,25 +1694,51 @@
       "tags": [
         "song",
         "buff",
-        "DEX"
+        "AGI",
+        "DEX",
+        "STR"
       ],
       "primaryTag": "song",
       "effects": [
         {
           "kind": "buff",
-          "stat": "Dexterity of you and your group",
+          "stat": "Strength",
           "min": 2,
           "max": 4,
           "minLevel": 1,
           "maxLevel": 16,
-          "display": "+2–4 Dexterity of you and your group (L1–L16)",
+          "display": "+2–4 Strength (L1–L16)",
+          "sortKey": 4,
+          "statTag": "STR"
+        },
+        {
+          "kind": "buff",
+          "stat": "Agility",
+          "min": 2,
+          "max": 4,
+          "minLevel": 1,
+          "maxLevel": 16,
+          "display": "+2–4 Agility (L1–L16)",
+          "sortKey": 4,
+          "statTag": "AGI"
+        },
+        {
+          "kind": "buff",
+          "stat": "Dexterity",
+          "min": 2,
+          "max": 4,
+          "minLevel": 1,
+          "maxLevel": 16,
+          "display": "+2–4 Dexterity (L1–L16)",
           "sortKey": 4,
           "statTag": "DEX"
         }
       ],
-      "valuesSummary": "+2–4 Dexterity of you and your group (L1–L16)",
+      "valuesSummary": "+2–4 Strength (L1–L16) · +2–4 Agility (L1–L16) · +2–4 Dexterity (L1–L16)",
       "statTags": [
-        "DEX"
+        "AGI",
+        "DEX",
+        "STR"
       ],
       "type": "ability"
     },
