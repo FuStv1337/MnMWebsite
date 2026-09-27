@@ -426,7 +426,7 @@ function render() {
             ${renderSummaryCard({
               title: 'Group Buffs',
               value: String(analysis.buffs.spellCount),
-              detail: `${analysis.buffs.statSectionsCovered} stat categories covered`,
+              detail: `${analysis.buffs.statSectionsCovered} stat categories covered · highest rank per buff line`,
               tone: analysis.buffs.spellCount >= 8 ? 'good' : analysis.buffs.spellCount ? 'neutral' : 'bad',
             })}
             ${renderSummaryCard({

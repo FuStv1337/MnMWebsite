@@ -1,4 +1,5 @@
 import indexData from '../data/index.json';
+import { highestBuffRanks } from './party-buff-ranks.js';
 import { isBuffPageEntry, groupBySection, getBestValues } from './buff-data.js';
 import {
   STAT_FILTER_GROUPS,
@@ -74,7 +75,7 @@ function toPercent(party, max) {
  * @param {number} levelCap
  */
 function filterRowsByLevel(rows, levelCap) {
-  return rows.filter((row) => row.level <= levelCap);
+  return highestBuffRanks(rows, levelCap);
 }
 
 /**
@@ -568,7 +569,8 @@ function countBuffSpells(selected, levelCap, allClassEntries) {
     }
   }
 
-  return { count: spellKeys.size, spells };
+  const highest = highestBuffRanks(spells.map((spell) => ({ ...spell.entry, ...spell })), levelCap);
+  return { count: highest.length, spells: highest };
 }
 
 /**
@@ -578,7 +580,7 @@ function countBuffSpells(selected, levelCap, allClassEntries) {
  */
 function analyzeBuffCoverage(selected, buffRows, levelCap) {
   const selectedSet = new Set(selected);
-  const partyRows = buffRows.filter(
+  const partyRows = highestBuffRanks(buffRows, levelCap).filter(
     (row) => selectedSet.has(row.className) && row.level <= levelCap
   );
   const sectionGroups = groupBySection(partyRows);
