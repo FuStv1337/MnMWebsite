@@ -4,7 +4,7 @@
   "type": "spell",
   "sectionTitle": "Druid Spells",
   "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Druid",
-  "entryCount": 134,
+  "entryCount": 139,
   "levels": [
     1,
     4,
@@ -236,7 +236,7 @@
         "name": "Cure Poison",
         "slug": "Cure_Poison",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Cure_Poison",
-        "description": "Cure your target, removing one Poison effect.",
+        "description": "Remove Poison Effect - Cures target of poison effects.",
         "category": "Alt",
         "categorySlug": "Skill_Alteration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -244,10 +244,8 @@
         "mana": 10,
         "castTime": null,
         "level": 4,
-        "tags": [
-          "dispel"
-        ],
-        "primaryTag": "dispel",
+        "tags": [],
+        "primaryTag": null,
         "effects": [],
         "valuesSummary": "",
         "statTags": [],
@@ -446,7 +444,7 @@
         "name": "Cure Disease",
         "slug": "Cure_Disease",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Cure_Disease",
-        "description": "Cures your target, removing one Disease effect.",
+        "description": "Remove disease effect - Cures target of disease effects",
         "category": "Alt",
         "categorySlug": "Skill_Alteration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -454,10 +452,8 @@
         "mana": 10,
         "castTime": null,
         "level": 8,
-        "tags": [
-          "dispel"
-        ],
-        "primaryTag": "dispel",
+        "tags": [],
+        "primaryTag": null,
         "effects": [],
         "valuesSummary": "",
         "statTags": [],
@@ -784,7 +780,7 @@
         "name": "Dispel Magic",
         "slug": "Dispel_Magic",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Dispel_Magic",
-        "description": "Dispel magic from your target, removing one harmful effect.",
+        "description": "Remove harmful effect 1 - Dispel magic from your target, removing one harmful effect.",
         "category": "Alt",
         "categorySlug": "Skill_Alteration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -805,7 +801,7 @@
         "name": "Enduring Breath",
         "slug": "Enduring_Breath",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Enduring_Breath",
-        "description": "Fill the lungs of your target with magical air, granting them the ability to breathe underwater for 1 hour.",
+        "description": "Breathe underwater - Fill the lungs of your target with magical air, granting them the ability to breathe underwater for 1 hour.",
         "category": "Alt",
         "categorySlug": "Skill_Alteration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -883,7 +879,7 @@
         "name": "Minor Regeneration",
         "slug": "Minor_Regeneration",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Minor_Regeneration",
-        "description": "Gently regenerate your target, increasing their Health Regeneration by 2 for 20 minutes.",
+        "description": "2hp Regen - Gently regenerate your target, increasing their Health Regeneration by 2 for 20 minutes.",
         "category": "Alt",
         "categorySlug": "Skill_Alteration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -1974,7 +1970,7 @@
         "name": "Lesser Regeneration",
         "slug": "Lesser_Regeneration",
         "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Lesser_Regeneration",
-        "description": "Lightly regenerate your target, increasing their Health Regeneration by 5 for 10 minutes.",
+        "description": "5hp Regen - Lightly regenerate your target, increasing their Health Regeneration by 5 for 30 minutes.",
         "category": "Alt",
         "categorySlug": "Skill_Alteration",
         "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -2034,6 +2030,28 @@
           }
         ],
         "valuesSummary": "+100%",
+        "statTags": [],
+        "type": "spell"
+      },
+      {
+        "name": "Ring of Caves of Irem",
+        "slug": "Ring_of_Caves_of_Irem",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Ring_of_Caves_of_Irem",
+        "description": "Teleport yourself, relocating to Caves of Irem. This spell has no effect if you are encumbered.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": 125,
+        "castTime": null,
+        "level": 24,
+        "tags": [
+          "teleport",
+          "self"
+        ],
+        "primaryTag": "teleport",
+        "effects": [],
+        "valuesSummary": "",
         "statTags": [],
         "type": "spell"
       }
@@ -2565,6 +2583,27 @@
           }
         ],
         "valuesSummary": "+40–60%",
+        "statTags": [],
+        "type": "spell"
+      },
+      {
+        "name": "Circle of Caves of Irem",
+        "slug": "Circle_of_Caves_of_Irem",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Circle_of_Caves_of_Irem",
+        "description": "Teleport your group, relocating them to Caves of Irem. This spell has no effect on encumbered targets.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": 300,
+        "castTime": null,
+        "level": 32,
+        "tags": [
+          "teleport"
+        ],
+        "primaryTag": "teleport",
+        "effects": [],
+        "valuesSummary": "",
         "statTags": [],
         "type": "spell"
       }
@@ -3667,6 +3706,69 @@
         "valuesSummary": "513 heal",
         "statTags": [],
         "type": "spell"
+      },
+      {
+        "name": "Portal to Caves of Irem",
+        "slug": "Portal_to_Caves_of_Irem",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Portal_to_Caves_of_Irem?action=edit&redlink=1",
+        "description": "Opens a portal to Caves of Irem. Anyone can go through this portal.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": "?",
+        "castTime": null,
+        "level": 52,
+        "tags": [
+          "portal"
+        ],
+        "primaryTag": "portal",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": [],
+        "type": "spell"
+      },
+      {
+        "name": "Portal to Evershade Weald",
+        "slug": "Portal_to_Evershade_Weald",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Portal_to_Evershade_Weald?action=edit&redlink=1",
+        "description": "Opens a portal to Evershade Weald. Anyone can go through this portal.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": "?",
+        "castTime": null,
+        "level": 52,
+        "tags": [
+          "portal"
+        ],
+        "primaryTag": "portal",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": [],
+        "type": "spell"
+      },
+      {
+        "name": "Portal to Sungreet Strand",
+        "slug": "Portal_to_Sungreet_Strand",
+        "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Portal_to_Sungreet_Strand?action=edit&redlink=1",
+        "description": "Opens a portal to Sungreet Strand. Anyone can go through this portal.",
+        "category": "Alt",
+        "categorySlug": "Skill_Alteration",
+        "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+        "location": "Vendor",
+        "mana": "?",
+        "castTime": null,
+        "level": 52,
+        "tags": [
+          "portal"
+        ],
+        "primaryTag": "portal",
+        "effects": [],
+        "valuesSummary": "",
+        "statTags": [],
+        "type": "spell"
       }
     ],
     "55": [
@@ -4289,7 +4391,7 @@
       "name": "Cure Poison",
       "slug": "Cure_Poison",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Cure_Poison",
-      "description": "Cure your target, removing one Poison effect.",
+      "description": "Remove Poison Effect - Cures target of poison effects.",
       "category": "Alt",
       "categorySlug": "Skill_Alteration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -4297,10 +4399,8 @@
       "mana": 10,
       "castTime": null,
       "level": 4,
-      "tags": [
-        "dispel"
-      ],
-      "primaryTag": "dispel",
+      "tags": [],
+      "primaryTag": null,
       "effects": [],
       "valuesSummary": "",
       "statTags": [],
@@ -4497,7 +4597,7 @@
       "name": "Cure Disease",
       "slug": "Cure_Disease",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Cure_Disease",
-      "description": "Cures your target, removing one Disease effect.",
+      "description": "Remove disease effect - Cures target of disease effects",
       "category": "Alt",
       "categorySlug": "Skill_Alteration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -4505,10 +4605,8 @@
       "mana": 10,
       "castTime": null,
       "level": 8,
-      "tags": [
-        "dispel"
-      ],
-      "primaryTag": "dispel",
+      "tags": [],
+      "primaryTag": null,
       "effects": [],
       "valuesSummary": "",
       "statTags": [],
@@ -4833,7 +4931,7 @@
       "name": "Dispel Magic",
       "slug": "Dispel_Magic",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Dispel_Magic",
-      "description": "Dispel magic from your target, removing one harmful effect.",
+      "description": "Remove harmful effect 1 - Dispel magic from your target, removing one harmful effect.",
       "category": "Alt",
       "categorySlug": "Skill_Alteration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -4854,7 +4952,7 @@
       "name": "Enduring Breath",
       "slug": "Enduring_Breath",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Enduring_Breath",
-      "description": "Fill the lungs of your target with magical air, granting them the ability to breathe underwater for 1 hour.",
+      "description": "Breathe underwater - Fill the lungs of your target with magical air, granting them the ability to breathe underwater for 1 hour.",
       "category": "Alt",
       "categorySlug": "Skill_Alteration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -4932,7 +5030,7 @@
       "name": "Minor Regeneration",
       "slug": "Minor_Regeneration",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Minor_Regeneration",
-      "description": "Gently regenerate your target, increasing their Health Regeneration by 2 for 20 minutes.",
+      "description": "2hp Regen - Gently regenerate your target, increasing their Health Regeneration by 2 for 20 minutes.",
       "category": "Alt",
       "categorySlug": "Skill_Alteration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -6017,7 +6115,7 @@
       "name": "Lesser Regeneration",
       "slug": "Lesser_Regeneration",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Lesser_Regeneration",
-      "description": "Lightly regenerate your target, increasing their Health Regeneration by 5 for 10 minutes.",
+      "description": "5hp Regen - Lightly regenerate your target, increasing their Health Regeneration by 5 for 30 minutes.",
       "category": "Alt",
       "categorySlug": "Skill_Alteration",
       "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
@@ -6077,6 +6175,28 @@
         }
       ],
       "valuesSummary": "+100%",
+      "statTags": [],
+      "type": "spell"
+    },
+    {
+      "name": "Ring of Caves of Irem",
+      "slug": "Ring_of_Caves_of_Irem",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Ring_of_Caves_of_Irem",
+      "description": "Teleport yourself, relocating to Caves of Irem. This spell has no effect if you are encumbered.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": 125,
+      "castTime": null,
+      "level": 24,
+      "tags": [
+        "teleport",
+        "self"
+      ],
+      "primaryTag": "teleport",
+      "effects": [],
+      "valuesSummary": "",
       "statTags": [],
       "type": "spell"
     },
@@ -6604,6 +6724,27 @@
         }
       ],
       "valuesSummary": "+40–60%",
+      "statTags": [],
+      "type": "spell"
+    },
+    {
+      "name": "Circle of Caves of Irem",
+      "slug": "Circle_of_Caves_of_Irem",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Circle_of_Caves_of_Irem",
+      "description": "Teleport your group, relocating them to Caves of Irem. This spell has no effect on encumbered targets.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": 300,
+      "castTime": null,
+      "level": 32,
+      "tags": [
+        "teleport"
+      ],
+      "primaryTag": "teleport",
+      "effects": [],
+      "valuesSummary": "",
       "statTags": [],
       "type": "spell"
     },
@@ -7692,6 +7833,69 @@
         }
       ],
       "valuesSummary": "513 heal",
+      "statTags": [],
+      "type": "spell"
+    },
+    {
+      "name": "Portal to Caves of Irem",
+      "slug": "Portal_to_Caves_of_Irem",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Portal_to_Caves_of_Irem?action=edit&redlink=1",
+      "description": "Opens a portal to Caves of Irem. Anyone can go through this portal.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": "?",
+      "castTime": null,
+      "level": 52,
+      "tags": [
+        "portal"
+      ],
+      "primaryTag": "portal",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": [],
+      "type": "spell"
+    },
+    {
+      "name": "Portal to Evershade Weald",
+      "slug": "Portal_to_Evershade_Weald",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Portal_to_Evershade_Weald?action=edit&redlink=1",
+      "description": "Opens a portal to Evershade Weald. Anyone can go through this portal.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": "?",
+      "castTime": null,
+      "level": 52,
+      "tags": [
+        "portal"
+      ],
+      "primaryTag": "portal",
+      "effects": [],
+      "valuesSummary": "",
+      "statTags": [],
+      "type": "spell"
+    },
+    {
+      "name": "Portal to Sungreet Strand",
+      "slug": "Portal_to_Sungreet_Strand",
+      "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Portal_to_Sungreet_Strand?action=edit&redlink=1",
+      "description": "Opens a portal to Sungreet Strand. Anyone can go through this portal.",
+      "category": "Alt",
+      "categorySlug": "Skill_Alteration",
+      "categoryUrl": "https://monstersandmemories.miraheze.org/wiki/Skill_Alteration",
+      "location": "Vendor",
+      "mana": "?",
+      "castTime": null,
+      "level": 52,
+      "tags": [
+        "portal"
+      ],
+      "primaryTag": "portal",
+      "effects": [],
+      "valuesSummary": "",
       "statTags": [],
       "type": "spell"
     },

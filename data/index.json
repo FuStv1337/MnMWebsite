@@ -1,10 +1,10 @@
 {
   "meta": {
     "source": "https://monstersandmemories.miraheze.org/wiki/Spells_By_Class",
-    "fetchedAt": "2026-09-21T13:34:30.375Z",
+    "fetchedAt": "2026-09-27T17:29:59.224Z",
     "classCount": 18,
-    "totalEntries": 1711,
-    "uniqueEntries": 1344
+    "totalEntries": 1716,
+    "uniqueEntries": 1353
   },
   "classes": [
     {
@@ -196,7 +196,7 @@
       "file": "classes/druid.json",
       "type": "spell",
       "wikiUrl": "https://monstersandmemories.miraheze.org/wiki/Druid",
-      "entryCount": 134,
+      "entryCount": 139,
       "levels": [
         1,
         4,
