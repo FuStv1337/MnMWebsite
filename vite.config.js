@@ -11,6 +11,7 @@ export default defineConfig({
       input: {
         main: './index.html',
         find: './find.html',
+        quests: './quests.html',
         buffs: './buffs.html',
         party: './party.html',
         races: './races.html',

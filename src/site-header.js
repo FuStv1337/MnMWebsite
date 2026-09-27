@@ -4,6 +4,7 @@ import { sitePath } from './site-paths.js';
 const NAV_ITEMS = [
   { id: 'browser', label: 'Spells', href: '/' },
   { id: 'find', label: 'Find', href: 'find.html' },
+  { id: 'quests', label: 'Quests', href: 'quests.html' },
   { id: 'buffs', label: 'Buffs', href: 'buffs.html' },
   { id: 'party', label: 'Party', href: 'party.html' },
   { id: 'races', label: 'Races', href: 'races.html' },
