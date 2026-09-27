@@ -4,3 +4,4 @@
 
 
 .quest-value{border-top:1px solid var(--border);padding-top:.8rem;margin-top:1rem}.quest-value>strong{color:var(--accent);font-size:.9rem}.quest-value ul{list-style:none;padding:0;margin:.5rem 0}.quest-value li{display:flex;justify-content:space-between;gap:1rem;padding:.25rem 0;font-size:.85rem}.quest-value li>b{color:var(--accent)}
+.quest-load-more{text-align:center;margin:2rem 0}.quest-load-more p{color:var(--text-muted);font-size:.85rem;margin-bottom:.75rem}
