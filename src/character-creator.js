@@ -341,9 +341,12 @@ function renderCompareLegend(compareView, classDetails) {
     const dexNote = weights && weights.DEX > (classDetails.statModifiers?.DEX ?? 0)
       ? ' · Includes +2 DEX weight for weapon hit rate.' : '';
     const defensiveSkills = getDefensiveFitSkills(classDetails);
-    const agiNote = defensiveSkills.length
-      ? ` · +${weights.AGI - (classDetails.statModifiers.AGI ?? 0)} AGI weight for ${defensiveSkills.join(', ')} (including skills learned later).` : '';
-    return `<p class="creator-compare-legend"><span class="creator-legend-primary">${escapeHtml(classDetails.primaryStat)} primary</span>${secondary} highlighted · green = best among races · red = lowest primary · <strong>Fit</strong> = weighted starting stats (${escapeHtml(weightText)})${dexNote}${agiNote}</p>`;
+    const agilitySkills = defensiveSkills.filter((skill) => skill !== 'Block');
+    const agiNote = agilitySkills.length
+      ? ` · +${agilitySkills.length * 0.5} AGI weight for ${agilitySkills.join(', ')} (including skills learned later).` : '';
+    const staNote = defensiveSkills.includes('Block')
+      ? ' · +0.5 STA weight for Block (including skills learned later).' : '';
+    return `<p class="creator-compare-legend"><span class="creator-legend-primary">${escapeHtml(classDetails.primaryStat)} primary</span>${secondary} highlighted · green = best among races · red = lowest primary · <strong>Fit</strong> = weighted starting stats (${escapeHtml(weightText)})${dexNote}${agiNote}${staNote}</p>`;
   }
   if (compareView === 'race') {
     return '<p class="creator-compare-legend">Gold and blue columns show each class’s primary and secondary stat.</p>';
