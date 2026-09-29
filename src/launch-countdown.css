@@ -1,0 +1,9 @@
+launch-countdown { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.25rem; padding: .85rem 1.2rem; border: 1px solid #69552b; border-radius: 9px; background: linear-gradient(110deg, #30291b, #1d2430); color: #eee5cf; }
+.launch-copy { display: grid; gap: .2rem; }
+.launch-copy strong { font-size: .92rem; font-weight: 600; color: #ecd28b; }
+.launch-copy > span { font-size: .75rem; color: #bbb6aa; }
+.launch-clock { display: flex; gap: 1.1rem; }
+.launch-unit { display: grid; min-width: 2.4rem; text-align: center; }
+.launch-unit b { font-size: 1.5rem; font-variant-numeric: tabular-nums; line-height: 1.2; font-weight: 600; }
+.launch-unit small { font-size: .6rem; text-transform: uppercase; letter-spacing: .08em; color: #bbb6aa; }
+@media (max-width: 520px) { launch-countdown { justify-content: center; text-align: center; padding: .9rem; } .launch-copy { width: 100%; } .launch-clock { gap: 1.5rem; } }

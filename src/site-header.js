@@ -1,4 +1,5 @@
 import { sitePath } from './site-paths.js';
+import './launch-countdown.js';
 
 /** @type {{ id: string, label: string, href: string }[]} */
 const NAV_ITEMS = [
@@ -25,6 +26,7 @@ export function renderSiteHeader({ active, tagline }) {
   ).join('');
 
   return `
+    <launch-countdown></launch-countdown>
     <header class="site-header">
       <div class="site-header-inner">
         <div class="site-brand">
