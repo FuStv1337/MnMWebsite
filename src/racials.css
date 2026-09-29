@@ -24,6 +24,10 @@
 .race-heading { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.2rem; }
 .race-heading h2 { font: 2rem Georgia, serif; margin-top: .35rem; }
 .race-heading a { font-size: .8rem; }
+.trait-classes { margin: -.3rem 0 1.2rem; }
+.trait-classes > span { display: block; color: var(--text-muted); font-size: .72rem; margin-bottom: .4rem; }
+.trait-classes ul { display: flex; flex-wrap: wrap; gap: .3rem; list-style: none; padding: 0; }
+.trait-classes li { padding: .18rem .5rem; border: 1px solid var(--border-light); border-radius: 4px; background: var(--surface); color: #c6cbd5; font-size: .73rem; line-height: 1.5; }
 .trait-wip { font: 600 .65rem 'Segoe UI', sans-serif; background: #3c341e; color: #efd37f; padding: .3rem .5rem; border-radius: 4px; vertical-align: middle; }
 .race-section h3 { font-size: 1rem; font-weight: 600; margin: 1.4rem 0 .7rem; }
 .race-section h3 span { font-weight: 400; color: var(--text-muted); font-size: .78rem; margin-left: .65rem; }
