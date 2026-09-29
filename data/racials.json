@@ -1,0 +1,1400 @@
+{
+  "source": "https://monstersandmemories.com/updates/necromancer-ranger-and-shadow-knight-deep-dives-and-traits-preview",
+  "fetchedAt": "2026-09-29T19:13:40.179Z",
+  "status": "Unimplemented design preview; subject to change.",
+  "races": [
+    {
+      "id": "human",
+      "name": "Human",
+      "wip": false,
+      "innates": [
+        {
+          "text": "Quick Learner",
+          "children": [
+            {
+              "text": "All skill points are gained 5% faster",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "Incorrigible Nature",
+          "children": [
+            {
+              "text": "10% Bonus Endurance",
+              "children": []
+            },
+            {
+              "text": "5 Resistance to Magic and Electric",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "Human Conquest and Diplomacy",
+          "children": [
+            {
+              "text": "+25 to Sense Heading",
+              "children": []
+            },
+            {
+              "text": "+5 to Slashing, Bludgeoning, and Piercing",
+              "children": []
+            },
+            {
+              "text": "5% chance to double your faction bonus from combat",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "backgrounds": [
+        {
+          "text": "Seafaring",
+          "children": [
+            {
+              "text": "+10 Fishing",
+              "children": []
+            },
+            {
+              "text": "+10% Swimming Speed",
+              "children": []
+            },
+            {
+              "text": "+5 Cold Resist, -5 Electric Resist",
+              "children": []
+            },
+            {
+              "text": "Something smells fishy: -2 Charisma",
+              "children": []
+            },
+            {
+              "text": "+10% immunity to fear",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "Enduring",
+          "children": [
+            {
+              "text": "+1 stamina",
+              "children": []
+            },
+            {
+              "text": "+1 strength",
+              "children": []
+            },
+            {
+              "text": "Activatable: Endure",
+              "children": [
+                {
+                  "text": "Increases your stamina by 30% for 20 seconds, which increases max health temporarily.",
+                  "children": []
+                },
+                {
+                  "text": "Heals your current health for 25% of the max HP gained",
+                  "children": []
+                },
+                {
+                  "text": "10 minute cooldown",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Wayfaring",
+          "children": [
+            {
+              "text": "Starts with Deep Common Language skill",
+              "children": []
+            },
+            {
+              "text": "+5 Cold Resist & -5 Disease Resist",
+              "children": []
+            },
+            {
+              "text": "+1 to all stats",
+              "children": []
+            },
+            {
+              "text": "10% immunity to snares",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wood-elf",
+      "name": "Wood Elf",
+      "wip": false,
+      "innates": [
+        {
+          "text": "Infravision (Activatable)",
+          "children": []
+        },
+        {
+          "text": "Hide",
+          "children": []
+        },
+        {
+          "text": "Hunter/Gatherer",
+          "children": [
+            {
+              "text": "+20 Forage",
+              "children": []
+            },
+            {
+              "text": "+ 10 Fishing",
+              "children": []
+            },
+            {
+              "text": "5 Resistance to Poison and Disease",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "backgrounds": [
+        {
+          "text": "Woodland Protector",
+          "children": [
+            {
+              "text": "Cute bear pet (non-combat)",
+              "children": []
+            },
+            {
+              "text": "+2 Agility",
+              "children": []
+            },
+            {
+              "text": "+25 Sense Heading",
+              "children": []
+            },
+            {
+              "text": "Activatable: Protect",
+              "children": [
+                {
+                  "text": "Protect an ally, redirecting 50% of incoming damage to you for 15 seconds.",
+                  "children": []
+                },
+                {
+                  "text": "10 minute cooldown",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Well-Traveled",
+          "children": [
+            {
+              "text": "+ 5 to slash, blunt, pierce",
+              "children": []
+            },
+            {
+              "text": "+5 Resistance to Cold and Fire",
+              "children": []
+            },
+            {
+              "text": "+25 to Sense Heading",
+              "children": []
+            },
+            {
+              "text": "+10 Commerce",
+              "children": []
+            },
+            {
+              "text": "10% immunity to snares",
+              "children": []
+            },
+            {
+              "text": "10% immunity to fear",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "Grove Tender",
+          "children": [
+            {
+              "text": "+ 2 Wisdom",
+              "children": []
+            },
+            {
+              "text": "+1 Stamina",
+              "children": []
+            },
+            {
+              "text": "+10 to blunt",
+              "children": []
+            },
+            {
+              "text": "+10% Endurance",
+              "children": []
+            },
+            {
+              "text": "-2 Corruption Resistance",
+              "children": []
+            },
+            {
+              "text": "Activatable: Heartwood Sapling",
+              "children": [
+                {
+                  "text": "Places a Tree that provides Shading and Shelter below it",
+                  "children": []
+                },
+                {
+                  "text": "Reagent: Heartwood Core from various Elven forests",
+                  "children": []
+                },
+                {
+                  "text": "Lasts 30 minutes, Cooldown 10 minutes",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deep-gnome",
+      "name": "Deep Gnome",
+      "wip": false,
+      "innates": [
+        {
+          "text": "Ultravision",
+          "children": []
+        },
+        {
+          "text": "Bioluminescent (Activatable light)",
+          "children": [
+            {
+              "text": "Ingest a “Deep Mushroom” to activate bioluminescence for 20 minutes",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "Alien Beauty",
+          "children": [
+            {
+              "text": "Bonus faction with Myconids and other strange creatures",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "backgrounds": [
+        {
+          "text": "Immensely Wise",
+          "children": [
+            {
+              "text": "+2 Wisdom",
+              "children": []
+            },
+            {
+              "text": "Activatable: Dream",
+              "children": [
+                {
+                  "text": "Puts you to sleep for 12 seconds (only broken on damage taken), increasing healing received by 25%, forcing meditation, and giving you temporary +30% meditation skill for the duration which increases mana regeneration.",
+                  "children": []
+                },
+                {
+                  "text": "10 minute cooldown",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "World Walker",
+          "children": [
+            {
+              "text": "+25 Sense Heading",
+              "children": []
+            },
+            {
+              "text": "+3 Corruption Resist, -3 Holy Resist, +3 Disease Resist",
+              "children": []
+            },
+            {
+              "text": "Activatable: Liminal Step",
+              "children": [
+                {
+                  "text": "Step between worlds, granting invisibility vs all types for 15 seconds before emerging in the material once more.",
+                  "children": []
+                },
+                {
+                  "text": "20 minute cooldown",
+                  "children": []
+                },
+                {
+                  "text": "Evades enemy aggression when activated",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Fungal Symbiosis",
+          "children": [
+            {
+              "text": "Fungal Regeneration (only active while shaded)",
+              "children": []
+            },
+            {
+              "text": "+5 Disease Resist, -5 Corruption Resist",
+              "children": []
+            },
+            {
+              "text": "Rotten: -2 Charisma",
+              "children": []
+            },
+            {
+              "text": "Activatable: Rotten Renewal",
+              "children": [
+                {
+                  "text": "Sacrifice 30% of your maximum health, and distribute the damage done as healing to each party member over 12 seconds. Once afflicted by Rotten Renewal, a player cannot benefit from further renewal for 3 minutes.",
+                  "children": []
+                },
+                {
+                  "text": "15 minute cooldown",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gnome",
+      "name": "Gnome",
+      "wip": false,
+      "innates": [
+        {
+          "text": "Slippery",
+          "children": [
+            {
+              "text": "15% resist root",
+              "children": []
+            },
+            {
+              "text": "Activate to break roots",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "Resourceful",
+          "children": [
+            {
+              "text": "Activatable +20 Resistance to Magic, Electric, Corruption",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "Innovative",
+          "children": [
+            {
+              "text": "5% increased skill gain speed in:",
+              "children": [
+                {
+                  "text": "Tinkering",
+                  "children": []
+                },
+                {
+                  "text": "Engineering",
+                  "children": []
+                },
+                {
+                  "text": "Intelligence-based spell casting skills",
+                  "children": []
+                },
+                {
+                  "text": "Language skills",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "backgrounds": [
+        {
+          "text": "Gnome of the Underworld",
+          "children": [
+            {
+              "text": "Ability: Hide",
+              "children": []
+            },
+            {
+              "text": "+2 Dexterity",
+              "children": []
+            },
+            {
+              "text": "+2 Intelligence",
+              "children": []
+            },
+            {
+              "text": "-1 Strength",
+              "children": []
+            },
+            {
+              "text": "-1 Wisdom",
+              "children": []
+            },
+            {
+              "text": "+5 Resist Cold",
+              "children": []
+            },
+            {
+              "text": "Ability: Improvised Light",
+              "children": [
+                {
+                  "text": "Create an improvised torch from any single material that is:",
+                  "children": [
+                    {
+                      "text": "Wooden",
+                      "children": []
+                    },
+                    {
+                      "text": "Cloth",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Gnome of the Forest",
+          "children": [
+            {
+              "text": "Activatable: Sprint-type ability",
+              "children": [
+                {
+                  "text": "Gain 20 movement speed",
+                  "children": [
+                    {
+                      "text": "8 seconds",
+                      "children": []
+                    },
+                    {
+                      "text": "15 minute Cooldown",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "+1 Stamina",
+              "children": []
+            },
+            {
+              "text": "+1 Wisdom",
+              "children": []
+            },
+            {
+              "text": "-1 Stamina",
+              "children": []
+            },
+            {
+              "text": "+2 Resist Poison",
+              "children": []
+            },
+            {
+              "text": "Ability: Infravision (Self-Only)",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "Gnome of the City",
+          "children": [
+            {
+              "text": "+10 Commerce",
+              "children": []
+            },
+            {
+              "text": "+15 Tinkering",
+              "children": []
+            },
+            {
+              "text": "Sneak",
+              "children": []
+            },
+            {
+              "text": "+ 1 Dexterity",
+              "children": []
+            },
+            {
+              "text": "Ability: Improvised Stun Grenade",
+              "children": [
+                {
+                  "text": "Reagent: Gnomish Boomers (unique tinkering recipe)",
+                  "children": []
+                },
+                {
+                  "text": "20 minutes Cooldown",
+                  "children": []
+                },
+                {
+                  "text": "Ground Target AoE short stun",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "halfling",
+      "name": "Halfling",
+      "wip": false,
+      "innates": [
+        {
+          "text": "+5 Disease and Fire Resistances",
+          "children": []
+        },
+        {
+          "text": "Sneak: If the class already gets sneak then they get improved sneak (+2 levels sneak)",
+          "children": []
+        },
+        {
+          "text": "Daggers and stuff",
+          "children": [
+            {
+              "text": "+ 10 to piercing",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "backgrounds": [
+        {
+          "text": "A Life of Peace",
+          "children": [
+            {
+              "text": "+20 Farming",
+              "children": []
+            },
+            {
+              "text": "+20 Cooking",
+              "children": []
+            },
+            {
+              "text": "+20 Brewing",
+              "children": []
+            },
+            {
+              "text": "Activatable: Homesteading",
+              "children": [
+                {
+                  "text": "Requires Campfire",
+                  "children": []
+                },
+                {
+                  "text": "Places Platter of Dried Plants widget",
+                  "children": [
+                    {
+                      "text": "Aura: Smells like Home",
+                      "children": [
+                        {
+                          "text": "+5% Skill Gain",
+                          "children": []
+                        },
+                        {
+                          "text": "Slow down food/water consumption by 30%",
+                          "children": []
+                        },
+                        {
+                          "text": "+20% Endurance Regeneration",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Right Click",
+                      "children": [
+                        {
+                          "text": "Buff 5 minutes +1 Charisma, Smell like Autumn",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "Cooldown 20 minutes, Requires reagent Fragrant Leaf (Spawns on the ground in forests)",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A life of mischief",
+          "children": [
+            {
+              "text": "+ 2 Agility",
+              "children": []
+            },
+            {
+              "text": "+ 1 Dexterity",
+              "children": []
+            },
+            {
+              "text": "+ 10 Commerce",
+              "children": []
+            },
+            {
+              "text": "+5 Piercing",
+              "children": []
+            },
+            {
+              "text": "Activatable: Hide",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "A life of loyalty",
+          "children": [
+            {
+              "text": "+ 10% Endurance",
+              "children": []
+            },
+            {
+              "text": "+ 2 Stamina",
+              "children": []
+            },
+            {
+              "text": "+5% immunity to fears",
+              "children": []
+            },
+            {
+              "text": "Activatable: Nimble",
+              "children": [
+                {
+                  "text": "Temporarily increases your Agility by 10, and an additional 30% for 20 seconds.",
+                  "children": []
+                },
+                {
+                  "text": "8 minute cooldown",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goblin",
+      "name": "Goblin",
+      "wip": false,
+      "innates": [
+        {
+          "text": "Pickpocket",
+          "children": []
+        },
+        {
+          "text": "Forage",
+          "children": []
+        },
+        {
+          "text": "Filth Dweller",
+          "children": [
+            {
+              "text": "+5 Resist Disease and Poison",
+              "children": []
+            },
+            {
+              "text": "+2 Resist Cold and Electric",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "backgrounds": [
+        {
+          "text": "Sewer-Born",
+          "children": [
+            {
+              "text": "Smelly (-2 Charisma)",
+              "children": []
+            },
+            {
+              "text": "Infravision",
+              "children": []
+            },
+            {
+              "text": "+10% Swimming Speed",
+              "children": []
+            },
+            {
+              "text": "Eats Less",
+              "children": []
+            },
+            {
+              "text": "Sneak: If the class already gets sneak then they get improved sneak (+2 levels sneak)",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "Betrayer's Bloodline",
+          "children": [
+            {
+              "text": "Magical Vision (Sense Magic)",
+              "children": []
+            },
+            {
+              "text": "+1 Intelligence",
+              "children": []
+            },
+            {
+              "text": "Slippery",
+              "children": [
+                {
+                  "text": "15% resist root",
+                  "children": []
+                },
+                {
+                  "text": "Activate to break roots",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "text": "Starts with a “Grimy Crown”",
+              "children": []
+            },
+            {
+              "text": "Chance to pickpocket when you auto-attack",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "Bloodstalker’s Apprentice",
+          "children": [
+            {
+              "text": "+ 1 Dexterity",
+              "children": []
+            },
+            {
+              "text": "+ 1 Wisdom",
+              "children": []
+            },
+            {
+              "text": "+ 1 Agility",
+              "children": []
+            },
+            {
+              "text": "10% Immunity to Fear",
+              "children": []
+            },
+            {
+              "text": "10% Immunity to Snare",
+              "children": []
+            },
+            {
+              "text": "Activate: Remove snare effects",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ogre",
+      "name": "Ogre",
+      "wip": false,
+      "innates": [
+        {
+          "text": "Sturdy Flesh",
+          "children": [
+            {
+              "text": "10% Immune to Stun",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "Discipline of the Ogre",
+          "children": [
+            {
+              "text": "10% Immune to Fear",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "Sound of Spirit",
+          "children": [
+            {
+              "text": "5 Resist Disease and Corruption",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "backgrounds": [
+        {
+          "text": "Rage-blood",
+          "children": [
+            {
+              "text": "+2 Strength",
+              "children": []
+            },
+            {
+              "text": "+1 Agility",
+              "children": []
+            },
+            {
+              "text": "10% immunity to Fear",
+              "children": []
+            },
+            {
+              "text": "-2 Wisdom",
+              "children": []
+            },
+            {
+              "text": "Brawn Activatable",
+              "children": [
+                {
+                  "text": "Become strong, increasing your strength by 50% for 15 seconds",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Soothsayer",
+          "children": [
+            {
+              "text": "+2 Wisdom",
+              "children": []
+            },
+            {
+              "text": "-1 Dexterity",
+              "children": []
+            },
+            {
+              "text": "Activatable: Meditative Trance",
+              "children": [
+                {
+                  "text": "20 Minute Cooldown",
+                  "children": []
+                },
+                {
+                  "text": "Consume x HP and gives x Mana over x Seconds",
+                  "children": [
+                    {
+                      "text": "breaks when damaged or moving",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Activatable: Clairvoyant Evasion",
+              "children": [
+                {
+                  "text": "Gives 10% Agility for 10 seconds",
+                  "children": []
+                },
+                {
+                  "text": "8 minutes cooldown",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Outsider",
+          "children": [
+            {
+              "text": "+2 Stamina",
+              "children": []
+            },
+            {
+              "text": "Activatable: Ogre Renewal",
+              "children": [
+                {
+                  "text": "20 seconds of HP regeneration",
+                  "children": []
+                },
+                {
+                  "text": "20 minutes cooldown",
+                  "children": []
+                },
+                {
+                  "text": "Breaks when damaged or moving",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "text": "Activatable: Summon a small bird pet",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deep-elf",
+      "name": "Deep Elf",
+      "wip": true,
+      "innates": [
+        {
+          "text": "Ultravision",
+          "children": []
+        },
+        {
+          "text": "Infravision (activated)",
+          "children": []
+        },
+        {
+          "text": "Child of the Deep",
+          "children": [
+            {
+              "text": "10% Endurance bonus",
+              "children": []
+            },
+            {
+              "text": "10% immunity to Mesmerize",
+              "children": []
+            },
+            {
+              "text": "+5 Resistance to Corruption",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "backgrounds": [
+        {
+          "text": "Oath Bound",
+          "children": [
+            {
+              "text": "Lethality:",
+              "children": [
+                {
+                  "text": "+1 Dexterity",
+                  "children": []
+                },
+                {
+                  "text": "+1 Intelligence",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "text": "Slippery",
+              "children": [
+                {
+                  "text": "15% resist root",
+                  "children": []
+                },
+                {
+                  "text": "Activate to break roots",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "House Zealot",
+          "children": [
+            {
+              "text": "Devotee: You are favored by your god. Your reputation increases with your deity is increased by 5%",
+              "children": []
+            },
+            {
+              "text": "A culture of faith:",
+              "children": [
+                {
+                  "text": "+2 Wisdom",
+                  "children": []
+                },
+                {
+                  "text": "-1 Intelligence",
+                  "children": []
+                },
+                {
+                  "text": "-1 Charisma",
+                  "children": []
+                },
+                {
+                  "text": "10% Immunity to Fear",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Wanderer",
+          "children": [
+            {
+              "text": "Multicultural: You are knowledgeable and understand the nuances of other cultures. Your faction gains are increased by 5%",
+              "children": []
+            },
+            {
+              "text": "Well-read: You can pick one additional language you can speak",
+              "children": []
+            },
+            {
+              "text": "+25 Sense Heading",
+              "children": []
+            },
+            {
+              "text": "+5 to Ranged Weapons",
+              "children": []
+            },
+            {
+              "text": "+5 Resistance to Cold and Fire",
+              "children": []
+            },
+            {
+              "text": "+10% Endurance",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dwarf",
+      "name": "Dwarf",
+      "wip": false,
+      "innates": [
+        {
+          "text": "Magnificent Locks",
+          "children": [
+            {
+              "text": "5% immunity to stun",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "Short legs, long reach",
+          "children": [
+            {
+              "text": "+10% Endurance",
+              "children": []
+            },
+            {
+              "text": "-10% Swim Speed",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "Self-Sufficient",
+          "children": [
+            {
+              "text": "+10 Fishing",
+              "children": []
+            },
+            {
+              "text": "+10 Cooking",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "backgrounds": [
+        {
+          "text": "Mountain-born",
+          "children": [
+            {
+              "text": "+1 Strength",
+              "children": []
+            },
+            {
+              "text": "-1 Agility",
+              "children": []
+            },
+            {
+              "text": "+1 Wisdom",
+              "children": []
+            },
+            {
+              "text": "Resourcefulness",
+              "children": [
+                {
+                  "text": "+15 Mining",
+                  "children": []
+                },
+                {
+                  "text": "+15 Brewing",
+                  "children": []
+                },
+                {
+                  "text": "+10 Survival",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "text": "Activatable: Strength of the Stone",
+              "children": [
+                {
+                  "text": "Breaks when moving",
+                  "children": []
+                },
+                {
+                  "text": "Grants +AC",
+                  "children": []
+                },
+                {
+                  "text": "30 minutes CD",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "text": "+25 Sense Heading",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "City Dwarf",
+          "children": [
+            {
+              "text": "+1 Intelligence",
+              "children": []
+            },
+            {
+              "text": "Mechanic",
+              "children": [
+                {
+                  "text": "+15 Tinkering",
+                  "children": []
+                },
+                {
+                  "text": "+15 Alchemy",
+                  "children": []
+                },
+                {
+                  "text": "+15 Brewing",
+                  "children": []
+                },
+                {
+                  "text": "Recipe: A Swig of Oomph",
+                  "children": [
+                    {
+                      "text": "Alternative scaling version of Healing Potion",
+                      "children": []
+                    },
+                    {
+                      "text": "Only usable by Dwarves",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Oily",
+              "children": [
+                {
+                  "text": "15% resist root",
+                  "children": []
+                },
+                {
+                  "text": "Activate to break roots",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Noble Lineage",
+          "children": [
+            {
+              "text": "Notable Weapon Master",
+              "children": [
+                {
+                  "text": "+5 Sword",
+                  "children": []
+                },
+                {
+                  "text": "+5 Piercing",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "text": "Extended Monologues",
+              "children": [
+                {
+                  "text": "+1 Charisma",
+                  "children": []
+                },
+                {
+                  "text": "-1 Intelligence",
+                  "children": []
+                },
+                {
+                  "text": "+10 Commerce",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "text": "Leading from the Back",
+              "children": [
+                {
+                  "text": "+1 Wisdom",
+                  "children": []
+                },
+                {
+                  "text": "-1 Strength",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "text": "Activatable: Beacon of Hope",
+              "children": [
+                {
+                  "text": "12 seconds Self Buff",
+                  "children": []
+                },
+                {
+                  "text": "+Light",
+                  "children": []
+                },
+                {
+                  "text": "Aura: Reduce incoming damage by 10% to allies",
+                  "children": []
+                },
+                {
+                  "text": "45 minute Cooldown",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "personalities": [
+    {
+      "text": "Wheeler and Dealer",
+      "children": [
+        {
+          "text": "+5 Commerce",
+          "children": []
+        },
+        {
+          "text": "+1 Charisma",
+          "children": []
+        },
+        {
+          "text": "-1 Intelligence",
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "Street Urchin",
+      "children": [
+        {
+          "text": "+5 Pickpocket",
+          "children": []
+        },
+        {
+          "text": "-1 Charisma",
+          "children": []
+        },
+        {
+          "text": "+1 Agility",
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "Grotesque",
+      "children": [
+        {
+          "text": "-3 Charisma",
+          "children": []
+        },
+        {
+          "text": "+2 Wisdom",
+          "children": []
+        },
+        {
+          "text": "+1 Intelligence",
+          "children": []
+        },
+        {
+          "text": "+2 Stamina",
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "Glutton",
+      "children": [
+        {
+          "text": "+30% Food Consumption",
+          "children": []
+        },
+        {
+          "text": "+2 Stamina",
+          "children": []
+        },
+        {
+          "text": "-1 Agility",
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "Academy Rascal",
+      "children": [
+        {
+          "text": "Can make a projectile out of almost anything",
+          "children": []
+        },
+        {
+          "text": "Activated Ability: Improvised Projectile",
+          "children": [
+            {
+              "text": "1 dmg, 20 minute cooldown",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

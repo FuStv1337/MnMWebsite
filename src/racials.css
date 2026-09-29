@@ -1,0 +1,51 @@
+.racials-page { --trait-teal: #91cabb; }
+.traits-hero { display: flex; justify-content: space-between; align-items: center; gap: 3rem; padding: 2.7rem 0 2rem; }
+.traits-eyebrow { font-size: .7rem; letter-spacing: .16em; color: var(--accent); font-weight: 700; }
+.traits-hero h1 { font-family: Georgia, serif; font-size: clamp(2rem, 4vw, 3.4rem); font-weight: 400; line-height: 1.15; margin: .7rem 0 1rem; }
+.traits-intro { max-width: 650px; color: #b5bdca; font-size: 1.05rem; margin-bottom: 1rem; }
+.traits-hero a { font-size: .85rem; }
+.traits-total { flex-shrink: 0; text-align: center; border-left: 1px solid var(--border-light); padding-left: 3rem; }
+.traits-total strong { display: block; font: 4rem Georgia, serif; color: var(--accent); }
+.traits-total span, .traits-total small { display: block; }
+.traits-total small { margin-top: .5rem; color: var(--text-muted); }
+.traits-notice { padding: 1rem 1.2rem; border: 1px solid #64532d; border-left: 3px solid var(--accent); background: #29251c; border-radius: 6px; color: #c9c1ae; font-size: .88rem; }
+.traits-notice strong { color: #ead79c; }
+.traits-toolbar { display: flex; flex-wrap: wrap; align-items: end; gap: 1rem; margin: 1.8rem 0 1rem; }
+.traits-toolbar label { display: grid; gap: .45rem; flex: 1; font-size: .8rem; color: #bcc3d0; }
+.traits-toolbar input { width: 100%; min-width: 200px; }
+.racials-page input, .racials-page button { font: inherit; color: inherit; background: var(--surface); border: 1px solid var(--border-light); border-radius: 6px; padding: .65rem .85rem; }
+.racials-page button { cursor: pointer; font-size: .85rem; }
+.racials-page :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+#trait-count { font-size: .8rem; color: var(--text-muted); padding-bottom: .7rem; }
+.race-pills { display: flex; flex-wrap: wrap; gap: .45rem; margin-bottom: 2rem; }
+.race-pills button[aria-pressed="true"] { background: #3c341e; color: #efd37f; border-color: var(--accent-dim); }
+.racials-page button:hover { border-color: var(--accent); }
+.race-section { margin-bottom: 3rem; padding-top: 1.6rem; border-top: 1px solid var(--border-light); }
+.race-heading { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.2rem; }
+.race-heading h2 { font: 2rem Georgia, serif; margin-top: .35rem; }
+.race-heading a { font-size: .8rem; }
+.trait-wip { font: 600 .65rem 'Segoe UI', sans-serif; background: #3c341e; color: #efd37f; padding: .3rem .5rem; border-radius: 4px; vertical-align: middle; }
+.race-section h3 { font-size: 1rem; font-weight: 600; margin: 1.4rem 0 .7rem; }
+.race-section h3 span { font-weight: 400; color: var(--text-muted); font-size: .78rem; margin-left: .65rem; }
+.traits-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .9rem; align-items: stretch; }
+.trait-card { border: 1px solid var(--border); background: linear-gradient(135deg, #202531, #1a1d26); border-radius: 9px; padding: 1.2rem; }
+.trait-card.innate { border-top: 2px solid #598577; }
+.trait-card.background { border-top: 2px solid var(--accent-dim); }
+.trait-card-label { text-transform: uppercase; letter-spacing: .13em; font-size: .6rem; color: var(--text-muted); margin-bottom: .6rem; }
+.trait-card h4 { font-size: 1.02rem; margin-bottom: .8rem; font-weight: 600; }
+.innate h4 { color: var(--trait-teal); }
+.background h4 { color: #dfc681; }
+.trait-effects { padding-left: 1rem; font-size: .86rem; color: #c6cbd5; }
+.trait-effects li { margin: .4rem 0; padding-left: .1rem; overflow-wrap: anywhere; }
+.trait-effects li::marker { color: #647087; }
+.trait-effects .trait-effects { border-left: 1px solid var(--border-light); padding-left: 1rem; margin-top: .4rem; list-style: none; font-size: .81rem; color: #aab5c4; }
+.trait-ability { color: #aabff4; font-weight: 600; }
+.trait-source-note { color: #cfba80; font-size: .82rem; margin: .75rem 0; }
+.traits-personalities { border-top: 1px solid var(--border-light); padding-top: 2rem; }
+.traits-personalities h2, .traits-more h2 { font: 1.7rem Georgia, serif; }
+.traits-personalities > p { color: var(--text-muted); margin: .7rem 0 1.2rem; font-size: .9rem; }
+.traits-more { margin: 2rem 0; padding: 1.5rem; background: var(--surface); border-radius: 8px; }
+.traits-more p { margin-top: .8rem; color: #b5bdca; font-size: .88rem; }
+.racials-page footer { color: var(--text-muted); font-size: .78rem; border-top: 1px solid var(--border); padding-top: 1rem; }
+.traits-empty { padding: 3rem 1rem; text-align: center; color: var(--text-muted); }
+@media (max-width: 800px) { .traits-grid { grid-template-columns: 1fr; } .traits-total { display: none; } .traits-hero { padding: 1.5rem 0; } .traits-toolbar label { flex-basis: 100%; } .race-heading { gap: 1rem; } .race-section h3 span { display: block; margin: .2rem 0 0; } }

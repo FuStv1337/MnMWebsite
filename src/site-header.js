@@ -8,6 +8,7 @@ const NAV_ITEMS = [
   { id: 'buffs', label: 'Buffs', href: 'buffs.html' },
   { id: 'party', label: 'Party', href: 'party.html' },
   { id: 'races', label: 'Races', href: 'races.html' },
+  { id: 'racials', label: 'New Racials', href: 'racials.html' },
   { id: 'creator', label: 'Create', href: 'creator.html' },
   { id: 'map', label: 'World Map', href: 'map.html' },
 ];
